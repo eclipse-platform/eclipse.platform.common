@@ -5,7 +5,7 @@ plugin@org.eclipse.debug.ui=r302_v20050117,:pserver:anonymous@dev.eclipse.org:/h
 plugin@org.eclipse.jdt.debug=r302_v20050117,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.jdt.debug.ui=r302_v20050117,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.jdt.launching=r302_v20050117,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.jdt.launching.macosx=v20040224,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.jdt.launching.macosx=r302_v20050119,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 plugin@org.eclipse.ui.console=v20040623,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
