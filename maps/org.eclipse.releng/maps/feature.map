@@ -30,7 +30,7 @@ feature@org.eclipse.platform.win32-feature=r202_v20021002, :pserver:anonymous@de
 feature@org.eclipse.platform.win32.source-feature=r202_v20021002, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 plugin@org.eclipse.platform=r202_v20020916, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.platform.source=r202_v20020916, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.platform.source=r202_v20020927, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 plugin@org.eclipse.platform.aix.motif=r202_v20021002, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.platform.aix.motif.source=r202_v20021002, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
