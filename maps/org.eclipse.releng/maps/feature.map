@@ -29,26 +29,26 @@ feature@org.eclipse.platform.solaris.motif.source-feature=r202_v20021002, :pserv
 feature@org.eclipse.platform.win32-feature=r202_v20021002, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 feature@org.eclipse.platform.win32.source-feature=r202_v20021002, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-plugin@org.eclipse.platform=r202_v20021002a, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.platform.source=r202_v20020927, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.platform=r202_v20021002b, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.platform.source=r202_v20021002b, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-plugin@org.eclipse.platform.aix.motif=r202_v20021002, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.platform.aix.motif.source=r202_v20021002, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.platform.aix.motif=r202_v20021002b, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.platform.aix.motif.source=r202_v20021002b, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-plugin@org.eclipse.platform.hpux.motif=r202_v20021002, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.platform.hpux.motif.source=r202_v20021002, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.platform.hpux.motif=r202_v20021002b, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.platform.hpux.motif.source=r202_v20021002b, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-plugin@org.eclipse.platform.linux.gtk=r202_v20021002, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.platform.linux.gtk.source=r202_v20021002, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.platform.linux.gtk=r202_v20021002b, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.platform.linux.gtk.source=r202_v20021002b, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-plugin@org.eclipse.platform.linux.motif=r202_v20021002, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.platform.linux.motif.source=r202_v20021002, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.platform.linux.motif=r202_v20021002b, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.platform.linux.motif.source=r202_v20021002b, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-plugin@org.eclipse.platform.qnx.photon=r202_v20021002, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.platform.qnx.photon.source=r202_v20021002, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.platform.qnx.photon=r202_v20021002b, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.platform.qnx.photon.source=r202_v20021002b, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-plugin@org.eclipse.platform.solaris.motif=r202_v20021002, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.platform.solaris.motif.source=r202_v20021002, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.platform.solaris.motif=r202_v20021002b, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.platform.solaris.motif.source=r202_v20021002b, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-plugin@org.eclipse.platform.win32=r202_v20021002, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.platform.win32.source=r202_v20021002, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.platform.win32=r202_v20021002b, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.platform.win32.source=r202_v20021002b, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
