@@ -4,7 +4,7 @@ plugin@platform-launcher=R2_0_1, :pserver:anonymous@dev.eclipse.org:/home/eclips
 
 plugin@org.eclipse.swt=v2049d, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-fragment@org.eclipse.swt.carbon=R2_0_1, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+fragment@org.eclipse.swt.carbon=v2108, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 fragment@org.eclipse.swt.gtk=v2049b, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 fragment@org.eclipse.swt.motif=v2049a, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 fragment@org.eclipse.swt.photon=v2049, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
