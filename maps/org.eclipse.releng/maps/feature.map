@@ -20,6 +20,9 @@ feature@org.eclipse.platform.linux.gtk.source-feature=r201_v20020723, :pserver:a
 feature@org.eclipse.platform.linux.motif-feature=r201_v20020813, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 feature@org.eclipse.platform.linux.motif.source-feature=r201_v20020723, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
+feature@org.eclipse.platform.macosx.carbon-feature=HEAD, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+feature@org.eclipse.platform.macosx.carbon.source-feature=HEAD, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+
 feature@org.eclipse.platform.qnx.photon-feature=r201_v20020807a, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 feature@org.eclipse.platform.qnx.photon.source-feature=r201_v20020723, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
