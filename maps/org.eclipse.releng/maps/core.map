@@ -23,7 +23,7 @@ feature@org.eclipse.pde.builder=v20040624a,:pserver:anonymous@dev.eclipse.org:/h
 plugin@org.eclipse.webdav=v20040624a,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 !**** Test Suites
-plugin@org.eclipse.core.tests.harness=perf_301_v20041021,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.core.tests.resources=r30x_v20040826,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.core.tests.harness=perf_301_v20041207,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.core.tests.resources=perf_301_v20041207,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.core.tests.runtime=perf_301_v20041021,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.osgi.tests=v20040623,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
