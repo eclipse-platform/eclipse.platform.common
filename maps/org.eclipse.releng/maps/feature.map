@@ -3,6 +3,9 @@
 feature@org.eclipse.jdt-feature=r202_v20020916, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 feature@org.eclipse.jdt.source-feature=r202_v20020916, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
+feature@org.eclipse.jdt.macosx-feature=r202_v20020916, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+feature@org.eclipse.jdt.macosx.source-feature=r202_v20020916, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+
 feature@org.eclipse.pde-feature=r202_v20020916, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 feature@org.eclipse.platform-feature=r202_v20020916, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
@@ -19,6 +22,9 @@ feature@org.eclipse.platform.linux.gtk.source-feature=r202_v20020916, :pserver:a
 
 feature@org.eclipse.platform.linux.motif-feature=r202_v20020916, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 feature@org.eclipse.platform.linux.motif.source-feature=r202_v20020916, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+
+feature@org.eclipse.platform.macosx.carbon-feature=r202_v20020916, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+feature@org.eclipse.platform.macosx.carbon.source-feature=r202_v20020916, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 feature@org.eclipse.platform.qnx.photon-feature=r202_v20020916, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 feature@org.eclipse.platform.qnx.photon.source-feature=r202_v20020916, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
@@ -43,6 +49,9 @@ plugin@org.eclipse.platform.linux.gtk.source=r202_v20020916, :pserver:anonymous@
 
 plugin@org.eclipse.platform.linux.motif=r202_v20020916, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.platform.linux.motif.source=r202_v20020916, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+
+plugin@org.eclipse.platform.macosx.carbon=r202_v20020916, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.platform.macosx.carbon.source=r202_v20020916, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 plugin@org.eclipse.platform.qnx.photon=r202_v20020916, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.platform.qnx.photon.source=r202_v20020916, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
