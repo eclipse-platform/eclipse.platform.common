@@ -4,12 +4,12 @@ plugin@org.eclipse.jdt=r201_v20020723, :pserver:anonymous@dev.eclipse.org:/home/
 
 plugin@org.eclipse.jdt.source=r201_v20020723, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-plugin@org.eclipse.jdt.ui=v20020627_1, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.search=v20020627, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.jdt.ui=R2_0, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.search=R2_0, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-plugin@org.junit=v20020627, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.jdt.junit=v20020627_1, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.junit=R2_0, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.jdt.junit=R2_0, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-plugin@org.eclipse.jdt.ui.examples.projects=v20020627, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.jdt.ui.tests=v20020627_1, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.jdt.ui.tests.refactoring=v20020627, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.jdt.ui.examples.projects=R2_0, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.jdt.ui.tests=R2_0, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.jdt.ui.tests.refactoring=R2_0, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
