@@ -920,10 +920,11 @@ do not apply to other repository providers. Additional information on how to use
 CVS from Eclipse can be found in the <a href="http://dev.eclipse.org/viewcvs/index.cgi/~checkout~/platform-vcm-home/docs/online/cvs_features2.0/cvs-faq.html">Eclipse
 CVS FAQ</a>.</p>
 <h4>Incompatible with CVS server version 1.11.7 or later</h4>
-<p>Eclipse works with CVS server versions 1.11.1p1 through 1.11.6. Eclipse
-parses the messages returned from the CVS server. The format of these messages
-changed abruptly with the recent CVS server version 1.11.7, rendering the
-current parser ineffective. (bug <a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=45138">45138</a>)</p>
+<p>Due to unanticipated changes in CVS version 1.11.7, Eclipse only works with
+CVS server versions 1.11.1p1 through 1.11.6. Eclipse parses the messages
+returned from the CVS server. The format of these messages changed abruptly with
+the recent CVS server version 1.11.7, rendering the current parser ineffective.
+(bug <a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=45138">45138</a>)</p>
 <h4>Cached authorization information lost when workspace is upgraded</h4>
 <p>The Platform's internal authorization database file format has changed for
 2.1. Because of this, authorization information cached with a workspace created
