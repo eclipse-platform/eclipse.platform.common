@@ -12,7 +12,7 @@
 
 <h1>Eclipse Project Release Notes</h1>
 <p>Release 2.1.1<br>
-Last revised June 25, 2003</p>
+Last revised June 27, 2003</p>
 <p align="left"><strong>This software is OSI Certified Open Source Software.<br>
 OSI Certified is a certification mark of the Open Source Initiative.&nbsp;</strong></p>
 <blockquote>
@@ -457,9 +457,9 @@ been read rather than in the workbench's default encoding.</p>
 <h4>Key binding scopes</h4>
 <p>Clients should be aware of key binding scopes, which were introduced in 2.1. <code>TextEditor</code>
 sets &quot;org.eclipse.ui.textEditorScope&quot; as its key binding scope.
-Subclasses inherit this setting if they do not override
-&quot;initializeKeybindingScopes&quot;. <code>AbstractTextEditor</code> does not
-set any key binding scopes; it leaves this to its subclasses.</p>
+Subclasses inherit this setting if they do not override &quot;initializeKeybindingScopes&quot;.
+<code>AbstractTextEditor</code> does not set any key binding scopes; it leaves
+this to its subclasses.</p>
 <h4>Action definition ids are mandatory</h4>
 <p>All actions registered with an instance of <code>AbstractTextEditor</code>
 should have an action definition id. Otherwise they will not be accessible via
@@ -661,8 +661,7 @@ following:</p>
 <ol>
   <li>Create a thread in which to run your code.</li>
   <li>Send yourThread.setContextClassLoader(yourClassLoader); // you can find
-    your classloader by grabbing a class it loaded
-    (YourPluginClass.class.getClassLoader())</li>
+    your classloader by grabbing a class it loaded (YourPluginClass.class.getClassLoader())</li>
   <li>Run your code in the newly created thread.</li>
 </ol>
 <p>If you set the context class loader for the current thread, you are competing
@@ -1091,9 +1090,8 @@ executable. For example, the debugger will allow a breakpoint to be placed on a
 variable declaration that does not contain an initializer (&quot;int x;&quot;).
 Note that enabled breakpoints which are successfully installed on an executable
 line in a running (debuggable) VM are displayed with a checkmark. Breakpoints
-that are displayed without a checkmark are not installed in a running
-(debuggable) VM. (bugs <a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=8473">8473</a>,
-<a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=12696">12696</a>)
+that are displayed without a checkmark are not installed in a running (debuggable)
+VM. (bugs <a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=8473">8473</a>, <a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=12696">12696</a>)
 <h4>Using Hot Code Replace</h4>
 Hot code replace is supported on JDK 1.4.x VMs, and IBM J9 VMs. Hot code replace
 is limited to changes which do not effect the shape of a class. That is, changes
@@ -1207,13 +1205,13 @@ around this problem, close the editor and and reopen it. (bug <a href="http://bu
 <h4>Icons folder not included in bin.includes of some PDE templates</h4>
 <p>PDE provides a number of templates that can be used to create fully
 functioning plug-in projects and/or extensions. When projects are created, the <code>build.properties</code>
-file is created with the initial content, which includes the property
-'bin.includes' listing the plug-in manifest and its code JARs. However, it omits
-mention of other files created by the template, such as the <code>icons/</code>
-folder. As a request, these extra files do not end up in the plug-in when built
-using Ant build file or exported using 'Export deployable plug-ins and
-fragments' wizard. To work around this problem, add these files and directories
-manually in build.properties file. (bug <a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=35554">35554</a>)</p>
+file is created with the initial content, which includes the property 'bin.includes'
+listing the plug-in manifest and its code JARs. However, it omits mention of
+other files created by the template, such as the <code>icons/</code> folder. As
+a request, these extra files do not end up in the plug-in when built using Ant
+build file or exported using 'Export deployable plug-ins and fragments' wizard.
+To work around this problem, add these files and directories manually in
+build.properties file. (bug <a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=35554">35554</a>)</p>
 <h4>Emacs key bindings do not work in manifest editor fields</h4>
 <p>Non-default key bindings currently do not work in fields on non-source pages
 of the PDE manifest editors. (bug <a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=19482">19482</a>)</p>
@@ -1280,8 +1278,8 @@ when trying to obtain the timestamp of a newly uploaded file. This causes a
 again and continue. (bug <a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=19715">19715</a>)</p>
 <h2>4. <a name="RunningEclipse">Running Eclipse</a></h2>
 <p>After installing the Eclipse SDK in a directory, you can start the Workbench
-by running the Eclipse executable included with the release (you also need a
-JRE, included with the Eclipse SDK). On Windows, the executable file is called <samp>eclipse.exe</samp>,
+by running the Eclipse executable included with the release (you also need a JRE,
+included with the Eclipse SDK). On Windows, the executable file is called <samp>eclipse.exe</samp>,
 and is located in the <code>eclipse</code> subdirectory of the install. If
 installed at <code>c:\eclipse-SDK-2.1-win32</code>, the executable is <code>c:\eclipse-SDK-2.1-win32\eclipse\eclipse.exe</code>.
 <b>Note:</b> Set-up on other operating environments is analogous.</p>
