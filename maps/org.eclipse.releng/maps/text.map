@@ -8,9 +8,9 @@ plugin@org.eclipse.core.filebuffers=r301_v20040826,:pserver:anonymous@dev.eclips
 
 plugin@org.eclipse.ui.examples.javaeditor=v20040625_1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-plugin@org.eclipse.text.tests=v20041105_perf301,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.jface.text.tests=v20041105_perf301,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.core.filebuffers.tests=v20041105_perf301,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.ui.workbench.texteditor.tests=v20041105_perf301,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.ui.editors.tests=v20041105_perf301,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.jdt.text.tests=v20041105_perf301,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.text.tests=v20041126_perf301,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.jface.text.tests=v20041126_perf301,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.core.filebuffers.tests=v20041126_perf301,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.ui.workbench.texteditor.tests=v20041126_perf301,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.ui.editors.tests=v20041126_perf301,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.jdt.text.tests=v20041126_perf301,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
