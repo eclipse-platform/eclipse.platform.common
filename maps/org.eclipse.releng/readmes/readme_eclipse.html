@@ -12,7 +12,7 @@
 
 <h1>Eclipse Project Release Notes</h1>
 <p>Release 2.1.1<br>
-Last revised June 9, 2003</p>
+Last revised June 10, 2003</p>
 <p align="left"><strong>This software is OSI Certified Open Source Software.<br>
 OSI Certified is a certification mark of the Open Source Initiative.&nbsp;</strong></p>
 <blockquote>
@@ -1141,13 +1141,6 @@ container</h4>
 <p>Appling a working set consisting entirely of elements from the JRE System
 library container as a filter to the packages view might result in an empty
 Package Explorer. (bug <a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=35395">35395</a>)</p>
-<h4>Problems with files named &quot;java&quot;</h4>
-<p>If a Java project contains a file named &quot;java&quot;, it will trigger an
-internal error when it is classified (incorrectly) as a Java compilation unit.
-There are no problems with the string &quot;java&quot; occurs as a part of the
-name (e.g, javaRefs.txt) or as the file extension part of the name (e.g, A.java).
-The workaround is to ensure that there are no files named &quot;java&quot;
-within a Java project. (bug <a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=35614">35614</a>)</p>
 <h4>Cannot generate Javadoc for packages with GB18030 characters in the name</h4>
 <p>Most class libraries do not properly support the creation of a system process
 (via <code>java.lang.Runtime.exec(...)</code>) when the specified command line
@@ -1891,6 +1884,10 @@ changed).</p>
     <tr class="bz_major bz_P3 ">
       <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=37787">37787</a></td>
       <td>[Import/Export] Flashing Cursor appears in description in...</td>
+    </tr>
+    <tr class="bz_normal bz_P3 ">
+      <td><a href="show_bug.cgi?id=37938">37938</a></td>
+      <td>One-click search does not find e-fixes</td>
     </tr>
     <tr class="bz_normal bz_P3 ">
       <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=37963">37963</a></td>
