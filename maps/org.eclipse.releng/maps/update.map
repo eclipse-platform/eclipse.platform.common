@@ -1,12 +1,12 @@
 !***************  UPDATE CONTRIBUTION  ******************************************************** 
 
-plugin@org.eclipse.update.core=r201_v20020829H1540, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.update.core=v20020918H0815, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 fragment@org.eclipse.update.core.win32=v20020626,  :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 fragment@org.eclipse.update.core.linux=v20020626,  :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-plugin@org.eclipse.update.ui=r201_v20020826H1430, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.update.ui=v20020918H0815, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 fragment@org.eclipse.update.ui.win32=v20020626, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 plugin@org.eclipse.update.ui.forms=v20020627, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-plugin@org.eclipse.update.tests.core=r201_v20020825H2200, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.update.tests.core=v20020918H0815, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
