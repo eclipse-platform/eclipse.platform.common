@@ -4,10 +4,6 @@ plugin@org.eclipse.jdt=r202_v20020916, :pserver:anonymous@dev.eclipse.org:/home/
 
 plugin@org.eclipse.jdt.source=r202_v20020916, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-plugin@org.eclipse.jdt.macosx=r202_v20020916a, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.jdt.macosx.source=r202_v20020916a, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.jdt.launching.macosx=r202_v20020916a, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-
 plugin@org.eclipse.jdt.ui=r202_v20020916, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.search=r201_v20020807, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 

@@ -14,7 +14,6 @@ feature@org.eclipse.sdk.aix.motif-feature = r202_v20020916,:pserver:anonymous@de
 feature@org.eclipse.sdk.solaris.motif-feature = r202_v20020916,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 feature@org.eclipse.sdk.hpux.motif-feature = r202_v20020916,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 feature@org.eclipse.sdk.linux.gtk-feature = r202_v20020916,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-feature@org.eclipse.sdk.macosx.carbon-feature = r202_v20020916,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 feature@org.eclipse.sdk.qnx.photon-feature = r202_v20020916,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 plugin@org.eclipse.sdk.win32 = r202_v20020916,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
@@ -23,7 +22,6 @@ plugin@org.eclipse.sdk.aix.motif = r202_v20020916,:pserver:anonymous@dev.eclipse
 plugin@org.eclipse.sdk.hpux.motif = r202_v20020916,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.sdk.linux.gtk = r202_v20020916,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.sdk.qnx.photon = r202_v20020916,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.sdk.macosx.carbon = r202_v20020916,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.sdk.solaris.motif = r202_v20020916,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 
