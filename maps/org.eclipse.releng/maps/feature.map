@@ -5,7 +5,7 @@ plugin@org.eclipse.sdk=r302_v20050126,:pserver:anonymous@dev.eclipse.org:/home/e
 feature@org.eclipse.jdt=r302_v20050128,:pserver:anonymous@dev.eclipse.org:/home/eclipse,,org.eclipse.jdt-feature
 feature@org.eclipse.jdt.sdk=r302_v20050112_0800,:pserver:anonymous@dev.eclipse.org:/home/eclipse,,org.eclipse.sdk-feature/features/org.eclipse.jdt.sdk
 
-feature@org.eclipse.pde=r301_v20040630,:pserver:anonymous@dev.eclipse.org:/home/eclipse,,org.eclipse.pde-feature
+feature@org.eclipse.pde=r302_v20050310,:pserver:anonymous@dev.eclipse.org:/home/eclipse,,org.eclipse.pde-feature
 feature@org.eclipse.pde.sdk=r301_v20040630,:pserver:anonymous@dev.eclipse.org:/home/eclipse,,org.eclipse.sdk-feature/features/org.eclipse.pde.sdk
 
 feature@org.eclipse.platform=r302_v20050216,:pserver:anonymous@dev.eclipse.org:/home/eclipse,,org.eclipse.platform-feature
