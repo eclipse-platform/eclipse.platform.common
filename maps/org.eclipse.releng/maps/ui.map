@@ -1,8 +1,8 @@
 !***************  UI CONTRIBUTION  ******************************************************** 
 
 plugin@org.eclipse.jface=v200411171530,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.ui=v200411171530,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.ui.ide=v200409080800,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.ui=v20050216-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.ui.ide=v20050216-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.ui.workbench=v20050126-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 fragment@org.eclipse.ui.workbench.compatibility=v200406222000,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.ui.views=v200406231600,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
@@ -20,4 +20,4 @@ plugin@org.eclipse.ui.examples.multipageeditor=v20040218a,:pserver:anonymous@dev
 plugin@org.eclipse.ui.examples.propertysheet=v20040316,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.ui.examples.readmetool=v20040218a,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-plugin@org.eclipse.ui.tests=v20050119-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.ui.tests=v20050216-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
