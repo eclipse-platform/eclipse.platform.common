@@ -8,7 +8,7 @@ feature@org.eclipse.jdt.sdk=r301_v20040630,:pserver:anonymous@dev.eclipse.org:/h
 feature@org.eclipse.pde=r301_v20040630,:pserver:anonymous@dev.eclipse.org:/home/eclipse,,org.eclipse.pde-feature
 feature@org.eclipse.pde.sdk=r301_v20040630,:pserver:anonymous@dev.eclipse.org:/home/eclipse,,org.eclipse.sdk-feature/features/org.eclipse.pde.sdk
 
-feature@org.eclipse.platform=r301_v20040721,:pserver:anonymous@dev.eclipse.org:/home/eclipse,,org.eclipse.platform-feature
+feature@org.eclipse.platform=r301_v20040726,:pserver:anonymous@dev.eclipse.org:/home/eclipse,,org.eclipse.platform-feature
 feature@org.eclipse.platform.sdk=r301_v20040630,:pserver:anonymous@dev.eclipse.org:/home/eclipse,,org.eclipse.sdk-feature/features/org.eclipse.platform.sdk
 
 plugin@org.eclipse.platform=r301_v20040715,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
