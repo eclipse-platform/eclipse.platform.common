@@ -36,7 +36,7 @@ feature@org.eclipse.platform.win32-feature=r212_20030909,:pserver:anonymous@dev.
 feature@org.eclipse.platform.win32.source-feature=r212_20030909,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 plugin@org.eclipse.platform=r212_20030909a,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.platform.source=r212_v20030714,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.platform.source=r212_20030910,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 plugin@org.eclipse.platform.aix.motif=r212_20030909a,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.platform.aix.motif.source=r212_20030909a,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
