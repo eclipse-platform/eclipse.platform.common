@@ -12,7 +12,7 @@
 
 <h1>Eclipse Project Release Notes</h1>
 <p>Pre-release 2.1.2<br>
-Last revised September 10, 2003</p>
+Last revised September 11, 2003</p>
 <p align="left"><strong>This software is OSI Certified Open Source Software.<br>
 OSI Certified is a certification mark of the Open Source Initiative.&nbsp;</strong></p>
 <blockquote>
@@ -1464,7 +1464,7 @@ that all features now have version id &quot;2.1.2&quot; (even if none of their
 plug-ins changed).</p>
 <p>Maintenance release 2.1.2 includes all fixes made in 2.1.1 (see next section)
 and contains additional fixes for the following defects:</p>
-<table cellspacing="0" cellpadding="4" width="100%">
+<table class="bz_buglist" cellspacing="0" cellpadding="4" width="100%">
   <tbody>
     <tr align="left">
       <th><a href="https://bugs.eclipse.org/bugs/buglist.cgi?product=JDT&amp;product=PDE&amp;product=Platform&amp;target_milestone=2.1.2&amp;resolution=FIXED&amp;order=bugs.bug_id">ID</a></th>
@@ -1482,6 +1482,26 @@ and contains additional fixes for the following defects:</p>
       <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=29783">29783</a></td>
       <td>BIDI: drop-down list of rtl-oriented CCombo is displayed ...</td>
     </tr>
+    <tr class="bz_normal bz_P3 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=29784">29784</a></td>
+      <td>BIDI: keyboard's left and right arrows change value of rt...</td>
+    </tr>
+    <tr class="bz_normal bz_P3 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=29786">29786</a></td>
+      <td>BIDI: keyborad's left and right arrows move focus between...</td>
+    </tr>
+    <tr class="bz_normal bz_P3 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=29787">29787</a></td>
+      <td>BIDI: problem with keyboard's left and right arrows, when...</td>
+    </tr>
+    <tr class="bz_normal bz_P3 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=29788">29788</a></td>
+      <td>BIDI: rtl-oriented Tracker has wrong behavior.</td>
+    </tr>
+    <tr class="bz_normal bz_P2 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=30434">30434</a></td>
+      <td>BIDI: StyledText to support RIGHT_TO_LEFT orientation</td>
+    </tr>
     <tr class="bz_critical bz_P1 ">
       <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=35826">35826</a></td>
       <td>GPs on exit</td>
@@ -1490,9 +1510,45 @@ and contains additional fixes for the following defects:</p>
       <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=35877">35877</a></td>
       <td>Stack overflow in code assist</td>
     </tr>
+    <tr class="bz_normal bz_P3 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=36270">36270</a></td>
+      <td>BIDI: Some custom widgets can't be created with explicitl...</td>
+    </tr>
+    <tr class="bz_normal bz_P3 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=36276">36276</a></td>
+      <td>BIDI: When UpDown control of rtl-oriented TabFolder is us...</td>
+    </tr>
+    <tr class="bz_normal bz_P3 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=36679">36679</a></td>
+      <td>BIDI: PopupList can't be created with explicitly assigned...</td>
+    </tr>
+    <tr class="bz_normal bz_P3 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=36684">36684</a></td>
+      <td>BIDI: LTR-oriented MessageBox can't be created, if it's p...</td>
+    </tr>
     <tr class="bz_major bz_P2 ">
       <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=37186">37186</a></td>
       <td>Search indexes generated for similar locales</td>
+    </tr>
+    <tr class="bz_normal bz_P2 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=37293">37293</a></td>
+      <td>BIDI:GC.drawImage(0, ... draws at 1, ... when using RIGHT...</td>
+    </tr>
+    <tr class="bz_normal bz_P2 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=37299">37299</a></td>
+      <td>BIDI:Caret cheese when resizing RIGHT_TO_LEFT StyledText</td>
+    </tr>
+    <tr class="bz_normal bz_P3 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=37479">37479</a></td>
+      <td>BIDI: Drop-down list of CCombo doesn't inherit it's orien...</td>
+    </tr>
+    <tr class="bz_normal bz_P3 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=37490">37490</a></td>
+      <td>BIDI: text in the rtl-oriented Text control can't be alig...</td>
+    </tr>
+    <tr class="bz_normal bz_P3 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=37498">37498</a></td>
+      <td>BIDI: rtl-oriented TableCursor set next column instead of...</td>
     </tr>
     <tr class="bz_critical bz_P2 ">
       <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=38799">38799</a></td>
@@ -1501,6 +1557,10 @@ and contains additional fixes for the following defects:</p>
     <tr class="bz_blocker bz_P2 ">
       <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=38852">38852</a></td>
       <td>Java memory arguments not being passed to operational VM</td>
+    </tr>
+    <tr class="bz_major bz_P1 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=39032">39032</a></td>
+      <td>Bidi: StyledText - exception in autoscroll in bidi</td>
     </tr>
     <tr class="bz_normal bz_P3 ">
       <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=39108">39108</a></td>
@@ -1521,6 +1581,18 @@ and contains additional fixes for the following defects:</p>
     <tr class="bz_critical bz_P3 ">
       <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=39664">39664</a></td>
       <td>setSuperInterfaces(String[] interfaceNames) API of org.e...</td>
+    </tr>
+    <tr class="bz_normal bz_P3 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=39987">39987</a></td>
+      <td>BIDI: MIRRORED bit can't be switched on in the style's bi...</td>
+    </tr>
+    <tr class="bz_normal bz_P3 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=40006">40006</a></td>
+      <td>BIDI: rtl-oriented StyledText has overlapping segments pr...</td>
+    </tr>
+    <tr class="bz_normal bz_P3 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=40019">40019</a></td>
+      <td>BIDI: StyledText has problem with drawing of selection in...</td>
     </tr>
     <tr class="bz_normal bz_P3 ">
       <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=40174">40174</a></td>
@@ -1547,12 +1619,16 @@ and contains additional fixes for the following defects:</p>
       <td>jck1.4a failures</td>
     </tr>
     <tr class="bz_normal bz_P3 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=42724">42724</a></td>
+      <td>StyledText - selection rendered incorrectly on bidi platf...</td>
+    </tr>
+    <tr class="bz_normal bz_P3 ">
       <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=42805">42805</a></td>
       <td>Chkpii errors for the 2.1.2 build</td>
     </tr>
   </tbody>
 </table>
-20 bugs found.
+39 bugs found.
 <p>Note: the above table was generated with the Bugzilla query: <a href="http://bugs.eclipse.org/bugs/buglist.cgi?product=JDT&amp;product=PDE&amp;product=Platform&amp;target_milestone=2.1.2&amp;resolution=FIXED&amp;order=bugs.bug_id">http://bugs.eclipse.org/bugs/buglist.cgi?product=JDT&amp;product=PDE&amp;product=Platform&amp;target_milestone=2.1.2&amp;resolution=FIXED&amp;order=bugs.bug_id</a></p>
 <h3>7.2 Defects fixed in release 2.1.1 since 2.1.0</h3>
 <p>Release 2.1.1 is the first maintenance release to fix serious defects present
