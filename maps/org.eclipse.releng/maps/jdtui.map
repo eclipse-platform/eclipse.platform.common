@@ -14,7 +14,7 @@ plugin@org.eclipse.jdt.junit=r301_v20040908,:pserver:anonymous@dev.eclipse.org:/
 plugin@org.eclipse.jdt.junit.runtime=v20040625_1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 plugin@org.eclipse.jdt.ui.examples.projects=r301_v20040806,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.jdt.ui.tests=perf_301_v20041117,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.jdt.ui.tests=perf_301_v20041118,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.jdt.ui.tests.refactoring=perf_301_v20041117,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 plugin@org.eclipse.ltk.core.refactoring=r301_v20040825,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
