@@ -23,10 +23,10 @@ feature@org.eclipse.platform.linux.gtk.source-feature=r213_v20031212,:pserver:an
 feature@org.eclipse.platform.linux.motif-feature=r213_v20031216,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 feature@org.eclipse.platform.linux.motif.source-feature=r213_v20031212,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-feature@org.eclipse.platform.macosx.carbon-feature=r213_v20031212,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+feature@org.eclipse.platform.macosx.carbon-feature=r213_v20040310,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 feature@org.eclipse.platform.macosx.carbon.source-feature=r213_v20031212,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-feature@org.eclipse.platform.qnx.photon-feature=r213_v20031212,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+feature@org.eclipse.platform.qnx.photon-feature=r213_v20040310,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 feature@org.eclipse.platform.qnx.photon.source-feature=r213_v20031212,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 feature@org.eclipse.platform.solaris.motif-feature=r213_v20031216,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
