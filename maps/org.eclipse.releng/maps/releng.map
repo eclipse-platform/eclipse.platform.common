@@ -17,7 +17,7 @@ feature@org.eclipse.sdk.linux.gtk-feature =v2031_20030401,:pserver:anonymous@dev
 feature@org.eclipse.sdk.qnx.photon-feature =v2031_20030401,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 plugin@org.eclipse.sdk.win32 =v2031_20030401,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.sdk.linux.motif =v2031_20030401,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.sdk.linux.motif =v2031_20030401a,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.sdk.aix.motif =v2031_20030401,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.sdk.hpux.motif =v2031_20030401,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.sdk.linux.gtk =v2031_20030401,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
