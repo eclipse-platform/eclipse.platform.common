@@ -6,9 +6,9 @@ fragment@org.eclipse.core.resources.linux=r201_v20020822, :pserver:anonymous@dev
 plugin@org.apache.xerces=r202_v20021018, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.apache.ant=v20020627, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.ant.core=r202_v20021007, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.core.boot=r202_v20021018, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.core.boot=r202_v20021022, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.core.resources=r201_v20020801, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.core.runtime=r202_v20021018, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.core.runtime=r202_v20021022, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.pde.build=v20020627, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.webdav=v20020627, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
