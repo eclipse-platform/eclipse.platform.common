@@ -33,7 +33,7 @@ feature@org.eclipse.platform.solaris.motif-feature=r212_20030909a,:pserver:anony
 feature@org.eclipse.platform.solaris.motif.source-feature=r212_20030909a,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 feature@org.eclipse.platform.win32-feature=r212_20030909,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-feature@org.eclipse.platform.win32.source-feature=r212_20030909,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+feature@org.eclipse.platform.win32.source-feature=r212_20030910,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 plugin@org.eclipse.platform=r212_20030909a,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.platform.source=r212_20030910,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
