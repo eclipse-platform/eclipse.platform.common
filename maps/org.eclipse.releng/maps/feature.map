@@ -6,7 +6,7 @@ feature@org.eclipse.jdt.source-feature=v20030910_R2_1_2,:pserver:anonymous@dev.e
 feature@org.eclipse.jdt.macosx-feature=v20020917, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 feature@org.eclipse.jdt.macosx.source-feature=v20020917, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-feature@org.eclipse.pde-feature=v20020917, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+feature@org.eclipse.pde-feature=r212_v20030929, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 feature@org.eclipse.platform-feature=r212_20030917,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 feature@org.eclipse.platform.source-feature=r212_v20030714,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
