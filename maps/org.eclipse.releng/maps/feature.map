@@ -5,7 +5,7 @@ feature@org.eclipse.jdt.source-feature=r203_v20030207, :pserver:anonymous@dev.ec
 
 feature@org.eclipse.pde-feature=R202_v20021015, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-feature@org.eclipse.platform-feature=r203_v20030207, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+feature@org.eclipse.platform-feature=v203_20030221, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 feature@org.eclipse.platform.source-feature=r203_v20030207, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 feature@org.eclipse.platform.aix.motif-feature=r203_v20030207, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
