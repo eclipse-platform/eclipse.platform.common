@@ -102,6 +102,13 @@
       		<topic label="org.eclipse.core.runtime.applications" href="reference/extension-points/org_eclipse_core_runtime_applications.html"/>
       		<topic label="org.eclipse.core.runtime.urlHandlers" href="reference/extension-points/org_eclipse_core_runtime_urlHandlers.html"/>
 		</topic>
+		<topic label="Platform text" href="reference/extension-points/index.html#text">
+	      	<topic label="org.eclipse.core.filebuffers.documentSetup" href="reference/extension-points/org_eclipse_core_filebuffers_documentSetup.html"/>
+	      	<topic label="org.eclipse.core.filebuffers.documentCreation" href="reference/extension-points/org_eclipse_core_filebuffers_documentCreation.html"/>
+	      	<topic label="org.eclipse.ui.documentProviders" href="reference/extension-points/org_eclipse_ui_documentProviders.html"/>
+	      	<topic label="org.eclipse.ui.markerUpdaters" href="reference/extension-points/org_eclipse_ui_markerUpdaters.html"/>
+	      	<topic label="org.eclipse.ui.workbench.texteditor.markerAnnotationSpecification" href="reference/extension-points/org_eclipse_ui_workbench_texteditor_markerAnnotationSpecification.html"/>
+		</topic>
 		<topic label="Workspace" href="reference/extension-points/index.html#workspace">
       		<topic label="org.eclipse.core.resources.builders" href="reference/extension-points/org_eclipse_core_resources_builders.html"/>
 			<topic label="org.eclipse.core.resources.fileModificationValidator" href="reference/extension-points/org_eclipse_core_resources_fileModificationValidator.html"/>
@@ -119,7 +126,6 @@
 	      	<topic label="org.eclipse.ui.actionSets" href="reference/extension-points/org_eclipse_ui_actionSets.html"/>
 			<topic label="org.eclipse.ui.commands" href="reference/extension-points/org_eclipse_ui_commands.html"/>
 	      	<topic label="org.eclipse.ui.decorators" href="reference/extension-points/org_eclipse_ui_decorators.html"/>
-	      	<topic label="org.eclipse.ui.documentProviders" href="reference/extension-points/org_eclipse_ui_documentProviders.html"/>
 	      	<topic label="org.eclipse.ui.dropActions" href="reference/extension-points/org_eclipse_ui_dropActions.html"/>
 	      	<topic label="org.eclipse.ui.editorActions" href="reference/extension-points/org_eclipse_ui_editorActions.html"/>
 	      	<topic label="org.eclipse.ui.editors" href="reference/extension-points/org_eclipse_ui_editors.html"/>
@@ -129,7 +135,6 @@
 	      	<topic label="org.eclipse.ui.importWizards" href="reference/extension-points/org_eclipse_ui_importWizards.html"/>
 	      	<topic label="org.eclipse.ui.markerHelp" href="reference/extension-points/org_eclipse_ui_markerHelp.html"/>
 	      	<topic label="org.eclipse.ui.markerResolution" href="reference/extension-points/org_eclipse_ui_markerResolution.html"/>
-	      	<topic label="org.eclipse.ui.markerUpdaters" href="reference/extension-points/org_eclipse_ui_markerUpdaters.html"/>
 	      	<topic label="org.eclipse.ui.newWizards" href="reference/extension-points/org_eclipse_ui_newWizards.html"/>
 	      	<topic label="org.eclipse.ui.perspectiveExtensions" href="reference/extension-points/org_eclipse_ui_perspectiveExtensions.html"/>
 	      	<topic label="org.eclipse.ui.perspectives" href="reference/extension-points/org_eclipse_ui_perspectives.html"/>
@@ -142,7 +147,6 @@
 	      	<topic label="org.eclipse.ui.viewActions" href="reference/extension-points/org_eclipse_ui_viewActions.html"/>
 	      	<topic label="org.eclipse.ui.views" href="reference/extension-points/org_eclipse_ui_views.html"/>
 	      	<topic label="org.eclipse.ui.workingSets" href="reference/extension-points/org_eclipse_ui_workingSets.html"/>
-	      	<topic label="org.eclipse.ui.workbench.texteditor.markerAnnotationSpecification" href="reference/extension-points/org_eclipse_ui_workbench_texteditor_markerAnnotationSpecification.html"/>
 		</topic>
 		<topic label="Team" href="reference/extension-points/index.html#team">
 	      	<topic label="org.eclipse.team.core.fileTypes" href="reference/extension-points/org_eclipse_team_core_fileTypes.html"/>
@@ -153,16 +157,17 @@
 		</topic>
 		<topic label="Debug" href="reference/extension-points/index.html#debug">
 	      	<topic label="org.eclipse.debug.core.breakpoints" href="reference/extension-points/org_eclipse_debug_core_breakpoints.html"/>
+			<topic label="org.eclipse.debug.core.contextLaunchVariables" href="reference/extension-points/org_eclipse_debug_core_contextLaunchVariables.html"/>
 	      	<topic label="org.eclipse.debug.core.launchConfigurationComparators" href="reference/extension-points/org_eclipse_debug_core_launchConfigurationComparators.html"/>
 	      	<topic label="org.eclipse.debug.core.launchConfigurationTypes" href="reference/extension-points/org_eclipse_debug_core_launchConfigurationTypes.html"/>
+	      	<topic label="org.eclipse.debug.core.launchDelegates" href="reference/extension-points/org_eclipse_debug_core_launchDelegates.html"/>	      	
 	      	<topic label="org.eclipse.debug.core.launchModes" href="reference/extension-points/org_eclipse_debug_core_launchModes.html"/>
-	      	<topic label="org.eclipse.debug.core.launchDelegates" href="reference/extension-points/org_eclipse_debug_core_launchDelegates.html"/>
 			<topic label="org.eclipse.debug.core.launchers" href="reference/extension-points/org_eclipse_debug_core_launchers.html"/>
+	      	<topic label="org.eclipse.debug.core.refreshLaunchVariables" href="reference/extension-points/org_eclipse_debug_core_refreshLaunchVariables.html"/>
+	      	<topic label="org.eclipse.debug.core.simpleLaunchVariables" href="reference/extension-points/org_eclipse_debug_core_simpleLaunchVariables.html"/>	      	
 	      	<topic label="org.eclipse.debug.core.sourceLocators" href="reference/extension-points/org_eclipse_debug_core_sourceLocators.html"/>
 	      	<topic label="org.eclipse.debug.core.statusHandlers" href="reference/extension-points/org_eclipse_debug_core_statusHandlers.html"/>
-	      	<topic label="org.eclipse.debug.core.simpleLaunchVariables" href="reference/extension-points/org_eclipse_debug_core_simpleLaunchVariables.html"/>
-	      	<topic label="org.eclipse.debug.core.contextLaunchVariables" href="reference/extension-points/org_eclipse_debug_core_contextLaunchVariables.html"/>
-	      	<topic label="org.eclipse.debug.core.refreshLaunchVariables" href="reference/extension-points/org_eclipse_debug_core_refreshLaunchVariables.html"/>
+	      	<topic label="org.eclipse.debug.core.watchExpressionDelegates" href="reference/extension-points/org_eclipse_debug_core_watchExpressionDelegates.html"/>
 	      	<topic label="org.eclipse.debug.ui.consoleColorProviders" href="reference/extension-points/org_eclipse_debug_ui_consoleColorProviders.html"/>
 	      	<topic label="org.eclipse.debug.ui.consoleLineTrackers" href="reference/extension-points/org_eclipse_debug_ui_consoleLineTrackers.html"/>
 	      	<topic label="org.eclipse.debug.ui.debugActionGroups" href="reference/extension-points/org_eclipse_debug_ui_debugActionGroups.html"/>
@@ -182,6 +187,7 @@
 			<topic label="org.eclipse.help.webapp" href="reference/extension-points/org_eclipse_help_webapp.html"/>
 		</topic>
 		<topic label="Other" href="reference/extension-points/index.html#other">
+	      	<topic label="org.eclipse.ant.core.antProperties" href="reference/extension-points/org_eclipse_ant_core_antProperties.html"/>		
 	      	<topic label="org.eclipse.ant.core.antTasks" href="reference/extension-points/org_eclipse_ant_core_antTasks.html"/>
 	      	<topic label="org.eclipse.ant.core.antTypes" href="reference/extension-points/org_eclipse_ant_core_antTypes.html"/>
 	      	<topic label="org.eclipse.ant.core.extraClasspathEntries" href="reference/extension-points/org_eclipse_ant_core_extraClasspathEntries.html"/>
