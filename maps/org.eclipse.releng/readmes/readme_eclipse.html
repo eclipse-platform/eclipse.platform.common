@@ -11,8 +11,8 @@
 <body>
 
 <h1>Eclipse Project Release Notes</h1>
-<p>Pre-release 2.1.2<br>
-Last revised October 15, 2003</p>
+<p>Release 2.1.2<br>
+October 22, 2003</p>
 <p align="left"><strong>This software is OSI Certified Open Source Software.<br>
 OSI Certified is a certification mark of the Open Source Initiative.&nbsp;</strong></p>
 <blockquote>
@@ -867,16 +867,12 @@ if the IME client window is left open when the parent window is disposed. (bug <
 Eclipse: the pre-edit text does not appear in the text widget, making it
 unusable. The IME that we tested - Kinput2 on the client + Canna on the server
 side (default IME in RedHat 8.0) - works fine. (bug <a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=31754">31754</a>)</p>
-<h4>BiDi support (Windows only)</h4>
-<p>The <code>StyledText</code> widget provides bidirectional language support
-for Hebrew and Arabic locales. Currently this support is available only on
-Windows and has several known problems. (bugs <a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=4776">4776</a>,
-<a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=25691">25691</a> and <a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=27629">27629</a>)</p>
+<h4>BiDi and DBCS support (Windows only)</h4>
 <p>On Windows XP and Windows 2000, if StyledText determines that it is running
 on a BiDi platform, characters from DBCS languages (e.g., Japanese) and complex
 script languages (e.g., Thai) will not render properly. A platform is considered
 BiDi if a BiDi language is installed and if a BiDi input locale is installed
-(e.g., a Hebrew keyboard layout is specified).</p>
+(e.g., a Hebrew keyboard layout is specified). (bugs <a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=25691">25691</a>)</p>
 <h4>Cursor constructor arguments</h4>
 <p>In the constructor <code>Cursor(Device device, ImageData source, ImageData
 mask, int hotspotX, int hotspotY)</code>, when both a source and mask argument
@@ -1221,13 +1217,6 @@ Editors that handle XML files (plug-in, fragment and feature manifests) will
 preserve comments in most cases. However, comments will not be preserved if
 added before the root XML element, or if added after the last child element
 contained in the parent element. (bug <a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=8000">8000</a>)</p>
-<h4>Problem while importing fragments</h4>
-<p>If a workspace contains binary projects for a plug-in and a fragment that
-references that plug-in, fragment libraries are added to the class path of the
-referenced plug-in project. When an attempt is made to overwrite the plug-in and
-the fragment with versions from another build, deletion of the old fragment may
-fail. If that happens, repeat the operation to repair the workspace. Only the
-affected plug-in and fragment need to be re-imported. (bug <a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=16921">16921</a>)</p>
 <h4>Plug-in import wizard does not allow plug-ins of different versions to be
 imported</h4>
 <p>The Eclipse platform allows two plug-ins with the same ID but different
@@ -1654,6 +1643,10 @@ and contains additional fixes for the following defects:</p>
       <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=43518">43518</a></td>
       <td>Stepping through session bean is very slow in WSAD v5.1</td>
     </tr>
+    <tr class="bz_critical bz_P3 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=43811">43811</a></td>
+      <td>3.0M3 fails startup</td>
+    </tr>
     <tr class="bz_normal bz_P3 ">
       <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=43857">43857</a></td>
       <td>Java files generated from PDE templates contain IBM copyr...</td>
@@ -1664,7 +1657,7 @@ and contains additional fixes for the following defects:</p>
     </tr>
   </tbody>
 </table>
-48 bugs found.
+49 bugs found.
 <p>Note: the above table was generated with the Bugzilla query: <a href="http://bugs.eclipse.org/bugs/buglist.cgi?product=JDT&amp;product=PDE&amp;product=Platform&amp;target_milestone=2.1.2&amp;resolution=FIXED&amp;order=bugs.bug_id">http://bugs.eclipse.org/bugs/buglist.cgi?product=JDT&amp;product=PDE&amp;product=Platform&amp;target_milestone=2.1.2&amp;resolution=FIXED&amp;order=bugs.bug_id</a></p>
 <h3>7.2 Defects fixed in release 2.1.1 since 2.1.0</h3>
 <p>Release 2.1.1 is the first maintenance release to fix serious defects present
