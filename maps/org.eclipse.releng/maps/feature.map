@@ -29,7 +29,7 @@ feature@org.eclipse.platform.solaris.motif.source-feature=r201_v20020723, :pserv
 feature@org.eclipse.platform.win32-feature=r201_v20020815, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 feature@org.eclipse.platform.win32.source-feature=r201_v20020723, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-plugin@org.eclipse.platform=r201_v20020723, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.platform=r201_20020820, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.platform.source=r201_v20020723, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 plugin@org.eclipse.platform.aix.motif=r201_v20020723, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
