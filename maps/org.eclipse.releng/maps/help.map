@@ -2,7 +2,7 @@
 
 plugin@org.eclipse.help=r211_v20030425, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.help.appserver=v20030324a, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.help.ui=v20030324, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.help.ui=r211_v20030527, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 fragment@org.eclipse.help.ui.win32=v20030311, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 plugin@org.eclipse.help.webapp=r211_v20030506a, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
