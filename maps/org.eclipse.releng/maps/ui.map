@@ -3,7 +3,7 @@
 plugin@org.eclipse.jface=v200409151300,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.ui=v20040916,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.ui.ide=v200409080800,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.ui.workbench=v20040916,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.ui.workbench=v20040916a,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 fragment@org.eclipse.ui.workbench.compatibility=v200406222000,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.ui.views=v200406231600,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 fragment@org.eclipse.ui.win32=v20040720,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
