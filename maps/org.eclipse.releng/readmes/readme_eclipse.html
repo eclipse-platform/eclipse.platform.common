@@ -11,10 +11,8 @@
 
 Eclipse Project Release Notes</h1>
 
-<p>
-
-Release 2.0.2<br>
-November 7, 2002</p>
+<p> Release 2.0.3<br>
+  February 20, 2003</p>
 
 <p align="left">
 
@@ -510,7 +508,7 @@ development while component support has been removed. Features are described in
 the Eclipse Platform Plug-in Developer Guide.</p>
 <h2>3. <a name="New Features in this Release">New Features in this Release</a></h2>
 
-<h3>3.1 New features added in release 2.0.2</h3>
+<h3>3.1 New features added in release 2.0.3</h3>
 
 <p>Although services releases usually do not contain new features, service
 release 2.0.2 does contain one new performance enhancement.</p>
@@ -1352,9 +1350,51 @@ when trying to obtain the timestamp of a newly uploaded file. This causes a
 does not exist&quot; error. The workaround is to <b> Synchronize</b> again and continue. (<a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=19715">bug
 19715</a>)</p>
 
-<h2>5. <a name="Defects fixed"></a>Defects fixed</h2>
+<h2>5. <a name="Defects fixed"></a>Defects fixed<br>
+  <br>
+</h2>
+<h3>5.1 Defect fixed in release 2.0.3 since 2.0.2</h3>
+<p>Release 2.0.3 is a maintenance release to fix serious defects present in release 
+  2.0.2. These changes only affect some plug-ins and features. Modified plug-ins 
+  have version id &quot;2.0.3&quot;; plug-ins unchanged since the 2.0 release 
+  still have version id &quot;2.0.0&quot;.</p>
+<p>Service release 2.0.3 fixes the following defects present in service release 
+  2.0.2:</p>
+<table cellspacing="0" cellpadding="4" width="100%">
+  <tbody> 
+  <tr align="left"> 
+    <th><a href="http://dev.eclipse.org/bugs/buglist.cgi?resolution=FIXED&amp;email1=&amp;emailtype1=substring&amp;emailassigned_to1=1&amp;email2=&amp;emailtype2=substring&amp;emailreporter2=1&amp;bugidtype=include&amp;bug_id=&amp;changedin=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;target_milestone=2.0.1&amp;short_desc=&amp;short_desc_type=allwordssubstr&amp;long_desc=&amp;long_desc_type=allwordssubstr&amp;keywords=&amp;keywords_type=anywords&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0=&amp;namedcmd=2.0.1&amp;newqueryname=2.0.1+fixed&amp;tofooter=1&amp;order=bugs.bug_id">ID</a> 
+    <th><a href="http://dev.eclipse.org/bugs/buglist.cgi?resolution=FIXED&amp;email1=&amp;emailtype1=substring&amp;emailassigned_to1=1&amp;email2=&amp;emailtype2=substring&amp;emailreporter2=1&amp;bugidtype=include&amp;bug_id=&amp;changedin=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;target_milestone=2.0.1&amp;short_desc=&amp;short_desc_type=allwordssubstr&amp;long_desc=&amp;long_desc_type=allwordssubstr&amp;keywords=&amp;keywords_type=anywords&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0=&amp;namedcmd=2.0.1&amp;newqueryname=2.0.1+fixed&amp;tofooter=1&amp;order=bugs.short_desc%2C%20bugs.bug_id">Summary</a></th>
+  <tr class="P3" valign="top" align="left"> 
+    <td><a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=25796">25796</a> 
+    <td class="summary">Update to root 1.0.1 does not diable efix 
+  </tr>
+  <tr class="P3" valign="top" align="left"> 
+    <td><a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=28945">28945</a> 
+    <td class="summary">Infinite Recursive Loop when a cycle exists in the class 
+      path 
+  </tr>
+  <tr class="P3" valign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=30849">30849</a> 
+    <td class="summary">Unable to patch if optional features are not present 
+  </tr>
+  <tr class="P3" valign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=31730">31730</a> 
+    <td class="summary">Reconciler cannot cope with upgraded included features 
+  </tr>
+  <tr class="P3" valign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=31887">31887</a> 
+    <td class="summary">ActivityConstraints makes computes 'after' features wrong 
+  </tr>
+  <tr class="P3" valign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=31943">31943</a> 
+    <td class="summary">ActivityConstraints delta validator ignores patches 
+  </tr>
+  </tbody> 
+</table>
+<h2>&nbsp;</h2>
 
-<h3>5.1 Defect fixed in release 2.0.2 since 2.0.1</h3>
+<h3>5.2 Defect fixed in release 2.0.2 since 2.0.1</h3>
 
 <p>Release 2.0.2 is a maintenance release to fix serious defects present in release
 2.0.0. These changes only affect some plug-ins and features. Modified plug-ins
@@ -1606,496 +1646,471 @@ have version id &quot;2.0.2&quot; (even if none of their plug-ins changed).</p>
 
 <!-- 1.0@bugzilla.org -->
 
-<h3><a name="4.1 Release 2.0.1 over 2.0.0">5.2 </a>Defect fixed in release 2.0.1
-since 2.0.0</h3>
+<h3><a name="4.1 Release 2.0.1 over 2.0.0">5.3 </a>Defect fixed in release 2.0.1 
+  since 2.0.0</h3>
 
 <p>Service release 2.0.1 (Aug. 28, 2002) fixed a number of serious defects present in release
 2.0.0:</p>
 
 <table cellSpacing="0" cellPadding="4" width="100%">
-  <tbody>
-    <tr align="left">
-      <th><a href="http://dev.eclipse.org/bugs/buglist.cgi?resolution=FIXED&amp;email1=&amp;emailtype1=substring&amp;emailassigned_to1=1&amp;email2=&amp;emailtype2=substring&amp;emailreporter2=1&amp;bugidtype=include&amp;bug_id=&amp;changedin=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;target_milestone=2.0.1&amp;short_desc=&amp;short_desc_type=allwordssubstr&amp;long_desc=&amp;long_desc_type=allwordssubstr&amp;keywords=&amp;keywords_type=anywords&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0=&amp;namedcmd=2.0.1&amp;newqueryname=2.0.1+fixed&amp;tofooter=1&amp;order=bugs.bug_id">ID</a>
-      <th><a href="http://dev.eclipse.org/bugs/buglist.cgi?resolution=FIXED&amp;email1=&amp;emailtype1=substring&amp;emailassigned_to1=1&amp;email2=&amp;emailtype2=substring&amp;emailreporter2=1&amp;bugidtype=include&amp;bug_id=&amp;changedin=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;target_milestone=2.0.1&amp;short_desc=&amp;short_desc_type=allwordssubstr&amp;long_desc=&amp;long_desc_type=allwordssubstr&amp;keywords=&amp;keywords_type=anywords&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0=&amp;namedcmd=2.0.1&amp;newqueryname=2.0.1+fixed&amp;tofooter=1&amp;order=bugs.short_desc%2C%20bugs.bug_id">Summary</a></th>
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=12435">12435</a>
-      <td class="summary">Usability: Cannot resize navigation frame
-    <tr class="P2" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=12463">12463</a>
-      <td class="summary">Plugin.find(IPath path, Map override) searches wrong
-        directo
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=12906">12906</a>
-      <td class="summary">[Editor Mgmt] If file is already opened in one editor,
-        canno
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=12966">12966</a>
-      <td class="summary">Remote debugging with Sun J2ME Wireless Toolkit fails
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=13926">13926</a>
-      <td class="summary">JFace Text Editor Leaves a Black Rectangle on Content
-        Assist
-    <tr class="P1" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=15229">15229</a>
-      <td class="summary">View errors when launching with out the plugins needed
-        to cr
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=15559">15559</a>
-      <td class="summary">JAWS reads the parent window for dialog shells
-    <tr class="P2" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=15984">15984</a>
-      <td class="summary">Activating help does not bring help window to front
-    <tr class="P2" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=17112">17112</a>
-      <td class="summary">[External Tools] Should be able to run external tools
-        asynch
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=17944">17944</a>
-      <td class="summary">Sync info on source of project move lost
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=18253">18253</a>
-      <td class="summary">Coolbar - disposing items not honoring setRedraw =
-        false
-    <tr class="P2" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=18318">18318</a>
-      <td class="summary">Empty folders created when ugrading Eclipse
-    <tr class="P2" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=18585">18585</a>
-      <td class="summary">Search stops if fail to contact site
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=18927">18927</a>
-      <td class="summary">Copied scrapbook page uses some &quot;old&quot;
-        information
-    <tr class="P2" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=18994">18994</a>
-      <td class="summary">Typos
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=19502">19502</a>
-      <td class="summary">Accessibility: sometimes focus is now drawn around the
-        topic
-    <tr class="P2" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=19686">19686</a>
-      <td class="summary">hover help stops working after mousing over end of
-        file
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=19702">19702</a>
-      <td class="summary">Feature: Have comment/uncomment actions in context
-        menu [cod
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=19780">19780</a>
-      <td class="summary">Table columns not distributing correctly in properties
-        page
-    <tr class="P2" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=19964">19964</a>
-      <td class="summary">Coolbar - can &quot;lose&quot; items when platform
-        widget wraps
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=20067">20067</a>
-      <td class="summary">Revert/ Restore are &quot;instant&quot;
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=20153">20153</a>
-      <td class="summary">Export into JAR incorrectly references old description
-        file.
-    <tr class="P1" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=20260">20260</a>
-      <td class="summary">TVT2: corrupted characters in java prefs page
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=20412">20412</a>
-      <td class="summary">TVT2: Mnemonic characters displayed in error message
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=20430">20430</a>
-      <td class="summary">[Cell Editors] DialogCellEditor in the PropertySheet
-        bases i
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=20480">20480</a>
-      <td class="summary">Optimize writing of the registry cache file
-    <tr class="P1" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=20679">20679</a>
-      <td class="summary">TARGET: FTP download fails with deep directory
-        structure
-    <tr class="P2" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=20686">20686</a>
-      <td class="summary">Install handlers are not being called on revert
-        operations
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=20725">20725</a>
-      <td class="summary">JavaBuilder.toString can throw NPE
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=20752">20752</a>
-      <td class="summary">TVT2: Mnemonic showing in Runtime tab of Manifest
-        editor
-    <tr class="P1" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=20753">20753</a>
-      <td class="summary">Update manager does not preserve file permissions
-    <tr class="P2" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=20797">20797</a>
-      <td class="summary">[External Tools] Need to fix up quoting of variables
-        contain
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=20811">20811</a>
-      <td class="summary">Refresh does not work in Update Manager
-    <tr class="P2" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=20819">20819</a>
-      <td class="summary">[External Tools] Ant ui does not handle ENTITY entries
-        in al
-    <tr class="P2" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=20865">20865</a>
-      <td class="summary">nullPointerException being thrown by Class
-        Type.resolveBindi
-    <tr class="P1" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=20866">20866</a>
-      <td class="summary">Feature without license cannot be disabled.
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=20879">20879</a>
-      <td class="summary">TVT2: clashing mnemonics in JUnit launcher
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=20887">20887</a>
-      <td class="summary">Topic tree collapse behavior
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=20927">20927</a>
-      <td class="summary">ProgressMonitorDialog truncates message
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=20947">20947</a>
-      <td class="summary">[External Tools] Cannot run shell script file with a
-        space
-    <tr class="P2" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21010">21010</a>
-      <td class="summary">Use getAdapter when converting IJavaThread to
-        JDIThread
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21021">21021</a>
-      <td class="summary">F1 fix made too late
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21033">21033</a>
-      <td class="summary">TVT2: Clashing mnemonics in Java -&gt; Editor panel
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21036">21036</a>
-      <td class="summary">RepositoryProvider.project stale if project
-        renamed/moved
-    <tr class="P1" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21040">21040</a>
-      <td class="summary">[Update] Need a way for a user to set default editor
-        when n
-    <tr class="P1" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21041">21041</a>
-      <td class="summary">[Update] Force welcome page first time a new feature
-        is inst
-    <tr class="P2" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21082">21082</a>
-      <td class="summary">Cannot save in Compare with Revision editor
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21088">21088</a>
-      <td class="summary">TVT2: CannotSync displayed in help instead of proper
-        dialog
-    <tr class="P2" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21116">21116</a>
-      <td class="summary">Can't compile because eclipse says that the method is
-        not vi
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21118">21118</a>
-      <td class="summary">no mnemonics for Replace, Replace Selected
-    <tr class="P2" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21170">21170</a>
-      <td class="summary">NPE in RuntimeClasspathEntry if internal source
-        archive remo
-    <tr class="P5" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21171">21171</a>
-      <td class="summary">Spelling error in &quot;New Java Project&quot; dialog
-        box
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21173">21173</a>
-      <td class="summary">Can't create new Project because empty string in
-        &quot;New Projec
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21192">21192</a>
-      <td class="summary">UnsatisfiedLinkError thrown when pressing a hardware
-        key
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21197">21197</a>
-      <td class="summary">Don't hard code the editor id names for the
-        ManageBreakpoint
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21198">21198</a>
-      <td class="summary">On JavaEditor dont use == in the isActivePart() method
-        but i
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21203">21203</a>
-      <td class="summary">Compile time NullPointerException in catch blocks
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21210">21210</a>
-      <td class="summary">Packages view Infopop message is not helpful [package
-        explor
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21230">21230</a>
-      <td class="summary">Rebuilding project fails with ContextStackOverflow (Compilat
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21268">21268</a>
-      <td class="summary">StyledText - Ctrl+Shift+J inserts line
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21291">21291</a>
-      <td class="summary">Team Examples require missing plugin
-        org.eclipse.webdav
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21292">21292</a>
-      <td class="summary">Renaming (refactoring) boolean variables isX renames
-        to getX
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21294">21294</a>
-      <td class="summary">issue more appropriate message when workbench already
-        runnin
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21305">21305</a>
-      <td class="summary">Debug element rendering can be more robust
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21306">21306</a>
-      <td class="summary">JDI client does not tolerate null thread from events
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21308">21308</a>
-      <td class="summary">Method.isObsolete() broken for method ID 0 on JDK &lt;
-        1.4
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21348">21348</a>
-      <td class="summary">duplicate eclipseurl jar in help.webapp plugin
-    <tr class="P1" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21361">21361</a>
-      <td class="summary">no support for optional features
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21370">21370</a>
-      <td class="summary">WordPatternRule freezes editor
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21376">21376</a>
-      <td class="summary">Takes long time for help browser to close.
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21390">21390</a>
-      <td class="summary">Breakpoint Properties: Add Class, Package missing
-        '...'
-    <tr class="P2" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21419">21419</a>
-      <td class="summary">Infocenter does not work on WAS
-    <tr class="P2" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21436">21436</a>
-      <td class="summary">CVS Quick connect to dev.eclipse.org - only when PDE
-        availab
-    <tr class="P2" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21447">21447</a>
-      <td class="summary">Wrong method invoked at runtime
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21465">21465</a>
-      <td class="summary">Plugin Resolving - reorder REQUIRES clause &amp;
-        different plugi
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21480">21480</a>
-      <td class="summary">Bytecode disassembler doesn't handle #invokespecial
-        correctl
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21483">21483</a>
-      <td class="summary">Error from ClassPrepareEvent when debugging WTK
-    <tr class="P2" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21486">21486</a>
-      <td class="summary">Resources opened in wrong editor when changing the
-        default
-    <tr class="P2" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21487">21487</a>
-      <td class="summary">Infocenter: servlet classes not found.
-    <tr class="P2" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21488">21488</a>
-      <td class="summary">Infocenter ClassCastException in Xerces
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21501">21501</a>
-      <td class="summary">helpwebapp assumes it is deployed under plugins
-        directory
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21518">21518</a>
-      <td class="summary">Debugger source lookup problem when debugging against
-        Wirele
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21557">21557</a>
-      <td class="summary">VM bug prevents valid Java code to be executed on VM
-        &lt; 1.3.1
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21580">21580</a>
-      <td class="summary">VerifyError in 1.4 compliant mode
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21595">21595</a>
-      <td class="summary">Need ability to get target information
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21606">21606</a>
-      <td class="summary">ImageBuilder deletes &amp; adds rather than
-        overwriting
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21614">21614</a>
-      <td class="summary">Keyring file cannot be read using IBM 1.4.0 JRE
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21640">21640</a>
-      <td class="summary">Show types action in Variables view is confused
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21669">21669</a>
-      <td class="summary">-listener results in ClassCastException
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21672">21672</a>
-      <td class="summary">Wrong location for the last 'return' bytecode command
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21674">21674</a>
-      <td class="summary">-kkv default keyword substitution preference is not
-        correctl
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21676">21676</a>
-      <td class="summary">Readme tools example should not use Ctrl+R
-    <tr class="P2" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21686">21686</a>
-      <td class="summary">[Coolbar] Perspective minimizes its cool items
-    <tr class="P1" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21717">21717</a>
-      <td class="summary">Null Pointer Exception in EditorWorkbook.java
-    <tr class="P2" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21749">21749</a>
-      <td class="summary">Exported libraries and source folders
-    <tr class="P1" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21750">21750</a>
-      <td class="summary">Plugin disabled after Feature update
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21754">21754</a>
-      <td class="summary">typo in IType::getSuperInterfaceNames javadoc
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21757">21757</a>
-      <td class="summary">ast: incorrect range for Name in TypeDeclaration
-    <tr class="P1" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21761">21761</a>
-      <td class="summary">[Tasks] NPE refreshing the the task list view
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21764">21764</a>
-      <td class="summary">[Coolbar] Use minimumSize of preferred size for items
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21768">21768</a>
-      <td class="summary">ast: incorrect length of SimpleName in
-        MethodDeclaration
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21775">21775</a>
-      <td class="summary">[External Tools] Allow external tool builders to run
-        on spec
-    <tr class="P2" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21778">21778</a>
-      <td class="summary">ClassFileReader fails on Gnome Twain class
-    <tr class="P1" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21781">21781</a>
-      <td class="summary">NPE restarting after disabling feature (EditorManager.findIm
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21828">21828</a>
-      <td class="summary">Possible problem in DoStatement#accept0(...)
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21829">21829</a>
-      <td class="summary">API needed to allow CCombo to display its list at the
-        prefer
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21834">21834</a>
-      <td class="summary">Coolbar - deleting items corrupting layout
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21845">21845</a>
-      <td class="summary">&lt;topic&gt; tag doesn't like labels with &amp;lt;xxx&amp;gt;
-    <tr class="P2" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21882">21882</a>
-      <td class="summary">[Coolbar] Cool item position should be persisted
-    <tr class="P2" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21883">21883</a>
-      <td class="summary">[Coolbar] Removing last cool item in row should remove
-        row
-    <tr class="P2" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21885">21885</a>
-      <td class="summary">[Action sets] Support for toggle buttons and combo
-        boxes in
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21916">21916</a>
-      <td class="summary">VariableDeclarationExpression
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21917">21917</a>
-      <td class="summary">Request for new API on AntRunner
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21941">21941</a>
-      <td class="summary">NotPresentException in TestSuite wizard [JUnit]
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21953">21953</a>
-      <td class="summary">Typo in error message &quot;sychronized&quot;
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22055">22055</a>
-      <td class="summary">CoolBar - setWrapIndices causes rows to
-        collapse/expand unne
-    <tr class="P1" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22064">22064</a>
-      <td class="summary">Install Handlers not run with -initialize flag
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22093">22093</a>
-      <td class="summary">VerifyError due to duplicate access method
-    <tr class="P2" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22118">22118</a>
-      <td class="summary">[Decorators] Decorators for IResource ignores
-        adaptable flag
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22142">22142</a>
-      <td class="summary">[Coolbar] Reset Perspective and original order bug
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22144">22144</a>
-      <td class="summary">Coolbar - setSize not being honored after
-        setWrapIndices API
-    <tr class="P1" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22191">22191</a>
-      <td class="summary">When adding a new feature with the Update Manager the
-        user g
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22196">22196</a>
-      <td class="summary">Quick Fix broken due to bug 21768 [quick fix]
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22290">22290</a>
-      <td class="summary">Running Infocenter as Web Application in WebSphere 4.0
-        Advan
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22320">22320</a>
-      <td class="summary">Coolbar - delete item behavior problem
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22418">22418</a>
-      <td class="summary">Should not complain about package for empty units
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22422">22422</a>
-      <td class="summary">[External Tools] NPE running external tools builder
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22448">22448</a>
-      <td class="summary">CoolBar - deleting first item in row does unnecessary
-        collap
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22556">22556</a>
-      <td class="summary">Crash during startup.
-    <tr class="P1" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22561">22561</a>
-      <td class="summary">Hover Help broken in 2.0.1 I20020815
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22571">22571</a>
-      <td class="summary">Duplicate container resolution
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22607">22607</a>
-      <td class="summary">[Wizards] Wizards do not show icon for error, warning
-        when s
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22681">22681</a>
-      <td class="summary">[Wizards] 2.0.1: regression: Bug with rendering of
-        wizard er
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22683">22683</a>
-      <td class="summary">[Dialogs] 2.0.1 regression: Dialog borders differed
-        (too big
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22691">22691</a>
-      <td class="summary">Verification Dialog contains non translated string
-    <tr class="P1" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22740">22740</a>
-      <td class="summary">Infinite prompt to close editor
-    <tr class="P3" vAlign="top" align="left">
-      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22779">22779</a>
-      <td class="summary">Eclipse linux-motif GPFs on exit on J9
-    </tr>
-  </tbody>
+  <tbody> 
+  <tr align="left"> 
+    <th><a href="http://dev.eclipse.org/bugs/buglist.cgi?resolution=FIXED&amp;email1=&amp;emailtype1=substring&amp;emailassigned_to1=1&amp;email2=&amp;emailtype2=substring&amp;emailreporter2=1&amp;bugidtype=include&amp;bug_id=&amp;changedin=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;target_milestone=2.0.1&amp;short_desc=&amp;short_desc_type=allwordssubstr&amp;long_desc=&amp;long_desc_type=allwordssubstr&amp;keywords=&amp;keywords_type=anywords&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0=&amp;namedcmd=2.0.1&amp;newqueryname=2.0.1+fixed&amp;tofooter=1&amp;order=bugs.bug_id">ID</a> 
+    <th><a href="http://dev.eclipse.org/bugs/buglist.cgi?resolution=FIXED&amp;email1=&amp;emailtype1=substring&amp;emailassigned_to1=1&amp;email2=&amp;emailtype2=substring&amp;emailreporter2=1&amp;bugidtype=include&amp;bug_id=&amp;changedin=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;target_milestone=2.0.1&amp;short_desc=&amp;short_desc_type=allwordssubstr&amp;long_desc=&amp;long_desc_type=allwordssubstr&amp;keywords=&amp;keywords_type=anywords&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0=&amp;namedcmd=2.0.1&amp;newqueryname=2.0.1+fixed&amp;tofooter=1&amp;order=bugs.short_desc%2C%20bugs.bug_id">Summary</a></th>
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=12435">12435</a> 
+    <td class="summary">Usability: Cannot resize navigation frame 
+  <tr class="P2" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=12463">12463</a> 
+    <td class="summary">Plugin.find(IPath path, Map override) searches wrong directo 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=12906">12906</a> 
+    <td class="summary">[Editor Mgmt] If file is already opened in one editor, 
+      canno 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=12966">12966</a> 
+    <td class="summary">Remote debugging with Sun J2ME Wireless Toolkit fails 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=13926">13926</a> 
+    <td class="summary">JFace Text Editor Leaves a Black Rectangle on Content 
+      Assist 
+  <tr class="P1" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=15229">15229</a> 
+    <td class="summary">View errors when launching with out the plugins needed 
+      to cr 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=15559">15559</a> 
+    <td class="summary">JAWS reads the parent window for dialog shells 
+  <tr class="P2" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=15984">15984</a> 
+    <td class="summary">Activating help does not bring help window to front 
+  <tr class="P2" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=17112">17112</a> 
+    <td class="summary">[External Tools] Should be able to run external tools 
+      asynch 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=17944">17944</a> 
+    <td class="summary">Sync info on source of project move lost 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=18253">18253</a> 
+    <td class="summary">Coolbar - disposing items not honoring setRedraw = false 
+  <tr class="P2" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=18318">18318</a> 
+    <td class="summary">Empty folders created when ugrading Eclipse 
+  <tr class="P2" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=18585">18585</a> 
+    <td class="summary">Search stops if fail to contact site 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=18927">18927</a> 
+    <td class="summary">Copied scrapbook page uses some &quot;old&quot; information 
+  <tr class="P2" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=18994">18994</a> 
+    <td class="summary">Typos 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=19502">19502</a> 
+    <td class="summary">Accessibility: sometimes focus is now drawn around the 
+      topic 
+  <tr class="P2" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=19686">19686</a> 
+    <td class="summary">hover help stops working after mousing over end of file 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=19702">19702</a> 
+    <td class="summary">Feature: Have comment/uncomment actions in context menu 
+      [cod 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=19780">19780</a> 
+    <td class="summary">Table columns not distributing correctly in properties 
+      page 
+  <tr class="P2" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=19964">19964</a> 
+    <td class="summary">Coolbar - can &quot;lose&quot; items when platform widget 
+      wraps 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=20067">20067</a> 
+    <td class="summary">Revert/ Restore are &quot;instant&quot; 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=20153">20153</a> 
+    <td class="summary">Export into JAR incorrectly references old description 
+      file. 
+  <tr class="P1" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=20260">20260</a> 
+    <td class="summary">TVT2: corrupted characters in java prefs page 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=20412">20412</a> 
+    <td class="summary">TVT2: Mnemonic characters displayed in error message 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=20430">20430</a> 
+    <td class="summary">[Cell Editors] DialogCellEditor in the PropertySheet bases 
+      i 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=20480">20480</a> 
+    <td class="summary">Optimize writing of the registry cache file 
+  <tr class="P1" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=20679">20679</a> 
+    <td class="summary">TARGET: FTP download fails with deep directory structure 
+  <tr class="P2" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=20686">20686</a> 
+    <td class="summary">Install handlers are not being called on revert operations 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=20725">20725</a> 
+    <td class="summary">JavaBuilder.toString can throw NPE 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=20752">20752</a> 
+    <td class="summary">TVT2: Mnemonic showing in Runtime tab of Manifest editor 
+  <tr class="P1" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=20753">20753</a> 
+    <td class="summary">Update manager does not preserve file permissions 
+  <tr class="P2" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=20797">20797</a> 
+    <td class="summary">[External Tools] Need to fix up quoting of variables contain 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=20811">20811</a> 
+    <td class="summary">Refresh does not work in Update Manager 
+  <tr class="P2" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=20819">20819</a> 
+    <td class="summary">[External Tools] Ant ui does not handle ENTITY entries 
+      in al 
+  <tr class="P2" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=20865">20865</a> 
+    <td class="summary">nullPointerException being thrown by Class Type.resolveBindi 
+  <tr class="P1" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=20866">20866</a> 
+    <td class="summary">Feature without license cannot be disabled. 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=20879">20879</a> 
+    <td class="summary">TVT2: clashing mnemonics in JUnit launcher 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=20887">20887</a> 
+    <td class="summary">Topic tree collapse behavior 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=20927">20927</a> 
+    <td class="summary">ProgressMonitorDialog truncates message 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=20947">20947</a> 
+    <td class="summary">[External Tools] Cannot run shell script file with a space 
+  <tr class="P2" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21010">21010</a> 
+    <td class="summary">Use getAdapter when converting IJavaThread to JDIThread 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21021">21021</a> 
+    <td class="summary">F1 fix made too late 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21033">21033</a> 
+    <td class="summary">TVT2: Clashing mnemonics in Java -&gt; Editor panel 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21036">21036</a> 
+    <td class="summary">RepositoryProvider.project stale if project renamed/moved 
+  <tr class="P1" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21040">21040</a> 
+    <td class="summary">[Update] Need a way for a user to set default editor when 
+      n 
+  <tr class="P1" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21041">21041</a> 
+    <td class="summary">[Update] Force welcome page first time a new feature is 
+      inst 
+  <tr class="P2" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21082">21082</a> 
+    <td class="summary">Cannot save in Compare with Revision editor 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21088">21088</a> 
+    <td class="summary">TVT2: CannotSync displayed in help instead of proper dialog 
+  <tr class="P2" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21116">21116</a> 
+    <td class="summary">Can't compile because eclipse says that the method is 
+      not vi 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21118">21118</a> 
+    <td class="summary">no mnemonics for Replace, Replace Selected 
+  <tr class="P2" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21170">21170</a> 
+    <td class="summary">NPE in RuntimeClasspathEntry if internal source archive 
+      remo 
+  <tr class="P5" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21171">21171</a> 
+    <td class="summary">Spelling error in &quot;New Java Project&quot; dialog 
+      box 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21173">21173</a> 
+    <td class="summary">Can't create new Project because empty string in &quot;New 
+      Projec 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21192">21192</a> 
+    <td class="summary">UnsatisfiedLinkError thrown when pressing a hardware key 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21197">21197</a> 
+    <td class="summary">Don't hard code the editor id names for the ManageBreakpoint 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21198">21198</a> 
+    <td class="summary">On JavaEditor dont use == in the isActivePart() method 
+      but i 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21203">21203</a> 
+    <td class="summary">Compile time NullPointerException in catch blocks 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21210">21210</a> 
+    <td class="summary">Packages view Infopop message is not helpful [package 
+      explor 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21230">21230</a> 
+    <td class="summary">Rebuilding project fails with ContextStackOverflow (Compilat 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21268">21268</a> 
+    <td class="summary">StyledText - Ctrl+Shift+J inserts line 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21291">21291</a> 
+    <td class="summary">Team Examples require missing plugin org.eclipse.webdav 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21292">21292</a> 
+    <td class="summary">Renaming (refactoring) boolean variables isX renames to 
+      getX 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21294">21294</a> 
+    <td class="summary">issue more appropriate message when workbench already 
+      runnin 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21305">21305</a> 
+    <td class="summary">Debug element rendering can be more robust 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21306">21306</a> 
+    <td class="summary">JDI client does not tolerate null thread from events 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21308">21308</a> 
+    <td class="summary">Method.isObsolete() broken for method ID 0 on JDK &lt; 
+      1.4 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21348">21348</a> 
+    <td class="summary">duplicate eclipseurl jar in help.webapp plugin 
+  <tr class="P1" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21361">21361</a> 
+    <td class="summary">no support for optional features 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21370">21370</a> 
+    <td class="summary">WordPatternRule freezes editor 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21376">21376</a> 
+    <td class="summary">Takes long time for help browser to close. 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21390">21390</a> 
+    <td class="summary">Breakpoint Properties: Add Class, Package missing '...' 
+  <tr class="P2" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21419">21419</a> 
+    <td class="summary">Infocenter does not work on WAS 
+  <tr class="P2" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21436">21436</a> 
+    <td class="summary">CVS Quick connect to dev.eclipse.org - only when PDE availab 
+  <tr class="P2" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21447">21447</a> 
+    <td class="summary">Wrong method invoked at runtime 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21465">21465</a> 
+    <td class="summary">Plugin Resolving - reorder REQUIRES clause &amp; different 
+      plugi 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21480">21480</a> 
+    <td class="summary">Bytecode disassembler doesn't handle #invokespecial correctl 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21483">21483</a> 
+    <td class="summary">Error from ClassPrepareEvent when debugging WTK 
+  <tr class="P2" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21486">21486</a> 
+    <td class="summary">Resources opened in wrong editor when changing the default 
+  <tr class="P2" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21487">21487</a> 
+    <td class="summary">Infocenter: servlet classes not found. 
+  <tr class="P2" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21488">21488</a> 
+    <td class="summary">Infocenter ClassCastException in Xerces 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21501">21501</a> 
+    <td class="summary">helpwebapp assumes it is deployed under plugins directory 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21518">21518</a> 
+    <td class="summary">Debugger source lookup problem when debugging against 
+      Wirele 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21557">21557</a> 
+    <td class="summary">VM bug prevents valid Java code to be executed on VM &lt; 
+      1.3.1 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21580">21580</a> 
+    <td class="summary">VerifyError in 1.4 compliant mode 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21595">21595</a> 
+    <td class="summary">Need ability to get target information 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21606">21606</a> 
+    <td class="summary">ImageBuilder deletes &amp; adds rather than overwriting 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21614">21614</a> 
+    <td class="summary">Keyring file cannot be read using IBM 1.4.0 JRE 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21640">21640</a> 
+    <td class="summary">Show types action in Variables view is confused 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21669">21669</a> 
+    <td class="summary">-listener results in ClassCastException 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21672">21672</a> 
+    <td class="summary">Wrong location for the last 'return' bytecode command 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21674">21674</a> 
+    <td class="summary">-kkv default keyword substitution preference is not correctl 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21676">21676</a> 
+    <td class="summary">Readme tools example should not use Ctrl+R 
+  <tr class="P2" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21686">21686</a> 
+    <td class="summary">[Coolbar] Perspective minimizes its cool items 
+  <tr class="P1" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21717">21717</a> 
+    <td class="summary">Null Pointer Exception in EditorWorkbook.java 
+  <tr class="P2" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21749">21749</a> 
+    <td class="summary">Exported libraries and source folders 
+  <tr class="P1" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21750">21750</a> 
+    <td class="summary">Plugin disabled after Feature update 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21754">21754</a> 
+    <td class="summary">typo in IType::getSuperInterfaceNames javadoc 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21757">21757</a> 
+    <td class="summary">ast: incorrect range for Name in TypeDeclaration 
+  <tr class="P1" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21761">21761</a> 
+    <td class="summary">[Tasks] NPE refreshing the the task list view 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21764">21764</a> 
+    <td class="summary">[Coolbar] Use minimumSize of preferred size for items 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21768">21768</a> 
+    <td class="summary">ast: incorrect length of SimpleName in MethodDeclaration 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21775">21775</a> 
+    <td class="summary">[External Tools] Allow external tool builders to run on 
+      spec 
+  <tr class="P2" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21778">21778</a> 
+    <td class="summary">ClassFileReader fails on Gnome Twain class 
+  <tr class="P1" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21781">21781</a> 
+    <td class="summary">NPE restarting after disabling feature (EditorManager.findIm 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21828">21828</a> 
+    <td class="summary">Possible problem in DoStatement#accept0(...) 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21829">21829</a> 
+    <td class="summary">API needed to allow CCombo to display its list at the 
+      prefer 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21834">21834</a> 
+    <td class="summary">Coolbar - deleting items corrupting layout 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21845">21845</a> 
+    <td class="summary">&lt;topic&gt; tag doesn't like labels with &amp;lt;xxx&amp;gt; 
+  <tr class="P2" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21882">21882</a> 
+    <td class="summary">[Coolbar] Cool item position should be persisted 
+  <tr class="P2" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21883">21883</a> 
+    <td class="summary">[Coolbar] Removing last cool item in row should remove 
+      row 
+  <tr class="P2" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21885">21885</a> 
+    <td class="summary">[Action sets] Support for toggle buttons and combo boxes 
+      in 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21916">21916</a> 
+    <td class="summary">VariableDeclarationExpression 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21917">21917</a> 
+    <td class="summary">Request for new API on AntRunner 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21941">21941</a> 
+    <td class="summary">NotPresentException in TestSuite wizard [JUnit] 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21953">21953</a> 
+    <td class="summary">Typo in error message &quot;sychronized&quot; 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22055">22055</a> 
+    <td class="summary">CoolBar - setWrapIndices causes rows to collapse/expand 
+      unne 
+  <tr class="P1" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22064">22064</a> 
+    <td class="summary">Install Handlers not run with -initialize flag 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22093">22093</a> 
+    <td class="summary">VerifyError due to duplicate access method 
+  <tr class="P2" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22118">22118</a> 
+    <td class="summary">[Decorators] Decorators for IResource ignores adaptable 
+      flag 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22142">22142</a> 
+    <td class="summary">[Coolbar] Reset Perspective and original order bug 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22144">22144</a> 
+    <td class="summary">Coolbar - setSize not being honored after setWrapIndices 
+      API 
+  <tr class="P1" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22191">22191</a> 
+    <td class="summary">When adding a new feature with the Update Manager the 
+      user g 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22196">22196</a> 
+    <td class="summary">Quick Fix broken due to bug 21768 [quick fix] 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22290">22290</a> 
+    <td class="summary">Running Infocenter as Web Application in WebSphere 4.0 
+      Advan 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22320">22320</a> 
+    <td class="summary">Coolbar - delete item behavior problem 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22418">22418</a> 
+    <td class="summary">Should not complain about package for empty units 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22422">22422</a> 
+    <td class="summary">[External Tools] NPE running external tools builder 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22448">22448</a> 
+    <td class="summary">CoolBar - deleting first item in row does unnecessary 
+      collap 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22556">22556</a> 
+    <td class="summary">Crash during startup. 
+  <tr class="P1" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22561">22561</a> 
+    <td class="summary">Hover Help broken in 2.0.1 I20020815 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22571">22571</a> 
+    <td class="summary">Duplicate container resolution 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22607">22607</a> 
+    <td class="summary">[Wizards] Wizards do not show icon for error, warning 
+      when s 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22681">22681</a> 
+    <td class="summary">[Wizards] 2.0.1: regression: Bug with rendering of wizard 
+      er 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22683">22683</a> 
+    <td class="summary">[Dialogs] 2.0.1 regression: Dialog borders differed (too 
+      big 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22691">22691</a> 
+    <td class="summary">Verification Dialog contains non translated string 
+  <tr class="P1" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22740">22740</a> 
+    <td class="summary">Infinite prompt to close editor 
+  <tr class="P3" vAlign="top" align="left"> 
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22779">22779</a> 
+    <td class="summary">Eclipse linux-motif GPFs on exit on J9 
+  </tr>
+  </tbody> 
 </table>
 
-<p>&nbsp;</p>
-
+<h3>&nbsp;</h3>
 <hr>
 <p>Java and all Java-based trademarks are trademarks of Sun Microsystems, Inc.
 in the United States, other countries, or both.</p>
@@ -2105,7 +2120,7 @@ United States, other countries, or both.</p>
 Microsoft Corporation in the United States, other countries, or both.</p>
 <p>Other company, product, and service names may be trademarks or service marks
 of others.</p>
-<p>(c) Copyright IBM Corp. and others 2002</p>
+<p>(c) Copyright IBM Corp. and others 2003</p>
 
 </body>
 </html>
