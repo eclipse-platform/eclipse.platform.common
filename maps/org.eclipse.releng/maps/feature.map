@@ -3,7 +3,7 @@
 feature@org.eclipse.jdt-feature=r201_v20020807, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 feature@org.eclipse.jdt.source-feature=r201_v20020723, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-feature@org.eclipse.pde-feature=r201_v20020723, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+feature@org.eclipse.pde-feature=r201_v20020812, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 feature@org.eclipse.platform-feature=r201_v20020807a, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 feature@org.eclipse.platform.source-feature=r201_v20020723, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
