@@ -12,7 +12,7 @@
 
 <h1>Eclipse Project Release Notes</h1>
 <p>Pre-release 2.1.3<br>
-Last revised January 26, 2004</p>
+Last revised February 17, 2004</p>
 <p align="left"><strong>This software is OSI Certified Open Source Software.<br>
 OSI Certified is a certification mark of the Open Source Initiative.&nbsp;</strong></p>
 <blockquote>
@@ -1459,7 +1459,8 @@ plug-ins unchanged since the 2.1.1 release still have version id
 id &quot;2.1.3&quot; (even if none of their plug-ins changed).</p>
 <p>Maintenance release 2.1.3 includes all fixes made in 2.1.2 and 2.1.1 (see
 following sections) and contains additional fixes for the following defects:</p>
-<table class="bz_buglist" cellspacing="0" cellpadding="4" width="100%">
+
+<table class="bz_buglist" cellSpacing="0" cellPadding="4" width="100%">
   <tbody>
     <tr align="left">
       <th><a href="https://bugs.eclipse.org/bugs/buglist.cgi?product=JDT&amp;product=PDE&amp;product=Platform&amp;target_milestone=2.1.3&amp;resolution=FIXED&amp;order=bugs.bug_id">ID</a></th>
@@ -1469,9 +1470,21 @@ following sections) and contains additional fixes for the following defects:</p>
       <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=14103">14103</a></td>
       <td>[Builder] Too many dependents found when incrementally re...</td>
     </tr>
+    <tr class="bz_critical bz_P3 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=37742">37742</a></td>
+      <td>ACC: missing an item correspondent with ROLE_SYSTEM_OUTLI...</td>
+    </tr>
+    <tr class="bz_major bz_P3 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=38643">38643</a></td>
+      <td>Toolbar computeSize stop working after WM_SETFONT</td>
+    </tr>
     <tr class="bz_normal bz_P3 ">
       <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=38732">38732</a></td>
       <td>organize imports does not work with assert in source code</td>
+    </tr>
+    <tr class="bz_major bz_P3 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=39443">39443</a></td>
+      <td>GTK Error calling TreeItem.getExpanded() on a tree item b...</td>
     </tr>
     <tr class="bz_normal bz_P3 ">
       <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=40950">40950</a></td>
@@ -1484,6 +1497,10 @@ following sections) and contains additional fixes for the following defects:</p>
     <tr class="bz_critical bz_P3 ">
       <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=42579">42579</a></td>
       <td>Eclipse allows setting a source folder's parent as output...</td>
+    </tr>
+    <tr class="bz_blocker bz_P3 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=44063">44063</a></td>
+      <td>Clipboard of GTK on KDE : Eclipse crash</td>
     </tr>
     <tr class="bz_normal bz_P1 ">
       <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=45138">45138</a></td>
@@ -1583,7 +1600,7 @@ following sections) and contains additional fixes for the following defects:</p>
     </tr>
   </tbody>
 </table>
-29 bugs found.
+33 bugs found.
 <p>Note: the above table was generated with the Bugzilla query: <a href="http://bugs.eclipse.org/bugs/buglist.cgi?product=JDT&amp;product=PDE&amp;product=Platform&amp;target_milestone=2.1.3&amp;resolution=FIXED&amp;order=bugs.bug_id">http://bugs.eclipse.org/bugs/buglist.cgi?product=JDT&amp;product=PDE&amp;product=Platform&amp;target_milestone=2.1.3&amp;resolution=FIXED&amp;order=bugs.bug_id</a></p>
 <h3>7.1 Defects fixed in release 2.1.2 since 2.1.1</h3>
 <p>Release 2.1.2 was the second maintenance release to fix serious defects
