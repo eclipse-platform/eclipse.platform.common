@@ -26,9 +26,8 @@ OSI Certified is a certification mark of the Open Source Initiative.</strong></p
 <p align="left">
 
 <a href="#Target Operating Environments">1. Target Operating Environments</a><br>
-<a href="#New Features in this Release">
-2. Compatibility with Previous Release<br>
-3. New Features in this Release</a><br>
+<a href="#Compatibility with Previous Release">2. Compatibility with Previous Release</a><br>
+<a href="#New Features in this Release">3. New Features in this Release</a><br>
 <a href="#Known Issues">4. Known Issues</a><br>
 <a href="#Defects fixed">5. Defects Fixed</a></p>
 
@@ -1366,227 +1365,246 @@ have version id &quot;2.0.2&quot; (even if none of their plug-ins changed).</p>
 <p>Service release 2.0.2 fixes the following defects present in service release
 2.0.1:</p>
 
-<!-- 1.0@bugzilla.org -->
-<table class="bz_buglist" cellSpacing="0" cellPadding="4" width="100%">
-  <tbody>
-    <tr align="left">
-      <th><a href="http://bugs.eclipse.org/bugs/buglist.cgi?short_desc_type=allwordssubstr&amp;short_desc=&amp;product=JDT&amp;product=PDE&amp;product=Platform&amp;target_milestone=2.0.2&amp;long_desc_type=allwordssubstr&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;keywords_type=allwords&amp;keywords=&amp;resolution=FIXED&amp;emailtype1=substring&amp;email1=&amp;emailtype2=substring&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;changedin=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0=&amp;order=bugs.bug_id">ID</a></th>
-      <th><a href="http://bugs.eclipse.org/bugs/buglist.cgi?short_desc_type=allwordssubstr&amp;short_desc=&amp;product=JDT&amp;product=PDE&amp;product=Platform&amp;target_milestone=2.0.2&amp;long_desc_type=allwordssubstr&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;keywords_type=allwords&amp;keywords=&amp;resolution=FIXED&amp;emailtype1=substring&amp;email1=&amp;emailtype2=substring&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;changedin=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0=&amp;order=bugs.short_desc,bugs.bug_id">Summary</a></th>
-    </tr>
-    <tr class="bz_enhancement bz_P3 ">
-      <td><a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=17030">17030</a></td>
-      <td>Need to search documentation for exact string match</td>
-    </tr>
-    <tr class="bz_minor bz_P3 ">
-      <td><a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=18035">18035</a></td>
-      <td>&quot;Running the queries...&quot; in one-click update</td>
-    </tr>
-    <tr class="bz_normal bz_P2 ">
-      <td><a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=18826">18826</a></td>
-      <td>poor update manager download performance</td>
-    </tr>
-    <tr class="bz_normal bz_P2 ">
-      <td><a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=19868">19868</a></td>
-      <td>Provide a full history log</td>
-    </tr>
-    <tr class="bz_normal bz_P2 ">
-      <td><a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=19869">19869</a></td>
-      <td>Update parsers do not set error handlers</td>
-    </tr>
-    <tr class="bz_normal bz_P2 ">
-      <td><a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=19932">19932</a></td>
-      <td>Show Status for unconfigured feature</td>
-    </tr>
-    <tr class="bz_normal bz_P2 ">
-      <td><a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=20050">20050</a></td>
-      <td>Show Status for &quot;missing feature&quot;</td>
-    </tr>
-    <tr class="bz_normal bz_P3 ">
-      <td><a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=20714">20714</a></td>
-      <td>UpdateManagerUtils.copyToLocal() not closing output stream</td>
-    </tr>
-    <tr class="bz_major bz_P1 ">
-      <td><a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=20910">20910</a></td>
-      <td>Updating multiply-installed features</td>
-    </tr>
-    <tr class="bz_normal bz_P3 ">
-      <td><a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=21330">21330</a></td>
-      <td>The feature updates view cannot rename folders</td>
-    </tr>
-    <tr class="bz_blocker bz_P1 ">
-      <td><a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=21351">21351</a></td>
-      <td>Separation of feature containment (includes) &amp; updating n...</td>
-    </tr>
-    <tr class="bz_blocker bz_P1 ">
-      <td><a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=21352">21352</a></td>
-      <td>Drill down updating should not be supported</td>
-    </tr>
-    <tr class="bz_major bz_P2 ">
-      <td><a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=21391">21391</a></td>
-      <td>Features without corresponding plugin cannot be referenced</td>
-    </tr>
-    <tr class="bz_normal bz_P3 ">
-      <td><a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=21622">21622</a></td>
-      <td>handling disconnect/communication error</td>
-    </tr>
-    <tr class="bz_normal bz_P1 ">
-      <td><a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=22004">22004</a></td>
-      <td>no keyboard shortcuts for switching between pages of Mult...</td>
-    </tr>
-    <tr class="bz_normal bz_P2 ">
-      <td><a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=22131">22131</a></td>
-      <td>Contents of &quot;My Computer&quot; in Update Manager are not sorted</td>
-    </tr>
-    <tr class="bz_critical bz_P2 ">
-      <td><a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=22203">22203</a></td>
-      <td>More dependencies increase GUI waiting time [build path]</td>
-    </tr>
-    <tr class="bz_normal bz_P2 ">
-      <td><a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=22269">22269</a></td>
-      <td>[Navigator] File-&gt;Rename while already renaming hangs Nav...</td>
-    </tr>
-    <tr class="bz_major bz_P2 ">
-      <td><a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=22458">22458</a></td>
-      <td>Refactoring a package does not move the package's directory</td>
-    </tr>
-    <tr class="bz_normal bz_P3 ">
-      <td><a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=22673">22673</a></td>
-      <td>VerifyError in char cast of static final char referenced ...</td>
-    </tr>
-    <tr class="bz_normal bz_P2 ">
-      <td><a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=22687">22687</a></td>
-      <td>Not easy to re-install optional feature</td>
-    </tr>
-    <tr class="bz_normal bz_P2 ">
-      <td><a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=22807">22807</a></td>
-      <td>Deleting non-optional features from file system throws error</td>
-    </tr>
-    <tr class="bz_normal bz_P3 ">
-      <td><a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=23318">23318</a></td>
-      <td>Resolution of Circular Dep. preference/error message filt...</td>
-    </tr>
-    <tr class="bz_normal bz_P3 ">
-      <td><a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=23320">23320</a></td>
-      <td>Incomplete classpath and circular classpath options shoul...</td>
-    </tr>
-    <tr class="bz_normal bz_P1 ">
-      <td><a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=23340">23340</a></td>
-      <td>[ExternalTools] ArrayIndexOutOfBounds exception when runn...</td>
-    </tr>
-    <tr class="bz_normal bz_P3 ">
-      <td><a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=23343">23343</a></td>
-      <td>Warn users about update policy</td>
-    </tr>
-    <tr class="bz_normal bz_P3 ">
-      <td><a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=23388">23388</a></td>
-      <td>IJavaType does not implement equals</td>
-    </tr>
-    <tr class="bz_enhancement bz_P3 ">
-      <td><a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=23408">23408</a></td>
-      <td>Externalize JavaUISourceLocator.SourceLookupDialog</td>
-    </tr>
-    <tr class="bz_normal bz_P3 ">
-      <td><a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=23558">23558</a></td>
-      <td>Extremly slow startup</td>
-    </tr>
-    <tr class="bz_normal bz_P1 ">
-      <td><a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=23853">23853</a></td>
-      <td>&quot;Completing the install&quot; screen shown at each launch</td>
-    </tr>
-    <tr class="bz_normal bz_P2 ">
-      <td><a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=23977">23977</a></td>
-      <td>.classpath corruption</td>
-    </tr>
-    <tr class="bz_critical bz_P3 ">
-      <td><a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=23979">23979</a></td>
-      <td>Build Path page reports cycle even if there is none</td>
-    </tr>
-    <tr class="bz_critical bz_P2 ">
-      <td><a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=24096">24096</a></td>
-      <td>XML Validation fails on any XML file encoded with GB18030</td>
-    </tr>
-    <tr class="bz_critical bz_P3 ">
-      <td><a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=24523">24523</a></td>
-      <td>Crash when open a dialog on Japanese locale Linux</td>
-    </tr>
-    <tr class="bz_normal bz_P3 ">
-      <td><a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=24533">24533</a></td>
-      <td>Disabled feature shows included children's latest enable ...</td>
-    </tr>
-    <tr class="bz_normal bz_P2 ">
-      <td><a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=24535">24535</a></td>
-      <td>Installing feature enables missing optional children</td>
-    </tr>
-    <tr class="bz_critical bz_P2 ">
-      <td><a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=24542">24542</a></td>
-      <td>[DND] Crash when drag&amp;drop on the Package Explorer</td>
-    </tr>
-    <tr class="bz_blocker bz_P1 ">
-      <td><a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=24646">24646</a></td>
-      <td>Reverting prevent Eclipse from opening</td>
-    </tr>
-    <tr class="bz_normal bz_P3 ">
-      <td><a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=24657">24657</a></td>
-      <td>Update test R2, Connection time out</td>
-    </tr>
-    <tr class="bz_normal bz_P3 ">
-      <td><a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=24659">24659</a></td>
-      <td>Grayed/checked optional feature should not be affected by...</td>
-    </tr>
-    <tr class="bz_normal bz_P1 ">
-      <td><a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=24667">24667</a></td>
-      <td>[boot] Classloader enhancements</td>
-    </tr>
-    <tr class="bz_normal bz_P1 ">
-      <td><a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=24668">24668</a></td>
-      <td>[runtime] PluginDescriptor could cache classpath</td>
-    </tr>
-    <tr class="bz_normal bz_P2 ">
-      <td><a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=24684">24684</a></td>
-      <td>[Editor Mgmt] 'Open With' of Eclipse 2.0.1 sets wrong def...</td>
-    </tr>
-    <tr class="bz_major bz_P2 ">
-      <td><a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=24693">24693</a></td>
-      <td>org.eclipse.swt.graphics.GC.drawString() fails to draw eu...</td>
-    </tr>
-    <tr class="bz_major bz_P2 ">
-      <td><a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=24758">24758</a></td>
-      <td>Features loaded multiple times during the session</td>
-    </tr>
-    <tr class="bz_major bz_P2 ">
-      <td><a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=24869">24869</a></td>
-      <td>GP - Eclipse crashed when entering invalid file name in F...</td>
-    </tr>
-    <tr class="bz_blocker bz_P3 ">
-      <td><a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=24942">24942</a></td>
-      <td>[boot] [2.0.2 tp1] Unable to upgrade eclipse (2.0.0 -&gt; 2....</td>
-    </tr>
-    <tr class="bz_normal bz_P3 ">
-      <td><a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=24943">24943</a></td>
-      <td>update is detected on first run</td>
-    </tr>
-    <tr class="bz_normal bz_P1 ">
-      <td><a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=25191">25191</a></td>
-      <td>Using ANT deadlocks the Workbench</td>
-    </tr>
-    <tr class="bz_critical bz_P3 ">
-      <td><a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=25202">25202</a></td>
-      <td>Peer features are disabled if an optional feature is missing</td>
-    </tr>
-    <tr class="bz_normal bz_P3 ">
-      <td><a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=25347">25347</a></td>
-      <td>Deprecation-Flag in Ant doesn't work with Eclipse Compiler</td>
-    </tr>
-    <tr class="bz_normal bz_P3 ">
-      <td><a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=25495">25495</a></td>
-      <td>Ant compiler adapter should treat bogus imports as errors</td>
-    </tr>
-    <tr class="bz_normal bz_P3 ">
-      <td><a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=25551">25551</a></td>
-      <td>Ant javac adapter always reports build successful even if...</td>
-    </tr>
-  </tbody>
+<table width="100%">
+  <tr align="left">
+    <th><a href="http://dev.eclipse.org/bugs/buglist.cgi?short_desc_type=allwordssubstr&amp;short_desc=&amp;product=JDT&amp;product=PDE&amp;product=Platform&amp;target_milestone=2.0.2&amp;long_desc_type=allwordssubstr&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;keywords_type=allwords&amp;keywords=&amp;resolution=FIXED&amp;emailtype1=substring&amp;email1=&amp;emailtype2=substring&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;changedin=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;newqueryname=&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0=&amp;order=bugs.bug_id">ID</a></th>
+    <th><a href="http://dev.eclipse.org/bugs/buglist.cgi?short_desc_type=allwordssubstr&amp;short_desc=&amp;product=JDT&amp;product=PDE&amp;product=Platform&amp;target_milestone=2.0.2&amp;long_desc_type=allwordssubstr&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;keywords_type=allwords&amp;keywords=&amp;resolution=FIXED&amp;emailtype1=substring&amp;email1=&amp;emailtype2=substring&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;changedin=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;newqueryname=&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0=&amp;order=bugs.short_desc,bugs.bug_id">Summary</a></th>
+  </tr>
+  <tr class="bz_enhancement bz_P3 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=17030">17030</a></td>
+    <td>Need to search documentation for exact string match</td>
+  </tr>
+  <tr class="bz_minor bz_P3 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=18035">18035</a></td>
+    <td>&quot;Running the queries...&quot; in one-click update</td>
+  </tr>
+  <tr class="bz_normal bz_P2 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=18826">18826</a></td>
+    <td>poor update manager download performance</td>
+  </tr>
+  <tr class="bz_normal bz_P2 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=19868">19868</a></td>
+    <td>Provide a full history log</td>
+  </tr>
+  <tr class="bz_normal bz_P2 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=19869">19869</a></td>
+    <td>Update parsers do not set error handlers</td>
+  </tr>
+  <tr class="bz_normal bz_P2 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=19932">19932</a></td>
+    <td>Show Status for unconfigured feature</td>
+  </tr>
+  <tr class="bz_normal bz_P2 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=20050">20050</a></td>
+    <td>Show Status for &quot;missing feature&quot;</td>
+  </tr>
+  <tr class="bz_normal bz_P3 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=20714">20714</a></td>
+    <td>UpdateManagerUtils.copyToLocal() not closing output stream</td>
+  </tr>
+  <tr class="bz_major bz_P1 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=20910">20910</a></td>
+    <td>Updating multiply-installed features</td>
+  </tr>
+  <tr class="bz_normal bz_P3 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21330">21330</a></td>
+    <td>The feature updates view cannot rename folders</td>
+  </tr>
+  <tr class="bz_blocker bz_P1 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21347">21347</a></td>
+    <td>[Perspectives] Extensions must be able to customize defau...</td>
+  </tr>
+  <tr class="bz_blocker bz_P1 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21351">21351</a></td>
+    <td>Separation of feature containment (includes) &amp; updating n...</td>
+  </tr>
+  <tr class="bz_blocker bz_P1 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21352">21352</a></td>
+    <td>Drill down updating should not be supported</td>
+  </tr>
+  <tr class="bz_major bz_P2 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21391">21391</a></td>
+    <td>Features without corresponding plugin cannot be referenced</td>
+  </tr>
+  <tr class="bz_normal bz_P3 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21622">21622</a></td>
+    <td>handling disconnect/communication error</td>
+  </tr>
+  <tr class="bz_normal bz_P1 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22004">22004</a></td>
+    <td>no keyboard shortcuts for switching between pages of Mult...</td>
+  </tr>
+  <tr class="bz_normal bz_P2 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22131">22131</a></td>
+    <td>Contents of &quot;My Computer&quot; in Update Manager are not sorted</td>
+  </tr>
+  <tr class="bz_critical bz_P2 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22203">22203</a></td>
+    <td>More dependencies increase GUI waiting time [build path]</td>
+  </tr>
+  <tr class="bz_normal bz_P2 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22269">22269</a></td>
+    <td>[Navigator] File-&gt;Rename while already renaming hangs Nav...</td>
+  </tr>
+  <tr class="bz_major bz_P2 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22458">22458</a></td>
+    <td>Refactoring a package does not move the package's directory</td>
+  </tr>
+  <tr class="bz_normal bz_P3 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22673">22673</a></td>
+    <td>VerifyError in char cast of static final char referenced ...</td>
+  </tr>
+  <tr class="bz_normal bz_P2 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22687">22687</a></td>
+    <td>Not easy to re-install optional feature</td>
+  </tr>
+  <tr class="bz_normal bz_P2 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22807">22807</a></td>
+    <td>Deleting non-optional features from file system throws error</td>
+  </tr>
+  <tr class="bz_normal bz_P3 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=23290">23290</a></td>
+    <td>Default JFaceResource fonts need to be updated</td>
+  </tr>
+  <tr class="bz_normal bz_P2 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=23291">23291</a></td>
+    <td>[Dialogs] jface.Dialog.contrainShellSize() not working co...</td>
+  </tr>
+  <tr class="bz_normal bz_P3 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=23318">23318</a></td>
+    <td>Resolution of Circular Dep. preference/error message filt...</td>
+  </tr>
+  <tr class="bz_normal bz_P3 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=23320">23320</a></td>
+    <td>Incomplete classpath and circular classpath options shoul...</td>
+  </tr>
+  <tr class="bz_normal bz_P1 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=23340">23340</a></td>
+    <td>[ExternalTools] ArrayIndexOutOfBounds exception when runn...</td>
+  </tr>
+  <tr class="bz_normal bz_P3 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=23343">23343</a></td>
+    <td>Warn users about update policy</td>
+  </tr>
+  <tr class="bz_normal bz_P3 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=23388">23388</a></td>
+    <td>IJavaType does not implement equals</td>
+  </tr>
+  <tr class="bz_enhancement bz_P3 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=23408">23408</a></td>
+    <td>Externalize JavaUISourceLocator.SourceLookupDialog</td>
+  </tr>
+  <tr class="bz_normal bz_P3 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=23558">23558</a></td>
+    <td>Extremly slow startup</td>
+  </tr>
+  <tr class="bz_normal bz_P1 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=23853">23853</a></td>
+    <td>&quot;Completing the install&quot; screen shown at each launch</td>
+  </tr>
+  <tr class="bz_normal bz_P2 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=23977">23977</a></td>
+    <td>.classpath corruption</td>
+  </tr>
+  <tr class="bz_critical bz_P3 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=23979">23979</a></td>
+    <td>Build Path page reports cycle even if there is none</td>
+  </tr>
+  <tr class="bz_critical bz_P2 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=24096">24096</a></td>
+    <td>XML Validation fails on any XML file encoded with GB18030</td>
+  </tr>
+  <tr class="bz_normal bz_P3 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=24231">24231</a></td>
+    <td>ErrorDialog not accessible</td>
+  </tr>
+  <tr class="bz_critical bz_P3 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=24523">24523</a></td>
+    <td>Crash when open a dialog on Japanese locale Linux</td>
+  </tr>
+  <tr class="bz_normal bz_P3 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=24533">24533</a></td>
+    <td>Disabled feature shows included children's latest enable ...</td>
+  </tr>
+  <tr class="bz_normal bz_P2 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=24535">24535</a></td>
+    <td>Installing feature enables missing optional children</td>
+  </tr>
+  <tr class="bz_critical bz_P2 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=24542">24542</a></td>
+    <td>[DND] Crash when drag&amp;drop on the Package Explorer</td>
+  </tr>
+  <tr class="bz_blocker bz_P1 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=24646">24646</a></td>
+    <td>Reverting prevent Eclipse from opening</td>
+  </tr>
+  <tr class="bz_normal bz_P3 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=24657">24657</a></td>
+    <td>Update test R2, Connection time out</td>
+  </tr>
+  <tr class="bz_normal bz_P3 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=24659">24659</a></td>
+    <td>Grayed/checked optional feature should not be affected by...</td>
+  </tr>
+  <tr class="bz_normal bz_P1 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=24667">24667</a></td>
+    <td>[boot] Classloader enhancements</td>
+  </tr>
+  <tr class="bz_normal bz_P1 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=24668">24668</a></td>
+    <td>[runtime] PluginDescriptor could cache classpath</td>
+  </tr>
+  <tr class="bz_normal bz_P2 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=24684">24684</a></td>
+    <td>[Editor Mgmt] 'Open With' of Eclipse 2.0.1 sets wrong def...</td>
+  </tr>
+  <tr class="bz_major bz_P2 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=24693">24693</a></td>
+    <td>org.eclipse.swt.graphics.GC.drawString() fails to draw eu...</td>
+  </tr>
+  <tr class="bz_major bz_P2 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=24758">24758</a></td>
+    <td>Features loaded multiple times during the session</td>
+  </tr>
+  <tr class="bz_major bz_P2 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=24869">24869</a></td>
+    <td>GP - Eclipse crashed when entering invalid file name in F...</td>
+  </tr>
+  <tr class="bz_blocker bz_P3 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=24942">24942</a></td>
+    <td>[boot] [2.0.2 tp1] Unable to upgrade eclipse (2.0.0 -&gt; 2....</td>
+  </tr>
+  <tr class="bz_normal bz_P3 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=24943">24943</a></td>
+    <td>update is detected on first run</td>
+  </tr>
+  <tr class="bz_normal bz_P1 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=25191">25191</a></td>
+    <td>Using ANT deadlocks the Workbench</td>
+  </tr>
+  <tr class="bz_critical bz_P3 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=25202">25202</a></td>
+    <td>Peer features are disabled if an optional feature is missing</td>
+  </tr>
+  <tr class="bz_normal bz_P3 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=25347">25347</a></td>
+    <td>Deprecation-Flag in Ant doesn't work with Eclipse Compiler</td>
+  </tr>
+  <tr class="bz_normal bz_P3 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=25495">25495</a></td>
+    <td>Ant compiler adapter should treat bogus imports as errors</td>
+  </tr>
+  <tr class="bz_critical bz_P2 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=25517">25517</a></td>
+    <td>JVM crashes on method rename with circular dependecies in...</td>
+  </tr>
+  <tr class="bz_normal bz_P3 ">
+    <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=25551">25551</a></td>
+    <td>Ant javac adapter always reports build successful even if...</td>
+  </tr>
 </table>
+
+<!-- 1.0@bugzilla.org -->
 
 <h3><a name="4.1 Release 2.0.1 over 2.0.0">5.2 </a>Defect fixed in release 2.0.1
 since 2.0.0</h3>
