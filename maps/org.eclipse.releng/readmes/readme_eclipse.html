@@ -12,7 +12,7 @@
 
 <h1>Eclipse Project Release Notes</h1>
 <p>Release 2.1.1<br>
-Last revised June 6, 2003</p>
+Last revised June 9, 2003</p>
 <p align="left"><strong>This software is OSI Certified Open Source Software.<br>
 OSI Certified is a certification mark of the Open Source Initiative.&nbsp;</strong></p>
 <blockquote>
@@ -600,6 +600,10 @@ may need to be rewritten. (bug <a href="http://dev.eclipse.org/bugs/show_bug.cgi
 </blockquote>
 <p>Note: Bug numbers refer to the Eclipse project bug database at <a href="http://dev.eclipse.org/bugs/">http://dev.eclipse.org/bugs/</a></p>
 <h3>3.1 <a name="I-Platform">Platform</a></h3>
+<h4>Missing translations for certain OS dialogs (Linux GTK only)</h4>
+<p>OS dialogs for selecting files or folders are only partially translated on
+GTK 2.0.6 or GTK 2.2. These dialogs and the untranslated messages come from GTK,
+not from Eclipse. This is a known bug in GTK. (bug <a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=38248">38248</a>)</p>
 <h4>DBCS support on Linux GTK (Linux GTK only)</h4>
 <p>The versions of GTK included with RedHat Linux 8.0 and SuSE Linux 8.1 that we
 tested support Latin-1 locales but not DCBS. The DCBS support in GTK 2.2 should
