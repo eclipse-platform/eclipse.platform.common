@@ -776,13 +776,6 @@ encoding&quot; value will then be correct: &quot;MS932&quot; (Japanese).</p>
     for the current user&quot;.</li>
 </ul>
 <p>(bug <a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=20641">20641</a>)</p>
-<h4>External Tools will automatically quote path variables containing spaces</h4>
-<p>When an external tool is launched, expanded path variables that contain
-spaces will be enclosed in double quotes ( &quot; ). While it is typical for
-Windows executables to expect paths containing spaces to be quoted, this is
-known to cause problems on platforms such as Linux which do not expect these
-quotes. A workaround is to make the external tool a script which strips off the
-quotes before launching the executable with those parameters. (bug <a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=20599">20599</a>)</p>
 <h4>KDE takes Ctrl+Fn keys</h4>
 <p>When using the KDE desktop on Linux systems, the Ctrl+Fn key sequences are
 used for switching between virtual desktops. This means that Eclipse commands
@@ -1922,6 +1915,10 @@ changed).</p>
     <tr class="bz_normal bz_P3 ">
       <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=38388">38388</a></td>
       <td>eclipse crash on redhat 9/ ja_JP</td>
+    </tr>
+    <tr class="bz_critical bz_P3 ">
+      <td><a href="show_bug.cgi?id=38551">38551</a></td>
+      <td>TVT21: Missing text and fields in JRE tab of Java Applet</td>
     </tr>
   </tbody>
 </table>
