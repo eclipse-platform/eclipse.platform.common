@@ -2,14 +2,14 @@
 
 plugin@org.eclipse.team.core=I20040623a,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.team.cvs.core=M20040720,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.team.cvs.ssh=I20040623a,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.team.cvs.ssh2=I20040623a,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.team.ui=M20040714,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.team.cvs.ui=M20040722,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.team.cvs.ssh=M20040803,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.team.cvs.ssh2=M20040803,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.team.ui=M20040803,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.team.cvs.ui=M20040803,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.team.webdav=I20040623a,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.team.ftp=I20040623a,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-plugin@org.eclipse.team.examples.filesystem=I20040623a,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.team.examples.filesystem=M20040803,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 plugin@org.eclipse.team.tests.core=I20040623a,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.team.tests.cvs.core=I20040623a,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
