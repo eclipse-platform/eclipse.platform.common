@@ -3,7 +3,7 @@
 fragment@org.eclipse.core.resources.win32=v20030311, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 fragment@org.eclipse.core.resources.linux=v20030311, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-plugin@org.apache.xerces=r21x_v20030520, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.apache.xerces=r21x_v20030618, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 plugin@org.eclipse.core.boot=r21x_v20030528, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.core.resources=r21x_v20030520, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
