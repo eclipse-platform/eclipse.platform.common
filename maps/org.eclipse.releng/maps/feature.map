@@ -8,8 +8,8 @@ feature@org.eclipse.jdt.macosx.source-feature=v20020917, :pserver:anonymous@dev.
 
 feature@org.eclipse.pde-feature=v20020917, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-feature@org.eclipse.platform-feature=r211_v20030424a, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-feature@org.eclipse.platform.source-feature=v20030318, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+feature@org.eclipse.platform-feature=r211_v20030425, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+feature@org.eclipse.platform.source-feature=r211_v20030425, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 feature@org.eclipse.platform.aix.motif-feature=v20030318, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 feature@org.eclipse.platform.aix.motif.source-feature=v20030318, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
@@ -35,8 +35,8 @@ feature@org.eclipse.platform.solaris.motif.source-feature=v20030318, :pserver:an
 feature@org.eclipse.platform.win32-feature=v20030318, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 feature@org.eclipse.platform.win32.source-feature=v20030318, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-plugin@org.eclipse.platform=v20030324, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.platform.source=v20030401, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.platform=r211_v20030425, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.platform.source=r211_v20030425, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 plugin@org.eclipse.platform.aix.motif=v20030401, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.platform.aix.motif.source=v20030401, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
