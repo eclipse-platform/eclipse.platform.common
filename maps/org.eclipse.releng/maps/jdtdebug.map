@@ -7,4 +7,4 @@ plugin@org.eclipse.jdt.debug.ui=r211_v20030610, :pserver:anonymous@dev.eclipse.o
 plugin@org.eclipse.jdt.launching=r211_v20030429, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.jdt.launching.macosx=v20030314, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-plugin@org.eclipse.jdt.debug.tests=r211_v20030507, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.jdt.debug.tests=r211_v20030611, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
