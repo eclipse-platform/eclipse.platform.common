@@ -1,6 +1,6 @@
 !***************  UPDATE CONTRIBUTION  ******************************************************** 
 
-plugin@org.eclipse.update.core=v203_20030218, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.update.core=v203_20030221, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 fragment@org.eclipse.update.core.win32=v20020626,  :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 fragment@org.eclipse.update.core.linux=v20020626,  :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
