@@ -2,13 +2,13 @@
 
 plugin@platform-launcher=v20040624,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-plugin@org.eclipse.swt=v3062k, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-fragment@org.eclipse.swt.carbon=v3062c, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-fragment@org.eclipse.swt.gtk=v3062d, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-fragment@org.eclipse.swt.gtk64=v3062d, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-fragment@org.eclipse.swt.motif=v3062c, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-fragment@org.eclipse.swt.photon=v3062c, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-fragment@org.eclipse.swt.win32=v3062c, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.swt=v3062l, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+fragment@org.eclipse.swt.carbon=v3062l, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+fragment@org.eclipse.swt.gtk=v3062l, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+fragment@org.eclipse.swt.gtk64=v3062l, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+fragment@org.eclipse.swt.motif=v3062l, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+fragment@org.eclipse.swt.photon=v3062l, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+fragment@org.eclipse.swt.win32=v3062l, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 plugin@org.eclipse.swt.examples=v3062, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.swt.examples.browser=v3062, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
