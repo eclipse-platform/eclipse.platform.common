@@ -9,4 +9,4 @@ fragment@org.eclipse.update.ui.win32=v20020626, :pserver:anonymous@dev.eclipse.o
 
 plugin@org.eclipse.update.ui.forms=v20020627, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-plugin@org.eclipse.update.tests.core=r202_v20021017H2230, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.update.tests.core=v20030401_1330, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
