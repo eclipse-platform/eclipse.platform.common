@@ -919,6 +919,11 @@ for List Views must be activated as follows:</p>
 do not apply to other repository providers. Additional information on how to use
 CVS from Eclipse can be found in the <a href="http://dev.eclipse.org/viewcvs/index.cgi/~checkout~/platform-vcm-home/docs/online/cvs_features2.0/cvs-faq.html">Eclipse
 CVS FAQ</a>.</p>
+<h4>Incompatible with CVS server version 1.11.7 or later</h4>
+<p>Eclipse works with CVS server versions 1.11.1p1 through 1.11.6. Eclipse
+parses the messages returned from the CVS server. The format of these messages
+changed abruptly with the recent CVS server version 1.11.7, rendering the
+current parser ineffective. (bug <a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=45138">45138</a>)</p>
 <h4>Cached authorization information lost when workspace is upgraded</h4>
 <p>The Platform's internal authorization database file format has changed for
 2.1. Because of this, authorization information cached with a workspace created
@@ -1659,19 +1664,18 @@ and contains additional fixes for the following defects:</p>
       <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=45228">45228</a></td>
       <td>bookmark's title(DBCS) breaks.</td>
     </tr>
+    <tr class="bz_major bz_P3 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=45267">45267</a></td>
+      <td>BIDI: Mirrored text appears on every editor</td>
+    </tr>
   </tbody>
 </table>
-50 bugs found.
 <p>Note: the above table was generated with the Bugzilla query: <a href="http://bugs.eclipse.org/bugs/buglist.cgi?product=JDT&amp;product=PDE&amp;product=Platform&amp;target_milestone=2.1.2&amp;resolution=FIXED&amp;order=bugs.bug_id">http://bugs.eclipse.org/bugs/buglist.cgi?product=JDT&amp;product=PDE&amp;product=Platform&amp;target_milestone=2.1.2&amp;resolution=FIXED&amp;order=bugs.bug_id</a></p>
 <h3>7.2 Defects fixed in release 2.1.1 since 2.1.0</h3>
-<p>Release 2.1.1 is the first maintenance release to fix serious defects present
-in release 2.1.0. These changes only affect some plug-ins and features. Modified
-plug-ins have version id &quot;2.1.1&quot;; plug-ins unchanged since the 2.1
-release still have version id &quot;2.1.0&quot;. Note, however, that all
-features now have version id &quot;2.1.1&quot; (even if none of their plug-ins
-changed).</p>
+<p>Release 2.1.1 was the first maintenance release to fix serious defects
+present in release 2.1.0.</p>
 <p>Maintenance release 2.1.1 fixes the following defects present in release
-2.1.0:</p>
+2.1.0, all of which are also included in 2.1.2:</p>
 <table cellspacing="0" cellpadding="4" width="100%">
   <tbody>
     <tr align="left">
