@@ -12,4 +12,4 @@ plugin@org.eclipse.team.ftp=I20040623a,:pserver:anonymous@dev.eclipse.org:/home/
 plugin@org.eclipse.team.examples.filesystem=M20040902,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 plugin@org.eclipse.team.tests.core=I20040623a,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.team.tests.cvs.core=I20040623a,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.team.tests.cvs.core=perf_30_20041111,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
