@@ -1,8 +1,8 @@
 !***************  JDT UI CONTRIBUTION  ******************************************************** 
 
-plugin@org.eclipse.jdt=v20030910_R2_1_2,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.jdt=r213_v20031215,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-plugin@org.eclipse.jdt.source=v20030910_R2_1_2,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.jdt.source=r213_v20031215,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 plugin@org.eclipse.jdt.ui=v20031001_R2_1_2_m,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.search=v20030528_R2_1_m, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
