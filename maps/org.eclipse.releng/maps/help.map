@@ -1,12 +1,12 @@
 !***************  HELP CONTRIBUTION  ******************************************************** 
 
-plugin@org.eclipse.help=v020729, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.help.ui=v020718, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-fragment@org.eclipse.help.ui.win32=v020729, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.help=r201_v020806, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.help.ui=r201_v020806, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+fragment@org.eclipse.help.ui.win32=r201_v020806, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-plugin@org.eclipse.help.webapp=v020730, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.tomcat=v020718, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.help.webapp=r201_v020806, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.tomcat=v020626, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.apache.lucene=v020626, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-plugin@org.eclipse.help.tests=v020718, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.help.tests=r201_v020806, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.help.examples.ex1=v020626, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
