@@ -1,6 +1,6 @@
 !***************  FEATURE CONTRIBUTION  ******************************************************
 
-feature@org.eclipse.jdt-feature=r213_v20040105,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+feature@org.eclipse.jdt-feature=r213_v20040106,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 feature@org.eclipse.jdt.source-feature=r213_v20031215,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 feature@org.eclipse.jdt.macosx-feature=v20020917, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
