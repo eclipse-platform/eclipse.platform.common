@@ -859,13 +859,13 @@ side (default IME in RedHat 8.0) - works fine. (bug <a href="http://bugs.eclipse
 <h4>BiDi support (Windows only)</h4>
 <p>The <code>StyledText</code> widget provides bidirectional language support
 for Hebrew and Arabic locales. Currently this support is available only on
-Windows and has several known problems.</p>
+Windows and has several known problems. (bugs <a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=4776">4776</a>,
+<a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=25691">25691</a> and <a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=27629">27629</a>)</p>
 <p>On Windows XP and Windows 2000, if StyledText determines that it is running
 on a BiDi platform, characters from DBCS languages (e.g., Japanese) and complex
 script languages (e.g., Thai) will not render properly. A platform is considered
 BiDi if a BiDi language is installed and if a BiDi input locale is installed
-(e.g., a Hebrew keyboard layout is specified). (bugs <a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=25691">25691</a>
-and <a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=27629">27629</a>)</p>
+(e.g., a Hebrew keyboard layout is specified).</p>
 <h4>Cursor constructor arguments</h4>
 <p>In the constructor <code>Cursor(Device device, ImageData source, ImageData
 mask, int hotspotX, int hotspotY)</code>, when both a source and mask argument
