@@ -3,7 +3,7 @@
 <head>
    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
    <meta name="GENERATOR" content="Microsoft FrontPage 4.0">
-   <title>Eclipse Project Release Notes 2.0.1</title>
+   <title>Eclipse Project Release Notes 2.0.2</title>
 </head>
 <body>
 
@@ -13,8 +13,8 @@ Eclipse Project Release Notes</h1>
 
 <p>
 
-Release 2.0.1<br>
-August 28, 2002</p>
+Release 2.0.2<br>
+November 7, 2002</p>
 
 <p align="left">
 
@@ -26,10 +26,11 @@ OSI Certified is a certification mark of the Open Source Initiative.</strong></p
 <p align="left">
 
 <a href="#Target Operating Environments">1. Target Operating Environments</a><br>
-<a href="#Compatibility with Previous Release">
-2. Compatibility with Previous Release</a><br>
-<a href="#Known Issues">3. Known Issues</a><br>
-<a href="#Defects fixed">4. Defects Fixed</a></p>
+<a href="#New Features in this Release">
+2. Compatibility with Previous Release<br>
+3. New Features in this Release</a><br>
+<a href="#Known Issues">4. Known Issues</a><br>
+<a href="#Defects fixed">5. Defects Fixed</a></p>
 
 </blockquote>
 
@@ -508,29 +509,44 @@ change.</p>
 in favor of features. Consequently, PDE 2.0 supports feature-related
 development while component support has been removed. Features are described in
 the Eclipse Platform Plug-in Developer Guide.</p>
+<h2>3. <a name="New Features in this Release">New Features in this Release</a></h2>
+
+<h3>3.1 New features added in release 2.0.2</h3>
+
+<p>Although services releases usually do not contain new features, service
+release 2.0.2 does contain one new performance enhancement.</p>
+
+<h4>New -classloaderProperties command line parameter for improving class loader
+performance</h4>
+<p>A new command line parameter <code>-classloaderProperties</code> provide a
+way to pass in a file containing additional information that the Eclipse
+Platform can use to significantly increase the speed of loading code for
+plug-ins. For details see <a href="http://dev.eclipse.org/viewcvs/index.cgi/~checkout~/platform-core-home/docs/classloader-properties/classloader_properties.html">Using
+the Class Loader Properties File</a> (on the Eclipse Platform Core Development
+Resources page).</p>
 <h2>
- 3. <a name="Known Issues"></a> Known Issues</h2>
+ 4. <a name="Known Issues"></a>  Known Issues</h2>
 <blockquote>
-  <p><a href="#I-Platform">3.1 Platform</a><br>
-  &nbsp;&nbsp;&nbsp;&nbsp; <a href="#I-Platform - Core">3.1.1 Core</a><br>
-  &nbsp;&nbsp;&nbsp;&nbsp; <a href="#I-Platform - Ant">3.1.2 Ant</a><br>
-  &nbsp;&nbsp;&nbsp;&nbsp; <a href="#I-Platform - Help">3.1.3 Help</a><br>
-  &nbsp;&nbsp;&nbsp;&nbsp; <a href="#I-Platform - UI">3.1.4 UI</a><br>
-  &nbsp;&nbsp;&nbsp;&nbsp; <a href="#I-Platform - SWT">3.1.5 SWT</a><br>
-  &nbsp;&nbsp;&nbsp;&nbsp; <a href="#I-Platform - Team - CVS">3.1.6 Team</a><br>
-  &nbsp;&nbsp;&nbsp;&nbsp; <a href="#I-Platform - Install/Update">3.1.7
+  <p><a href="#I-Platform">4.1 Platform</a><br>
+  &nbsp;&nbsp;&nbsp;&nbsp; <a href="#I-Platform - Core">4.1.1 Core</a><br>
+  &nbsp;&nbsp;&nbsp;&nbsp; <a href="#I-Platform - Ant">4.1.2 Ant</a><br>
+  &nbsp;&nbsp;&nbsp;&nbsp; <a href="#I-Platform - Help">4.1.3 Help</a><br>
+  &nbsp;&nbsp;&nbsp;&nbsp; <a href="#I-Platform - UI">4.1.4 UI</a><br>
+  &nbsp;&nbsp;&nbsp;&nbsp; <a href="#I-Platform - SWT">4.1.5 SWT</a><br>
+  &nbsp;&nbsp;&nbsp;&nbsp; <a href="#I-Platform - Team - CVS">4.1.6 Team</a><br>
+  &nbsp;&nbsp;&nbsp;&nbsp; <a href="#I-Platform - Install/Update">4.1.7
   Install/Update</a><a href="#I-Java Development Tools (JDT)"><br>
-  3.2 Java Development Tools (JDT)</a><a href="#I-Plug-in Development Environment (PDE)"><br>
-  3.3 Plug-in Development Environment (PDE)</a><br>
-  <a href="#I-Other - FTP and WebDAV support">3.4 Other<br>
-  </a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="#I-Other - FTP and WebDAV support">3.4.1
+  4.2 Java Development Tools (JDT)</a><a href="#I-Plug-in Development Environment (PDE)"><br>
+  4.3 Plug-in Development Environment (PDE)</a><br>
+  <a href="#I-Other - FTP and WebDAV support">4.4 Other<br>
+  </a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="#I-Other - FTP and WebDAV support">4.4.1
   FTP and WebDAV support</a></p>
 </blockquote>
 <p>
 Note: Bug numbers refer to the Eclipse project bug database at <a href="http://dev.eclipse.org/bugs/">http://dev.eclipse.org/bugs/</a></p>
 
 <h3>
-3.1 <a name="I-Platform">Platform</a></h3>
+4.1 <a name="I-Platform">Platform</a></h3>
 
 <h4>Eclipse process does not exit (HP-UX only)</h4>
 
@@ -551,7 +567,7 @@ the command line:</p>
 (<a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=18321">bug 18321</a>)</p>
 
 <h3>
-3.1.1 <a name="I-Platform - Core">Platform -
+4.1.1 <a name="I-Platform - Core">Platform -
 Core</a></h3>
 
 <h4><b>Invalid characters in install directory prevents Eclipse from starting</b></h4>
@@ -579,7 +595,7 @@ and performs tasks such as creating an executable extension, a deadlock
 situation can be created. Only simple bookkeeping tasks should be performed in <code>Plugin.startup</code>
 code. (<a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=12827">bugs 12827</a>,
 <a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=5875">5875</a>, <a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=16141">16141</a>)</p>
-<h3>3.1.2 <a name="I-Platform - Ant">Platform - Ant</a></h3>
+<h3>4.1.2 <a name="I-Platform - Ant">Platform - Ant</a></h3>
 <h4>System.exit() in Ant task causes Eclipse to crash</h4>
 <p>If an Ant script is run as an external tool or using the <b>Run Ant</b>
 pop-up menu, it runs on the same Java VM as Eclipse. If the running script
@@ -610,7 +626,7 @@ an external tool. The following steps show how this is done:</p>
 <p>(<a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=17487">bug 17487</a>)</p>
 
 <h3>
-3.1.3 <a name="I-Platform - Help">
+4.1.3 <a name="I-Platform - Help">
 Platform -
 Help</a></h3>
 
@@ -662,17 +678,9 @@ menu box. (<a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=16081">bug
 Accessibility support is limited in pre-1.0 releases of the Mozilla browser. If
 you need to navigate help using the keyboard, you must upgrade to Mozilla version 1.0. (<a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=15018">bug
 15018</a>)
-<h4>Searching help produces unexpected results and highlights incomplete words</h4>
-For some languages, a stemming algorithm is used to enhance the chance of a
-search hit. For these languages, the word roots are searched for; exact searches are not
-supported.&nbsp; As such, the result set contains
-documents with variations of the search query words, and only the common roots
-are highlighted in the document. Stemming and stop word removal also applies to search query terms enclosed in quotation marks (&quot;), so the
-search results will not be an exact match of the quoted string. (<a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=17030">bug
-17030</a>)
 
 <h3>
-3.1.4 <a name="I-Platform - UI">
+4.1.4 <a name="I-Platform - UI">
 Platform -
 UI</a></h3>
 
@@ -762,7 +770,7 @@ update correctly.</p>
 <p>(<a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=20988">bug 20988</a>)</p>
 
 <h3>
-3.1.5 <a name="I-Platform - SWT">
+4.1.5 <a name="I-Platform - SWT">
 Platform -
 SWT</a></h3>
 
@@ -873,7 +881,7 @@ editors and views! Because of this, accelerators and mnemonics are explicitly
 ignored on Solaris.</p>
 
 <h3>
-3.1.6 <a name="I-Platform - Team - CVS">
+4.1.6 <a name="I-Platform - Team - CVS">
 Platform -
 Team - CVS</a></h3>
 
@@ -993,7 +1001,7 @@ Synchronize view. (<a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=21001">
 21001</a>)</p>
 
 <h3>
-3.1.7 <a name="I-Platform - Install/Update">
+4.1.7 <a name="I-Platform - Install/Update">
 Platform - Install/Update</a></h3>
 
 <p><b>Migrating 2.0 pre-release workspaces</b>
@@ -1033,11 +1041,6 @@ exploring My Computer), some of the feature JAR files may be left open while the
 workbench is active, and will not be available to other applications. Exit and
 restart the Eclipse to correct this condition. (<a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=15594">bug
 15594</a>)
-<p><b>Wrong status being reported for unconfigured or missing features</b>
-<p>If you select <b>Show Status</b> for a feature that is unconfigured or
-missing, the resulting dialog erroneously claims &quot;The feature is configured
-properly&quot;. (<a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=19932">bug
-19932</a>)
 <p><b>Accessing update sites through a proxy</b>
 <p>To access an update site through a proxy, you will need to start the
 workbench with the following command line options:
@@ -1063,8 +1066,21 @@ will start with the set of features and plug-ins that were processed and
 configured on the previous start. If prior configuration cannot be found, the
 application will start with the full set of plug-ins found in the installation
 location.
+<p><b>Link file entry with trailing blank is invalid</b>
+<p>If a link file used to connect product extensions with products contains an
+entry with a trailing blank characters, it will be considered invalid. The
+workaround is to ensure that the entry ends with an end-of-line character (<a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=22993">bug
+22993</a>).
+<p><b>Enabling two versions of the same feature</b>
+<p>Care should be taken when enabling and disabling multiple versions of the
+same feature. If they include other features and the inclusion is set with a
+match attribute that is not &quot;perfect&quot;, disabling old feature version
+may have a consequence of disabling new children. To avoid this situation,
+disable the new version first, then enable the old one i.e. never have two
+versions of the same feature simultaneously enabled (<a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=25236">bug
+25236</a>).</p>
 
-<h3>3.2 <a name="I-Java Development Tools (JDT)">Java Development Tools (JDT)</a></h3>
+<h3>4.2 <a name="I-Java Development Tools (JDT)">Java Development Tools (JDT)</a></h3>
 
 <h4>Running Java programs with non-Latin-1 characters in package or class names</h4>
 You get a <code>java.lang.NoClassDefFoundError</code> when running Java programs
@@ -1146,12 +1162,6 @@ list does not get refreshed because it will never be compiled again). Renaming a
 *.java file to one with another a different file extension suffix causes the
 same problem. (<a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=13008">bug
 13008</a>)
-<h4>Refactoring operations update references in the entire workspace</h4>
-Refactoring operations always update references in the entire workspace. This
-can be more than what is needed and expected. For example, when you have the
-same project twice in your workspace and you perform a rename refactoring in one
-of the projects, then the references in the other project will be updated as
-well.
 <h4>Actions to modify read-only files</h4>
 Actions on the <b>Source</b> menu (e.g., <b>Generate Getter and Setter</b>) are
 always disabled when the file is read-only. This is currently true even when the
@@ -1174,7 +1184,7 @@ editor does not handle links inside of Javadoc comments properly. (<a href="http
 20644</a>)</p>
 
 <h3>
-3.3 <a name="I-Plug-in Development Environment (PDE)">Plug-in Development
+4.3 <a name="I-Plug-in Development Environment (PDE)">Plug-in Development
 Environment (PDE)</a></h3>
 
 <h4>Comments in source pages of PDE XML editors</h4>
@@ -1309,10 +1319,10 @@ will be available at runtime. The problem can be worked around as follows::</p>
 <p>(<a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=20119">bug 20119</a>)</p>
 
 <h3>
-3.4 <a name="I-Other - FTP and WebDAV support">Other</a></h3>
+4.4 <a name="I-Other - FTP and WebDAV support">Other</a></h3>
 
 <h3>
-3.4.1 F<a name="I-Other - FTP and WebDAV support">TP and WebDAV support</a></h3>
+4.4.1 F<a name="I-Other - FTP and WebDAV support">TP and WebDAV support</a></h3>
 
 <h4>When mapped to a target, the project folder is ignored</h4>
 <p>Ignoring the project folder is by design. Normally with target management you put/get the
@@ -1343,17 +1353,194 @@ when trying to obtain the timestamp of a newly uploaded file. This causes a
 does not exist&quot; error. The workaround is to <b> Synchronize</b> again and continue. (<a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=19715">bug
 19715</a>)</p>
 
-<h2>4. <a name="Defects fixed"></a>Defects fixed</h2>
+<h2>5. <a name="Defects fixed"></a>Defects fixed</h2>
 
-<h3>4.1 Release 2.0.1 over 2.0.0</h3>
+<h3>5.1 Defect fixed in release 2.0.2 since 2.0.1</h3>
 
-<p>Release 2.0.1 is a maintenance release to fix serious defects present in release
+<p>Release 2.0.2 is a maintenance release to fix serious defects present in release
 2.0.0. These changes only affect some plug-ins and features. Modified plug-ins
-have version id &quot;2.0.1&quot;; plug-ins unchanged since the 2.0 release
+have version id &quot;2.0.2&quot; or &quot;2.0.1&quot;; plug-ins unchanged since the 2.0 release
 still have version id &quot;2.0.0&quot;. Note, however, that all features now
-have version id &quot;2.0.1&quot; (even if none of their plug-ins changed).</p>
+have version id &quot;2.0.2&quot; (even if none of their plug-ins changed).</p>
 
-<p>Service release 2.0.1 fixes the following defects in release 2.0.0:</p>
+<p>Service release 2.0.2 fixes the following defects in present in service release
+2.0.1:</p>
+
+<table cellSpacing="0" cellPadding="4" width="100%">
+  <tbody>
+    <tr align="left">
+      <th><a href="http://dev.eclipse.org/bugs/buglist.cgi?resolution=FIXED&amp;email1=&amp;emailtype1=substring&amp;emailassigned_to1=1&amp;email2=&amp;emailtype2=substring&amp;emailreporter2=1&amp;bugidtype=include&amp;bug_id=&amp;changedin=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;product=JDT&amp;product=PDE&amp;product=Platform&amp;target_milestone=2.0.2&amp;short_desc=&amp;short_desc_type=allwordssubstr&amp;long_desc=&amp;long_desc_type=allwordssubstr&amp;keywords=&amp;keywords_type=anywords&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0=&amp;namedcmd=2.0.1+FIXED3&amp;newqueryname=2.0.2+FIXED&amp;tofooter=1&amp;order=bugs.bug_id">ID</a>
+      <th><a href="http://dev.eclipse.org/bugs/buglist.cgi?resolution=FIXED&amp;email1=&amp;emailtype1=substring&amp;emailassigned_to1=1&amp;email2=&amp;emailtype2=substring&amp;emailreporter2=1&amp;bugidtype=include&amp;bug_id=&amp;changedin=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;product=JDT&amp;product=PDE&amp;product=Platform&amp;target_milestone=2.0.2&amp;short_desc=&amp;short_desc_type=allwordssubstr&amp;long_desc=&amp;long_desc_type=allwordssubstr&amp;keywords=&amp;keywords_type=anywords&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0=&amp;namedcmd=2.0.1+FIXED3&amp;newqueryname=2.0.2+FIXED&amp;tofooter=1&amp;order=bugs.short_desc%2C%20bugs.bug_id">Summary</a></th>
+    <tr class="P3" vAlign="top" align="left">
+      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=17030">17030</a>
+      <td class="summary">Need to search documentation for exact string match
+    <tr class="P3" vAlign="top" align="left">
+      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=18035">18035</a>
+      <td class="summary">&quot;Running the queries...&quot; in one-click update
+    <tr class="P2" vAlign="top" align="left">
+      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=18826">18826</a>
+      <td class="summary">poor update manager download performance
+    <tr class="P2" vAlign="top" align="left">
+      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=19868">19868</a>
+      <td class="summary">Provide a full history log
+    <tr class="P2" vAlign="top" align="left">
+      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=19869">19869</a>
+      <td class="summary">Update parsers do not set error handlers
+    <tr class="P2" vAlign="top" align="left">
+      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=19932">19932</a>
+      <td class="summary">Show Status for unconfigured feature
+    <tr class="P2" vAlign="top" align="left">
+      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=20050">20050</a>
+      <td class="summary">Show Status for &quot;missing feature&quot;
+    <tr class="P3" vAlign="top" align="left">
+      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=20714">20714</a>
+      <td class="summary">UpdateManagerUtils.copyToLocal() not closing output
+        stream
+    <tr class="P1" vAlign="top" align="left">
+      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=20910">20910</a>
+      <td class="summary">Updating multiply-installed features
+    <tr class="P3" vAlign="top" align="left">
+      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21330">21330</a>
+      <td class="summary">The feature updates view cannot rename folders
+    <tr class="P1" vAlign="top" align="left">
+      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21351">21351</a>
+      <td class="summary">Separation of feature containment (includes) &amp;
+        updating need
+    <tr class="P1" vAlign="top" align="left">
+      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21352">21352</a>
+      <td class="summary">Drill down updating should not be supported
+    <tr class="P2" vAlign="top" align="left">
+      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21391">21391</a>
+      <td class="summary">Features without corresponding plugin cannot be
+        referenced
+    <tr class="P3" vAlign="top" align="left">
+      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=21622">21622</a>
+      <td class="summary">handling disconnect/communication error
+    <tr class="P1" vAlign="top" align="left">
+      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22004">22004</a>
+      <td class="summary">no keyboard shortcuts for switching between pages of
+        MultiPa
+    <tr class="P2" vAlign="top" align="left">
+      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22131">22131</a>
+      <td class="summary">Contents of &quot;My Computer&quot; in Update Manager
+        are not sorted
+    <tr class="P2" vAlign="top" align="left">
+      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22203">22203</a>
+      <td class="summary">More dependencies increase GUI waiting time [build
+        path]
+    <tr class="P2" vAlign="top" align="left">
+      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22269">22269</a>
+      <td class="summary">[Navigator] File-&gt;Rename while already renaming
+        hangs Naviga
+    <tr class="P2" vAlign="top" align="left">
+      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22458">22458</a>
+      <td class="summary">Refactoring a package does not move the package's
+        directory
+    <tr class="P3" vAlign="top" align="left">
+      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22673">22673</a>
+      <td class="summary">VerifyError in char cast of static final char
+        referenced thr
+    <tr class="P2" vAlign="top" align="left">
+      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22687">22687</a>
+      <td class="summary">Not easy to re-install optional feature
+    <tr class="P2" vAlign="top" align="left">
+      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=22807">22807</a>
+      <td class="summary">Deleting non-optional features from file system throws
+        error
+    <tr class="P3" vAlign="top" align="left">
+      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=23318">23318</a>
+      <td class="summary">Resolution of Circular Dep. preference/error message
+        filteri
+    <tr class="P3" vAlign="top" align="left">
+      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=23320">23320</a>
+      <td class="summary">Incomplete classpath and circular classpath options
+        should b
+    <tr class="P1" vAlign="top" align="left">
+      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=23340">23340</a>
+      <td class="summary">[ExternalTools] ArrayIndexOutOfBounds exception when
+        running
+    <tr class="P3" vAlign="top" align="left">
+      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=23343">23343</a>
+      <td class="summary">Warn users about update policy
+    <tr class="P3" vAlign="top" align="left">
+      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=23388">23388</a>
+      <td class="summary">IJavaType does not implement equals
+    <tr class="P3" vAlign="top" align="left">
+      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=23408">23408</a>
+      <td class="summary">Externalize JavaUISourceLocator.SourceLookupDialog
+    <tr class="P3" vAlign="top" align="left">
+      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=23558">23558</a>
+      <td class="summary">Extremly slow startup
+    <tr class="P1" vAlign="top" align="left">
+      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=23853">23853</a>
+      <td class="summary">&quot;Completing the install&quot; screen shown at
+        each launch
+    <tr class="P2" vAlign="top" align="left">
+      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=23977">23977</a>
+      <td class="summary">.classpath corruption
+    <tr class="P3" vAlign="top" align="left">
+      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=23979">23979</a>
+      <td class="summary">Build Path page reports cycle even if there is none
+    <tr class="P2" vAlign="top" align="left">
+      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=24096">24096</a>
+      <td class="summary">XML Validation fails on any XML file encoded with
+        GB18030
+    <tr class="P3" vAlign="top" align="left">
+      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=24533">24533</a>
+      <td class="summary">Disabled feature shows included children's latest
+        enable ver
+    <tr class="P2" vAlign="top" align="left">
+      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=24535">24535</a>
+      <td class="summary">Installing feature enables missing optional children
+    <tr class="P2" vAlign="top" align="left">
+      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=24542">24542</a>
+      <td class="summary">[DND] Crash when drag&amp;drop on the Package Explorer
+    <tr class="P1" vAlign="top" align="left">
+      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=24646">24646</a>
+      <td class="summary">Reverting prevent Eclipse from opening
+    <tr class="P3" vAlign="top" align="left">
+      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=24657">24657</a>
+      <td class="summary">Update test R2, Connection time out
+    <tr class="P3" vAlign="top" align="left">
+      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=24659">24659</a>
+      <td class="summary">Grayed/checked optional feature should not be affected
+        by 'D
+    <tr class="P1" vAlign="top" align="left">
+      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=24667">24667</a>
+      <td class="summary">[boot] Classloader enhancements
+    <tr class="P1" vAlign="top" align="left">
+      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=24668">24668</a>
+      <td class="summary">[runtime] PluginDescriptor could cache classpath
+    <tr class="P2" vAlign="top" align="left">
+      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=24684">24684</a>
+      <td class="summary">[Editor Mgmt] 'Open With' of Eclipse 2.0.1 sets wrong
+        defaul
+    <tr class="P2" vAlign="top" align="left">
+      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=24758">24758</a>
+      <td class="summary">Features loaded multiple times during the session
+    <tr class="P3" vAlign="top" align="left">
+      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=24942">24942</a>
+      <td class="summary">[boot] [2.0.2 tp1] Unable to upgrade eclipse (2.0.0
+        -&gt; 2.0.2
+    <tr class="P3" vAlign="top" align="left">
+      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=24943">24943</a>
+      <td class="summary">update is detected on first run
+    <tr class="P1" vAlign="top" align="left">
+      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=25191">25191</a>
+      <td class="summary">Using ANT deadlocks the Workbench
+    <tr class="P3" vAlign="top" align="left">
+      <td><a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=25202">25202</a>
+      <td class="summary">Peer features are disabled if an optional feature is
+        missing
+    </tr>
+  </tbody>
+</table>
+
+<h3><a name="4.1 Release 2.0.1 over 2.0.0">5.2 </a>Defect fixed in release 2.0.1
+since 2.0.0</h3>
+
+<p>Service release 2.0.1 (Aug. 28, 2002) fixed a number of serious defects present in release
+2.0.0:</p>
 
 <table cellSpacing="0" cellPadding="4" width="100%">
   <tbody>
