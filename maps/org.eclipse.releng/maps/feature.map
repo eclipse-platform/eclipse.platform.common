@@ -2,8 +2,8 @@
 feature@org.eclipse.sdk=r302_v20041209,:pserver:anonymous@dev.eclipse.org:/home/eclipse,,org.eclipse.sdk-feature/features/org.eclipse.sdk
 plugin@org.eclipse.sdk=r302_v20050110,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-feature@org.eclipse.jdt=r3011_v20040929,:pserver:anonymous@dev.eclipse.org:/home/eclipse,,org.eclipse.jdt-feature
-feature@org.eclipse.jdt.sdk=r3011_v20040929,:pserver:anonymous@dev.eclipse.org:/home/eclipse,,org.eclipse.sdk-feature/features/org.eclipse.jdt.sdk
+feature@org.eclipse.jdt=r302_v20050112_0800,:pserver:anonymous@dev.eclipse.org:/home/eclipse,,org.eclipse.jdt-feature
+feature@org.eclipse.jdt.sdk=r302_v20050112_0800,:pserver:anonymous@dev.eclipse.org:/home/eclipse,,org.eclipse.sdk-feature/features/org.eclipse.jdt.sdk
 
 feature@org.eclipse.pde=r301_v20040630,:pserver:anonymous@dev.eclipse.org:/home/eclipse,,org.eclipse.pde-feature
 feature@org.eclipse.pde.sdk=r301_v20040630,:pserver:anonymous@dev.eclipse.org:/home/eclipse,,org.eclipse.sdk-feature/features/org.eclipse.pde.sdk
