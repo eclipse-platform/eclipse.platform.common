@@ -2,7 +2,7 @@
 
 feature@org.eclipse.sdk.examples-feature=r211_v20030425a, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 feature@org.eclipse.sdk.examples.win32-feature=r211_v20030425a, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-feature@org.eclipse.sdk.tests-feature=r211_v20030520, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+feature@org.eclipse.sdk.tests-feature=r211_v20030528, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 plugin@org.eclipse.releng.tests=r211_v20030522, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
