@@ -4,7 +4,7 @@ plugin@org.eclipse.jdt=r202_v20020916, :pserver:anonymous@dev.eclipse.org:/home/
 
 plugin@org.eclipse.jdt.source=r202_v20020916, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-plugin@org.eclipse.jdt.ui=r201_v20020821, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.jdt.ui=r202_v20020913, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.search=r201_v20020807, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 plugin@org.junit=R2_0, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
