@@ -5,14 +5,14 @@
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <meta name="GENERATOR" content="Microsoft FrontPage 4.0">
 <meta name="ProgId" content="FrontPage.Editor.Document">
-<title>Eclipse Project Release Notes 2.1.1</title>
+<title>Eclipse Project Release Notes 2.1.3</title>
 </head>
 
 <body>
 
 <h1>Eclipse Project Release Notes</h1>
-<p>Release 2.1.2<br>
-October 31, 2003</p>
+<p>Pre-release 2.1.3<br>
+Last revised December 15, 2003</p>
 <p align="left"><strong>This software is OSI Certified Open Source Software.<br>
 OSI Certified is a certification mark of the Open Source Initiative.&nbsp;</strong></p>
 <blockquote>
@@ -457,9 +457,9 @@ been read rather than in the workbench's default encoding.</p>
 <h4>Key binding scopes</h4>
 <p>Clients should be aware of key binding scopes, which were introduced in 2.1. <code>TextEditor</code>
 sets &quot;org.eclipse.ui.textEditorScope&quot; as its key binding scope.
-Subclasses inherit this setting if they do not override
-&quot;initializeKeybindingScopes&quot;. <code>AbstractTextEditor</code> does not
-set any key binding scopes; it leaves this to its subclasses.</p>
+Subclasses inherit this setting if they do not override &quot;initializeKeybindingScopes&quot;.
+<code>AbstractTextEditor</code> does not set any key binding scopes; it leaves
+this to its subclasses.</p>
 <h4>Action definition ids are mandatory</h4>
 <p>All actions registered with an instance of <code>AbstractTextEditor</code>
 should have an action definition id. Otherwise they will not be accessible via
@@ -661,8 +661,7 @@ following:</p>
 <ol>
   <li>Create a thread in which to run your code.</li>
   <li>Send yourThread.setContextClassLoader(yourClassLoader); // you can find
-    your classloader by grabbing a class it loaded
-    (YourPluginClass.class.getClassLoader())</li>
+    your classloader by grabbing a class it loaded (YourPluginClass.class.getClassLoader())</li>
   <li>Run your code in the newly created thread.</li>
 </ol>
 <p>If you set the context class loader for the current thread, you are competing
@@ -1093,9 +1092,8 @@ executable. For example, the debugger will allow a breakpoint to be placed on a
 variable declaration that does not contain an initializer (&quot;int x;&quot;).
 Note that enabled breakpoints which are successfully installed on an executable
 line in a running (debuggable) VM are displayed with a checkmark. Breakpoints
-that are displayed without a checkmark are not installed in a running
-(debuggable) VM. (bugs <a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=8473">8473</a>,
-<a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=12696">12696</a>)
+that are displayed without a checkmark are not installed in a running (debuggable)
+VM. (bugs <a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=8473">8473</a>, <a href="http://dev.eclipse.org/bugs/show_bug.cgi?id=12696">12696</a>)
 <h4>Using Hot Code Replace</h4>
 Hot code replace is supported on JDK 1.4.x VMs, and IBM J9 VMs. Hot code replace
 is limited to changes which do not effect the shape of a class. That is, changes
@@ -1209,13 +1207,13 @@ around this problem, close the editor and and reopen it. (bug <a href="http://bu
 <h4>Icons folder not included in bin.includes of some PDE templates</h4>
 <p>PDE provides a number of templates that can be used to create fully
 functioning plug-in projects and/or extensions. When projects are created, the <code>build.properties</code>
-file is created with the initial content, which includes the property
-'bin.includes' listing the plug-in manifest and its code JARs. However, it omits
-mention of other files created by the template, such as the <code>icons/</code>
-folder. As a request, these extra files do not end up in the plug-in when built
-using Ant build file or exported using 'Export deployable plug-ins and
-fragments' wizard. To work around this problem, add these files and directories
-manually in build.properties file. (bug <a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=35554">35554</a>)</p>
+file is created with the initial content, which includes the property 'bin.includes'
+listing the plug-in manifest and its code JARs. However, it omits mention of
+other files created by the template, such as the <code>icons/</code> folder. As
+a request, these extra files do not end up in the plug-in when built using Ant
+build file or exported using 'Export deployable plug-ins and fragments' wizard.
+To work around this problem, add these files and directories manually in
+build.properties file. (bug <a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=35554">35554</a>)</p>
 <h4>Emacs key bindings do not work in manifest editor fields</h4>
 <p>Non-default key bindings currently do not work in fields on non-source pages
 of the PDE manifest editors. (bug <a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=19482">19482</a>)</p>
@@ -1275,8 +1273,8 @@ when trying to obtain the timestamp of a newly uploaded file. This causes a
 again and continue. (bug <a href="http://bugs.eclipse.org/bugs/show_bug.cgi?id=19715">19715</a>)</p>
 <h2>4. <a name="RunningEclipse">Running Eclipse</a></h2>
 <p>After installing the Eclipse SDK in a directory, you can start the Workbench
-by running the Eclipse executable included with the release (you also need a
-JRE, included with the Eclipse SDK). On Windows, the executable file is called <samp>eclipse.exe</samp>,
+by running the Eclipse executable included with the release (you also need a JRE,
+included with the Eclipse SDK). On Windows, the executable file is called <samp>eclipse.exe</samp>,
 and is located in the <code>eclipse</code> subdirectory of the install. If
 installed at <code>c:\eclipse-SDK-2.1-win32</code>, the executable is <code>c:\eclipse-SDK-2.1-win32\eclipse\eclipse.exe</code>.
 <b>Note:</b> Set-up on other operating environments is analogous.</p>
@@ -1451,14 +1449,120 @@ of concerns do not apply since they affect the layout and interpretation of
 files in the plug-in <i>project</i> but none affect the actual deployed form of
 the plug-in.)</p>
 <h2>7. <a name="DefectsFixed"></a>Defects Fixed in Maintenance Releases</h2>
+<h3>7.1 Defects fixed in release 2.1.3 since 2.1.2</h3>
+<p>Release 2.1.3 is a maintenance release to fix serious defects present in
+release 2.1.0, 2.1.1, and 2.1.2. These changes only affect some plug-ins and
+features. Modified plug-ins have version id &quot;2.1.3&quot;; plug-ins
+unchanged since the 2.1 release still have version id &quot;2.1.0&quot;;
+plug-ins unchanged since the 2.1.1 release still have version id
+&quot;2.1.1&quot;, and so on. Note, however, that all features now have version
+id &quot;2.1.3&quot; (even if none of their plug-ins changed).</p>
+<p>Maintenance release 2.1.3 includes all fixes made in 2.1.2 and 2.1.1 (see
+following sections) and contains additional fixes for the following defects:</p>
+<table cellspacing="0" cellpadding="4" width="100%">
+  <tbody>
+    <tr align="left">
+      <th><a href="https://bugs.eclipse.org/bugs/buglist.cgi?product=JDT&amp;product=PDE&amp;product=Platform&amp;target_milestone=2.1.3&amp;resolution=FIXED&amp;order=bugs.bug_id">ID</a></th>
+      <th><a href="https://bugs.eclipse.org/bugs/buglist.cgi?product=JDT&amp;product=PDE&amp;product=Platform&amp;target_milestone=2.1.3&amp;resolution=FIXED&amp;order=bugs.short_desc,bugs.bug_id">Summary</a></th>
+    </tr>
+    <tr class="bz_normal bz_P3 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=14103">14103</a></td>
+      <td>[Builder] Too many dependents found when incrementally re...</td>
+    </tr>
+    <tr class="bz_normal bz_P3 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=38732">38732</a></td>
+      <td>organize imports does not work with assert in source code</td>
+    </tr>
+    <tr class="bz_normal bz_P3 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=40950">40950</a></td>
+      <td>[infrastructure] NPE from indexer</td>
+    </tr>
+    <tr class="bz_normal bz_P3 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=41373">41373</a></td>
+      <td>SourceField.getConstant() returns null for final fields s...</td>
+    </tr>
+    <tr class="bz_critical bz_P3 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=42579">42579</a></td>
+      <td>Eclipse allows setting a source folder's parent as output...</td>
+    </tr>
+    <tr class="bz_normal bz_P3 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=45357">45357</a></td>
+      <td>Compiler-Bug: &quot;The local variable oResult may not have be...</td>
+    </tr>
+    <tr class="bz_normal bz_P3 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=45433">45433</a></td>
+      <td>Bug7 (and counting ;-): hundretAssignmentsToFinalVariable()</td>
+    </tr>
+    <tr class="bz_normal bz_P3 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=45847">45847</a></td>
+      <td>[Builder] Reading build state is slow</td>
+    </tr>
+    <tr class="bz_major bz_P2 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=45985">45985</a></td>
+      <td>BUILD FAILED: java.lang.NoSuchMethodError: attempting to ...</td>
+    </tr>
+    <tr class="bz_normal bz_P3 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=46093">46093</a></td>
+      <td>[Builder] Unoptimal pre-check for not writing class files</td>
+    </tr>
+    <tr class="bz_normal bz_P3 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=46276">46276</a></td>
+      <td>Search for package declarations incorrectly finds matches...</td>
+    </tr>
+    <tr class="bz_blocker bz_P3 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=46301">46301</a></td>
+      <td>IStackFrame.getVariable() requests when Variables view is...</td>
+    </tr>
+    <tr class="bz_major bz_P3 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=46675">46675</a></td>
+      <td>[Compiler] NullPointerException with ? operator</td>
+    </tr>
+    <tr class="bz_normal bz_P3 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=46777">46777</a></td>
+      <td>DBCS String not getting transfered correctly from the sim...</td>
+    </tr>
+    <tr class="bz_normal bz_P3 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=46918">46918</a></td>
+      <td>assignment to this allowed by compiler</td>
+    </tr>
+    <tr class="bz_normal bz_P3 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=47074">47074</a></td>
+      <td>inability to detect invalid cast between interfaces</td>
+    </tr>
+    <tr class="bz_normal bz_P3 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=47082">47082</a></td>
+      <td>[Compiler] Problem with final variable initialization</td>
+    </tr>
+    <tr class="bz_normal bz_P3 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=47415">47415</a></td>
+      <td>[Search] package references confused with multiple fragments</td>
+    </tr>
+    <tr class="bz_normal bz_P3 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=47509">47509</a></td>
+      <td>Refactor name of package fragment does not handle on dema...</td>
+    </tr>
+    <tr class="bz_normal bz_P3 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=47881">47881</a></td>
+      <td>[Compiler] x &amp;&amp; false evaluates to &quot;true&quot;</td>
+    </tr>
+    <tr class="bz_trivial bz_P3 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=47886">47886</a></td>
+      <td>[Compiler] ACC_SUPER bit sets for interfaces</td>
+    </tr>
+    <tr class="bz_normal bz_P3 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=47976">47976</a></td>
+      <td>Implementation of IField.getConstant() fails for some con...</td>
+    </tr>
+    <tr class="bz_normal bz_P3 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=47989">47989</a></td>
+      <td>Exception when searching for IPackageFragment &quot;java.util....</td>
+    </tr>
+  </tbody>
+</table>
+<p>Note: the above table was generated with the Bugzilla query: <a href="http://bugs.eclipse.org/bugs/buglist.cgi?product=JDT&amp;product=PDE&amp;product=Platform&amp;target_milestone=2.1.3&amp;resolution=FIXED&amp;order=bugs.bug_id">http://bugs.eclipse.org/bugs/buglist.cgi?product=JDT&amp;product=PDE&amp;product=Platform&amp;target_milestone=2.1.3&amp;resolution=FIXED&amp;order=bugs.bug_id</a></p>
 <h3>7.1 Defects fixed in release 2.1.2 since 2.1.1</h3>
-<p>Release 2.1.2 is a maintenance release to fix serious defects present in
-release 2.1.0 and 2.1.1. These changes only affect some plug-ins and features.
-Modified plug-ins have version id &quot;2.1.2&quot;; plug-ins unchanged since
-the 2.1 release still have version id &quot;2.1.0&quot;; plug-ins unchanged
-since the 2.1.1 release still have version id &quot;2.1.1&quot;. Note, however,
-that all features now have version id &quot;2.1.2&quot; (even if none of their
-plug-ins changed).</p>
+<p>Release 2.1.2 was the second maintenance release to fix serious defects
+present in releases 2.1.0 and 2.1.1.</p>
 <p>Maintenance release 2.1.2 includes all fixes made in 2.1.1 (see next section)
 and contains additional fixes for the following defects:</p>
 <table cellspacing="0" cellpadding="4" width="100%">
