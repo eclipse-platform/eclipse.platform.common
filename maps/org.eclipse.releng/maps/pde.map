@@ -1,7 +1,7 @@
 !***************  PDE CONTRIBUTION  ******************************************************** 
 
 
-plugin@org.eclipse.pde=r201_v20020723, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.pde=r202_v20020916, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 plugin@org.eclipse.pde.source=r201_v20020723, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.pde.core=r201_v20020814, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
