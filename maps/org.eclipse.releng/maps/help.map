@@ -10,5 +10,5 @@ plugin@org.eclipse.help.webapp=r301_v20040915a,:pserver:anonymous@dev.eclipse.or
 plugin@org.eclipse.tomcat=v20040623,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.apache.lucene=r301_v20040825,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-plugin@org.eclipse.help.tests=r301_v20040901,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.help.tests=v20041111_perf301,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.help.examples.ex1=v20031201,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
