@@ -12,7 +12,7 @@
 
 <h1>Eclipse Project Release Notes</h1>
 <p>Release 2.1.1<br>
-Last revised June 3, 2003</p>
+Last revised June 6, 2003</p>
 <p align="left"><strong>This software is OSI Certified Open Source Software.<br>
 OSI Certified is a certification mark of the Open Source Initiative.&nbsp;</strong></p>
 <blockquote>
@@ -1436,7 +1436,7 @@ of concerns do not apply since they affect the layout and interpretation of
 files in the plug-in <i>project</i> but none affect the actual deployed form of
 the plug-in.)</p>
 <h2>7. <a name="DefectsFixed"></a>Defects Fixed in Maintenance Releases</h2>
-<h3>7.1 Defect fixed in release 2.1.1 since 2.1.0</h3>
+<h3>7.1 Defects fixed in release 2.1.1 since 2.1.0</h3>
 <p>Release 2.1.1 is a maintenance release to fix serious defects present in
 release 2.1.0. These changes only affect some plug-ins and features. Modified
 plug-ins have version id &quot;2.1.1&quot;; plug-ins unchanged since the 2.1
@@ -1445,7 +1445,7 @@ features now have version id &quot;2.1.1&quot; (even if none of their plug-ins
 changed).</p>
 <p>Maintenance release 2.1.1 fixes the following defects present in release
 2.1.0:</p>
-<table>
+<table cellspacing="0" cellpadding="4" width="70%">
   <tbody>
     <tr align="left">
       <th><a href="https://bugs.eclipse.org/bugs/buglist.cgi?product=JDT&amp;product=PDE&amp;product=Platform&amp;target_milestone=2.1.1&amp;resolution=FIXED&amp;order=bugs.bug_id">ID</a></th>
@@ -1572,6 +1572,10 @@ changed).</p>
       <td>Search doesn't work for reference of 'cursorLocation'</td>
     </tr>
     <tr class="bz_normal bz_P2 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=35493">35493</a></td>
+      <td>OleClientSite hang</td>
+    </tr>
+    <tr class="bz_normal bz_P2 ">
       <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=35497">35497</a></td>
       <td>ArrayIndexOutOfBounds on external tools page</td>
     </tr>
@@ -1618,6 +1622,10 @@ changed).</p>
     <tr class="bz_normal bz_P3 ">
       <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=35740">35740</a></td>
       <td>Disable edit launch config popup action for private launch</td>
+    </tr>
+    <tr class="bz_major bz_P2 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=35750">35750</a></td>
+      <td>[Key Bindings] Accelerator Key doesn't work if items are ...</td>
     </tr>
     <tr class="bz_normal bz_P2 ">
       <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=35755">35755</a></td>
@@ -1840,17 +1848,21 @@ changed).</p>
       <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=37224">37224</a></td>
       <td>TextSearch should use IDocument if one opened</td>
     </tr>
-    <tr class="bz_enhancement bz_P3 ">
-      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=37277">37277</a></td>
-      <td>Title Area Dialog requires navigation to the error message</td>
-    </tr>
     <tr class="bz_normal bz_P2 ">
       <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=37288">37288</a></td>
       <td>StepIntoSelectionHandler is filtering events from same de...</td>
     </tr>
+    <tr class="bz_normal bz_P3 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=37297">37297</a></td>
+      <td>[Contributions] SubStatusLineManager.setVisible handles m...</td>
+    </tr>
     <tr class="bz_major bz_P2 ">
       <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=37463">37463</a></td>
       <td>[Navigator] Should not sync with selection in Navigator a...</td>
+    </tr>
+    <tr class="bz_major bz_P2 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=37537">37537</a></td>
+      <td>[Coolbar] Can't restore combo box on toolbar</td>
     </tr>
     <tr class="bz_major bz_P3 ">
       <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=37566">37566</a></td>
@@ -1888,9 +1900,29 @@ changed).</p>
       <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=38173">38173</a></td>
       <td>Help Search dialog does not close after cancelling and re...</td>
     </tr>
+    <tr class="bz_major bz_P3 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=38213">38213</a></td>
+      <td>[Wizards] Dialogs require a resize to draw</td>
+    </tr>
+    <tr class="bz_normal bz_P3 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=38277">38277</a></td>
+      <td>TVT2.1- Description text not translated in code Generatio...</td>
+    </tr>
+    <tr class="bz_normal bz_P2 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=38335">38335</a></td>
+      <td>Update Manager continues to find available updates</td>
+    </tr>
+    <tr class="bz_normal bz_P3 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=38385">38385</a></td>
+      <td>Japanese Input (IME) not doesn't come up</td>
+    </tr>
+    <tr class="bz_normal bz_P3 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=38388">38388</a></td>
+      <td>eclipse crash on redhat 9/ ja_JP</td>
+    </tr>
   </tbody>
 </table>
-<p>Note: the above table was generated with the Bugzilla query <a href="http://bugs.eclipse.org/bugs/buglist.cgi?product=JDT&amp;product=PDE&amp;product=Platform&amp;target_milestone=2.1.1&amp;resolution=FIXED&amp;order=bugs.bug_id">http://bugs.eclipse.org/bugs/buglist.cgi?product=JDT&amp;product=PDE&amp;product=Platform&amp;target_milestone=2.1.1&amp;resolution=FIXED&amp;order=bugs.bug_id</a></p>
+<p>Note: the above table was generated with the Bugzilla query: <a href="http://bugs.eclipse.org/bugs/buglist.cgi?product=JDT&amp;product=PDE&amp;product=Platform&amp;target_milestone=2.1.1&amp;resolution=FIXED&amp;order=bugs.bug_id">http://bugs.eclipse.org/bugs/buglist.cgi?product=JDT&amp;product=PDE&amp;product=Platform&amp;target_milestone=2.1.1&amp;resolution=FIXED&amp;order=bugs.bug_id</a></p>
 <hr>
 <p>Java and all Java-based trademarks are trademarks of Sun Microsystems, Inc.
 in the United States, other countries, or both.</p>
