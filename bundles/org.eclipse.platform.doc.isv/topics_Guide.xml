@@ -49,7 +49,7 @@
 		</topic>
 		<topic label="More workbench extensions" href="guide/workbench_advext.htm" >
 			<topic label="org.eclipse.ui.elementFactories" href="guide/workbench_advext_elementFactories.htm" />
-			<topic label="org.eclipse.ui.ide.resourceFilters" href="guide/workbench_advext_resourceFilters.htm" />
+			<topic label="org.eclipse.ui.resourceFilters" href="guide/workbench_advext_resourceFilters.htm" />
 			<topic label="org.eclipse.ui.decorators" href="guide/workbench_advext_decorators.htm" />
 			<topic label="org.eclipse.ui.fontDefinitions" href="guide/workbench_advext_fonts.htm" />
 		</topic>
@@ -213,7 +213,6 @@
 			<topic label="Help server and file locations" href="guide/help_plugin_files.htm" />
 			<topic label="Completing the plug-in manifest" href="guide/help_plugin_manifest.htm" />
 			<topic label="Building nested documentation structures" href="guide/help_plugin_nested.htm" />
-			<topic label="Dynamic help" href="guide/help_dynamic.htm" />
 		</topic>
 		<topic label="Infopops" href="guide/help_infopops.htm" >
 			<topic label="Declaring a context id" href="guide/help_infopops_id.htm" />
@@ -227,10 +226,9 @@
 	</topic>
 	
 	<topic label="Platform Ant support" href="guide/ant.htm">
-		<topic label="Running Ant buildfiles programmatically" href="guide/ant_running_buildfiles_programmatically.htm" />
+		<topic label="Running Ant buildfiles programmatically" href="guide/ant_running_script_programmatically.htm" />
 		<topic label="Ant tasks provided by the platform" href="guide/ant_eclipse_tasks.htm" />
 		<topic label="Contributing tasks and types" href="guide/ant_contributing_task.htm" />
-		<topic label="Developing Ant tasks and types within Eclipse" href="guide/ant_developing.htm" />
 		<topic label="Expanding the Ant classpath" href="guide/ant_expanding_classpath.htm" />
 	</topic>
 
