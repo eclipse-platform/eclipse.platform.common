@@ -2,11 +2,11 @@
 
 plugin@platform-launcher=v2048, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-plugin@org.eclipse.swt=v2047i, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-fragment@org.eclipse.swt.gtk=v2047h, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-fragment@org.eclipse.swt.motif=v2047h, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-fragment@org.eclipse.swt.photon=v2047h, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-fragment@org.eclipse.swt.win32=v2047h, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.swt=v2048, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+fragment@org.eclipse.swt.gtk=v2048, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+fragment@org.eclipse.swt.motif=v2048, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+fragment@org.eclipse.swt.photon=v2048, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+fragment@org.eclipse.swt.win32=v2048, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 plugin@org.eclipse.swt.examples=v2047i, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.swt.examples.controls=v2047i, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
