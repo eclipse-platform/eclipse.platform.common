@@ -6,6 +6,6 @@ plugin@org.eclipse.update.scheduler=v20040623a,:pserver:anonymous@dev.eclipse.or
 plugin@org.eclipse.update.ui=v20040827_R3_0_maintenance,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 fragment@org.eclipse.update.core.win32=v20040318,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-fragment@org.eclipse.update.core.linux=v20040913_R3_0_maintenance,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+fragment@org.eclipse.update.core.linux=R3_0_maintenance,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 plugin@org.eclipse.update.tests.core=v20040625,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
