@@ -2,8 +2,8 @@
 
 plugin@org.eclipse.debug.core=v20030327a, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.debug.ui=r211_v20030429, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.jdt.debug=v20030327d, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.jdt.debug.ui=r211_v20030429, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.jdt.debug=r211_v20030506, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.jdt.debug.ui=r211_v20030506, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.jdt.launching=r211_v20030429, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.jdt.launching.macosx=v20030314, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
