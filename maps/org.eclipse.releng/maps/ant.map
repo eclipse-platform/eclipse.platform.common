@@ -7,5 +7,5 @@ plugin@org.eclipse.ant.ui=r301_v20040727,:pserver:anonymous@dev.eclipse.org:/hom
 
 plugin@org.eclipse.ui.externaltools=r301_v20040727,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-plugin@org.eclipse.ant.tests.core=v20040623,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.ant.tests.core=r301_v20040811,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.ant.tests.ui=v20040623,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
