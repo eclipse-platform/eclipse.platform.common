@@ -1,9 +1,0 @@
-
-!***************  JDT CORE CONTRIBUTION  [20050202] ******************************************* 
-
-plugin@org.eclipse.jdt.core=v_454_R30x, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-
-plugin@org.eclipse.jdt.core.tests.builder=v_454_R30x, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.jdt.core.tests.compiler=v_454_R30x, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.jdt.core.tests.model=v_454_R30x, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-
