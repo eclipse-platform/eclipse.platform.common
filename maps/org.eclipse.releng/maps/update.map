@@ -3,7 +3,7 @@
 plugin@org.eclipse.update.configurator=v20040623b,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.update.core=v20040930_R3_0_1_1,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.update.scheduler=v20040930_R3_0_1_1,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.update.ui=v20040930_R3_0_1_1,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.update.ui=v20041122_R3_0_maintenance,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 fragment@org.eclipse.update.core.win32=v20040318,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 fragment@org.eclipse.update.core.linux=r301_v20040914,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
