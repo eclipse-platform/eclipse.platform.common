@@ -1,7 +1,7 @@
 !***************  UI CONTRIBUTION  ******************************************************** 
 
 plugin@org.eclipse.jface=R2_1_20030606, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.ui=R2_1_200300606, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.ui=R2_1_20030611, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.ui.workbench=R2_1_20030604, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.ui.views=R2_1_20030521, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.ui.versioncheck=v20030528b, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
