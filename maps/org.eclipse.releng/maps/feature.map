@@ -9,7 +9,7 @@ feature@org.eclipse.jdt.macosx.source-feature=v20020917, :pserver:anonymous@dev.
 feature@org.eclipse.pde-feature=v20020917, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 feature@org.eclipse.platform-feature=r212_v20030714,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-feature@org.eclipse.platform.source-feature=r212_v20030710,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+feature@org.eclipse.platform.source-feature=r212_v20030714,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 feature@org.eclipse.platform.aix.motif-feature=r211_v20030428, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 feature@org.eclipse.platform.aix.motif.source-feature=r211_v20030425a, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
