@@ -7,7 +7,7 @@ plugin@org.eclipse.ui.externaltools=r201_v20020821, :pserver:anonymous@dev.eclip
 
 plugin@org.eclipse.ui.examples.multipageeditor=v20020627, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.ui.examples.propertysheet=v20020627, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.ui.examples.readmetool=r201_v20020807, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.ui.examples.readmetool=r201_v20020821, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.ui.examples.javaeditor=v20020627, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 plugin@org.eclipse.ui.tests=v20020627, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
