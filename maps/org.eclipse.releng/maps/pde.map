@@ -4,6 +4,6 @@
 plugin@org.eclipse.pde=R202_v20021002a, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 plugin@org.eclipse.pde.source=r202_v20020916, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.pde.core=r201_v20020814, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.pde.core=R202_v20021011, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.pde.ui=r201_v20020812a,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.pde.runtime=v20020627, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
