@@ -32,7 +32,7 @@ feature@org.eclipse.platform.qnx.photon.source-feature=r211_v20030425a, :pserver
 feature@org.eclipse.platform.solaris.motif-feature=r211_v20030428, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 feature@org.eclipse.platform.solaris.motif.source-feature=r211_v20030425a, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-feature@org.eclipse.platform.win32-feature=r211_v20030428, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+feature@org.eclipse.platform.win32-feature=r212_20030909,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 feature@org.eclipse.platform.win32.source-feature=r211_v20030425a, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 plugin@org.eclipse.platform=r212_v20030710,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
