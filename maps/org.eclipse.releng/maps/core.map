@@ -1,12 +1,12 @@
 !***************  CORE CONTRIBUTION  ******************************************************** 
 
 !**** OSGi
-plugin@org.eclipse.osgi=r30x_v20040812,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.osgi=r30x_v20040831,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.osgi.services=v20040622,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.osgi.util=v20040622,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 !**** Runtime
-plugin@org.eclipse.core.runtime=r30x_v20040830,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.core.runtime=r30x_v20040831,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 !**** Resources
 plugin@org.eclipse.core.resources=r30x_v20040826,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
