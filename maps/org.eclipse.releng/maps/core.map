@@ -8,7 +8,7 @@ plugin@org.apache.xerces=r21x_v20030618, :pserver:anonymous@dev.eclipse.org:/hom
 plugin@org.eclipse.core.boot=r21x_v20040105,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.core.resources=r21x_v20030520, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.core.runtime=r21x_v20030528, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.pde.build=r21x_v20040226, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.pde.build=r21x_v20040310, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.webdav=v20030327, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 plugin@org.eclipse.core.tests.harness=r21x_v20030530,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
