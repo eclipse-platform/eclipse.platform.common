@@ -1,6 +1,6 @@
 !***************  SWT CONTRIBUTION  ******************************************************** 
 
-plugin@platform-launcher=v20040624,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@platform-launcher=v20040910,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 plugin@org.eclipse.swt=v3062m, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 fragment@org.eclipse.swt.carbon=v3062c, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
