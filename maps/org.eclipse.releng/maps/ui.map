@@ -13,7 +13,7 @@ plugin@org.eclipse.ui.presentations.r21=v200407141200,:pserver:anonymous@dev.ecl
 plugin@org.eclipse.ui.forms=R301_v20040717,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 plugin@org.eclipse.ui.cheatsheets=v20040715b,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.ui.intro=v20040805,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.ui.intro=v20040901,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 
 plugin@org.eclipse.ui.examples.multipageeditor=v20040218a,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
