@@ -17,7 +17,7 @@ plugin@org.eclipse.jdt.ui.examples.projects=r301_v20040806,:pserver:anonymous@de
 plugin@org.eclipse.jdt.ui.tests=r301_v200407210800,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.jdt.ui.tests.refactoring=v20040625_1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-plugin@org.eclipse.ltk.core.refactoring=v20040625_1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.ltk.core.refactoring=r301_v20040825,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.ltk.core.refactoring.tests=v20040625_1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.ltk.ui.refactoring=v20040625_1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.ltk.ui.refactoring=r301_v20040825,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.ltk.ui.refactoring.tests=v20040625_1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
