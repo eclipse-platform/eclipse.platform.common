@@ -5,9 +5,9 @@ fragment@org.eclipse.core.resources.linux=v20030311, :pserver:anonymous@dev.ecli
 
 plugin@org.apache.xerces=r21x_v20030520, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-plugin@org.eclipse.core.boot=r21x_v20030520, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.core.boot=r21x_v20030528, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.core.resources=r21x_v20030520, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.core.runtime=r21x_v20030520, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.core.runtime=r21x_v20030528, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.pde.build=v20030327, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.webdav=v20030327, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
