@@ -12,7 +12,7 @@
 
 <h1>Eclipse Project Release Notes</h1>
 <p>Release 2.1.1<br>
-Last revised June 18, 2003</p>
+Last revised June 25, 2003</p>
 <p align="left"><strong>This software is OSI Certified Open Source Software.<br>
 OSI Certified is a certification mark of the Open Source Initiative.&nbsp;</strong></p>
 <blockquote>
@@ -457,9 +457,9 @@ been read rather than in the workbench's default encoding.</p>
 <h4>Key binding scopes</h4>
 <p>Clients should be aware of key binding scopes, which were introduced in 2.1. <code>TextEditor</code>
 sets &quot;org.eclipse.ui.textEditorScope&quot; as its key binding scope.
-Subclasses inherit this setting if they do not override &quot;initializeKeybindingScopes&quot;.
-<code>AbstractTextEditor</code> does not set any key binding scopes; it leaves
-this to its subclasses.</p>
+Subclasses inherit this setting if they do not override
+&quot;initializeKeybindingScopes&quot;. <code>AbstractTextEditor</code> does not
+set any key binding scopes; it leaves this to its subclasses.</p>
 <h4>Action definition ids are mandatory</h4>
 <p>All actions registered with an instance of <code>AbstractTextEditor</code>
 should have an action definition id. Otherwise they will not be accessible via
@@ -1963,6 +1963,14 @@ changed).</p>
     <tr class="bz_normal bz_P1 ">
       <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=38812">38812</a></td>
       <td>README - TVT21: Launching Eclipse on RedHat 8.0 with Gtk 2.2</td>
+    </tr>
+    <tr class="bz_critical bz_P1 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=38914">38914</a></td>
+      <td>Clicking in the wrong sequence crashes Java VM</td>
+    </tr>
+    <tr class="bz_blocker bz_P3 ">
+      <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=38975">38975</a></td>
+      <td>PropertySheetViewer gets IllegalArguementException if Roo...</td>
     </tr>
   </tbody>
 </table>
