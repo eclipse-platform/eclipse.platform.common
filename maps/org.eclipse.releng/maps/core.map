@@ -1,7 +1,7 @@
 !***************  CORE CONTRIBUTION  ******************************************************** 
 
 fragment@org.eclipse.core.resources.win32=r201_v20020813, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-fragment@org.eclipse.core.resources.linux=r201_v20020813, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+fragment@org.eclipse.core.resources.linux=r201_v20020822, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 plugin@org.apache.xerces=r201_v20020819, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.apache.ant=v20020627, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
