@@ -6,7 +6,7 @@ plugin@org.eclipse.osgi.services=v20040622,:pserver:anonymous@dev.eclipse.org:/h
 plugin@org.eclipse.osgi.util=v20040622,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 !**** Runtime
-plugin@org.eclipse.core.runtime=r30x_v20050107,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.core.runtime=r30x_v20050127,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 !**** Resources
 plugin@org.eclipse.core.resources=r30x_v20040908,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
