@@ -10,6 +10,6 @@ plugin@org.eclipse.team.webdav=R2_0_1_20020820,:pserver:anonymous@dev.eclipse.or
 
 plugin@org.eclipse.team.examples.filesystem=R2_0_1_20020820,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-plugin@org.eclipse.team.tests.core=R2_0,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.team.tests.cvs.core=R2_0,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.team.tests.core=R2_0_1_20020820,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.team.tests.cvs.core=R2_0_1_20020820,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
