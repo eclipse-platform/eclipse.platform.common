@@ -8,19 +8,19 @@ feature@org.eclipse.jdt.macosx.source-feature=v20020917, :pserver:anonymous@dev.
 
 feature@org.eclipse.pde-feature=r212_v20030930a, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-feature@org.eclipse.platform-feature=r213_v20031212a,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+feature@org.eclipse.platform-feature=r213_v20031216,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 feature@org.eclipse.platform.source-feature=r213_v20031212,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-feature@org.eclipse.platform.aix.motif-feature=r213_v20031212,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+feature@org.eclipse.platform.aix.motif-feature=r213_v20031216,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 feature@org.eclipse.platform.aix.motif.source-feature=r213_v20031212,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-feature@org.eclipse.platform.hpux.motif-feature=r213_v20031212,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+feature@org.eclipse.platform.hpux.motif-feature=r213_v20031216,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 feature@org.eclipse.platform.hpux.motif.source-feature=r213_v20031212,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 feature@org.eclipse.platform.linux.gtk-feature=r213_v20031212,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 feature@org.eclipse.platform.linux.gtk.source-feature=r213_v20031212,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-feature@org.eclipse.platform.linux.motif-feature=r213_v20031212,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+feature@org.eclipse.platform.linux.motif-feature=r213_v20031216,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 feature@org.eclipse.platform.linux.motif.source-feature=r213_v20031212,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 feature@org.eclipse.platform.macosx.carbon-feature=r213_v20031212,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
@@ -29,7 +29,7 @@ feature@org.eclipse.platform.macosx.carbon.source-feature=r213_v20031212,:pserve
 feature@org.eclipse.platform.qnx.photon-feature=r213_v20031212,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 feature@org.eclipse.platform.qnx.photon.source-feature=r213_v20031212,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-feature@org.eclipse.platform.solaris.motif-feature=r213_v20031212,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+feature@org.eclipse.platform.solaris.motif-feature=r213_v20031216,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 feature@org.eclipse.platform.solaris.motif.source-feature=r213_v20031212,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 feature@org.eclipse.platform.win32-feature=r213_v20031212,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
