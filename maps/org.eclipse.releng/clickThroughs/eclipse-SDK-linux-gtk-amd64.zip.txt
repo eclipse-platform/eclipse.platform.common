@@ -1,0 +1,15 @@
+When running Eclipse 3.0.2 on Linkux GTK AMD64, there is a known error
+
+	java.lang.UnsatisfiedLinkError: gtk_tree_view_column_get_fixed_width
+
+For more details see:
+
+	http://bugs.eclipse.org/bugs/show_bug.cgi?id=89911
+
+The fix is to upgrade to version 3.0.2.1 of the fragment org.eclipse.swt.gtk64.  
+
+The upgrade is available at:
+
+	http://dev.eclipse.org/viewcvs/index.cgi/%7Echeckout%7E/platform-swt-home/patch/org.eclipse.swt.gtk64_3.0.2.zip
+
+Download the zip file and extract it into the plugin folder of your Eclipse 3.0.2 install.
