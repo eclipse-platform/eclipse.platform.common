@@ -1,8 +1,8 @@
 !***************  RELENG CONTRIBUTION  ******************************************************
 
-feature@org.eclipse.sdk.examples-feature=r201_v20020815, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+feature@org.eclipse.sdk.examples-feature=r201_v20020828, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 feature@org.eclipse.sdk.examples.win32-feature=r201_v20020723, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-feature@org.eclipse.sdk.tests-feature=r201_v20020807a, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+feature@org.eclipse.sdk.tests-feature=r201_v20020828, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 plugin@org.eclipse.sdk.examples=r201_v20020723, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.sdk.examples.win32=r201_v20020723, :pserver:anonymous@dev.eclipse.org:/home/eclipse,

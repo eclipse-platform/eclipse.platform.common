@@ -5,7 +5,7 @@ feature@org.eclipse.jdt.source-feature=r201_v20020723, :pserver:anonymous@dev.ec
 
 feature@org.eclipse.pde-feature=r201_v20020812, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-feature@org.eclipse.platform-feature=r201_v20020827, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+feature@org.eclipse.platform-feature=r201_v20020828, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 feature@org.eclipse.platform.source-feature=r201_v20020723, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 feature@org.eclipse.platform.aix.motif-feature=r201_v20020807a, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
@@ -26,7 +26,7 @@ feature@org.eclipse.platform.qnx.photon.source-feature=r201_v20020723, :pserver:
 feature@org.eclipse.platform.solaris.motif-feature=r201_v20020807a, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 feature@org.eclipse.platform.solaris.motif.source-feature=r201_v20020723, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-feature@org.eclipse.platform.win32-feature=r201_v20020815, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+feature@org.eclipse.platform.win32-feature=r201_v20020828, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 feature@org.eclipse.platform.win32.source-feature=r201_v20020723, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 plugin@org.eclipse.platform=r201_20020820, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
