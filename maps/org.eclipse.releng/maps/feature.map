@@ -1,7 +1,7 @@
 !***************  FEATURE CONTRIBUTION  ******************************************************
 
-feature@org.eclipse.jdt-feature=r203_v20030206, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-feature@org.eclipse.jdt.source-feature=r202_v20020916, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+feature@org.eclipse.jdt-feature=r203_v20030207, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+feature@org.eclipse.jdt.source-feature=r203_v20030207, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 feature@org.eclipse.pde-feature=R202_v20021015, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
