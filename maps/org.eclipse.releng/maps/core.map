@@ -12,7 +12,7 @@ plugin@org.eclipse.pde.build=v20030327, :pserver:anonymous@dev.eclipse.org:/home
 plugin@org.eclipse.webdav=v20030327, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 plugin@org.eclipse.core.tests.harness=v20030311,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.core.tests.resources=R2_1_v20030514,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.core.tests.runtime=v20030320,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.core.tests.resources=R21x_v20030521,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.core.tests.runtime=R21x_v20030521,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 
