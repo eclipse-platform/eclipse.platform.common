@@ -1,6 +1,6 @@
 !***************  TEXT CONTRIBUTION  ******************************************************** 
 
-plugin@org.eclipse.text=v20040625_1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.text=r301_v20040908,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.jface.text=r301_v20040804_0800,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.ui.workbench.texteditor=r301_v20040901,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.ui.editors=r301_v20040826,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
