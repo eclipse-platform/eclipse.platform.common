@@ -1,7 +1,7 @@
 !***************  DEBUG CONTRIBUTION  ******************************************************** 
 
 plugin@org.eclipse.debug.core=r212_v20030909, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.debug.ui=r211_v20030611, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.debug.ui=v2121, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.jdt.debug=r212_v20030909, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.jdt.debug.ui=r211_v20030610, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.jdt.launching=r211_v20030429, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
