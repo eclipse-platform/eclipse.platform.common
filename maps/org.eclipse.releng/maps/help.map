@@ -1,10 +1,10 @@
 !***************  HELP CONTRIBUTION  ******************************************************** 
 
-plugin@org.eclipse.help=r201_v020806, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.help=r202_v021003, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.help.ui=r201_v020806, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 fragment@org.eclipse.help.ui.win32=r201_v020806, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-plugin@org.eclipse.help.webapp=r201_v020809, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.help.webapp=r202_v021003, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.tomcat=v020626, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.apache.lucene=v020626, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
