@@ -1,6 +1,6 @@
 !***************  UI CONTRIBUTION  ******************************************************** 
 
-plugin@org.eclipse.ui=r202_v20021018, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.ui= r202_20021023, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 fragment@org.eclipse.ui.win32=v20020627, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 plugin@org.eclipse.ui.externaltools=r202_v20021022a, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
