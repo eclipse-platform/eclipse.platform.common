@@ -1,7 +1,7 @@
 !***************  UI CONTRIBUTION  ******************************************************** 
 
 plugin@org.eclipse.jface=v200406231600,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.ui=v200407141200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.ui=v20040715b,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.ui.ide=v20040715a,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.ui.workbench=v20040715a,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 fragment@org.eclipse.ui.workbench.compatibility=v200406222000,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
@@ -12,7 +12,7 @@ plugin@org.eclipse.ui.presentations.r21=v200407141200,:pserver:anonymous@dev.ecl
 
 plugin@org.eclipse.ui.forms=v20040623,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-plugin@org.eclipse.ui.cheatsheets=v20040715a,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.ui.cheatsheets=v20040715b,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.ui.intro=v20040624a,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 
