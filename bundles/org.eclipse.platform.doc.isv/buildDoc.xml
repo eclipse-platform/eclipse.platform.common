@@ -1,43 +1,23 @@
 <project name="Platform Doc Isv Build" default="all"  basedir="." >
 
 <target name="all">
-	<antcall target="convertSchemaToHtml" />
-	<antcall target="examplesDocCopy" />
-	<antcall target="generateJavadoc" />
-	<antcall target="createDocZip" />	
+	<antcall target="extensionPointDocCopy" />	<antcall target="examplesDocCopy" />	<antcall target="generateJavadoc" />	
 </target>
 
-<target name="convertSchemaToHtml" if="eclipse.running">
-	<property name="dest" value="reference/extension-points" />
-
-    <record name="platformconvert.txt" action="start"/>
-    <pde.convertSchemaToHTML manifest="../org.eclipse.ant.core/plugin.xml" destination="${dest}" />
-    <pde.convertSchemaToHTML manifest="../org.eclipse.core.filebuffers/plugin.xml" destination="${dest}" />
-    <pde.convertSchemaToHTML manifest="../org.eclipse.core.variables/plugin.xml" destination="${dest}" />
-    <pde.convertSchemaToHTML manifest="../org.eclipse.compare/plugin.xml" destination="${dest}" />
-    <pde.convertSchemaToHTML manifest="../org.eclipse.search/plugin.xml" destination="${dest}" />
-    <pde.convertSchemaToHTML manifest="../org.eclipse.core.resources/plugin.xml" destination="${dest}" />
-    <pde.convertSchemaToHTML manifest="../org.eclipse.core.runtime/plugin.xml" destination="${dest}" />
-    <pde.convertSchemaToHTML manifest="../org.eclipse.help/plugin.xml" destination="${dest}" />
-    <pde.convertSchemaToHTML manifest="../org.eclipse.help.base/plugin.xml" destination="${dest}" />
-    <pde.convertSchemaToHTML manifest="../org.eclipse.ui/plugin.xml" destination="${dest}" />
-    <pde.convertSchemaToHTML manifest="../org.eclipse.ui.editors/plugin.xml" destination="${dest}" />
-    <pde.convertSchemaToHTML manifest="../org.eclipse.ui.workbench.texteditor/plugin.xml" destination="${dest}" />
-    <pde.convertSchemaToHTML manifest="../org.eclipse.ui.ide/plugin.xml" destination="${dest}" />
-    <pde.convertSchemaToHTML manifest="../org.eclipse.debug.core/plugin.xml" destination="${dest}" />
-    <pde.convertSchemaToHTML manifest="../org.eclipse.debug.ui/plugin.xml" destination="${dest}" />
-    <pde.convertSchemaToHTML manifest="../org.eclipse.team.core/plugin.xml" destination="${dest}" />
- 	<pde.convertSchemaToHTML manifest="../org.eclipse.team.ui/plugin.xml" destination="${dest}" />
-    <pde.convertSchemaToHTML manifest="../org.eclipse.update.core/plugin.xml" destination="${dest}" />
-    
-    <record name="platformconvert.txt" action="stop"/>
+<target name="extensionPointDocCopy">
+	<copy todir="reference/extension-points">    	<fileset dir="../org.eclipse.ant.core/doc"/>    	<fileset dir="../org.eclipse.core.resources/doc"/>    	<fileset dir="../org.eclipse.core.runtime/doc"/>     	<fileset dir="../org.eclipse.help/doc"/>
+     	<fileset dir="../org.eclipse.help.ui/doc"/>
+    	<fileset dir="../org.eclipse.ui/doc"/>    	<fileset dir="../org.eclipse.debug.core/doc"/>
+    	<fileset dir="../org.eclipse.debug.ui/doc"/>
+     	<fileset dir="../org.eclipse.team.core/doc"/>
+    	<fileset dir="../org.eclipse.team.ui/doc"/>
+    	<fileset dir="../org.eclipse.update.core/doc"/>
+    </copy>
 </target>
 
 <target name="examplesDocCopy" >
 	<copy todir="samples">
     	<fileset dir="..">
-    		<include name="org.eclipse.compare.examples/doc-html/"/>
-    		<include name="org.eclipse.compare.examples.xml/doc-html/"/>
     		<include name="org.eclipse.help.examples.ex1/doc-html/"/>
 	    	<include name="org.eclipse.swt.examples/doc-html/"/>
 	    	<include name="org.eclipse.swt.examples.controls/doc-html/"/>
@@ -49,17 +29,14 @@
 	    	<include name="org.eclipse.ui.examples.multipageeditor/doc-html/"/>
 	    	<include name="org.eclipse.ui.examples.propertysheet/doc-html/"/>
 	   		<include name="org.eclipse.ui.examples.readmetool/doc-html/"/>
-	   		<include name="org.eclipse.team.examples.filesystem/doc-html/"/>
 	    </fileset>
 	 </copy>
 </target>
 
-<target name="getJavadocPath">
-	<available file="${java.home}/../bin/javadoc.exe" property="javadoc" value="${java.home}/../bin/javadoc.exe"/>
-	<available file="${java.home}/../bin/javadoc" property="javadoc" value="${java.home}/../bin/javadoc" />
-</target>
+<target name="generateJavadoc" if="JAVADOC14_HOME">
 
-<target name="generateJavadoc" depends="getJavadocPath" if="javadoc">
+	<!--need to unzip the xercessrc.zip in org.apache.xerces-->
+	<unzip src="../org.apache.xerces/xercessrc.zip" dest="../org.apache.xerces/src" />
 
 	<condition property="optionsFile" value="platformOptions">
 	      <os family="unix" />
@@ -74,17 +51,12 @@
 	<delete dir="reference/api"/>
 	<mkdir dir="reference/api"/>
 
-	<exec dir="." executable="${javadoc}" output="doc.bin.log">
+	<exec dir="." executable="${JAVADOC14_HOME}/javadoc" output="doc.bin.log">
 		<arg line="@${basedir}/${optionsFile} -J-Xmx180m" />
 	</exec>
 	
 </target>
 
-<target name="createDocZip">
-		<zip zipfile="${basedir}/doc.zip"
-			basedir="${basedir}"
-			includes="book.css, hglegal.htm, ngibmcpy.gif, no_help_exists.htm, concepts/**, gettingStarted/**, images/**, reference/**, porting/**, tasks/**,samples/**,guide/**,questions/**"
-		/>
-</target>
+
 </project>
 

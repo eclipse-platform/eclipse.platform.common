@@ -16,7 +16,7 @@ org.eclipse.ui.newWizards
 <H3>
 org.eclipse.ui.newWizards</H3>
 <P >
-You can add a wizard to the <b> File &gt; New &gt; </b>menu options in the workbench using the
+You can add a wizard to the <b> File-&gt;New </b> menu option in the workbench using the
 <a href="../reference/extension-points/org_eclipse_ui_newWizards.html"><b> org.eclipse.ui.newWizards</b></a> extension point. The readme
 tool example uses this extension point definition to add the Readme File wizard:</P>
 <font color='#4444CC'><pre>
@@ -38,36 +38,17 @@ tool example uses this extension point definition to add the Readme File wizard:
 	&lt;/wizard&gt;
 &lt;/extension&gt;
 </pre></font>
-<P >The <b>category</b> describes the grouping for the wizard.&nbsp; An optional
-<b>parentCategory</b>  establishes the new category as a child of an existing
-category.&nbsp;&nbsp;
-<P > Top level categories will appear in the <b> File &gt; New </b>menu.&nbsp;
-In this example, the <b>parentCategory</b> is set to an &quot;Examples&quot;
-category.&nbsp; Where did the parent category come from?&nbsp; The <b>org.eclipse.ui
-</b>plug-in defines a standard examples category in its markup:<font color='#4444CC'><pre>&lt;extension
-        point=&quot;org.eclipse.ui.newWizards&quot;&gt;
-    &lt;category
-          name=&quot;%NewWizards.Category.Examples&quot;
-          id=&quot;org.eclipse.ui.Examples&quot;&gt;
-    &lt;/category&gt;
-    ...</font></pre>
-<P >This category appears in the <b> File &gt; New </b> menu.</P>
 <P >
-<img src="images/newwizardmenu.gif" alt="New menu with Examples category" border="0" width="139" height="251"></P>
+The <b> category</b> describes where the wizard will be grouped when the wizard selection dialog is used to find and launch a wizard. The category
+<b> name</b> 
+defines the label that is used in the wizard.&nbsp; The wizard itself is
+assigned to the category.&nbsp;&nbsp; Its <b>name</b>, <b>icon</b>,
+and <b>description</b> all show up in the new wizard
+selection dialog shown below.</P>
 <P >
-&nbsp;</P>
+<img border="0" src="images/newwizardlist.jpg" width="500" height="500" alt="New wizard selection dialog with readme entries"></P>
 <P >
-The readme tool's category <b>name</b> 
- defines the label that is used for the next layer of grouping underneath the
-parent category.&nbsp; These categories are shown on the left hand side of the <b>New
-Example</b> wizard.&nbsp; The wizard's <b>name</b> and <b>icon</b> are shown
-on the right hand side of the wizard when you click on the category.&nbsp; The <b>description</b> 
-of the wizard is shown at the top of the wizard when you select it in the right
-hand list as shown below:</P>
-<P >
-<img src="images/newwizardlist.gif" alt="New example wizard with readme entries" border="0" width="500" height="500"></P>
-<P >
-This information about the wizard appears solely because of the markup in the <b>plugin.xml
+All of this appears based on the markup in the <b>plugin.xml
 </b>file.&nbsp; None of the plug-in code runs
 until the user chooses the <b>Next</b> button.&nbsp; Once this happens, the
 workbench will instantiate the wizard <b>class</b>
@@ -200,7 +181,7 @@ In the case of the readme wizard, we are going to ask our page to handle the fin
 <P >
 The completed wizard looks like this:</P>
 <P >
-<img src="images/readmewizard.gif" alt="Readme file creation wizard page" border="0" width="500" height="663"></P>
+<img border="0" src="images/readmewizard.jpg" width="500" height="710" alt="Readme file creation wizard page"></P>
 
 
 
@@ -208,7 +189,7 @@ The completed wizard looks like this:</P>
     </pre></font>
 
 
-<p><a href="../hglegal.htm"><img border="0" src="../ngibmcpy.gif" alt="Copyright IBM Corporation and others 2000, 2003." border="0" width="324" height="14"></a></p>
+<p><a href="../hglegal.htm"><img border="0" src="../ngibmcpy.gif" alt="Copyright IBM Corp. and others 2000,2002."width="250" height="12"></a></p>
 
 
 </BODY>
