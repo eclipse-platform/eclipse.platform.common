@@ -2,7 +2,7 @@
 
 plugin@platform-launcher=v2133d, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-plugin@org.eclipse.swt=v2134, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.swt=v2134a, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 fragment@org.eclipse.swt.carbon=v2134, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 fragment@org.eclipse.swt.gtk=v2134, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 fragment@org.eclipse.swt.motif=v2134, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
