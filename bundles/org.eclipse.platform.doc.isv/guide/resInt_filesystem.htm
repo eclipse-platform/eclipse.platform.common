@@ -98,7 +98,7 @@ The API is based on <b>handles</b>.&nbsp; When you use API like <b>getProject</b
 or <b>getFolder</b>, you are returned a handle to the
 resource.&nbsp;&nbsp; There is no guarantee or requirement that the resource itself exists
 until you try to do something with the handle.&nbsp; If you expect a resource to
-exist, you can use <b>exists</b> method to ensure
+exist, you can use <b>exists()</b>  protocol to ensure
 this is the case.&nbsp;&nbsp;  </P>
 <P >
 To navigate the workspace from a plug-in, we must first obtain the <a href="../reference/api/org/eclipse/core/resources/IWorkspaceRoot.html"><b>IWorkspaceRoot</b></a>, which represents the top of the resource hierarchy in the workspace.</P>
@@ -176,13 +176,12 @@ Finally, we'll create another images folder and move the newly created file to i
 <P>Many of the resource API methods include a <b>force</b>
 boolean flag which specifies whether resources that are out of synch with the
 corresponding files in the local file system will be updated anyway.&nbsp; See <a href="../reference/api/org/eclipse/core/resources/IResource.html"><b>IResource</b></a>
-for more information.&nbsp; You can also use <a href="../reference/api/org/eclipse/core/resources/IResource.html"><b>IResource</b></a><b>.isSynchronized
+for more information.&nbsp; You can also use <a href="../reference/api/org/eclipse/core/resources/IResource.html"><b>IResource</b></a><b>.isSynchronized()
 </b>to determine whether a particular resource is in synch with the file system.</P>
 
 
 <H3>
-<a name="mapping">
-Mapping resources to disk locations</a></H3>
+Mapping resources to disk locations</H3>
 <P >
   In the sample resource tree, we've assumed that all of the project content directories are
 in the <b>workspace</b> directory underneath the platform root
@@ -196,7 +195,7 @@ by using the workbench and plug-ins, or by directly using file system based tool
 based on the project's location (usually the <b>workspace</b>
 directory).&nbsp; To obtain the full file system path to a resource, you must query its location using
 <b>
-<a href="../reference/api/org/eclipse/core/resources/IResource.html">IResource</a>.getLocation.&nbsp;
+<a href="../reference/api/org/eclipse/core/resources/IResource.html">IResource</a>.getLocation().&nbsp;
 </b>Howevever, you cannot use
 <b> <a href="../reference/api/org/eclipse/core/resources/IProjectDescription.html">IProjectDescription</a>.setLocation
 </b>to change its location, because that method is just a simple setter for a
@@ -225,7 +224,7 @@ each method provides specific information about this parameter. Additional metho
 <b> IResource.refreshLocal(int depth, IProgressMonitor monitor)</b>. See <b><a href="../reference/api/org/eclipse/core/resources/IResource.html">IResource</a></b>
 for information on correct usage and costs.</blockquote></i>
 
-<p><a href="../hglegal.htm"><img border="0" src="../ngibmcpy.gif" alt="Copyright IBM Corporation and others 2000, 2003." border="0" width="324" height="14"></a></p>
+<p><a href="../hglegal.htm"><img border="0" src="../ngibmcpy.gif" alt="Copyright IBM Corp. and others 2000,2002."width="250" height="12"></a></p>
 
 </BODY>
 </HTML>

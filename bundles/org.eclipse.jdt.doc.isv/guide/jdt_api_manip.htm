@@ -58,8 +58,7 @@ one can modify an in-memory copy of the compilation unit called a working copy. 
 <P>
 A working copy is obtained from a compilation unit using the 
 <b><a href="../reference/api/org/eclipse/jdt/core/IWorkingCopy.html#getWorkingCopy()">getWorkingCopy</a></b>
-method. (Note that the compilation unit does not need to exist in the Java model
-in order for a working copy to be created.)&nbsp; Whoever creates such a working copy is responsible for destroying it when not needed any longer using the
+method.  Whoever creates such a working copy is responsible for destroying it when not needed any longer using the
 <b><a href="../reference/api/org/eclipse/jdt/core/IWorkingCopy.html#destroy()">destroy</a></b>
 method. </P>
 <P>
@@ -75,7 +74,7 @@ method.  </P>
 <P>
 Finally a working copy can be saved to disk (replacing the original compilation unit) using the
 <b><a href="../reference/api/org/eclipse/jdt/core/IWorkingCopy.html#commit(boolean, org.eclipse.core.runtime.IProgressMonitor)">commit</a></b>
-method.&nbsp;&nbsp; </P>
+method. </P>
 <P>
 For example the following code snippet creates a working copy on a compilation unit using a custom buffer factory. The snippet
 modifies the buffer, reconciles the changes, commits the changes to disk and finally destroys the working copy. </P>
@@ -87,11 +86,11 @@ modifies the buffer, reconciles the changes, commits the changes to disk and fin
     IBufferFactory factory = ...;
     
     // Create working copy
-    IWorkingCopy workingCopy = (IWorkingCopy)originalUnit.getWorkingCopy(null, factory, null);
+    IWorkingCopy workingCopy = originalUnit.getWorkingCopy(null, factory, null);
     
     // Modify buffer and reconcile
     IBuffer buffer = ((IOpenable)workingCopy).getBuffer();
-    buffer.append(&quot;class X {}&quot;);
+    buffer.append("class X {}");
     workingCopy.reconcile();
     
     // Commit changes
@@ -110,17 +109,17 @@ method. A shared working copy is thus keyed on the original compilation unit and
 The following shows how client 1 creates a shared working copy, client 2 retrieves this working copy, client 1 destroys the
 working copy, and client 2 trying to retrieve the shared working copy notices it does not exist any longer: </P>
 <font color='#4444CC'><pre>
-    // Client 1 &amp; 2: Get original compilation unit
+    // Client 1 & 2: Get original compilation unit
     ICompilationUnit originalUnit = ...;
     
-    // Client 1 &amp; 2: Get buffer factory
+    // Client 1 & 2: Get buffer factory
     IBufferFactory factory = ...;
     
     // Client 1: Create shared working copy
-    IWorkingCopy workingCopyForClient1 = (IWorkingCopy)originalUnit.getSharedWorkingCopy(null, factory, null);
+    IWorkingCopy workingCopyForClient1 = originalUnit.getSharedWorkingCopy(null, factory, null);
     
     // Client 2: Retrieve shared working copy
-    IWorkingCopy workingCopyForClient2 = (IWorkingCopy)originalUnit.findSharedWorkingCopy(factory);
+    IWorkingCopy workingCopyForClient2 = originalUnit.findSharedWorkingCopy(factory);
      
     // This is the same working copy
     assert workingCopyForClient1 == workingCopyForClient2;
@@ -129,14 +128,14 @@ working copy, and client 2 trying to retrieve the shared working copy notices it
     workingCopyForClient1.destroy();
     
     // Client 2: Attempt to retrieve shared working copy and find out it's null
-    workingCopyForClient2 = (IWorkingCopy)originalUnit.findSharedWorkingCopy(factory);
+    workingCopyForClient2 = originalUnit.findSharedWorkingCopy(factory);
     assert workingCopyForClient2 == null;
 </pre></font>
 
 <H3>Code modification using the DOM/AST API</h3>
 
-There are three ways to create a <b><a href="../reference/api/org/eclipse/jdt/core/dom/CompilationUnit.html">CompilationUnit</a></b>. The first one is to use an existing compilation unit. The second is 
-to use an existing class file. The third is to start from scratch using the factory methods on <b><a href="../reference/api/org/eclipse/jdt/core/dom/AST.html">AST</a></b> (Abstract Syntax Tree).
+There are two ways to create a <b><a href="../reference/api/org/eclipse/jdt/core/dom/CompilationUnit.html">CompilationUnit</a></b>. The first one is to use an existing compilation unit. The second
+is to start from scratch using the factory methods on <b><a href="../reference/api/org/eclipse/jdt/core/dom/AST.html">AST</a></b> (Abstract Syntax Tree).
 <h4>
 Creating an AST from an existing compilation unit
 </h4>
@@ -159,19 +158,6 @@ before the creation of the tree. Resolving the bindings is a costly operation an
 bindings are lost.
 
 <h4>
-Creating an AST from an existing class file
-</h4>
-This is achieved with the parse method on <b><a href="../reference/api/org/eclipse/jdt/core/dom/AST.html">AST</a></b>:
-<ul>
-<li><a href="../reference/api/org/eclipse/jdt/core/dom/AST.html#parseCompilationUnit(org.eclipse.jdt.core.IClassFile, boolean)">parseCompilationUnit(IClassFile classFile, boolean resolveBindings)</a>. This method can be used to create a
-<b><a href="../reference/api/org/eclipse/jdt/core/dom/CompilationUnit.html">CompilationUnit</a></b> from an existing <b><a href="../reference/api/org/eclipse/jdt/core/IClassFile.html">IClassFile</a></b>.
-</li>
-</ul>
-This method will properly set the positions for each node in the resulting tree. The resolution of bindings has to be requested
-before the creation of the tree. Resolving the bindings is a costly operation and should be done only when necessary. As soon as the tree has been modified, all positions and
-bindings are lost.
-
-<h4>
 From scratch
 </h4>
 <P>It is possible to create a <b><a href="../reference/api/org/eclipse/jdt/core/dom/CompilationUnit.html">CompilationUnit</a></b> from scratch using the factory methods on <b><a href="../reference/api/org/eclipse/jdt/core/dom/AST.html">AST</a></b>.
@@ -183,7 +169,7 @@ These method names start with <b>new...</b>. The following is an example that cr
 	import java.util.*;
 	public class HelloWorld {
 		public static void main(String[] args) {
-			System.out.println(&quot;Hello&quot; + &quot; world&quot;);
+			System.out.println("Hello" + " world");
 		}
 	}
 </pre></font>
@@ -193,45 +179,45 @@ These method names start with <b>new...</b>. The following is an example that cr
 		AST ast = new AST();
 		CompilationUnit unit = ast.newCompilationUnit();
 		PackageDeclaration packageDeclaration = ast.newPackageDeclaration();
-		packageDeclaration.setName(ast.newSimpleName(&quot;example&quot;));
+		packageDeclaration.setName(ast.newSimpleName("example"));
 		unit.setPackage(packageDeclaration);
 		ImportDeclaration importDeclaration = ast.newImportDeclaration();
 		QualifiedName name = 
 			ast.newQualifiedName(
-				ast.newSimpleName(&quot;java&quot;),
-				ast.newSimpleName(&quot;util&quot;));
+				ast.newSimpleName("java"),
+				ast.newSimpleName("util"));
 		importDeclaration.setName(name);
 		importDeclaration.setOnDemand(true);
 		unit.imports().add(importDeclaration);
 		TypeDeclaration type = ast.newTypeDeclaration();
 		type.setInterface(false);
 		type.setModifiers(Modifier.PUBLIC);
-		type.setName(ast.newSimpleName(&quot;HelloWorld&quot;));
+		type.setName(ast.newSimpleName("HelloWorld"));
 		MethodDeclaration methodDeclaration = ast.newMethodDeclaration();
 		methodDeclaration.setConstructor(false);
 		methodDeclaration.setModifiers(Modifier.PUBLIC | Modifier.STATIC);
-		methodDeclaration.setName(ast.newSimpleName(&quot;main&quot;));
+		methodDeclaration.setName(ast.newSimpleName("main"));
 		methodDeclaration.setReturnType(ast.newPrimitiveType(PrimitiveType.VOID));
 		SingleVariableDeclaration variableDeclaration = ast.newSingleVariableDeclaration();
 		variableDeclaration.setModifiers(Modifier.NONE);
-		variableDeclaration.setType(ast.newArrayType(ast.newSimpleType(ast.newSimpleName(&quot;String&quot;))));
-		variableDeclaration.setName(ast.newSimpleName(&quot;args&quot;));
+		variableDeclaration.setType(ast.newArrayType(ast.newSimpleType(ast.newSimpleName("String"))));
+		variableDeclaration.setName(ast.newSimpleName("args"));
 		methodDeclaration.parameters().add(variableDeclaration);
 		org.eclipse.jdt.core.dom.Block block = ast.newBlock();
 		MethodInvocation methodInvocation = ast.newMethodInvocation();
 		name = 
 			ast.newQualifiedName(
-				ast.newSimpleName(&quot;System&quot;),
-				ast.newSimpleName(&quot;out&quot;));
+				ast.newSimpleName("System"),
+				ast.newSimpleName("out"));
 		methodInvocation.setExpression(name);
-		methodInvocation.setName(ast.newSimpleName(&quot;println&quot;)); 
+		methodInvocation.setName(ast.newSimpleName("println")); 
 		InfixExpression infixExpression = ast.newInfixExpression();
 		infixExpression.setOperator(InfixExpression.Operator.PLUS);
 		StringLiteral literal = ast.newStringLiteral();
-		literal.setLiteralValue(&quot;Hello&quot;);
+		literal.setLiteralValue("Hello");
 		infixExpression.setLeftOperand(literal);
 		literal = ast.newStringLiteral();
-		literal.setLiteralValue(&quot; world&quot;);
+		literal.setLiteralValue(" world");
 		infixExpression.setRightOperand(literal);
 		methodInvocation.arguments().add(infixExpression);
 		ExpressionStatement expressionStatement = ast.newExpressionStatement(methodInvocation);
@@ -299,7 +285,7 @@ These techniques include the following:</P>
    myCompilationUnit.getBuffer().setContents(newContents);
 
    // Save the buffer to the file.
-   myCompilationUnit.save(null, false);
+   myCompilationUnit.save();
 </pre></font>
 <P>
 This technique can result in problem markers being associated with incorrect line numbers, since the Java elements were not updated directly.</P>
@@ -308,8 +294,7 @@ The Java element model does not go any finer than methods and fields. The abstra
 
 
 <H3>
-<a name="javadeltas">
-Responding to changes in Java elements</a></h3>
+Responding to changes in Java elements</h3>
 <P>
 If your plug-in needs to know about changes to Java elements after the fact, you can register a Java
 <a href="../reference/api/org/eclipse/jdt/core/IElementChangedListener.html"><b> IElementChangedListener</b></a> with
@@ -368,24 +353,24 @@ The following example method traverses a delta and prints the elements that have
     void traverseAndPrint(IJavaElementDelta delta) {
         switch (delta.getKind()) {
             case IJavaElementDelta.ADDED:
-                System.out.println(delta.getElement() + &quot; was added&quot;);
+                System.out.println(delta.getElement() + " was added");
                 break;
             case IJavaElementDelta.REMOVED:
-                System.out.println(delta.getElement() + &quot; was removed&quot;);
+                System.out.println(delta.getElement() + " was removed");
                 break;
             case IJavaElementDelta.CHANGED:
-                System.out.println(delta.getElement() + &quot; was changed&quot;);
-                if ((delta.getFlags() &amp; IJavaElementDelta.F_CHILDREN) != 0) {
-                    System.out.println(&quot;The change was in its children&quot;);
+                System.out.println(delta.getElement() + " was changed");
+                if ((delta.getFlags() & IJavaElementDelta.F_CHILDREN) != 0) {
+                    System.out.println("The change was in its children");
                 }
-                if ((delta.getFlags() &amp; IJavaElementDelta.F_CONTENT) != 0) {
-                    System.out.println(&quot;The change was in its content&quot;);
+                if ((delta.getFlags() & IJavaElementDelta.F_CONTENT) != 0) {
+                    System.out.println("The change was in its content");
                 }
                 /* Others flags can also be checked */
                 break;
         }
         IJavaElementDelta[] children = delta.getAffectedChildren();
-        for (int i = 0; i &lt; children.length; i++) {
+        for (int i = 0; i < children.length; i++) {
             traverseAndPrint(children[i]);
         }
     }
@@ -396,14 +381,14 @@ Several kinds of operations can trigger a Java element change notification. Here
 <ul>
 <li>Creating a resource, e.g. <a href="../reference/api/org/eclipse/jdt/core/IPackageFragment.html#createCompilationUnit(java.lang.String, java.lang.String, boolean, org.eclipse.core.runtime.IProgressMonitor)"><b>IPackageFragment.createCompilationUnit</b></a> 
       (the delta indicates the <a href="../reference/api/org/eclipse/jdt/core/IJavaElementDelta.html#ADDED">addition</a> of the compilation unit)</li>
-<li>Modifying a resource, e.g. <a href="../reference/api/org/eclipse/jdt/core/ICompilationUnit.html#createType(java.lang.String, org.eclipse.jdt.core.IJavaElement, boolean, org.eclipse.core.runtime.IProgressMonitor)"><b>ICompilationUnit.createType</b></a> 
+<li>Modifying a resource, e.g. <a href="../reference/api/org/eclipse/jdt/core/ICompilationUnit.html#createType(java.lang.String, org.eclipse.jdt.core.IJavaElement, boolean, org.eclipse.core.runtime.IProgressMonitor)"><b>ICompilationUnit.html.createType</b></a> 
      (the delta indicates that the compilation unit has <a href="../reference/api/org/eclipse/jdt/core/IJavaElementDelta.html#CHANGED">changed</a> and that a type was 
      <a href="../reference/api/org/eclipse/jdt/core/IJavaElementDelta.html#getAddedChildren()"> added as a child</a> of this compilation unit)</li>
-<li>Modifying a project's classpath, e.g. <a href="../reference/api/org/eclipse/jdt/core/IJavaProject.html#setRawClasspath(org.eclipse.jdt.core.IClasspathEntry[], org.eclipse.core.runtime.IProgressMonitor)"><b>IJavaProject.setRawClasspath</b></a>
+<li>Modifying a project's classpath, e.g. <a href="../reference/api/org/eclipse/jdt/core/IJavaProject.html#setRawClasspath(org.eclipse.jdt.core.IClasspathEntry[], org.eclipse.core.runtime.IProgressMonitor)"><b>IJavaProject.html.setRawClasspath</b></a>
      (the delta indicates that package fragment roots have been <a href="../reference/api/org/eclipse/jdt/core/IJavaElementDelta.html#F_ADDED_TO_CLASSPATH">added to the classpath</a>, 
      <a href="../reference/api/org/eclipse/jdt/core/IJavaElementDelta.html#F_REMOVED_FROM_CLASSPATH">removed from the classpath</a>, or
      <a href="../reference/api/org/eclipse/jdt/core/IJavaElementDelta.html#F_CLASSPATH_REORDER">reordered on the classpath</a>)</li>
-<li>Modifying a classpath variable value, e.g. <a href="../reference/api/org/eclipse/jdt/core/JavaCore.html#setClasspathVariable(java.lang.String, org.eclipse.core.runtime.IPath, org.eclipse.core.runtime.IProgressMonitor)"><b>JavaCore.setClasspathVariable</b></a>
+<li>Modifying a classpath variable value, e.g. <a href="../reference/api/org/eclipse/jdt/core/JavaCore.html#setClasspathVariable(java.lang.String, org.eclipse.core.runtime.IPath, org.eclipse.core.runtime.IProgressMonitor)"><b>JavaCore.html.setClasspathVariable</b></a>
      (the delta also indicates that package fragment roots have been affected)</li>
 <li>Changing the source attachment of a .jar file, e.g. <a href="../reference/api/org/eclipse/jdt/core/IPackageFragmentRoot.html#attachSource(org.eclipse.core.runtime.IPath, org.eclipse.core.runtime.IPath, org.eclipse.core.runtime.IProgressMonitor)"><b>IPackageFragmentRoot.attachSource</b></a>
      (the delta indicates that the source was <a href="../reference/api/org/eclipse/jdt/core/IJavaElementDelta.html#F_SOURCEDETACHED">detached</a>
@@ -413,40 +398,42 @@ Several kinds of operations can trigger a Java element change notification. Here
       project's classpath, e.g. using <b>IFile.setContents</b> (the delta indicates that a compilation unit was changed, but 
       <a href="../reference/api/org/eclipse/jdt/core/IJavaElementDelta.html#F_FINE_GRAINED">no finer-grained information</a>
       is provided as this was not done through a Java Model operation)</li>
-</ul><P>Similar to <a HREF="../../org.eclipse.platform.doc.isv/reference/api/org/eclipse/core/resources/IResourceDelta.html"><b>IResourceDelta</b></a> 
+</ul><p></P>
+<P>
+As for 
+<a HREF="../../org.eclipse.platform.doc.isv/reference/api/org/eclipse/core/resources/IResourceDelta.html"><b>IResourceDelta</b></a> 
 the Java element deltas can be batched using an 
 <a HREF="../../org.eclipse.platform.doc.isv/reference/api/org/eclipse/core/resources/IWorkspaceRunnable.html"><b>IWorkspaceRunnable</b></a>. 
-The deltas resulting from several Java Model operations that are run inside a <b>IWorkspaceRunnable</b> are merged and reported at once.&nbsp;&nbsp; </P>
-<P><a href="../reference/api/org/eclipse/jdt/core/JavaCore.html"><b>JavaCore</b></a><b>
-</b>provides a <b>run</b> method for batching Java element changes. </P>
+The deltas resulting from several Java Model operations that are run inside a <b>IWorkspaceRunnable</b> are merged and reported at once. </P>
 <P>
-For example, the following code fragment will trigger 2 Java element change events: </P>
+For example the following will trigger 2 Java element change events: </P>
 <font color='#4444CC'><pre>
     // Get package
     IPackageFragment pkg = ...;
     
     // Create 2 compilation units
-    ICompilationUnit unitA = pkg.createCompilationUnit(&quot;A.java&quot;, &quot;public class A {}&quot;, false, null);
-    ICompilationUnit unitB = pkg.createCompilationUnit(&quot;B.java&quot;, &quot;public class B {}&quot;, false, null);
+    ICompilationUnit unitA = pkg.createCompilationUnit("A.java", "public class A {}", false, null);
+    ICompilationUnit unitB = pkg.createCompilationUnit("B.java", "public class B {}", false, null);
 </pre></font>
 <P>
-Whereas the following code fragment will trigger 1 Java element change event: </P>
+Whereas the following will trigger 1 Java element change event: </P>
 <font color='#4444CC'><pre>
     // Get package
     IPackageFragment pkg = ...;
     
     // Create 2 compilation units
-    JavaCore.run(
+    IWorkspace workspace = ResourcesPlugin.getWorkspace();
+    workspace.run(
         new IWorkspaceRunnable() {
  	        public void run(IProgressMonitor monitor) throws CoreException {
- 	            ICompilationUnit unitA = pkg.createCompilationUnit(&quot;A.java&quot;, &quot;public class A {}&quot;, false, null);
- 	            ICompilationUnit unitB = pkg.createCompilationUnit(&quot;B.java&quot;, &quot;public class B {}&quot;, false, null);
+ 	            ICompilationUnit unitA = pkg.createCompilationUnit("A.java", "public class A {}", false, null);
+ 	            ICompilationUnit unitB = pkg.createCompilationUnit("B.java", "public class B {}", false, null);
  	        }
         },
         null);
 </pre></font>
 
-<P><a href="../hglegal2003.htm"><img src="../ngibmcpy2003.gif" width=324 height=14 alt="Copyright IBM Corporation and others 2000, 2003. All Rights Reserved." border="0"></a>
+<P><a href="../hglegal2002.htm"><img src="../ngibmcpy2002.gif" alt="Copyright IBM Corporation and others 2000, 2002. All Rights Reserved." border="0"></a>
 </P>
 </BODY>
 </HTML>
