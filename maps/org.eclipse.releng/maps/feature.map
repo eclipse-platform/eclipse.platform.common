@@ -50,7 +50,7 @@ plugin@org.eclipse.platform.linux.gtk.source=r211_v20030425a, :pserver:anonymous
 plugin@org.eclipse.platform.linux.motif=r211_v20030425a, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.platform.linux.motif.source=r211_v20030425a, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-plugin@org.eclipse.platform.macosx.carbon=r211_v20030425a, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.platform.macosx.carbon=r211_v20030428, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.platform.macosx.carbon.source=r211_v20030425a, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 plugin@org.eclipse.platform.qnx.photon=r211_v20030425a, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
