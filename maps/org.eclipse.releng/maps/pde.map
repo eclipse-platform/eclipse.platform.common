@@ -5,4 +5,4 @@ plugin@org.eclipse.pde=v20040714, :pserver:anonymous@dev.eclipse.org:/home/eclip
 plugin@org.eclipse.pde.core=r301_v20040818, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.pde.junit.runtime=v20040623, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.pde.runtime=v20040714, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.pde.ui=r301_v20040818, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.pde.ui=r301_v20040825, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
