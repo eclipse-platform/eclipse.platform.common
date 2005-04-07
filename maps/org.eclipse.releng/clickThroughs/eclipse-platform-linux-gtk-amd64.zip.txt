@@ -1,4 +1,4 @@
-When running Eclipse 3.0.2 on Linkux GTK AMD64, there is a known error
+When running Eclipse 3.0.2 on Linkux GTK AMD64, there is a known error:
 
 	java.lang.UnsatisfiedLinkError: gtk_tree_view_column_get_fixed_width
 
