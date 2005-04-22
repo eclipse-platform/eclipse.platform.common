@@ -1,4 +1,4 @@
 !***************  Test Framework CONTRIBUTION  ******************************************************** 
 
-plugin@org.eclipse.test.performance=v20050413a_perf301,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.test.performance=v20050422_perf301,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 fragment@org.eclipse.test.performance.win32=v20050314_perf301,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
