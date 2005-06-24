@@ -232,13 +232,16 @@ The search can be extended beyond workspace resources to include external plug-i
 <!-- Children of the PDEFormPage -->
 
 	<context id="branding_page">
-		<description>Information on this page controls branding of the product.</description>
+		<description>ENTER DESCIPTION</description>
+		<topic label="ENTER LABEL" href="ENTER LINK" />
 	</context>
 	<context id="configuration_page">
-		<description>Select plug-ins or features belonging to the product.  Optionally specify custom config.ini file, or program arguments.</description>
+		<description>ENTER DESCIPTION</description>
+		<topic label="ENTER LABEL" href="ENTER LINK" />
 	</context>
 	<context id="overview_page">
-		<description>Specify product and application IDs</description>
+		<description>ENTER DESCIPTION</description>
+		<topic label="ENTER LABEL" href="ENTER LINK" />
 	</context>
 
 
@@ -518,6 +521,7 @@ should only be used in conjunction with feature-based self-hosting.</description
  	<context id="advanced_plugin_export_page">
 		<description>This page allows signing the JARs for added security.
 If present, the JNLP option allows generation of manifests for Java Web Start deployment.</description>
+		<topic label="ENTER LABEL" href="ENTER LINK" />
 	</context>
 	<context id="cross_platform_export_page">
 		<description>When exporting for multiple platforms, select the desired target platforms on this page.  A directory will be created for each selection.</description>
@@ -529,19 +533,24 @@ If present, the JNLP option allows generation of manifests for Java Web Start de
 		<description>Create a new working set by selecting plug-ins or fragments that will belong to it.</description>
 	</context>
 	<context id="product_definitions_wizard_page">
-		<description>product_definitions_wizard_page</description>
+		<description>ENTER DESCIPTION</description>
+		<topic label="ENTER LABEL" href="ENTER LINK" />
 	</context>
 	<context id="project_names_page">
-		<description>project_names_page</description>
+		<description>ENTER DESCIPTION</description>
+		<topic label="ENTER LABEL" href="ENTER LINK" />
 	</context>
 	<context id="required_plugins_container_page">
-		<description>required_plugins_container_page</description>
+		<description>ENTER DESCIPTION</description>
+		<topic label="ENTER LABEL" href="ENTER LINK" />
 	</context>
 	<context id="review_page">
-		<description>review_page</description>
+		<description>ENTER DESCIPTION</description>
+		<topic label="ENTER LABEL" href="ENTER LINK" />
 	</context>
 	<context id="selection_page">
-		<description>selection_page</description>
+		<description>ENTER DESCIPTION</description>
+		<topic label="ENTER LABEL" href="ENTER LINK" />
 	</context>
  	
  	
