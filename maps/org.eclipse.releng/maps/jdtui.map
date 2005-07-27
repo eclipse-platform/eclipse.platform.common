@@ -4,8 +4,8 @@ plugin@org.eclipse.core.expressions.tests=v20050623-1200,:pserver:anonymous@dev.
 
 plugin@org.eclipse.jdt=v20050624,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-plugin@org.eclipse.jdt.ui=v20050627-1400,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.search=v20050623-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.jdt.ui=v20050727-1200-R3_1_M,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.search=v20050727-1200-R3_1_M,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 plugin@org.eclipse.jdt.macosx=v20031111,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
@@ -14,8 +14,8 @@ plugin@org.eclipse.jdt.junit=v20050623-1200,:pserver:anonymous@dev.eclipse.org:/
 plugin@org.eclipse.jdt.junit.runtime=v20050623-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 plugin@org.eclipse.jdt.ui.examples.projects=v20050623-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.jdt.ui.tests=v20050623-1600,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.jdt.ui.tests.refactoring=v20050623-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.jdt.ui.tests=v20050727-1200-R3_1_M,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.jdt.ui.tests.refactoring=v20050727-1200-R3_1_M,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 plugin@org.eclipse.ltk.core.refactoring=v20050623-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.ltk.core.refactoring.tests=v20050623-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
