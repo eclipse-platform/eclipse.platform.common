@@ -4,20 +4,20 @@ plugin@org.eclipse.core.expressions.tests=v20050623-1200,:pserver:anonymous@dev.
 
 plugin@org.eclipse.jdt=v20050624,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-plugin@org.eclipse.jdt.ui=r311_v20050824-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.search=r311_v20050824-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.jdt.ui=r311_v20050830-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.search=r311_v20050830-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 plugin@org.eclipse.jdt.macosx=v20031111,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 plugin@org.junit=v20050412-0800,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.jdt.junit=r311_v20050824-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.jdt.junit=r311_v20050830-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.jdt.junit.runtime=v20050623-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-plugin@org.eclipse.jdt.ui.examples.projects=r311_v20050824-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.jdt.ui.tests=r311_v20050824-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.jdt.ui.tests.refactoring=r311_v20050824-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.jdt.ui.examples.projects=r311_v20050830-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.jdt.ui.tests=r311_v20050830-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.jdt.ui.tests.refactoring=r311_v20050830-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 plugin@org.eclipse.ltk.core.refactoring=v20050623-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.ltk.core.refactoring.tests=v20050623-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.ltk.ui.refactoring=r311_v20050824-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.ltk.ui.refactoring=r311_v20050830-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.ltk.ui.refactoring.tests=v20050623-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
