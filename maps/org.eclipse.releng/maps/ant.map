@@ -1,7 +1,7 @@
 !***************  ANT CONTRIBUTION  ******************************************************** 
 
 plugin@org.apache.ant=v20050616a,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.ant.core=v20050616b,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.ant.core=r311_V20050901,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 plugin@org.eclipse.ant.ui=r3_1_1_r20050802,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
