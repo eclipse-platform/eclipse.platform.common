@@ -3,7 +3,7 @@
 plugin@org.eclipse.text=v20050627-1400,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.jface.text=r311_v20050901,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.ui.workbench.texteditor=r311_v20050830-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.ui.editors=r311_v20050830-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.ui.editors=r311_v20050902,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.core.filebuffers=v20050623-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 plugin@org.eclipse.ui.examples.javaeditor=r311_v20050830-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
