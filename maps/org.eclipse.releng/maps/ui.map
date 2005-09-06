@@ -1,12 +1,12 @@
 !***************  UI CONTRIBUTION  ******************************************************** 
 
 plugin@org.eclipse.core.commands=v20050616-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.jface=M20050831-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.ui=M20050831-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.jface=M20050907-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.ui=M20050907-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.ui.ide=M20050824-1200a,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.ui.presentations.r21=v20050623-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.ui.views=M20050727-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.ui.workbench=M20050831-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.ui.workbench=M20050907-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 fragment@org.eclipse.ui.workbench.compatibility=v20050623-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 fragment@org.eclipse.ui.win32=v20050623-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 fragment@org.eclipse.ui.carbon=M20050831-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
@@ -16,5 +16,5 @@ plugin@org.eclipse.ui.examples.propertysheet=v20050623-1200,:pserver:anonymous@d
 plugin@org.eclipse.ui.examples.readmetool=v20050627-1400,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.ui.examples.undo=v20050623-2327,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-plugin@org.eclipse.ui.tests=M20050831-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.ui.tests=M20050907-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.ui.tests.rcp=v20050627-1400,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
