@@ -1,10 +1,10 @@
 
-!***************  JDT CORE CONTRIBUTION  [20050824] ******************************************* 
+!***************  JDT CORE CONTRIBUTION  [20050907] ******************************************* 
 
-plugin@org.eclipse.jdt.core=v_575_R31x, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.jdt.core=v_576_R31x, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-plugin@org.eclipse.jdt.core.tests.builder=v_575_R31x, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.jdt.core.tests.compiler=v_575_R31x, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.jdt.core.tests.model=v_575_R31x, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.jdt.core.tests.performance=v_575_R31x, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.jdt.core.tests.builder=v_576_R31x, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.jdt.core.tests.compiler=v_576_R31x, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.jdt.core.tests.model=v_576_R31x, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.jdt.core.tests.performance=v_576_R31x, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
