@@ -2,11 +2,11 @@
 
 plugin@org.eclipse.core.commands=v20050616-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.jface=M20050923-0800,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.ui=M20050923-0800,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.ui=M20050928-0800,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.ui.ide=M20050923-0800,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.ui.presentations.r21=v20050623-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.ui.views=M20050727-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.ui.workbench=M20050923-0800,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.ui.workbench=M20050928-0800,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 fragment@org.eclipse.ui.workbench.compatibility=v20050623-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 fragment@org.eclipse.ui.win32=v20050623-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 fragment@org.eclipse.ui.carbon=M20050831-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
