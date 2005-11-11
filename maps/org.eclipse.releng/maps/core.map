@@ -1,29 +1,35 @@
 !***************  CORE CONTRIBUTION  ******************************************************** 
 
 !**** OSGi
-plugin@org.eclipse.osgi=v20050112,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.osgi.services=v20041012a,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.osgi.util=v20041012a,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.osgi=v20051108a,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.osgi.services=v20051108,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.osgi.util=v20051108,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 !**** Runtime
-plugin@org.eclipse.core.runtime=v20050111,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.core.runtime=v20051108,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 !**** Resources
-plugin@org.eclipse.core.resources=v20050111,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-fragment@org.eclipse.core.resources.win32=v20041108,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-fragment@org.eclipse.core.resources.linux=v20041213,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.core.resources=v20051028,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+fragment@org.eclipse.core.resources.win32=v20051007,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+fragment@org.eclipse.core.resources.compatibility=v20051007,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+
+!**** File System
+plugin@org.eclipse.core.filesystem=v20051031,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+fragment@org.eclipse.core.filesystem.win32.x86=v20051018,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+fragment@org.eclipse.core.filesystem.linux.x86=v20051005,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+fragment@org.eclipse.core.filesystem.linux.x86_64=v20051005,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 !**** Legacy Runtime
-plugin@org.eclipse.core.boot=v20040622,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.core.runtime.compatibility=v20040110,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.core.boot=v20051108,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.core.runtime.compatibility=v20051108,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 !**** Other Core Code
-plugin@org.eclipse.pde.build=v20041215,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-feature@org.eclipse.pde.builder=v20040624a,:pserver:anonymous@dev.eclipse.org:/home/eclipse,,org.eclipse.pde.build/feature
-plugin@org.eclipse.webdav=v20041127,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.pde.build=v20051031a,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+feature@org.eclipse.pde.builder=v20040624a,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.pde.build/feature
+plugin@org.eclipse.webdav=v20050623-1600,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 !**** Test Suites
-plugin@org.eclipse.core.tests.harness=v20041223,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.core.tests.resources=v20040110,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.core.tests.runtime=v20050111,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.osgi.tests=v20041213,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.core.tests.harness=v20051102,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.core.tests.resources=v20051028,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.core.tests.runtime=v20051028,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.osgi.tests=v20050726,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,

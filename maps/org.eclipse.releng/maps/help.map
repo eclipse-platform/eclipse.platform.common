@@ -1,14 +1,13 @@
 !***************  HELP CONTRIBUTION  ******************************************************** 
 
-plugin@org.eclipse.help=v20041122,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.help.appserver=v20041122,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.help.base=v20050110,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.help.ide=v20041122,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.help.ui=v20041106,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.help=v20050907,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.help.appserver=v20050621,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.help.base=v20050805,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.help.ui=v20050805,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
-plugin@org.eclipse.help.webapp=v20041212,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.tomcat=v20041101,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.apache.lucene=v20041122,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.help.webapp=v20050907,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.tomcat=v20050805,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.apache.lucene=v20050805,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
-plugin@org.eclipse.help.tests=v20041116,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.help.examples.ex1=v20031201,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.help.tests=v20051108,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.help.examples.ex1=v20050805,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,

@@ -1,4 +1,6 @@
-!***************  RELENG CONTRIBUTION  ******************************************************** 
+!****************  RELENG CONTRIBUTION  ******************************************************** 
+feature@master=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/master
+feature@master-root=v20051011,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/master-root
 
-plugin@org.eclipse.releng.tools=v20041213,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.releng.tests=v20050106,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.releng.tools=I20051030,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.releng.tests=v20051104,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
