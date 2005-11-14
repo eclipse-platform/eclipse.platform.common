@@ -6,15 +6,15 @@ plugin@org.eclipse.osgi.services=v20050916,:pserver:anonymous@dev.eclipse.org:/c
 plugin@org.eclipse.osgi.util=v20050916,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 !**** Equinox
-plugin@org.eclipse.equinox.common=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,equinox-incubator/runtime-split
-plugin@org.eclipse.equinox.preferences=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,equinox-incubator/runtime-split
-plugin@org.eclipse.equinox.registry=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,equinox-incubator/runtime-split
-plugin@org.eclipse.equinox.supplement=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,equinox-incubator/runtime-split
+plugin@org.eclipse.equinox.common=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,equinox-incubator/runtime-split/org.eclipse.equinox.common
+plugin@org.eclipse.equinox.preferences=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,equinox-incubator/runtime-split/org.eclipse.equinox.preferences
+plugin@org.eclipse.equinox.registry=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,equinox-incubator/runtime-split/org.eclipse.equinox.registry
+plugin@org.eclipse.equinox.supplement=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,equinox-incubator/runtime-split/org.eclipse.equinox.supplement
 
 !**** Runtime
-plugin@org.eclipse.core runtime=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,equinox-incubator/runtime-split
-plugin@org.eclipse.core.contenttype=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,equinox-incubator/runtime-split
-plugin@org.eclipse.core.jobs=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,equinox-incubator/runtime-split
+plugin@org.eclipse.core.runtime=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,equinox-incubator/runtime-split/org.eclipse.core.runtime
+plugin@org.eclipse.core.contenttype=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,equinox-incubator/runtime-split/org.eclipse.core.contenttype
+plugin@org.eclipse.core.jobs=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,equinox-incubator/runtime-split/org.eclipse.core.jobs
 
 !**** Resources
 plugin@org.eclipse.core.resources=v20051028,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
@@ -29,7 +29,7 @@ fragment@org.eclipse.core.filesystem.linux.x86_64=v20051005,:pserver:anonymous@d
 
 !**** Legacy Runtime
 plugin@org.eclipse.core.boot=v20050526,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.core.runtime.compatibility=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,equinox-incubator/runtime-split
+plugin@org.eclipse.core.runtime.compatibility=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,equinox-incubator/runtime-split/org.eclipse.core.runtime.compatibility
 
 !**** Other Core Code
 plugin@org.eclipse.pde.build=v20051031a,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
