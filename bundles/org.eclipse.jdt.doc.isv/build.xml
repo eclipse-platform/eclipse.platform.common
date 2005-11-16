@@ -4,7 +4,7 @@
 
 	<target name="init">
 		<property name="plugin" value="org.eclipse.jdt.doc.isv"/>
-		<property name="version.suffix" value="_3.1.1"/>
+		<property name="version.suffix" value="_3.1.2"/>
 		<property name="full.name" value="${plugin}${version.suffix}"/>
 		<property name="temp.folder" value="${basedir}/temp.folder"/>
 		<property name="plugin.destination" value="${basedir}"/>
