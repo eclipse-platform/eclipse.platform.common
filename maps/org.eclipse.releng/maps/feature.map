@@ -1,6 +1,6 @@
 !***************  FEATURE CONTRIBUTION  ******************************************************
 feature@org.eclipse.sdk=r312_v20051116,:pserver:anonymous@dev.eclipse.org:/home/eclipse,,org.eclipse.sdk-feature/features/org.eclipse.sdk
-plugin@org.eclipse.sdk=r311_v20050719,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.sdk=r312_v20051121,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 feature@org.eclipse.jdt=r312_v20051116-1100,:pserver:anonymous@dev.eclipse.org:/home/eclipse,,org.eclipse.jdt-feature
 feature@org.eclipse.jdt.sdk=v20040615,:pserver:anonymous@dev.eclipse.org:/home/eclipse,,org.eclipse.sdk-feature/features/org.eclipse.jdt.sdk
