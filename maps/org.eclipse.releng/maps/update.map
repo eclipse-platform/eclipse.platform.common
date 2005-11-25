@@ -1,11 +1,11 @@
 !***************  UPDATE CONTRIBUTION  ******************************************************** 
 
-plugin@org.eclipse.update.configurator=v20050609b,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.update.core=r311_v20050915,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.update.scheduler=v20050609,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.update.ui=r311_v20050803,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.update.configurator=v20050609b,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.update.core=r311_v20050915,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.update.scheduler=v20050609,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.update.ui=r311_v20050803,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
-fragment@org.eclipse.update.core.win32=v20050511,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-fragment@org.eclipse.update.core.linux=v20050511,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+fragment@org.eclipse.update.core.win32=v20050511,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+fragment@org.eclipse.update.core.linux=v20050511,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
-plugin@org.eclipse.update.tests.core=v20050506,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.update.tests.core=v20050506,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,

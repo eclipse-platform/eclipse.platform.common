@@ -1,23 +1,23 @@
 !***************  FEATURE CONTRIBUTION  ******************************************************
-feature@org.eclipse.sdk=r312_v20051116,:pserver:anonymous@dev.eclipse.org:/home/eclipse,,org.eclipse.sdk-feature/features/org.eclipse.sdk
-plugin@org.eclipse.sdk=r312_v20051121,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+feature@org.eclipse.sdk=r312_v20051116,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/org.eclipse.sdk
+plugin@org.eclipse.sdk=r312_v20051121,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
-feature@org.eclipse.jdt=r312_v20051116-1100,:pserver:anonymous@dev.eclipse.org:/home/eclipse,,org.eclipse.jdt-feature
-feature@org.eclipse.jdt.sdk=v20040615,:pserver:anonymous@dev.eclipse.org:/home/eclipse,,org.eclipse.sdk-feature/features/org.eclipse.jdt.sdk
+feature@org.eclipse.jdt=r312_v20051116-1100,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.jdt-feature
+feature@org.eclipse.jdt.sdk=v20040615,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/org.eclipse.jdt.sdk
 
-feature@org.eclipse.pde=r312_v20051116,:pserver:anonymous@dev.eclipse.org:/home/eclipse,,org.eclipse.pde-feature
-feature@org.eclipse.pde.sdk=v20050226,:pserver:anonymous@dev.eclipse.org:/home/eclipse,,org.eclipse.sdk-feature/features/org.eclipse.pde.sdk
+feature@org.eclipse.pde=r312_v20051116,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.pde-feature
+feature@org.eclipse.pde.sdk=v20050226,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/org.eclipse.pde.sdk
 
-feature@org.eclipse.platform=r312_v20051121,:pserver:anonymous@dev.eclipse.org:/home/eclipse,,org.eclipse.platform-feature
-feature@org.eclipse.platform.sdk=v20050226,:pserver:anonymous@dev.eclipse.org:/home/eclipse,,org.eclipse.sdk-feature/features/org.eclipse.platform.sdk
+feature@org.eclipse.platform=r312_v20051121,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.platform-feature
+feature@org.eclipse.platform.sdk=v20050226,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/org.eclipse.platform.sdk
 
-plugin@org.eclipse.platform=r312_v20051116,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.platform=r312_v20051116,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
-feature@org.eclipse.sdk.examples=r311_v20050803,:pserver:anonymous@dev.eclipse.org:/home/eclipse,,org.eclipse.sdk.examples-feature
-plugin@org.eclipse.sdk.examples=r311_v20050803,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+feature@org.eclipse.sdk.examples=r311_v20050803,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk.examples-feature
+plugin@org.eclipse.sdk.examples=r311_v20050803,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
-feature@org.eclipse.sdk.tests=r312_v20051116,:pserver:anonymous@dev.eclipse.org:/home/eclipse,,org.eclipse.sdk.tests-feature/features/org.eclipse.sdk.tests
-plugin@org.eclipse.sdk.tests=v20050610,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+feature@org.eclipse.sdk.tests=r312_v20051116,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk.tests-feature/features/org.eclipse.sdk.tests
+plugin@org.eclipse.sdk.tests=v20050610,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
-feature@org.eclipse.team.extras=v20050617,:pserver:anonymous@dev.eclipse.org:/home/eclipse,,org.eclipse.team.extras-feature
-plugin@org.eclipse.team.extras=v20050610,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+feature@org.eclipse.team.extras=v20050617,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.team.extras-feature
+plugin@org.eclipse.team.extras=v20050610,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,

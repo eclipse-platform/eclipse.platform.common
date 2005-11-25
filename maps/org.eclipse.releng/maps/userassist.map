@@ -1,8 +1,8 @@
 !***************  UA CONTRIBUTION  *********************************************
 
-plugin@org.eclipse.ui.forms=v20050623,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.ui.forms=v20050623,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
-plugin@org.eclipse.ui.cheatsheets=r311_v20050808,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.ui.intro=r311_v20050823,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.ui.cheatsheets=r311_v20050808,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.ui.intro=r311_v20050823,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
-plugin@org.eclipse.ui.browser=r311_v20050808,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.ui.browser=r311_v20050808,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
