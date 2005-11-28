@@ -2,7 +2,7 @@
 
 plugin@org.eclipse.text=r311_v20050927,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.jface.text=r311_v20050923-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.ui.workbench.texteditor=r311_v20050913-1200,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.ui.workbench.texteditor=r312_v20051130-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ui.editors=r311_v20050923-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.core.filebuffers=r312_v20051123-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
