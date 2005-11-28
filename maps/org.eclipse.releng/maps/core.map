@@ -9,10 +9,10 @@ plugin@org.eclipse.osgi.util=r31x_v20050913,:pserver:anonymous@dev.eclipse.org:/
 plugin@org.eclipse.core.runtime=r31x_v20051027,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 !**** Resources
-plugin@org.eclipse.core.resources=r31x_v20051128,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-fragment@org.eclipse.core.resources.win32=v20050609-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-fragment@org.eclipse.core.resources.linux=v20050512-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-fragment@org.eclipse.core.resources.compatibility=v20050526,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.core.resources=r31x_v20051128,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+fragment@org.eclipse.core.resources.win32=v20050609-1200,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+fragment@org.eclipse.core.resources.linux=v20050512-1200,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+fragment@org.eclipse.core.resources.compatibility=v20050526,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 !**** Legacy Runtime
 plugin@org.eclipse.core.boot=v20050526,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
