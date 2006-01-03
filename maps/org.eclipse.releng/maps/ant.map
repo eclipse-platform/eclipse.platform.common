@@ -3,7 +3,7 @@
 plugin@org.apache.ant=r311_v20050928,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ant.core=r311_v20050913,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
-plugin@org.eclipse.ant.ui=r311_v20050913,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.ant.ui=r312_v20060102,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 plugin@org.eclipse.ui.externaltools=r311_v20050913,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
