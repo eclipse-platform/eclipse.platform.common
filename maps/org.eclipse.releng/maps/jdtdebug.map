@@ -1,12 +1,12 @@
 !***************  DEBUG CONTRIBUTION  ******************************************************** 
 
 plugin@org.eclipse.debug.core=r312_v20051130,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.debug.ui=r312_v20051130,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.debug.ui=r312_v20060104a,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.jdt.debug=r3_1_1_v20050726a,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.jdt.debug.ui=r312_v20051130,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.jdt.launching=v20050622,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.jdt.launching.macosx=v20050509,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
-plugin@org.eclipse.ui.console=r312_v20060104,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.ui.console=r312_v20060104a,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 plugin@org.eclipse.jdt.debug.tests=v20050622,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
