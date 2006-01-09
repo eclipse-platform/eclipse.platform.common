@@ -5,7 +5,7 @@ plugin@org.eclipse.core.expressions.tests=v20050623-1200,:pserver:anonymous@dev.
 plugin@org.eclipse.jdt=v20050624,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 plugin@org.eclipse.jdt.ui=r312_v20060104-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.search=r312_v20060109-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.search=r312_v20060109-1200,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 plugin@org.eclipse.jdt.macosx=v20031111,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
