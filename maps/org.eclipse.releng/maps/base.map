@@ -1,0 +1,4 @@
+! map file used as input to custom Ant task <fetch.base> implemented in org.eclipse.releng.basebuilder.
+! Generates a fetch script which populates a baseLocation with prebuilt plug-ins/feature.
+
+base.plugin@com.ibm.icu=test2,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.releng.eclipsebuilder/binaries/com.ibm.icu_3.4.2.jar
