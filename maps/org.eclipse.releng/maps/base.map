@@ -2,3 +2,4 @@
 ! Generates a fetch script which populates a baseLocation with prebuilt plug-ins/feature.
 
 base.plugin@com.ibm.icu=test2,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.releng.eclipsebuilder/binaries/com.ibm.icu_3.4.2.jar
+base.plugin@com.ibm.icu.source_3.4.2=test2,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.releng.eclipsebuilder/binaries/com.ibm.icu.source_3.4.2
