@@ -20,7 +20,7 @@ plugin@org.eclipse.equinox.useradmin=v20060109,:pserver:anonymous@dev.eclipse.or
 plugin@org.eclipse.equinox.wireadmin=v20060109,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 !**** Runtime
-plugin@org.eclipse.core.runtime=v20060130,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.core.runtime=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.core.contenttype=v20060130,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.core.jobs=v20060130,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
