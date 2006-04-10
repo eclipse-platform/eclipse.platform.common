@@ -26,5 +26,5 @@ plugin@org.eclipse.webdav=v20050623-1600,:pserver:anonymous@dev.eclipse.org:/cvs
 !**** Test Suites
 plugin@org.eclipse.core.tests.harness=v20050616,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.core.tests.resources=v20050616,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.core.tests.runtime=v20050609-1200,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.core.tests.runtime=r31x_v20060410,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.osgi.tests=v20050609-1200,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
