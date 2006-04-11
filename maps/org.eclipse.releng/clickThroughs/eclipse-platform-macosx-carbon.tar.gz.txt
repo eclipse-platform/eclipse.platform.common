@@ -1,2 +1,0 @@
-Eclipse 3.2 requires Mac OS X 10.4 (Tiger) or higher and Java 1.4.2 or higher.
-Since M5 Eclipse supports the Intel architecture.
