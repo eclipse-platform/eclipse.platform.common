@@ -23,7 +23,7 @@ plugin@org.eclipse.ui.examples.fieldassist=I20060605-1400,:pserver:anonymous@dev
 plugin@org.eclipse.ui.navigator=M20060712-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ui.navigator.resources=I20060605-1400,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
-plugin@org.eclipse.ui.views.properties.tabbed=I20060605-1400,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.ui.views.properties.tabbed=M20060712-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 plugin@org.eclipse.jface.tests.databinding=I20060605-1400,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ui.tests=M20060712-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
