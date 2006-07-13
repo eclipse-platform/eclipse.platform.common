@@ -7,7 +7,7 @@ plugin@org.eclipse.osgi.util=v20060601,:pserver:anonymous@dev.eclipse.org:/cvsro
 
 !**** Equinox
 plugin@org.eclipse.equinox.common=v20060603,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.equinox.preferences=v20060601,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.equinox.preferences=r32x_v20060713,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.equinox.registry=v20060601,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.equinox.supplement=v20060601a,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.equinox.device=v20060601a,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
