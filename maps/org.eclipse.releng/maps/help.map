@@ -1,8 +1,8 @@
 !***************  HELP CONTRIBUTION  ******************************************************** 
 
-plugin@org.eclipse.help=R32x_v20060711,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.help=R321_v20060720,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.help.appserver=v20060602,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.help.base=R32x_v20060711,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.help.base=R321_v20060720,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.help.ui=v20060602,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 plugin@org.eclipse.help.webapp=v20060602,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
