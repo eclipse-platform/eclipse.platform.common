@@ -3,7 +3,7 @@
 plugin@org.eclipse.core.commands=I20060605-1400,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.jface=I20060719-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.jface.databinding=I20060605-1400,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.ui=M20060712-0800a,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.ui=M20060726-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ui.ide=M20060712-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ui.presentations.r21=I20060605-1400,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ui.views=I20060605-1400,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
@@ -20,7 +20,7 @@ plugin@org.eclipse.ui.examples.undo=I20060605-1400,:pserver:anonymous@dev.eclips
 plugin@org.eclipse.ui.examples.views.properties.tabbed.article=I20060605-1400,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.ui.examples.views.properties.tabbed/org.eclipse.ui.examples.views.properties.tabbed.article
 plugin@org.eclipse.ui.examples.fieldassist=I20060605-1400,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
-plugin@org.eclipse.ui.navigator=I20060719-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.ui.navigator=M20060726-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ui.navigator.resources=I20060719-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 plugin@org.eclipse.ui.views.properties.tabbed=M20060712-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
