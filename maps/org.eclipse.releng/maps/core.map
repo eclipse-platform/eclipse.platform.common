@@ -1,20 +1,20 @@
 !***************  CORE CONTRIBUTION  ******************************************************** 
 
 !**** OSGi
-plugin@org.eclipse.osgi=R32x_v20060717,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.osgi=r32x_v20060731,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.osgi.services=v20060601,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.osgi.util=v20060601,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 !**** Equinox
 plugin@org.eclipse.equinox.common=v20060603,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.equinox.preferences=R32x_v20060717,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.equinox.preferences=r32x_v20060731,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.equinox.registry=v20060601,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.equinox.supplement=v20060601a,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.equinox.device=v20060601a,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.equinox.ds=v20060601a,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.equinox.event=v20060601a,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.equinox.http=R32x_v20060717,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.equinox.log=R32x_v20060717,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.equinox.http=r32x_v20060731,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.equinox.log=r32x_v20060731,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.equinox.metatype=v20060601a,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.equinox.useradmin=v20060601a,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.equinox.wireadmin=v20060601a,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
