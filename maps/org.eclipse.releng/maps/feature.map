@@ -1,11 +1,11 @@
 !***************  FEATURE CONTRIBUTION  ******************************************************
-feature@org.eclipse.sdk=v20060609m,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/org.eclipse.sdk
+feature@org.eclipse.sdk=r321_v20060801,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/org.eclipse.sdk
 plugin@org.eclipse.sdk=r321_v20060705,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 feature@org.eclipse.jdt=r321_v20060705,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.jdt-feature
 feature@org.eclipse.jdt.sdk=v20060324,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/org.eclipse.jdt.sdk
 
-feature@org.eclipse.pde=v20060609m,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.pde-feature
+feature@org.eclipse.pde=r321_v20060801,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.pde-feature
 feature@org.eclipse.pde.sdk=v20060210,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/org.eclipse.pde.sdk
 
 feature@org.eclipse.platform=r321_v20060705,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.platform-feature
@@ -22,5 +22,5 @@ plugin@org.eclipse.sdk.tests=v20060605,:pserver:anonymous@dev.eclipse.org:/cvsro
 feature@org.eclipse.team.extras=v20060609m,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.team.extras-feature
 plugin@org.eclipse.team.extras=I200606071030,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
-feature@org.eclipse.equinox=v20060609m,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/org.eclipse.equinox
-feature@org.eclipse.equinox.sdk=v20060324,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/org.eclipse.equinox.sdk
+feature@org.eclipse.equinox=r321_v20060801,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/org.eclipse.equinox
+feature@org.eclipse.equinox.sdk=r321_v20060801,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/org.eclipse.equinox.sdk
