@@ -4,7 +4,7 @@ plugin@org.eclipse.ui.forms=R321_v20060726,:pserver:anonymous@dev.eclipse.org:/c
 
 plugin@org.eclipse.ui.cheatsheets=R321_v20060720,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ui.intro=R321_v20060810,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.ui.intro.universal=R321_v20060814,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.ui.intro.universal=R321_v20060905,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 plugin@org.eclipse.ui.browser=v20060602,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
