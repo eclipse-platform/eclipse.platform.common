@@ -1,6 +1,6 @@
 !***************  UA CONTRIBUTION  *********************************************
 
-plugin@org.eclipse.ui.forms=R321_v20060726,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.ui.forms=v20060602,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 plugin@org.eclipse.ui.cheatsheets=R321_v20060720,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ui.intro=R321_v20060810,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
