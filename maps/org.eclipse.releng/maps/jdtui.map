@@ -11,7 +11,7 @@ plugin@org.junit=v20060602-0010,:pserver:anonymous@dev.eclipse.org:/cvsroot/ecli
 plugin@org.junit4=r321_v20060824,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.jdt.junit=r321_v20060810,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.jdt.junit.runtime=r321_v20060721,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.jdt.junit4.runtime=r321_v20060810,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.jdt.junit4.runtime=r321_v20060905,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 plugin@org.eclipse.jdt.ui.examples.projects=r321_v20060721,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.jdt.ui.tests=r321_v20060828,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
