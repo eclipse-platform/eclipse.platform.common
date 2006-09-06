@@ -1,7 +1,7 @@
 !***************  SWT CONTRIBUTION  ******************************************************** 
 feature@org.eclipse.platform.launchers=v3233,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,platform-launcher
 
-plugin@org.eclipse.swt=v3234a,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.swt=v3234d,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 fragment@org.eclipse.swt.carbon.macosx=v3234,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 fragment@org.eclipse.swt.gtk.linux.ia64=R3_2_maintenance,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 fragment@org.eclipse.swt.gtk.linux.ppc=v3234,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
