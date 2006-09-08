@@ -1,7 +1,7 @@
 !***************  UI CONTRIBUTION  ********************************************************* 
 
 plugin@org.eclipse.core.commands=I20060605-1400,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.jface=M20060816-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.jface=M20060908-1000,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.jface.databinding=I20060605-1400,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ui=M20060906-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ui.ide=M20060906-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
