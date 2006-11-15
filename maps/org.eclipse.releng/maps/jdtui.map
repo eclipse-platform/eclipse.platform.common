@@ -19,7 +19,7 @@ plugin@org.eclipse.jdt.ui.tests.refactoring=r321_v20060828,:pserver:anonymous@de
 
 plugin@org.eclipse.ltk.core.refactoring=r321_v20060823,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ltk.core.refactoring.tests=v20060605-1400,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.ltk.ui.refactoring=r321_v20060726,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.ltk.ui.refactoring=r322_v20061115,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ltk.ui.refactoring.tests=v20060605-1400,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 plugin@org.eclipse.jdt.core.manipulation=r321_v20060721,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
