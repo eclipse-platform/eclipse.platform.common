@@ -8,4 +8,4 @@ plugin@org.eclipse.ui.intro.universal=R321_v20060905,:pserver:anonymous@dev.ecli
 
 plugin@org.eclipse.ui.browser=v20060602,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
-plugin@org.eclipse.ua.tests=R321_v20060725,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.ua.tests=R322_v20061122,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
