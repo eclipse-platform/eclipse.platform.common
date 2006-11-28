@@ -1,7 +1,7 @@
 !***************  TEAM CONTRIBUTION  ******************************************************** 
 
 plugin@org.eclipse.team.core=M20061114,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.team.cvs.core=M20061114,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.team.cvs.core=M20061128,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.team.cvs.ssh=I200606011710,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.team.cvs.ssh2=I200606051140,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.team.ui=M200608151725,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
