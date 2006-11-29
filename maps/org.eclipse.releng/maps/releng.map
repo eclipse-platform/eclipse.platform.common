@@ -8,4 +8,4 @@ feature@master-root=v20060426,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclips
 feature@org.eclipse.releng.tools=v20060609m,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/org.eclipse.releng.tools
 
 plugin@org.eclipse.releng.tools=v20060605,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.releng.tests=r321_v20060830,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.releng.tests=r322_v20061129,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
