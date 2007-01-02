@@ -9,3 +9,4 @@ feature@org.eclipse.releng.tools=v20060609m,:pserver:anonymous@dev.eclipse.org:/
 
 plugin@org.eclipse.releng.tools=v20060605,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.releng.tests=r322_v20061129,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.pde.tools.versioning=v20061010,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk.tests-feature/plugins/org.eclipse.pde.tools.versioning
