@@ -1,5 +1,5 @@
 !***************  JDT UI CONTRIBUTION  ******************************************************** 
-plugin@org.eclipse.core.expressions=r321_v20060721,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.core.expressions=r322_v20070109,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.core.expressions.tests=v20060605-1400,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 plugin@org.eclipse.jdt=r321_v20060823,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
