@@ -10,10 +10,5 @@ base.plugin@com.ibm.icu.base.source=v20070123,:pserver:anonymous@dev.eclipse.org
 base.plugin@com.jcraft.jsch=v20060601,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.team.cvs.ssh2/com.jcraft.jsch_0.1.28.jar
 
 #base.plugin@javax.servlet=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/plugins/other/javax.servlet_2.4.0.200609281713.jar
-plugin@javax.servlet=GET,http://download.eclipse.org/tools/orbit/committers/drops/I200701272257/bundles/javax.servlet_2.4.0.v200612120446.jar
 #base.plugin@org.apache.commons.logging=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/plugins/other/org.apache.commons.logging_1.0.4.jar
-plugin@org.apache.commons.logging=GET,http://download.eclipse.org/tools/orbit/committers/drops/I200701272257/bundles/org.apache.commons.logging_1.0.4.v200701082340.jar
-
-
-plugin@org.mortbay.jetty=GET,http://download.eclipse.org/tools/orbit/committers/drops/I200701272257/bundles/org.mortbay.jetty_5.1.11.v200701082340.jar
 #base.plugin@org.mortbay.jetty=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/plugins/other/org.mortbay.jetty_5.1.11.200609281713.jar
