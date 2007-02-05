@@ -1,7 +1,7 @@
 !***************  CORE CONTRIBUTION  ******************************************************** 
 
 !**** OSGi
-plugin@org.eclipse.osgi=v20070129,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.osgi=v20070203,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.osgi.services=v20060918,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.osgi.util=v20060918,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
@@ -10,7 +10,7 @@ plugin@org.eclipse.equinox.common=v20070122,:pserver:anonymous@dev.eclipse.org:/
 plugin@org.eclipse.equinox.preferences=v20060918,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.equinox.registry=v20061204,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.equinox.supplement=v20070129,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.osgi/supplement
-plugin@org.eclipse.equinox.app=v20070129,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.equinox.app=v20070203,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.equinox.device=v20060717,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.equinox.ds=v20060828,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.equinox.event=v20060803,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
@@ -20,55 +20,55 @@ plugin@org.eclipse.equinox.metatype=v20060717,:pserver:anonymous@dev.eclipse.org
 plugin@org.eclipse.equinox.useradmin=v20060717,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.equinox.wireadmin=v20060717,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.equinox.servlet.api=v20060717,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.equinox.http.jetty=v20070130,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.equinox.http.servlet=v20070129,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.equinox.http.servletbridge=v20061012,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.equinox.http.jetty=v20070203,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.equinox.http.servlet=v20070203,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.equinox.http.servletbridge=v20070203,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.equinox.http.registry=v20070108,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.equinox.servletbridge=v20070123,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.equinox.servletbridge=v20070203,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 !****launcher, startup.jar
-plugin@org.eclipse.equinox.launcher=v20070126,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-fragment@org.eclipse.equinox.launcher.win32.win32.x86=v20070126,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.equinox.launcher/fragments/org.eclipse.equinox.launcher.win32.win32.x86
-fragment@org.eclipse.equinox.launcher.carbon.macosx=v20070126,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.equinox.launcher/fragments/org.eclipse.equinox.launcher.carbon.macosx
-fragment@org.eclipse.equinox.launcher.gtk.linux.x86=v20070126,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.equinox.launcher/fragments/org.eclipse.equinox.launcher.gtk.linux.x86
-fragment@org.eclipse.equinox.launcher.gtk.linux.x86_64=v20070126,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.equinox.launcher/fragments/org.eclipse.equinox.launcher.gtk.linux.x86_64
-fragment@org.eclipse.equinox.launcher.gtk.linux.ppc=v20070126,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.equinox.launcher/fragments/org.eclipse.equinox.launcher.gtk.linux.ppc
-fragment@org.eclipse.equinox.launcher.motif.hpux.PA_RISC=v20070126,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.equinox.launcher/fragments/org.eclipse.equinox.launcher.motif.hpux.PA_RISC
-fragment@org.eclipse.equinox.launcher.motif.aix.ppc=v20070126,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.equinox.launcher/fragments/org.eclipse.equinox.launcher.motif.aix.ppc
-fragment@org.eclipse.equinox.launcher.gtk.solaris.sparc=v20070126,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.equinox.launcher/fragments/org.eclipse.equinox.launcher.gtk.solaris.sparc
+plugin@org.eclipse.equinox.launcher=v20070205,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+fragment@org.eclipse.equinox.launcher.win32.win32.x86=v20070205,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.equinox.launcher/fragments/org.eclipse.equinox.launcher.win32.win32.x86
+fragment@org.eclipse.equinox.launcher.carbon.macosx=v20070205,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.equinox.launcher/fragments/org.eclipse.equinox.launcher.carbon.macosx
+fragment@org.eclipse.equinox.launcher.gtk.linux.x86=v20070205,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.equinox.launcher/fragments/org.eclipse.equinox.launcher.gtk.linux.x86
+fragment@org.eclipse.equinox.launcher.gtk.linux.x86_64=v20070205,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.equinox.launcher/fragments/org.eclipse.equinox.launcher.gtk.linux.x86_64
+fragment@org.eclipse.equinox.launcher.gtk.linux.ppc=v20070205,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.equinox.launcher/fragments/org.eclipse.equinox.launcher.gtk.linux.ppc
+fragment@org.eclipse.equinox.launcher.motif.hpux.PA_RISC=v20070205,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.equinox.launcher/fragments/org.eclipse.equinox.launcher.motif.hpux.PA_RISC
+fragment@org.eclipse.equinox.launcher.motif.aix.ppc=v20070205,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.equinox.launcher/fragments/org.eclipse.equinox.launcher.motif.aix.ppc
+fragment@org.eclipse.equinox.launcher.gtk.solaris.sparc=v20070205,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.equinox.launcher/fragments/org.eclipse.equinox.launcher.gtk.solaris.sparc
 
-feature@org.eclipse.equinox.executable=v20070126,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+feature@org.eclipse.equinox.executable=v20070205,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 !**** Runtime
 plugin@org.eclipse.core.runtime=v20061204,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.core.contenttype=v20060808,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.core.jobs=v20070129,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.core.jobs=v20070202,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 !**** Resources
-plugin@org.eclipse.core.resources=v20070129,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.core.resources=v20070202,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 fragment@org.eclipse.core.resources.win32=v20070108,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 fragment@org.eclipse.core.resources.compatibility=v20061106,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 !**** File System
-plugin@org.eclipse.core.filesystem=v20070131,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.core.filesystem=v20070202,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 fragment@org.eclipse.core.filesystem.win32.x86=v20060603,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-fragment@org.eclipse.core.filesystem.linux.x86=v20070129,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+fragment@org.eclipse.core.filesystem.linux.x86=v20070202,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 fragment@org.eclipse.core.filesystem.linux.x86_64=v20060603,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 fragment@org.eclipse.core.filesystem.linux.ppc=v20060824,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 !**** Legacy Runtime
 plugin@org.eclipse.core.boot=v20060603,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.core.runtime.compatibility=v20061120,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.core.runtime.compatibility.auth=v20061030,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.core.runtime.compatibility.auth=v20070202,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 fragment@org.eclipse.core.runtime.compatibility.registry=v20060828,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 !**** Other Core Code
-plugin@org.eclipse.pde.build=v20070112,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.pde.build=v20070205a,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 feature@org.eclipse.pde.builder=v20040624a,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.pde.build/feature
 plugin@org.eclipse.webdav=v20061114,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 !**** Test Suites
 plugin@org.eclipse.core.tests.harness=v20061204,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.core.tests.resources=v20070131,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.core.tests.runtime=v20061113,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.core.tests.resources=v20070202,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.core.tests.runtime=v20070202,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.osgi.tests=v20070108,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
