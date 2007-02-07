@@ -1,11 +1,11 @@
 !***************  SWT CONTRIBUTION  ******************************************************** 
 feature@org.eclipse.platform.launchers=v3320c,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,platform-launcher
 
-plugin@org.eclipse.swt=v3320e,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.swt=v3320f,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 fragment@org.eclipse.swt.carbon.macosx=v3320b,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 fragment@org.eclipse.swt.gtk.linux.ia64=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 fragment@org.eclipse.swt.gtk.linux.ppc=v3320b,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-fragment@org.eclipse.swt.gtk.linux.x86=v3320c,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+fragment@org.eclipse.swt.gtk.linux.x86=v3320f,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 fragment@org.eclipse.swt.gtk.linux.x86_64=v3320b,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 fragment@org.eclipse.swt.gtk.solaris.sparc=v3320b,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 fragment@org.eclipse.swt.gtk.solaris.x86=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
