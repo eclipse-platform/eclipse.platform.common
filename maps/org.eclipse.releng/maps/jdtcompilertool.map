@@ -1,8 +1,8 @@
 
 !***************  JDT COMPILER APT/TOOL CONTRIBUTION  [20070213] ******************************************* 
 
-plugin@org.eclipse.jdt.compiler.apt=HEAD, :pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.jdt.compiler.apt.tests=HEAD, :pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.jdt.compiler.tool=HEAD, :pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.jdt.compiler.tool.tests=HEAD, :pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.jdt.compiler.apt=v20070213-1830, :pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.jdt.compiler.apt.tests=v20070213-1830, :pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.jdt.compiler.tool=v20070213-1830, :pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.jdt.compiler.tool.tests=v20070213-1830, :pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
