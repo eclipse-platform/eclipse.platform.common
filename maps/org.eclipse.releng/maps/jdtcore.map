@@ -1,7 +1,7 @@
 
-!***************  JDT CORE CONTRIBUTION  [20070213] ******************************************* 
+!***************  JDT CORE CONTRIBUTION  [20070215] ******************************************* 
 
-plugin@org.eclipse.jdt.core=v_736, :pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.jdt.core=v_736a, :pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 plugin@org.eclipse.jdt.core.tests.builder=v_736, :pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.jdt.core.tests.compiler=v_736, :pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
