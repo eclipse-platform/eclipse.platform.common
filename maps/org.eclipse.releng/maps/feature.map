@@ -2,7 +2,7 @@
 feature@org.eclipse.sdk=v20070122,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/org.eclipse.sdk
 plugin@org.eclipse.sdk=v20070212,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
-feature@org.eclipse.jdt=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.jdt-feature
+feature@org.eclipse.jdt=v20070213-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.jdt-feature
 feature@org.eclipse.jdt.sdk=v20060324,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/org.eclipse.jdt.sdk
 
 feature@org.eclipse.pde=v20061114-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.pde-feature
@@ -22,7 +22,7 @@ plugin@org.eclipse.sdk.tests=v20060605,:pserver:anonymous@dev.eclipse.org:/cvsro
 feature@org.eclipse.team.extras=v20061012,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.team.extras-feature
 plugin@org.eclipse.team.extras=v20060605,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
-feature@org.eclipse.equinox=v20061220,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/org.eclipse.equinox
+feature@org.eclipse.equinox=v20070214,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/org.eclipse.equinox
 feature@org.eclipse.equinox.sdk=v20060324,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/org.eclipse.equinox.sdk
 
 feature@org.eclipse.cvs=r20070212a,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.cvs-feature
