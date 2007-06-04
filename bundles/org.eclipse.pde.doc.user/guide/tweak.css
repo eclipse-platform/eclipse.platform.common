@@ -5,6 +5,11 @@ strong {
    color: #00009C;
    font-weight: normal;
 }
+em {
+   color: #990000;
+   font-weight: normal;
+   font-style: normal;
+}
 p {
 	margin-left: 10pt;
 }
@@ -54,6 +59,9 @@ td.body {
 	padding-top: 3px;
 	padding-bottom: 3px;
 	border-left: 1px dotted #666699;
+}
+.reference {
+	color:#FF0000;
 }
 
 
