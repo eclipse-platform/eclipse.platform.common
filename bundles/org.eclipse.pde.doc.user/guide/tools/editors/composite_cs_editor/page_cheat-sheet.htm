@@ -1,0 +1,270 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<title>Cheat Sheet Page</title>
+		<link rel="STYLESHEET" href="../../../../book.css" type="text/css">
+		<script language="JavaScript" type="text/javascript" src="PLUGINS_ROOT/org.eclipse.help/livehelp.js"></script>
+	</head>
+	<body>
+		<h2>Cheat Sheet Page</h2>
+
+		<h3>About This Page</h3>
+		
+		<p>
+			This form page allows you to edit the structure, order and properties of cheat sheet elements.
+		</p>
+		<p>
+			The structure and order of cheat sheet elements are edited in 
+			the <strong>Content</strong> section.  
+			This section occupies the entire left-hand portion of the editor area. 
+		</p>
+		<p>
+			The properties of cheat sheet elements are edited in the <strong>Definition</strong> sections.
+			These sections are activated in the right-hand portion of the editor area depending
+			on the type of cheat sheet element selected in the <strong>Content</strong> section. 
+		</p>
+		
+		<h3>Page Sections</h3>
+		
+		<p>
+			This page is comprised of the following sections:
+		</p>		
+		
+		<ul>
+			<li>
+				<a href="#content">Content Section</a>
+			</li>
+			<li>
+				<a href="#title">Title Section</a>
+			</li>
+			<li>
+				<a href="#group">Group Section</a>
+			</li>	
+			<li>
+				<a href="#task">Task Section</a>
+			</li>		
+			<li>
+				<a href="#enclosing">Enclosing Text Section</a>
+			</li>							
+		</ul>
+
+		<a name="content"></a>
+		<h3>Content Section</h3>
+
+		<p>
+			This section allows you to do the following:
+		</p>
+
+		<ul>
+			<li>
+				Visualize the structure and order of the cheat sheet's 
+				title, groups and tasks
+				as they appear in the <strong>Cheat Sheet</strong> view.
+			</li>
+			<li>
+				Edit the structure and order of the cheat sheet's groups and tasks.
+			</li>
+			<li>
+				Activate the corresponding definition section used to edit the 
+				properties of a selected title, group or task.
+			</li>
+			<li>
+				Preview and test the edited cheat sheet within the 
+				<strong>Cheat Sheet</strong> view.
+			</li>
+		</ul>
+
+		<p>
+			This section is directly accessible through the <strong>Cheat Sheet</strong> form page.
+		</p>
+
+		<h3>Content Section Fields</h3>
+
+		<p>
+			Use the cheat sheet element viewer field to visualize the structure and order 
+			of the cheat sheet's title, groups, and tasks
+			as they appear in the <strong>Cheat Sheet</strong> view.
+			Also, use this field to activate the corresponding definition 
+			section used to edit the properties of a title, group, or task.
+		</p>
+
+		<p>
+			This viewer contains the following nodes:
+		</p>
+
+		<ul>
+			<li>
+				<img src="PLUGINS_ROOT/org.eclipse.pde.ui/icons/obj16/cheatsheet_composite_obj.gif" alt="Root Cheat Sheet Node">
+				- Select the <em>Root</em> node, to activate the title <strong>Definition</strong> section. 
+			</li>
+			<li>
+				<img src="PLUGINS_ROOT/org.eclipse.pde.ui/icons/obj16/cheatsheet_taskgroup_obj.gif" alt="Group Cheat Sheet Node">
+				- Select the <em>Group</em> node, to activate the group <strong>Definition</strong> section. 
+			</li>
+			<li>
+				<img src="PLUGINS_ROOT/org.eclipse.pde.ui/icons/obj16/cheatsheet_simple_obj.gif" alt="Task Cheat Sheet Node">
+				- Select the <em>Task</em> node, to activate the task <strong>Definition</strong> section. 
+			</li>						
+		</ul>
+
+		<p>
+			<img src="../../../images/composite_cs_editor/section_content.png" alt="Content Section">
+		</p>
+
+		<h3>Content Section Actions</h3>
+		
+		<p>
+			Click the <strong>Add Task</strong> button to add a new task to the 
+			cheat sheet.
+			This action is available when any of following nodes are selected:  
+			group, task.  
+			If a task node is selected, the new task will be added 
+			as the last child node of the task's parent group.  
+			If a group node is selected, the new task will be added
+			as the last child node of that group.		
+		</p>
+
+		<p>
+			Click the <strong>Add Group</strong> button to add a new group to the 
+			cheat sheet.
+			This action is available when any of following nodes are selected:  
+			group, task.  
+			If a task node is selected, the new group will be added 
+			as the last child node of the task's parent group.  
+			If a group node is selected, the new group will be added
+			as the last child node of that group.	
+			Note:  In order to maintain cheat sheet validity, a new
+			group requires at least one child node.	
+		</p>		
+
+		<p>
+			Click the <strong>Remove</strong> button to remove a group or task.
+			This action is available when any of following nodes are selected:  
+			task, group.	
+			Note:  In order to maintain cheat sheet validity, the following nodes
+			cannot be removed:  root, group 
+			(if it's parent is the root node).		
+		</p>
+
+		<p>
+			Click the <strong>Up</strong> button to move a group or task 
+			up one position in order above their respective siblings.
+			This action is available when any of following nodes are selected:  
+			group, task.			
+		</p>
+
+		<p>
+			Click the <strong>Down</strong> button to move a group or task 
+			down one position in order below their respective siblings.
+			This action is available when any of following nodes are selected:  
+			group, task.				
+		</p>
+
+		<p>
+			Click the <strong>Preview</strong> button to preview and test the saved or unsaved
+			contents of the edited cheat sheet in the <strong>Cheat Sheet</strong> view.  
+			This convenient action allows you to observe how the edited cheat sheet 
+			actually appears and operates within its deployed environment without having to
+			register the cheat sheet and launch another Eclipse runtime instance.		
+		</p>
+
+		<a name="title"></a>
+		<h3>Title Section</h3>
+
+		<p>
+			This <strong>Definition</strong> section allows you to edit the title of the cheat sheet. 
+			It is activated by selecting the root node in the <strong>Content</strong> section.
+		</p>
+		
+		<p>
+			<img src="../../../images/composite_cs_editor/section_title.png" alt="Title Section">
+		</p>
+
+		<h3>Title Section Fields</h3>
+		
+		<p>
+			Edit the <strong>Name</strong> field to specify the cheat sheet title.
+		</p>
+
+		<a name="group"></a>
+		<h3>Group Section</h3>
+
+
+		<p>
+			This <strong>Definition</strong> section allows you to edit the properties of a group. 
+			It is activated by selecting a group node in the <strong>Content</strong> section.
+		</p>
+
+		<p>
+			<img src="../../../images/composite_cs_editor/section_group.png" alt="Group Section">
+		</p>
+
+		<h3>Group Section Fields</h3>
+		
+		<p>
+			Edit the <strong>Name</strong> field to specify the title of the group.
+		</p>
+
+		<p>
+			Select a value from the <strong>Type</strong> field to change 
+			how the group is completed within the <strong>Cheat Sheet</strong>
+			view.  The following selections are available:
+		</p>
+		
+		<ul>
+			<li>
+				Set: The group is complete when all of its children are completed.
+			</li>
+			<li>
+				Sequence: The group is complete when all of its children are completed in order.
+			</li>
+			<li>
+				Choice: The group is complete when any one of its children are completed.
+			</li>
+		</ul>
+
+		<p>
+			Check the <strong>This group is optional</strong> field to make the 
+			completion of the group and all of its child tasks optional 
+			in the <strong>Cheat Sheet</strong> view.  
+			A non-optional group includes a <strong>Go To 'Task'</strong> 
+			action in the <strong>Cheat Sheet</strong> view to go to the group's first
+			child task.  
+			An optional group includes a <strong>Skip this group of tasks</strong>
+			action in the <strong>Cheat Sheet</strong> view to skip the group and
+			all of its child tasks.		
+		</p>
+
+		<h3>Task Section</h3>
+		<a name="task"></a>
+
+		<p>
+			TODO.
+		</p>
+
+		<a name="enclosing"></a>
+		<h3>Enclosing Text Section</h3>
+
+		<p>
+			TODO.
+		</p>
+
+		<p>
+			<img src="../../../images/composite_cs_editor/section_enclosing-text.png" alt="Content Section">
+		</p>
+
+
+		<h3>Relevant Links</h3>
+
+		<ul>
+			<li>
+				<a href="editor.htm">Composite Cheat Sheet Editor</a>
+			</li>
+			<li>
+				<a href="../simple_cs_editor/editor.htm">Simple Cheat Sheet Editor</a>
+			</li>			
+		</ul>
+
+	</body>
+</html>
