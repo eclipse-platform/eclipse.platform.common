@@ -118,5 +118,13 @@
           point="org.eclipse.help.base.luceneSearchParticipants">
        <binding participantId="org.eclipse.help.base.xhtml"/>
     </extension>
+  
+<!-- ============================================================================= -->
+<!-- Common Navigator                                                               -->
+<!-- ============================================================================= -->
+   
+    <extension point="org.eclipse.help.contexts"> 
+		<contexts file="contexts_CommonNavigator.xml"  plugin="org.eclipse.ui.navigator"/> 
+	</extension>
 
 </plugin>
