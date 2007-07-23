@@ -7,4 +7,4 @@ plugin@org.eclipse.jdt.apt.tests=R33x_v20070717-2015,:pserver:anonymous@dev.ecli
 fragment@org.eclipse.jdt.compiler.apt=R33x_v20070723-2000,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.jdt.compiler.apt.tests=R33x_v20070717-2015,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.jdt.apt.pluggable.core=R33x_v20070717-2015,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@jdt.apt.pluggable.tests=R33x_v20070717-2015,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.jdt.apt.pluggable.tests=R33x_v20070717-2015,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
