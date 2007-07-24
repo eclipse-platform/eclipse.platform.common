@@ -1,7 +1,7 @@
 !***************  UA CONTRIBUTION  *********************************************
 
 !**** Help
-plugin@org.eclipse.help=v20070524,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.help=v20070724_32x,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.help.appserver=v20070510,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.help.base=v20070710_33x,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.help.ui=v20070717_33x,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
