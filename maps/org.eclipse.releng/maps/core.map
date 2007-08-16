@@ -19,12 +19,12 @@ plugin@org.eclipse.equinox.log=v20070226,:pserver:anonymous@dev.eclipse.org:/cvs
 plugin@org.eclipse.equinox.metatype=v20070226,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.equinox.useradmin=v20070226,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.equinox.wireadmin=v20070226,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.equinox.http.jetty=R33x_v20070803,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.equinox.http.servlet=R33x_v20070803,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.equinox.http.jetty=R33x_v20070816,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.equinox.http.servlet=R33x_v20070816,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.equinox.http.servletbridge=v20070523,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.equinox.http.registry=v20070608,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.equinox.servletbridge=R33x_v20070803,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-bundle@org.eclipse.equinox.jsp.jasper=R33x_v20070803,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.equinox.jsp.jasper
+plugin@org.eclipse.equinox.servletbridge=R33x_v20070816,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+bundle@org.eclipse.equinox.jsp.jasper=R33x_v20070816,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.equinox.jsp.jasper
 bundle@org.eclipse.equinox.jsp.jasper.registry=v20070607,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.equinox.jsp.jasper.registry
 
 !****launcher, startup.jar
