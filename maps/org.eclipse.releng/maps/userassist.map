@@ -9,7 +9,7 @@ plugin@org.eclipse.help.webapp=v20070823_33x,:pserver:anonymous@dev.eclipse.org:
 plugin@org.eclipse.tomcat=v20070531,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 !**** Welcome
-plugin@org.eclipse.ui.intro=v20070530,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.ui.intro=v20070827_33x,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ui.intro.universal=v20070530A,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 !**** Cheat sheets
