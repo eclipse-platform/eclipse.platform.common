@@ -4,13 +4,13 @@ plugin@org.eclipse.text=v20070606-0010,:pserver:anonymous@dev.eclipse.org:/cvsro
 plugin@org.eclipse.jface.text=r331_v20070629,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ui.workbench.texteditor=r331_v20070806,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ui.editors=r331_v20070629,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.core.filebuffers=v20070606-0010,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.core.filebuffers=r331_v20070829,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 plugin@org.eclipse.ui.examples.javaeditor=v20070606-0010,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 plugin@org.eclipse.text.tests=v20070606-0010,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.jface.text.tests=v20070606-0010,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.core.filebuffers.tests=v20070606-0010,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.core.filebuffers.tests=r331_v20070829,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ui.workbench.texteditor.tests=v20070606-0010,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ui.editors.tests=v20070606-0010,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.jdt.text.tests=r331_v20070806,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
