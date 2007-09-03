@@ -3,7 +3,7 @@
 plugin@org.eclipse.platform.doc.user=M20070725-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.platform.doc.isv=M20070822-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
-plugin@org.eclipse.jdt.doc.user=v20070608-1300,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.jdt.doc.user=r331_v20070903,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.jdt.doc.isv=v20070613,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 plugin@org.eclipse.pde.doc.user=v20070614-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
