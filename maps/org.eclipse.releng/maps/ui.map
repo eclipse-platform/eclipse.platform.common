@@ -1,7 +1,7 @@
 !***************  UI CONTRIBUTION  ********************************************************* 
 
 plugin@org.eclipse.core.commands=I20070605-0010,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.jface=M20070831-2000,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.jface=M20070904-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.core.databinding=M20070822-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.core.databinding.beans=M20070822-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.jface.databinding=M20070822-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
@@ -30,7 +30,7 @@ plugin@org.eclipse.ui.navigator.resources=M20070831-2000,:pserver:anonymous@dev.
 plugin@org.eclipse.ui.views.properties.tabbed=M20070831-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 plugin@org.eclipse.jface.tests.databinding=M20070829-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.ui.tests=M20070831-2000,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.ui.tests=M20070904-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ui.tests.rcp=I20070605-0010,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ui.tests.navigator=I20070605-0010,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ui.tests.views.properties.tabbed=I20070605-0010,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
