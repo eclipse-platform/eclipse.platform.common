@@ -1,7 +1,7 @@
 !***************  UPDATE CONTRIBUTION  ******************************************************** 
 
 plugin@org.eclipse.update.configurator=R33x_v20070810,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.update.core=R33x_v20070828a,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.update.core=R33x_v20070911,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.update.scheduler=v20070615,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.update.ui=v20070615,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
