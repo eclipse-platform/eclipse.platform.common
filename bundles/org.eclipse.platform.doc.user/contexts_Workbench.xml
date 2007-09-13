@@ -627,7 +627,7 @@
         <description>Each workbench window contains one or more perspectives, which are made up of various views and editors.</description>
         <topic label="Workbench" href="concepts/concepts-2.htm"/>
         <topic label="Perspectives" href="concepts/concepts-4.htm"/>
-        <topic label="Workbench Management" href="tasks/tasks-1.htm"/>
+        <topic label="Customizing the Workbench" href="tasks/tasks-1.htm"/>
     </context>
     <!-- Wizard pages -->
     <context id="new_project_wizard_page_context">
