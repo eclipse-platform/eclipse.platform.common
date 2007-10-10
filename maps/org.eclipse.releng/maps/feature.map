@@ -1,6 +1,6 @@
 !***************  FEATURE CONTRIBUTION  ******************************************************
 feature@org.eclipse.sdk=R33x_v20071010,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/org.eclipse.sdk
-plugin@org.eclipse.sdk=r331_v20070904,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.sdk=R33x_v20071010,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 feature@org.eclipse.jdt=R33x_v20071010,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.jdt-feature
 feature@org.eclipse.jdt.sdk=v20060324,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/org.eclipse.jdt.sdk
@@ -11,7 +11,7 @@ feature@org.eclipse.pde.sdk=v20070212,:pserver:anonymous@dev.eclipse.org:/cvsroo
 feature@org.eclipse.platform=R33x_v20071010,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.platform-feature
 feature@org.eclipse.platform.sdk=v20070326,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/org.eclipse.platform.sdk
 
-plugin@org.eclipse.platform=M20070725,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.platform=R33x_v20071010,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 feature@org.eclipse.sdk.examples=v20070607,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk.examples-feature
 plugin@org.eclipse.sdk.examples=v20070605,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
