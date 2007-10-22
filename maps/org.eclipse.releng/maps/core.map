@@ -44,7 +44,7 @@ fragment@org.eclipse.equinox.launcher.gtk.solaris.sparc=R33x_v20071005,:pserver:
 fragment@org.eclipse.equinox.launcher.gtk.linux.s390=v20070530,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.equinox.launcher/contributed/org.eclipse.equinox.launcher.gtk.linux.s390
 fragment@org.eclipse.equinox.launcher.gtk.linux.s390x=v20070530,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.equinox.launcher/contributed/org.eclipse.equinox.launcher.gtk.linux.s390x
 
-feature@org.eclipse.equinox.executable=R33x_v20071005,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+feature@org.eclipse.equinox.executable=R33x_v20071022,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 !**** Runtime
 plugin@org.eclipse.core.runtime=v20070530,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
