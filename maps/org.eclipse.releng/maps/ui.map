@@ -10,7 +10,7 @@ plugin@org.eclipse.ui.ide=M20070910-0800b,:pserver:anonymous@dev.eclipse.org:/cv
 plugin@org.eclipse.ui.ide.application=I20070530-0100,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ui.presentations.r21=I20070605-0010,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ui.views=M20070910-0800b,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.ui.workbench=M20071024-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.ui.workbench=M20071026,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 fragment@org.eclipse.ui.workbench.compatibility=I20070319-0010,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 fragment@org.eclipse.ui.win32=I20070319-0010,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 fragment@org.eclipse.ui.carbon=I20070605-0010,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
@@ -30,7 +30,7 @@ plugin@org.eclipse.ui.navigator.resources=M20070831-2000,:pserver:anonymous@dev.
 plugin@org.eclipse.ui.views.properties.tabbed=M20070831-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 plugin@org.eclipse.jface.tests.databinding=M20070829-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.ui.tests=M20070910-0800b,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.ui.tests=M20071026,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ui.tests.rcp=I20070605-0010,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ui.tests.navigator=I20070605-0010,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ui.tests.views.properties.tabbed=I20070605-0010,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
