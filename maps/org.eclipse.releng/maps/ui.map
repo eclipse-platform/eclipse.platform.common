@@ -5,12 +5,12 @@ plugin@org.eclipse.jface=M20071024-0800,:pserver:anonymous@dev.eclipse.org:/cvsr
 plugin@org.eclipse.core.databinding=M20070822-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.core.databinding.beans=M20070910-0800b,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.jface.databinding=M20070910-0800b,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.ui=M20071017-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.ui=M20071107-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ui.ide=M20070910-0800b,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ui.ide.application=I20070530-0100,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ui.presentations.r21=I20070605-0010,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ui.views=M20070910-0800b,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.ui.workbench=M20071026,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.ui.workbench=M20071107-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 fragment@org.eclipse.ui.workbench.compatibility=I20070319-0010,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 fragment@org.eclipse.ui.win32=I20070319-0010,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 fragment@org.eclipse.ui.carbon=I20070605-0010,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
@@ -34,7 +34,7 @@ plugin@org.eclipse.ui.tests=M20071026,:pserver:anonymous@dev.eclipse.org:/cvsroo
 plugin@org.eclipse.ui.tests.rcp=I20070605-0010,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ui.tests.navigator=I20070605-0010,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ui.tests.views.properties.tabbed=I20070605-0010,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.ui.tests.performance=I20070614-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.ui.tests.performance=M20071107-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ui.tests.harness=M20071024-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 !**com.ibm.icu **!
