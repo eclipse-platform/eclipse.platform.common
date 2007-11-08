@@ -11,7 +11,7 @@ feature@org.eclipse.pde.sdk=v20060210,:pserver:anonymous@dev.eclipse.org:/cvsroo
 feature@org.eclipse.platform=r322_v20070119,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.platform-feature
 feature@org.eclipse.platform.sdk=v20060324,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/org.eclipse.platform.sdk
 
-plugin@org.eclipse.platform=r322_v20070117b,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.platform=r323_v20071108,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 feature@org.eclipse.sdk.examples=v20060609m,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk.examples-feature
 plugin@org.eclipse.sdk.examples=v20060609m,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,

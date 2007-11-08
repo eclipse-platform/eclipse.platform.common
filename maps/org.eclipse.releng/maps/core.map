@@ -1,7 +1,7 @@
 !***************  CORE CONTRIBUTION  ******************************************************** 
 
 !**** OSGi
-plugin@org.eclipse.osgi=R32x_v20070118,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.osgi=R32x_v20071108,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.osgi.services=v20060601,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.osgi.util=v20060601,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
