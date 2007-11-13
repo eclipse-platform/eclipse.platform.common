@@ -1,9 +1,9 @@
 
 !***************  JDT APT CONTRIBUTION *******************************************
 
-plugin@org.eclipse.jdt.apt.core=R33x_v20071106-0100,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.jdt.apt.core=R33x_v20071112-2330,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.jdt.apt.ui=R33x_v20071002-2100,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.jdt.apt.tests=R33x_v20071029-2120,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.jdt.apt.tests=R33x_v20071112-2330,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 fragment@org.eclipse.jdt.compiler.apt=R33x_v20071002-2100,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.jdt.compiler.apt.tests=R33x_v20070801-1930,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.jdt.apt.pluggable.core=R33x_v20071002-2100,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
