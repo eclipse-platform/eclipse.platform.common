@@ -1,7 +1,7 @@
 !***************  DEBUG CONTRIBUTION  ******************************************************** 
 
 plugin@org.eclipse.debug.core=v20071002_r332,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.debug.ui=v20071029_r332,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.debug.ui=v20071204_r332,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.jdt.debug=v20070719_r331,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.jdt.debug.ui=v20071002_r332,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.jdt.launching=v20071120_r332,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
