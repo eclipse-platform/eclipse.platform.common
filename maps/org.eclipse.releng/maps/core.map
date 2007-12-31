@@ -1,7 +1,7 @@
 !***************  CORE CONTRIBUTION  ******************************************************** 
 
 !**** OSGi
-plugin@org.eclipse.osgi=R33x_v20071203,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.osgi=R33x_v20071231,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.osgi.services=v20070605,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.osgi.util=v20070605,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
@@ -22,7 +22,7 @@ plugin@org.eclipse.equinox.wireadmin=v20070226,:pserver:anonymous@dev.eclipse.or
 plugin@org.eclipse.equinox.http.jetty=R33x_v20070816,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.equinox.http.servlet=R33x_v20070816,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.equinox.http.servletbridge=v20070523,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.equinox.http.registry=v20070608,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.equinox.http.registry=R33x_v20071231,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.equinox.servletbridge=R33x_v20070816,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 bundle@org.eclipse.equinox.jsp.jasper=R33x_v20070816,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.equinox.jsp.jasper
 bundle@org.eclipse.equinox.jsp.jasper.registry=v20070607,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.equinox.jsp.jasper.registry
@@ -44,7 +44,7 @@ fragment@org.eclipse.equinox.launcher.gtk.solaris.sparc=R33x_v20071005,:pserver:
 fragment@org.eclipse.equinox.launcher.gtk.linux.s390=v20070530,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.equinox.launcher/contributed/org.eclipse.equinox.launcher.gtk.linux.s390
 fragment@org.eclipse.equinox.launcher.gtk.linux.s390x=v20070530,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.equinox.launcher/contributed/org.eclipse.equinox.launcher.gtk.linux.s390x
 
-feature@org.eclipse.equinox.executable=R33x_20071113,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+feature@org.eclipse.equinox.executable=R33x_v20071231,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 !**** Runtime
 plugin@org.eclipse.core.runtime=v20070530,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
