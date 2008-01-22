@@ -4,7 +4,7 @@ plugin@org.eclipse.team.core=r33x_20071129,:pserver:anonymous@dev.eclipse.org:/c
 plugin@org.eclipse.team.cvs.core=r33x_20071024,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.team.cvs.ssh=I20061208,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.team.cvs.ssh2=I20070604,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.team.ui=r33x_20070730,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.team.ui=r33x_20080122,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.team.cvs.ui=r33x_20070807,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 plugin@org.eclipse.ftp=I20070108,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,platform-vcm-home/plugins/target/org.eclipse.ftp
