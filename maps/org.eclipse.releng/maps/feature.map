@@ -24,4 +24,4 @@ feature@org.eclipse.equinox.sdk=v20060324,:pserver:anonymous@dev.eclipse.org:/cv
 
 feature@org.eclipse.cvs=R33x_r20080109,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.cvs-feature
 feature@org.eclipse.cvs.sdk=v20070605,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/org.eclipse.cvs.sdk
-plugin@org.eclipse.cvs=R33x_v20071217,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/plugins/org.eclipse.cvs
+plugin@org.eclipse.cvs=R33x_r20080123,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/plugins/org.eclipse.cvs
