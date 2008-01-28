@@ -1,6 +1,6 @@
 !***************  COMPARE CONTRIBUTION  ******************************************************** 
 
-plugin@org.eclipse.compare=r33x_20080122,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.compare=r33x_20080128,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 plugin@org.eclipse.compare.examples=v20060606,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.compare.examples.xml=I20070516,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
