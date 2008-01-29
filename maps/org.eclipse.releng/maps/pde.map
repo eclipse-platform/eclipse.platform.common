@@ -1,7 +1,7 @@
 !***************  PDE CONTRIBUTION  ******************************************************** 
 
 
-plugin@org.eclipse.pde=R33x_r20070920,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.pde=r33x_r20080129,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.pde.core=v20071121-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.pde.junit.runtime=v20070608-1300,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.pde.runtime=v20070608-1300,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
