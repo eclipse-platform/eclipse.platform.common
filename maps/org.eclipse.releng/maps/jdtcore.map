@@ -1,5 +1,5 @@
 
-!***************  JDT CORE CONTRIBUTION  [200800409-1200] ******************************************* 
+!***************  JDT CORE CONTRIBUTION  [20080409-1200] ******************************************* 
 
 plugin@org.eclipse.jdt.core=v_794_R33x,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 fragment@org.eclipse.jdt.compiler.tool=v_794_R33x,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
