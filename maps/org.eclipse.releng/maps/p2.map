@@ -7,7 +7,7 @@ plugin@org.eclipse.equinox.p2.director=CVS,tag=v20080604,cvsRoot=:pserver:anonym
 plugin@org.eclipse.equinox.p2.director.app=CVS,tag=v20080604,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.director.app
 plugin@org.eclipse.equinox.p2.directorywatcher=CVS,tag=v20080505-1850,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.directorywatcher
 plugin@org.eclipse.equinox.p2.download=CVS,tag=v20080216-2219,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.download
-plugin@org.eclipse.equinox.p2.engine=CVS,tag=v20080522-1735,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.engine
+plugin@org.eclipse.equinox.p2.engine=CVS,tag=r34x_v20080709,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.engine
 plugin@org.eclipse.equinox.p2.exemplarysetup=CVS,tag=v20080427-2136,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.exemplarysetup
 plugin@org.eclipse.equinox.p2.extensionlocation=CVS,tag=v20080523-0001,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.extensionlocation
 plugin@org.eclipse.equinox.p2.garbagecollector=CVS,tag=v20080506-1939,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.garbagecollector
