@@ -1,7 +1,7 @@
 !***************  CORE CONTRIBUTION  ******************************************************** 
 
 !**** OSGi
-plugin@org.eclipse.osgi=v20080605-1900,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.osgi=R34x_v20080722,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.osgi.services=v20071203,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.osgi.util=v20080303,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
@@ -106,4 +106,4 @@ feature@org.eclipse.pde.builder=v20040624a,:pserver:anonymous@dev.eclipse.org:/c
 plugin@org.eclipse.core.tests.harness=v20080407,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.core.tests.resources=v20080528-1613,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.core.tests.runtime=v20080613-1240,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.osgi.tests=v20080427-0830,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.osgi.tests=R34x_v20080722,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
