@@ -1,11 +1,11 @@
 
 !***************  JDT CORE CONTRIBUTION  [20080629-2000] ******************************************* 
 
-plugin@org.eclipse.jdt.core=v_876_IES_R34x,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.jdt.core=v_877a_R34x,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 fragment@org.eclipse.jdt.compiler.tool=v_874,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 plugin@org.eclipse.jdt.core.tests.builder=v_874,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.jdt.core.tests.compiler=v_876_IES_R34x,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.jdt.core.tests.compiler=v_877a_R34x,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.jdt.core.tests.model=v_874,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.jdt.core.tests.performance=v_874,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.jdt.compiler.tool.tests=v_874,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
