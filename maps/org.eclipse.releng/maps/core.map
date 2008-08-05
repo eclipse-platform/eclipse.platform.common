@@ -52,7 +52,7 @@ fragment@org.eclipse.equinox.launcher.win32.win32.x86_64=R34x_v20080731,:pserver
 fragment@org.eclipse.equinox.launcher.win32.win32.ia64=R34x_v20080731,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.equinox.launcher/fragments/org.eclipse.equinox.launcher.win32.win32.ia64
 fragment@org.eclipse.equinox.launcher.wpf.win32.x86=R34x_v20080731,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.equinox.launcher/fragments/org.eclipse.equinox.launcher.wpf.win32.x86
 fragment@org.eclipse.equinox.launcher.carbon.macosx=R34x_v20080731,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.equinox.launcher/fragments/org.eclipse.equinox.launcher.carbon.macosx
-fragment@org.eclipse.equinox.launcher.gtk.linux.x86=R34x_v20080731,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.equinox.launcher/fragments/org.eclipse.equinox.launcher.gtk.linux.x86
+fragment@org.eclipse.equinox.launcher.gtk.linux.x86=R34x_v20080805,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.equinox.launcher/fragments/org.eclipse.equinox.launcher.gtk.linux.x86
 fragment@org.eclipse.equinox.launcher.gtk.linux.x86_64=R34x_v20080731,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.equinox.launcher/fragments/org.eclipse.equinox.launcher.gtk.linux.x86_64
 fragment@org.eclipse.equinox.launcher.gtk.linux.ppc=R34x_v20080731,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.equinox.launcher/fragments/org.eclipse.equinox.launcher.gtk.linux.ppc
 fragment@org.eclipse.equinox.launcher.motif.hpux.PA_RISC=v20080303,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.equinox.launcher/fragments/org.eclipse.equinox.launcher.motif.hpux.PA_RISC
@@ -68,7 +68,7 @@ fragment@org.eclipse.equinox.launcher.gtk.linux.s390x=v20080303,:pserver:anonymo
 fragment@org.eclipse.equinox.launcher.gtk.solaris.x86=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.equinox.launcher/contributed/org.eclipse.equinox.launcher.gtk.solaris.x86
 fragment@org.eclipse.equinox.launcher.motif.solaris.sparc=R34x_v20080731,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.equinox.launcher/fragments/org.eclipse.equinox.launcher.motif.solaris.sparc
 
-feature@org.eclipse.equinox.executable=R34x_v20080731,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+feature@org.eclipse.equinox.executable=R34x_v20080805,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 !**** Runtime
 plugin@org.eclipse.core.runtime=v20080512,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
