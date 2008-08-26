@@ -9,14 +9,14 @@ plugin@org.eclipse.equinox.p2.directorywatcher=CVS,tag=v200808061616,cvsRoot=:ps
 plugin@org.eclipse.equinox.p2.download=CVS,tag=v20080216-2219,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.download
 plugin@org.eclipse.equinox.p2.engine=CVS,tag=v20080522-1735,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.engine
 plugin@org.eclipse.equinox.p2.exemplarysetup=CVS,tag=v20080427-2136,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.exemplarysetup
-plugin@org.eclipse.equinox.p2.extensionlocation=CVS,tag=v20080523-0001,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.extensionlocation
+plugin@org.eclipse.equinox.p2.extensionlocation=CVS,tag=R34x_v20080826,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.extensionlocation
 plugin@org.eclipse.equinox.p2.garbagecollector=CVS,tag=v20080506-1939,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.garbagecollector
 plugin@org.eclipse.equinox.p2.installer=CVS,tag=v20080515-0936,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.installer
 plugin@org.eclipse.equinox.p2.jarprocessor=CVS,tag=v20080514-1900,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.jarprocessor
 plugin@org.eclipse.equinox.p2.metadata=CVS,tag=v20080514-1900,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.metadata
 plugin@org.eclipse.equinox.p2.metadata.generator=CVS,tag=v20080604,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.metadata.generator
 plugin@org.eclipse.equinox.p2.metadata.repository=CVS,tag=v20080604,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.metadata.repository
-plugin@org.eclipse.equinox.p2.reconciler.dropins=CVS,tag=R34x_v20080808-0136,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.reconciler.dropins
+plugin@org.eclipse.equinox.p2.reconciler.dropins=CVS,tag=R34x_v20080826,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.reconciler.dropins
 plugin@org.eclipse.equinox.p2.selfhosting=CVS,tag=v20080515-1949,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.selfhosting
 plugin@org.eclipse.equinox.p2.tools=CVS,tag=v20080604,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.tools
 plugin@org.eclipse.equinox.p2.touchpoint.eclipse=CVS,tag=R34x_v20080808-0136,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.touchpoint.eclipse
