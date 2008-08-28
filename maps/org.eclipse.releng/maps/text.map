@@ -4,7 +4,7 @@ plugin@org.eclipse.text=v20060605-1400,:pserver:anonymous@dev.eclipse.org:/cvsro
 plugin@org.eclipse.jface.text=r322_v20070104,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ui.workbench.texteditor=v20060605-1400,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ui.editors=r321_v20060721,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.core.filebuffers=r321_v20060721,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.core.filebuffers=ies_v20080828,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 plugin@org.eclipse.ui.examples.javaeditor=v20060605-1400,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
