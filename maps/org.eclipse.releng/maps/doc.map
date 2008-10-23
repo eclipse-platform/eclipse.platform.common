@@ -6,4 +6,4 @@ plugin@org.eclipse.platform.doc.isv=r342_v20081010,:pserver:anonymous@dev.eclips
 plugin@org.eclipse.jdt.doc.user=r341_v20080820-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.jdt.doc.isv=r341_v20080716-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
-plugin@org.eclipse.pde.doc.user=v20080611-1530,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.pde.doc.user=r342_v20081023,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
