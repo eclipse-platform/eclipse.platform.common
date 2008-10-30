@@ -6,6 +6,6 @@ fragment@org.eclipse.jdt.compiler.tool=v_883_R34x,:pserver:anonymous@dev.eclipse
 
 plugin@org.eclipse.jdt.core.tests.builder=v_883_R34x,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.jdt.core.tests.compiler=v_883_R34x,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.jdt.core.tests.model=v_883_R34x,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.jdt.core.tests.model=v_882_R34x,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.jdt.core.tests.performance=v_883_R34x,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.jdt.compiler.tool.tests=v_883_R34x,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
