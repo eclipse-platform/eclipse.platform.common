@@ -3,7 +3,7 @@ plugin@org.eclipse.equinox.frameworkadmin.equinox=CVS,tag=v20080930,cvsRoot=:pse
 plugin@org.eclipse.equinox.p2.artifact.repository=CVS,tag=v20080930,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.artifact.repository
 plugin@org.eclipse.equinox.p2.console=CVS,tag=v20080514-1900,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.console
 plugin@org.eclipse.equinox.p2.core=CVS,tag=v20081104-1843,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.core
-plugin@org.eclipse.equinox.p2.director=CVS,tag=v20081027-2115,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.director
+plugin@org.eclipse.equinox.p2.director=CVS,tag=v20081107,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.director
 plugin@org.eclipse.equinox.p2.director.app=CVS,tag=R34x_v20080729,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.director.app
 plugin@org.eclipse.equinox.p2.directorywatcher=CVS,tag=v20080806-1619,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.directorywatcher
 plugin@org.eclipse.equinox.p2.download=CVS,tag=v20080216-2219,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.download
