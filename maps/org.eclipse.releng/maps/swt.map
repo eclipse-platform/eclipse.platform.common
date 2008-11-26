@@ -27,14 +27,14 @@ fragment@org.eclipse.swt.gtk.linux.s390x=R3_4,:pserver:anonymous@dev.eclipse.org
 fragment@org.eclipse.swt.gtk.solaris.x86=v3451a,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 !*** SWT Examples
-plugin@org.eclipse.swt.examples=v3451a,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.swt.examples.browser=v3451a,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.swt.examples.browser.demos=v3451a,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.swt.examples.controls=v3451a,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.swt.examples.launcher=v3451a,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.swt.examples.layouts=v3451a,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.swt.examples.ole.win32=v3451a,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.swt.examples.paint=v3451a,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.swt.examples=R3_4,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.swt.examples.browser=R3_4,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.swt.examples.browser.demos=R3_4,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.swt.examples.controls=R3_4,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.swt.examples.launcher=R3_4,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.swt.examples.layouts=R3_4,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.swt.examples.ole.win32=R3_4,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.swt.examples.paint=R3_4,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 !*** SWT Tests and Tools
 plugin@org.eclipse.swt.tests=v3451a,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
