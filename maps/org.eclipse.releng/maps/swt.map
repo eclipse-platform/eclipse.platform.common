@@ -11,7 +11,6 @@ fragment@org.eclipse.swt.gtk.linux.x86_64=v3451a,:pserver:anonymous@dev.eclipse.
 fragment@org.eclipse.swt.gtk.solaris.sparc=v3451a,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 fragment@org.eclipse.swt.motif.aix.ppc=v3451a,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 fragment@org.eclipse.swt.motif.hpux.ia64_32=v3451a,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-fragment@org.eclipse.swt.motif.hpux.PA_RISC=v3451a,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 fragment@org.eclipse.swt.motif.linux.x86=v3451a,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 fragment@org.eclipse.swt.motif.solaris.sparc=v3451a,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 fragment@org.eclipse.swt.photon.qnx.x86=v3451a,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
@@ -20,11 +19,11 @@ fragment@org.eclipse.swt.win32.win32.x86=v3451a,:pserver:anonymous@dev.eclipse.o
 fragment@org.eclipse.swt.wpf.win32.x86=v3451a,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 fragment@org.eclipse.swt.win32.win32.x86_64=v3451a,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 fragment@org.eclipse.swt.win32.win32.ia64=v3451a,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+fragment@org.eclipse.swt.motif.hpux.ia64_32=v3515,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 fragment@org.eclipse.swt.gtk.linux.ia64=R3_4,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 fragment@org.eclipse.swt.gtk.linux.s390=R3_4,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 fragment@org.eclipse.swt.gtk.linux.s390x=R3_4,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-fragment@org.eclipse.swt.gtk.solaris.x86=v3451a,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 !*** SWT Examples
 plugin@org.eclipse.swt.examples=R3_4,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
@@ -37,5 +36,5 @@ plugin@org.eclipse.swt.examples.ole.win32=R3_4,:pserver:anonymous@dev.eclipse.or
 plugin@org.eclipse.swt.examples.paint=R3_4,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 !*** SWT Tests and Tools
-plugin@org.eclipse.swt.tests=v3451a,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.swt.tools=v3451a,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.swt.tests=R3_4,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.swt.tools=R3_4,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
