@@ -16,7 +16,7 @@ plugin@org.eclipse.equinox.p2.jarprocessor=CVS,tag=v20081010,cvsRoot=:pserver:an
 plugin@org.eclipse.equinox.p2.metadata=CVS,tag=v20081206,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.metadata
 plugin@org.eclipse.equinox.p2.metadata.generator=CVS,tag=v20081208-2132,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.metadata.generator
 plugin@org.eclipse.equinox.p2.metadata.repository=CVS,tag=v20081208-2132,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.metadata.repository
-plugin@org.eclipse.equinox.p2.publisher=CVS,tag=v20081208-2132,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.publisher
+plugin@org.eclipse.equinox.p2.publisher=CVS,tag=v20081217,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.publisher
 plugin@org.eclipse.equinox.p2.reconciler.dropins=CVS,tag=v20081210-0057,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.reconciler.dropins
 plugin@org.eclipse.equinox.p2.selfhosting=CVS,tag=v20081201-2335,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.selfhosting
 plugin@org.eclipse.equinox.p2.tools=CVS,tag=v20081124-1945,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.tools
@@ -45,7 +45,7 @@ fragment@org.eclipse.ecf.ssl,1.0.0=GET,http://www.eclipse.org/external/rt/ecf/in
 plugin@org.eclipse.ecf.identity,2.1.0=GET,http://www.eclipse.org/external/rt/ecf/integration/v20081208-0800/update/plugins/org.eclipse.ecf.identity_2.1.0.v20081208-0800.jar,usetimestamp=true
 plugin@org.eclipse.ecf.filetransfer,2.1.0=GET,http://www.eclipse.org/external/rt/ecf/integration/v20081208-0800/update/plugins/org.eclipse.ecf.filetransfer_2.1.0.v20081208-0800.jar,usetimestamp=true
 plugin@org.eclipse.ecf.provider.filetransfer,2.1.0=GET,http://www.eclipse.org/external/rt/ecf/integration/v20081208-0800/update/plugins/org.eclipse.ecf.provider.filetransfer_2.1.0.v20081208-0800.jar,usetimestamp=true
-fragment@org.eclipse.ecf.provider.filetransfer.ssl,1.0.0=GET,http://www.eclipse.org/external/rt/ecf/integration/v20081208-0800/update/plugins/org.eclipse.ecf.provider.filetransfer.ssl_1.0.0.v20081208-0800.jar,usetimestamp=true 
+fragment@org.eclipse.ecf.provider.filetransfer.ssl,1.0.0=GET,http://www.eclipse.org/external/rt/ecf/integration/v20081208-0800/update/plugins/org.eclipse.ecf.provider.filetransfer.ssl_1.0.0.v20081208-0800.jar,usetimestamp=true
 plugin@org.eclipse.ecf.provider.filetransfer.httpclient,2.1.0=GET,http://www.eclipse.org/external/rt/ecf/integration/v20081208-0800/update/plugins/org.eclipse.ecf.provider.filetransfer.httpclient_2.1.0.v20081208-0800.jar,usetimestamp=true
 fragment@org.eclipse.ecf.provider.filetransfer.httpclient.ssl,1.0.0=GET,http://www.eclipse.org/external/rt/ecf/integration/v20081208-0800/update/plugins/org.eclipse.ecf.provider.filetransfer.httpclient.ssl_1.0.0.v20081208-0800.jar,usetimestamp=true
 plugin@org.apache.commons.codec,1.2.0=GET,http://download.eclipse.org/tools/orbit/downloads/drops/R20080611105805/bundles/org.apache.commons.codec_1.2.0.v20080530-1550.jar,usetimestamp=true
