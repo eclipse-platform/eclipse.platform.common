@@ -30,7 +30,7 @@ plugin@org.eclipse.equinox.p2.updatechecker.app=CVS,tag=v20080216-2219,cvsRoot=:
 plugin@org.eclipse.equinox.p2.updatesite=CVS,tag=R34x_v20080808-1156,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.updatesite
 plugin@org.eclipse.equinox.simpleconfigurator=CVS,tag=v20080604,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.simpleconfigurator
 plugin@org.eclipse.equinox.simpleconfigurator.manipulator=CVS,tag=v20080930,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.simpleconfigurator.manipulator
-plugin@org.eclipse.equinox.p2.tests=CVS,tag=R34x_v20090114,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.tests
+plugin@org.eclipse.equinox.p2.tests=CVS,tag=v20081027-2115,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.tests
 
 !# features that we use during the build. the real features are in feature.map
 feature@org.eclipse.equinox.p2.agent.feature=CVS,tag=r34x_v20080721,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/org.eclipse.equinox.p2.releng/buildtime-features/org.eclipse.equinox.p2.agent.feature
@@ -38,9 +38,10 @@ feature@org.eclipse.equinox.p2.generator.feature=CVS,tag=r34x_v20080721,cvsRoot=
 feature@org.eclipse.equinox.p2.director.feature=CVS,tag=r34x_v20080721,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/org.eclipse.equinox.p2.releng/buildtime-features/org.eclipse.equinox.p2.director.feature
 
 !# Bundles from ECF
-plugin@org.eclipse.ecf,2.1.0=GET,http://www.eclipse.org/external/rt/ecf/integration/v20090112-1359/update/plugins/org.eclipse.ecf_2.1.0.v20090112-1359.jar,usetimestamp=true
-fragment@org.eclipse.ecf.ssl,1.0.0=GET,http://www.eclipse.org/external/rt/ecf/integration/v20090112-1359/update/plugins/org.eclipse.ecf.ssl_1.0.0.v20090112-1359.jar,usetimestamp=true
-plugin@org.eclipse.ecf.identity,2.1.0=GET,http://www.eclipse.org/external/rt/ecf/integration/v20090112-1359/update/plugins/org.eclipse.ecf.identity_2.1.0.v20090112-1359.jar,usetimestamp=true
-plugin@org.eclipse.ecf.filetransfer,2.1.0=GET,http://www.eclipse.org/external/rt/ecf/integration/v20090112-1359/update/plugins/org.eclipse.ecf.filetransfer_2.1.0.v20090112-1359.jar,usetimestamp=true
-plugin@org.eclipse.ecf.provider.filetransfer,2.1.0=GET,http://www.eclipse.org/external/rt/ecf/integration/v20090112-1359/update/plugins/org.eclipse.ecf.provider.filetransfer_2.1.0.v20090112-1359.jar,usetimestamp=true
-fragment@org.eclipse.ecf.provider.filetransfer.ssl,1.0.0=GET,http://www.eclipse.org/external/rt/ecf/integration/v20090112-1359/update/plugins/org.eclipse.ecf.provider.filetransfer.ssl_1.0.0.v20090112-1359.jar,usetimestamp=true
+
+plugin@org.eclipse.ecf,2.0.0=GET,http://www.eclipse.org/external/rt/ecf/integration/v20080611-1715/update/plugins/org.eclipse.ecf_2.0.0.v20080611-1715.jar,usetimestamp=true
+plugin@org.eclipse.ecf.identity,2.0.0=GET,http://www.eclipse.org/external/rt/ecf/integration/v20080611-1715/update/plugins/org.eclipse.ecf.identity_2.0.0.v20080611-1715.jar,usetimestamp=true
+plugin@org.eclipse.ecf.filetransfer,2.0.0=GET,http://www.eclipse.org/external/rt/ecf/integration/v20080611-1715/update/plugins/org.eclipse.ecf.filetransfer_2.0.0.v20080611-1715.jar,usetimestamp=true
+plugin@org.eclipse.ecf.provider.filetransfer,2.0.0=GET,http://www.eclipse.org/external/rt/ecf/integration/v20080611-1715/update/plugins/org.eclipse.ecf.provider.filetransfer_2.0.0.v20080611-1715.jar,usetimestamp=true
+fragment@org.eclipse.ecf.ssl,1.0.0=GET,http://www.eclipse.org/external/rt/ecf/integration/v20080611-1715/update/plugins/org.eclipse.ecf.ssl_1.0.0.v20080611-1715.jar,usetimestamp=true
+fragment@org.eclipse.ecf.provider.filetransfer.ssl,1.0.0=GET,http://www.eclipse.org/external/rt/ecf/integration/v20080611-1715/update/plugins/org.eclipse.ecf.provider.filetransfer.ssl_1.0.0.v20080611-1715.jar,usetimestamp=true
