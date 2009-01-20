@@ -1,6 +1,6 @@
 
 !***************  JDT APT CONTRIBUTION  [20060822 R3.2.x] ******************************************* 
 
-plugin@org.eclipse.jdt.apt.core=R32x_v20060822-2100, :pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.jdt.apt.ui=R32x_v20060822-2100, :pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.jdt.apt.core=R32x_v20090119-2200,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.jdt.apt.ui=R32x_v20090119-2200,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.jdt.apt.tests=R32x_v20060822-2100, :pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
