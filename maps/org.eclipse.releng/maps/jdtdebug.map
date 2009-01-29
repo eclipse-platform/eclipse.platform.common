@@ -7,6 +7,6 @@ plugin@org.eclipse.jdt.debug.ui=r322_v20061205,:pserver:anonymous@dev.eclipse.or
 plugin@org.eclipse.jdt.launching=r323_v20080114,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.jdt.launching.macosx=v20060605,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
-plugin@org.eclipse.ui.console=v20060605,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.ui.console=v20090129_r322,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 plugin@org.eclipse.jdt.debug.tests=r322_v20061114,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
