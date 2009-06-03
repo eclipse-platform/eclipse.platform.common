@@ -15,7 +15,7 @@
 <p>The <em>Target Platform</em> refers to the plug-ins which your workspace will be built and run against.  It describes the platform that you are developing for.  When developing with PDE, the target platform is used to:</p>
 <ol>
 <li>Compile - Plug-ins in the workspace are built against the target platform so you do not have to have everything in your workspace</li>
-<li>Launch - When using PDE's launchers you can choose the set of plug-ins you want to launch.  By default the Eclipse Application Launcher will start with all plug-ins in the target, but will use workspace plug-ins instead when available<li>
+<li>Launch - When using PDE's launchers you can choose the set of plug-ins you want to launch.  By default the Eclipse Application Launcher will start with all plug-ins in the target, but will use workspace plug-ins instead when available</li>
 <li>Calculate Dependencies - PDE assists you in finding the plug-ins your plug-ins was include/require to compile correctly by looking at what is available in the target platform</li>
 <li>State - An OSGi state is created for the target platform so it can be used by other tooling.  The state can also be viewed in detail using the Target Platform State View</li>
 <li>Other Tools - Other PDE tools use the target platform to determine their options, such as the import wizards</li>
@@ -26,6 +26,8 @@
 <p>The target platform and your target definitions are managed on the Target Platform Preference Page.  This page lists all target definitions that PDE has access to and displays which definition is being used as your current target platform.  Target definitions can be created and edited here using the Target Definition Content Wizard.  To make for easier sharing among a development team, targets can also be created and edited in the workspace as xml files with the extension ".target".  These files can be edited using the target definition editor and can be created using the New Target Definition Wizard.</p>
 
 <p>By default PDE provides a default target platform which simply points to the plug-ins in your currently running Eclipse instance (often referred to as your host).  For Eclipse plug-in developers this might be all you need.  RCP developers must be more careful managing their target as adding dependencies increases the size and complexity of their application.  When creating a new target definition for RCP, consider using the RCP template (available with or without source).</p>
+
+<p>For up to the minute target troubleshooting help see the <a href="http://wiki.eclipse.org/PDE/Target_Definitions">Target Definitions Wiki Page</a>.</p>
 
 <p><img src="../images/ngrelr.png" alt="Related reference"></p>
 <p>
