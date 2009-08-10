@@ -7,7 +7,7 @@ plugin@org.eclipse.equinox.p2.core=CVS,tag=v20090520-1905,cvsRoot=:pserver:anony
 plugin@org.eclipse.equinox.p2.director=CVS,tag=v20090520-1905,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.director
 plugin@org.eclipse.equinox.p2.director.app=CVS,tag=v20090521-1912,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.director.app
 plugin@org.eclipse.equinox.p2.directorywatcher=CVS,tag=v20090525,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.directorywatcher
-plugin@org.eclipse.equinox.p2.engine=CVS,tag=R35x_v20090717,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.engine
+plugin@org.eclipse.equinox.p2.engine=CVS,tag=R35x_v20090810,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.engine
 plugin@org.eclipse.equinox.p2.exemplarysetup=CVS,tag=v20090520-1905,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.exemplarysetup
 plugin@org.eclipse.equinox.p2.extensionlocation=CVS,tag=v20090520-1905,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.extensionlocation
 plugin@org.eclipse.equinox.p2.garbagecollector=CVS,tag=v20090520-1905,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.garbagecollector
@@ -33,7 +33,7 @@ plugin@org.eclipse.equinox.p2.updatechecker=CVS,tag=v20090520-1905,cvsRoot=:pser
 plugin@org.eclipse.equinox.p2.updatesite=CVS,tag=v20090525,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.updatesite
 plugin@org.eclipse.equinox.simpleconfigurator=CVS,tag=R35x_v20090807-1100,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.simpleconfigurator
 plugin@org.eclipse.equinox.simpleconfigurator.manipulator=CVS,tag=v20090520-1905,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.simpleconfigurator.manipulator
-plugin@org.eclipse.equinox.p2.tests=CVS,tag=R35x_v20090806,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.tests
+plugin@org.eclipse.equinox.p2.tests=CVS,tag=R35x_v20090810,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.tests
 plugin@org.eclipse.equinox.p2.tests.ui=CVS,tag=v20090527-1812,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.tests.ui
 
 !# Bundles from ECF
