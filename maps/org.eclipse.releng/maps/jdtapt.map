@@ -1,5 +1,5 @@
 
-!***************  JDT APT CONTRIBUTION  [20090429-0100] *******************************************
+!***************  JDT APT CONTRIBUTION  [R3_5_maintenance] *******************************************
 
 plugin@org.eclipse.jdt.apt.core=v20090528-1135,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.jdt.apt.ui=v20090528-1135,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
