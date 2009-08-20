@@ -28,7 +28,7 @@ plugin@org.eclipse.equinox.p2.ui=CVS,tag=R35x_v20090819,cvsRoot=:pserver:anonymo
 plugin@org.eclipse.equinox.p2.ui.admin=CVS,tag=v20090520-1905,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.ui.admin
 plugin@org.eclipse.equinox.p2.ui.sdk=CVS,tag=v20090520-1905,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.ui.sdk
 plugin@org.eclipse.equinox.p2.ui.sdk.scheduler=CVS,tag=v20090520-1905,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.ui.sdk.scheduler
-plugin@org.eclipse.equinox.p2.ui.admin.rcp=CVS,tag=R35x_v20090806,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.ui.admin.rcp
+plugin@org.eclipse.equinox.p2.ui.admin.rcp=CVS,tag=v20090820,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.ui.admin.rcp
 plugin@org.eclipse.equinox.p2.updatechecker=CVS,tag=v20090520-1905,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.updatechecker
 plugin@org.eclipse.equinox.p2.updatesite=CVS,tag=v20090525,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.updatesite
 plugin@org.eclipse.equinox.simpleconfigurator=CVS,tag=R35x_v20090807-1100,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.simpleconfigurator
@@ -60,4 +60,3 @@ fragment@org.eclipse.ecf.provider.filetransfer.httpclient.ssl.source,1.0.0=GET,h
 !#plugin@org.apache.commons.httpclient.source,3.1.0=GET,http://download.eclipse.org/tools/orbit/downloads/drops/S20090426201227/bundles/org.apache.commons.httpclient.source_3.1.0.v20080605-1935.jar
 !#plugin@org.apache.commons.logging,1.0.4=GET,http://download.eclipse.org/tools/orbit/downloads/drops/S20090426201227/bundles/org.apache.commons.logging_1.0.4.v200904062259.jar
 !#plugin@org.apache.commons.logging.source,1.0.4=GET,http://download.eclipse.org/tools/orbit/downloads/drops/S20090426201227/bundles/org.apache.commons.logging.source_1.0.4.v200904062259.jar
-
