@@ -74,7 +74,7 @@ feature@org.eclipse.equinox.executable=R35x_v20090724,:pserver:anonymous@dev.ecl
 
 !**** Runtime
 plugin@org.eclipse.core.runtime=v20090525,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.core.contenttype=v20090429-1800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.core.contenttype=r35x_v20090824-1112,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.core.jobs=v20090429-1800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 !**** Expressions
