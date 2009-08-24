@@ -1,11 +1,11 @@
 
-!***************  JDT CORE CONTRIBUTION  [20090821-0800] ******************************************* 
+!***************  JDT CORE CONTRIBUTION  [20090824-0800] ******************************************* 
 
-plugin@org.eclipse.jdt.core=v_969_R35x,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-fragment@org.eclipse.jdt.compiler.tool=v_969_R35x,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.jdt.core=v_970_R35x,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+fragment@org.eclipse.jdt.compiler.tool=v_970_R35x,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
-plugin@org.eclipse.jdt.core.tests.builder=v_969_R35x,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.jdt.core.tests.compiler=v_969_R35x,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.jdt.core.tests.model=v_969_R35x,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.jdt.core.tests.performance=v_969_R35x,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.jdt.compiler.tool.tests=v_969_R35x,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.jdt.core.tests.builder=v_970_R35x,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.jdt.core.tests.compiler=v_970_R35x,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.jdt.core.tests.model=v_970_R35x,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.jdt.core.tests.performance=v_970_R35x,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.jdt.compiler.tool.tests=v_970_R35x,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
