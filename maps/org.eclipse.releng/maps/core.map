@@ -72,7 +72,7 @@ feature@org.eclipse.equinox.executable=R34x_v20081125,:pserver:anonymous@dev.ecl
 
 !**** Runtime
 plugin@org.eclipse.core.runtime=v20080512,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.core.contenttype=R34x_v20090604,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.core.contenttype=R34x_v20090825-1137,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.core.jobs=R34x_v20081128,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 !**** Resources
