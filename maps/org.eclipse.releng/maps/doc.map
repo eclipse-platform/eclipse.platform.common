@@ -1,9 +1,9 @@
 !***************  DOC CONTRIBUTION  ******************************************************** 
 
 plugin@org.eclipse.platform.doc.user=r351_v20090821-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.platform.doc.isv=r351_v20090821-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.platform.doc.isv=r351_v20090831,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 plugin@org.eclipse.jdt.doc.user=r351_v20090821-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.jdt.doc.isv=r351_v20090821-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.jdt.doc.isv=r351_v20090831,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 plugin@org.eclipse.pde.doc.user=v20090818,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,pde/doc/org.eclipse.pde.doc.user
