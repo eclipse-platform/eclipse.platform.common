@@ -19,7 +19,7 @@ feature@org.eclipse.pde.api.tools.ee.osgiminimum10_feature=v20090407-1030,:pserv
 feature@org.eclipse.pde.api.tools.ee.osgiminimum11_feature=v20090407-1030,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,pde/apitools/org.eclipse.pde.api.tools.ee.osgiminimum11-feature
 feature@org.eclipse.pde.api.tools.ee.osgiminimum12_feature=v20090407-1030,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,pde/apitools/org.eclipse.pde.api.tools.ee.osgiminimum12-feature
 
-feature@org.eclipse.platform=R35x_v20090827,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.platform-feature
+feature@org.eclipse.platform=R35x_v20090908,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.platform-feature
 feature@org.eclipse.platform.sdk=v20080314,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/org.eclipse.platform.sdk
 
 plugin@org.eclipse.platform=R35x_v20090813,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
