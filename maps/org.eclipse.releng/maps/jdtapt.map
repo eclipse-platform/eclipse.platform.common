@@ -1,10 +1,10 @@
 
 !***************  JDT APT CONTRIBUTION  [R3_5_maintenance] *******************************************
 
-plugin@org.eclipse.jdt.apt.core=R35x_v20090923-0035,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.jdt.apt.ui=R35x_v20090923-0035,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.jdt.apt.tests=R35x_v20090923-0035,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-fragment@org.eclipse.jdt.compiler.apt=R35x_v20090825-1530,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.jdt.compiler.apt.tests=R35x_v20090825-1530,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.jdt.apt.pluggable.core=R35x_v20090818-0225,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.jdt.apt.pluggable.tests=R35x_v20090818-0225,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.jdt.apt.core=R35x_v20090925-1100,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.jdt.apt.ui=R35x_v20090925-1100,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.jdt.apt.tests=R35x_v20090925-1100,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+fragment@org.eclipse.jdt.compiler.apt=R35x_v20090925-1100,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.jdt.compiler.apt.tests=R35x_v20090925-1100,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.jdt.apt.pluggable.core=R35x_v20090925-1100,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.jdt.apt.pluggable.tests=R35x_v20090925-1100,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
