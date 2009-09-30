@@ -1,11 +1,11 @@
 !***************  TEAM CONTRIBUTION  ******************************************************** 
 
-plugin@org.eclipse.team.core=I20090527-0620,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.team.core=r35x_20090930-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.team.cvs.core=I20090430-0408,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.team.cvs.ssh=I20090508-2000,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.team.cvs.ssh2=I20090508-2000,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.team.ui=I20090430-0408,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.team.cvs.ui=R35x_v20090826-0905,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.team.cvs.ui=r35x_20090930-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 plugin@org.eclipse.core.net=r35x_20090812-1200,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ui.net=r35x_20090812-1200,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
