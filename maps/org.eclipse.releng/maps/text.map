@@ -8,9 +8,9 @@ plugin@org.eclipse.core.filebuffers=v20090914-0800,:pserver:anonymous@dev.eclips
 
 plugin@org.eclipse.ui.examples.javaeditor=v20090914-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
-plugin@org.eclipse.text.tests=v20090914-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.jface.text.tests=v20090914-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.core.filebuffers.tests=v20090914-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.ui.workbench.texteditor.tests=v20090914-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.ui.editors.tests=v20090914-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.jdt.text.tests=v20090914-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.text.tests=JUnit4_incubator_bug153429,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.jface.text.tests=JUnit4_incubator_bug153429,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.core.filebuffers.tests=JUnit4_incubator_bug153429,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.ui.workbench.texteditor.tests=JUnit4_incubator_bug153429,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.ui.editors.tests=JUnit4_incubator_bug153429,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.jdt.text.tests=JUnit4_incubator_bug153429,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,

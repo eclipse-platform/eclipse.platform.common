@@ -85,7 +85,7 @@ plugin@org.eclipse.core.jobs=v20090429-1800,:pserver:anonymous@dev.eclipse.org:/
 
 !**** Expressions
 plugin@org.eclipse.core.expressions=v20090429-1800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.core.expressions.tests=v20090824,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.core.expressions.tests=JUnit4_incubator_bug153429,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 !**** Resources
 plugin@org.eclipse.core.resources=v20090911,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
@@ -116,7 +116,7 @@ plugin@org.eclipse.pde.build.tests=v20090911,:pserver:anonymous@dev.eclipse.org:
 feature@org.eclipse.pde.builder=v20040624a,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,pde/build/org.eclipse.pde.build/feature
 
 !**** Test Suites
-plugin@org.eclipse.core.tests.harness=v20090911,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.core.tests.harness=JUnit4_incubator_bug153429,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.core.tests.resources=v20090911,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.core.tests.runtime=v20090911,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.osgi.tests=v20090914,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/framework/bundles/org.eclipse.osgi.tests
