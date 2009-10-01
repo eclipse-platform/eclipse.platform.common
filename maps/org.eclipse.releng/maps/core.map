@@ -112,7 +112,7 @@ fragment@org.eclipse.core.runtime.compatibility.registry=v20090810,:pserver:anon
 
 !**** Other Core Code
 plugin@org.eclipse.pde.build=v20090911,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,pde/build/org.eclipse.pde.build
-plugin@org.eclipse.pde.build.tests=v20090911,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,pde/build/org.eclipse.pde.build.tests
+plugin@org.eclipse.pde.build.tests=JUnit4_incubator_bug153429,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,pde/build/org.eclipse.pde.build.tests
 feature@org.eclipse.pde.builder=v20040624a,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,pde/build/org.eclipse.pde.build/feature
 
 !**** Test Suites
