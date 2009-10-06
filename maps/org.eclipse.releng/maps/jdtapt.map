@@ -3,7 +3,7 @@
 
 plugin@org.eclipse.jdt.apt.core=R35x_v20090925-1100,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.jdt.apt.ui=v20090930-2100_R35x,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.jdt.apt.tests=v20090930-2100_R35x,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.jdt.apt.tests=v20091006-0930_R35x,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 fragment@org.eclipse.jdt.compiler.apt=R35x_v20090925-1100,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.jdt.compiler.apt.tests=R35x_v20090925-1100,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.jdt.apt.pluggable.core=R35x_v20090925-1100,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
