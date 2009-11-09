@@ -1,28 +1,28 @@
 !***************  Equinox Incubator Contribution ***************************
 
 !**** Initializer bundle
-bundle@org.eclipse.equinox.initializer=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/incubator/framework/bundles/org.eclipse.equinox.initializer
+bundle@org.eclipse.equinox.initializer=v20071015,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/incubator/framework/bundles/org.eclipse.equinox.initializer
 
 !**** Resource Monitoring ****
 
 !** Client **
-plugin@org.eclipse.equinox.jmx.client=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/incubator/monitoring/bundles/org.eclipse.equinox.jmx.client
-plugin@org.eclipse.equinox.jmx.client.rmi=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/incubator/monitoring/bundles/org.eclipse.equinox.jmx.client.rmi
-plugin@org.eclipse.equinox.jmx.client.xmlrpc=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/incubator/monitoring/bundles/org.eclipse.equinox.jmx.client.xmlrpc
-feature@org.eclipse.equinox.jmx.client.feature=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/incubator/monitoring/bundles/org.eclipse.equinox.jmx.client.feature
+plugin@org.eclipse.equinox.jmx.client=v20070515,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/incubator/monitoring/bundles/org.eclipse.equinox.jmx.client
+plugin@org.eclipse.equinox.jmx.client.rmi=v20080610-1530,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/incubator/monitoring/bundles/org.eclipse.equinox.jmx.client.rmi
+plugin@org.eclipse.equinox.jmx.client.xmlrpc=v20070515,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/incubator/monitoring/bundles/org.eclipse.equinox.jmx.client.xmlrpc
+feature@org.eclipse.equinox.jmx.client.feature=v20081124,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/incubator/monitoring/bundles/org.eclipse.equinox.jmx.client.feature
 
 !** Common **
-plugin@org.eclipse.equinox.jmx.common=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/incubator/monitoring/bundles/org.eclipse.equinox.jmx.common
-feature@org.eclipse.equinox.jmx.common.feature=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/incubator/monitoring/bundles/org.eclipse.equinox.jmx.common.feature
+plugin@org.eclipse.equinox.jmx.common=v20070510,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/incubator/monitoring/bundles/org.eclipse.equinox.jmx.common
+feature@org.eclipse.equinox.jmx.common.feature=v20070507,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/incubator/monitoring/bundles/org.eclipse.equinox.jmx.common.feature
 
 !** Server **
-plugin@org.eclipse.equinox.jmx.server=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/incubator/monitoring/bundles/org.eclipse.equinox.jmx.server
-plugin@org.eclipse.equinox.jmx.server.rmi=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/incubator/monitoring/bundles/org.eclipse.equinox.jmx.server.rmi
-plugin@org.eclipse.equinox.jmx.server.xmlrpc=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/incubator/monitoring/bundles/org.eclipse.equinox.jmx.server.xmlrpc
-plugin@org.eclipse.equinox.jmx.vm=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/incubator/monitoring/bundles/org.eclipse.equinox.jmx.vm
-plugin@org.eclipse.equinox.preferences.jmx=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/incubator/monitoring/bundles/org.eclipse.equinox.preferences.jmx
-plugin@org.eclipse.equinox.registry.jmx=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/incubator/monitoring/bundles/org.eclipse.equinox.registry.jmx
-plugin@org.eclipse.osgi.jmx=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/incubator/monitoring/bundles/org.eclipse.osgi.jmx
-plugin@org.eclipse.swt.jmx=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/incubator/monitoring/bundles/org.eclipse.swt.jmx
-plugin@org.eclipse.core.resources.jmx=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/incubator/monitoring/bundles/org.eclipse.core.resources.jmx
-feature@org.eclipse.equinox.jmx.server.feature=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/incubator/monitoring/bundles/org.eclipse.equinox.jmx.server.feature
+plugin@org.eclipse.equinox.jmx.server=v20071015,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/incubator/monitoring/bundles/org.eclipse.equinox.jmx.server
+plugin@org.eclipse.equinox.jmx.server.rmi=v20070510,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/incubator/monitoring/bundles/org.eclipse.equinox.jmx.server.rmi
+plugin@org.eclipse.equinox.jmx.server.xmlrpc=v20070608,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/incubator/monitoring/bundles/org.eclipse.equinox.jmx.server.xmlrpc
+plugin@org.eclipse.equinox.jmx.vm=v20070515,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/incubator/monitoring/bundles/org.eclipse.equinox.jmx.vm
+plugin@org.eclipse.equinox.preferences.jmx=v20070510,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/incubator/monitoring/bundles/org.eclipse.equinox.preferences.jmx
+plugin@org.eclipse.equinox.registry.jmx=v20080610-1530,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/incubator/monitoring/bundles/org.eclipse.equinox.registry.jmx
+plugin@org.eclipse.osgi.jmx=v20080610-1530,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/incubator/monitoring/bundles/org.eclipse.osgi.jmx
+plugin@org.eclipse.swt.jmx=v20090331,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/incubator/monitoring/bundles/org.eclipse.swt.jmx
+plugin@org.eclipse.core.resources.jmx=v20070510,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/incubator/monitoring/bundles/org.eclipse.core.resources.jmx
+feature@org.eclipse.equinox.jmx.server.feature=v20081124,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/incubator/monitoring/bundles/org.eclipse.equinox.jmx.server.feature
