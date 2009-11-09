@@ -11,6 +11,7 @@ plugin@org.eclipse.jdt.launching.ui.macosx=HEAD,:pserver:anonymous@dev.eclipse.o
 plugin@org.eclipse.ui.console=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 plugin@org.eclipse.jdt.debug.tests=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.debug.tests=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 plugin@org.eclipse.debug.examples.core=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.debug.examples.ui=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
