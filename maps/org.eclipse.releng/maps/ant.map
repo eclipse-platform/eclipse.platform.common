@@ -2,6 +2,7 @@
 
 #plugin@org.apache.ant=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ant.core=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.ant.launching=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 plugin@org.eclipse.ant.ui=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
