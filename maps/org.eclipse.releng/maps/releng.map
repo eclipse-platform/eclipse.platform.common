@@ -6,14 +6,14 @@ feature@master-equinox-weaving=v20090817,:pserver:anonymous@dev.eclipse.org:/cvs
 feature@master-jetty=v20090305,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/master-jetty
 feature@master-ecf=v20090316,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/master-ecf
 
-feature@com.ibm.icu.base=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/com.ibm.icu.base
+feature@com.ibm.icu.base=v20090119,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/com.ibm.icu.base
 
-feature@org.eclipse.releng.tools=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/org.eclipse.releng.tools
+feature@org.eclipse.releng.tools=v20090520,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/org.eclipse.releng.tools
 
-plugin@org.eclipse.releng.tools=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.releng.tests=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.releng.tools=v20090831,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.releng.tests=v20091023,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
-plugin@org.eclipse.pde.tools.versioning=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk.tests-feature/plugins/org.eclipse.pde.tools.versioning
+plugin@org.eclipse.pde.tools.versioning=r20080922,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk.tests-feature/plugins/org.eclipse.pde.tools.versioning
 
 !sample projects
 feature@org.eclipse.jdt.test.feature.sample=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,platform-releng-home/examples/org.eclipse.jdt.test.feature.sample
