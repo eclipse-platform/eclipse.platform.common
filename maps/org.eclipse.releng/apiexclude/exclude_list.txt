@@ -159,3 +159,5 @@ org.eclipse.pde.doc.user(3.5.0):MINOR_VERSION_CHANGED
 org.eclipse.rcp(3.5.0):MINOR_VERSION_CHANGED
 # JUNIT4
 org.junit4(4.5.0)
+# JDT UI (293176)
+org.eclipse.jface.text(3.5.2):org.eclipse.jface.text.AbstractInformationControlManager#canClearDataOnHide()Z
