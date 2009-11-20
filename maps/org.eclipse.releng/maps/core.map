@@ -23,7 +23,7 @@ plugin@org.eclipse.equinox.http.servlet=v20080427-0830,:pserver:anonymous@dev.ec
 plugin@org.eclipse.equinox.http.servletbridge=v20080427-0830,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/server-side/bundles/org.eclipse.equinox.http.servletbridge
 plugin@org.eclipse.equinox.http.registry=v20080427-0830,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/server-side/bundles/org.eclipse.equinox.http.registry
 plugin@org.eclipse.equinox.servletbridge=R34x_v20090114-1346,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/server-side/bundles/org.eclipse.equinox.servletbridge
-bundle@org.eclipse.equinox.jsp.jasper=v20080427-0830,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/server-side/bundles/org.eclipse.equinox.jsp.jasper
+bundle@org.eclipse.equinox.jsp.jasper=R34x_v20091120,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/server-side/bundles/org.eclipse.equinox.jsp.jasper
 bundle@org.eclipse.equinox.jsp.jasper.registry=v20080427-0830,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/server-side/bundles/org.eclipse.equinox.jsp.jasper.registry
 plugin@org.eclipse.equinox.cm=R34x_v20090107-1200,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/compendium/bundles/org.eclipse.equinox.cm
 
