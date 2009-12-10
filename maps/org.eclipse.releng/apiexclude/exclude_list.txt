@@ -161,3 +161,15 @@ org.eclipse.rcp(3.5.0):MINOR_VERSION_CHANGED
 org.junit4(4.5.0)
 # JDT UI (293176)
 org.eclipse.jface.text(3.5.2):org.eclipse.jface.text.AbstractInformationControlManager#canClearDataOnHide()Z
+# JDT CORE (288211)
+org.eclipse.jdt.core(3.5.2):org.eclipse.jdt.core.ICompilationUnit#IGNORE_METHOD_BODIES
+org.eclipse.jdt.core(3.5.2):org.eclipse.jdt.core.dom.ASTParser#setIgnoreMethodBodies(Z)V
+# ECF
+org.eclipse.ecf.provider.filetransfer.httpclient(3.0.1):org.eclipse.ecf.provider.filetransfer.httpclient.HttpClientFileSystemBrowser#hasForceNTLMProxyOption()Z
+org.eclipse.ecf.provider.filetransfer.httpclient(3.0.1):org.eclipse.ecf.provider.filetransfer.httpclient.HttpClientFileSystemBrowser#setupHostAndPort(Ljava/lang/String;)V
+org.eclipse.ecf.provider.filetransfer.httpclient(3.0.1):org.eclipse.ecf.provider.filetransfer.httpclient.HttpClientFileSystemBrowser#setupHostAndPort(Lorg/apache/commons/httpclient/auth/CredentialsProvider;Ljava/lang/String;)V
+org.eclipse.ecf.provider.filetransfer.httpclient(3.0.1):org.eclipse.ecf.provider.filetransfer.httpclient.HttpClientOptions
+org.eclipse.ecf.provider.filetransfer.httpclient(3.0.1):org.eclipse.ecf.provider.filetransfer.httpclient.HttpClientRetrieveFileTransfer#hasForceNTLMProxyOption()Z
+org.eclipse.ecf.provider.filetransfer.httpclient(3.0.1):org.eclipse.ecf.provider.filetransfer.httpclient.HttpClientRetrieveFileTransfer#setupHostAndPort(Ljava/lang/String;)V
+org.eclipse.ecf.provider.filetransfer.httpclient(3.0.1):org.eclipse.ecf.provider.filetransfer.httpclient.HttpClientRetrieveFileTransfer#setupHostAndPort(Lorg/apache/commons/httpclient/auth/CredentialsProvider;Ljava/lang/String;)V
+org.eclipse.ecf.provider.filetransfer.httpclient(3.0.1):org.eclipse.ecf.provider.filetransfer.httpclient.NTLMProxyDetector
