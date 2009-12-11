@@ -60,7 +60,7 @@ fragment@org.eclipse.equinox.launcher.gtk.linux.x86_64=v20090519,:pserver:anonym
 fragment@org.eclipse.equinox.launcher.gtk.linux.ppc=v20090519,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/framework/bundles/org.eclipse.equinox.launcher/fragments/org.eclipse.equinox.launcher.gtk.linux.ppc
 fragment@org.eclipse.equinox.launcher.motif.hpux.PA_RISC=v20090306-1900,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/framework/bundles/org.eclipse.equinox.launcher/fragments/org.eclipse.equinox.launcher.motif.hpux.PA_RISC
 fragment@org.eclipse.equinox.launcher.motif.hpux.ia64_32=v20090519,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/framework/bundles/org.eclipse.equinox.launcher/fragments/org.eclipse.equinox.launcher.motif.hpux.ia64_32
-fragment@org.eclipse.equinox.launcher.motif.aix.ppc=v20090519,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/framework/bundles/org.eclipse.equinox.launcher/fragments/org.eclipse.equinox.launcher.motif.aix.ppc
+fragment@org.eclipse.equinox.launcher.motif.aix.ppc=R35x_v20091211,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/framework/bundles/org.eclipse.equinox.launcher/fragments/org.eclipse.equinox.launcher.motif.aix.ppc
 fragment@org.eclipse.equinox.launcher.motif.linux.x86=v20090520,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/framework/bundles/org.eclipse.equinox.launcher/fragments/org.eclipse.equinox.launcher.motif.linux.x86
 fragment@org.eclipse.equinox.launcher.gtk.solaris.sparc=R35x_v20090720,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/framework/bundles/org.eclipse.equinox.launcher/fragments/org.eclipse.equinox.launcher.gtk.solaris.sparc
 
@@ -70,7 +70,7 @@ fragment@org.eclipse.equinox.launcher.gtk.linux.s390x=v20090426-1530,:pserver:an
 fragment@org.eclipse.equinox.launcher.gtk.solaris.x86=R35x_v20090720,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/framework/bundles/org.eclipse.equinox.launcher/contributed/org.eclipse.equinox.launcher.gtk.solaris.x86
 fragment@org.eclipse.equinox.launcher.motif.solaris.sparc=R35x_20090929,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/framework/bundles/org.eclipse.equinox.launcher/fragments/org.eclipse.equinox.launcher.motif.solaris.sparc
 
-feature@org.eclipse.equinox.executable=R35x_v20090724,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/framework/bundles/org.eclipse.equinox.executable
+feature@org.eclipse.equinox.executable=R35x_v20091211,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/framework/bundles/org.eclipse.equinox.executable
 
 !**** Runtime
 plugin@org.eclipse.core.runtime=v20090525,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
