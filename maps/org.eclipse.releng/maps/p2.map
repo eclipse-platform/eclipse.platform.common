@@ -18,7 +18,7 @@ plugin@org.eclipse.equinox.p2.metadata.generator=CVS,tag=R35x_v20091106,cvsRoot=
 plugin@org.eclipse.equinox.p2.metadata.repository=CVS,tag=R35x_v20090812,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.metadata.repository
 plugin@org.eclipse.equinox.p2.publisher=CVS,tag=R35x_v20091014,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.publisher
 plugin@org.eclipse.equinox.p2.reconciler.dropins=CVS,tag=v20090520-1905,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.reconciler.dropins
-plugin@org.eclipse.equinox.p2.repository=CVS,tag=v20090901-1041,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.repository
+plugin@org.eclipse.equinox.p2.repository=CVS,tag=R35x_v20100105,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.repository
 plugin@org.eclipse.equinox.p2.repository.tools=CVS,tag=R35x_v20090806,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.repository.tools
 plugin@org.eclipse.equinox.p2.selfhosting=CVS,tag=v20090520-1905,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.selfhosting
 plugin@org.eclipse.equinox.p2.tools=CVS,tag=v20090525,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.tools
