@@ -8,7 +8,7 @@ plugin@org.eclipse.help.ui=v20090819_35x,:pserver:anonymous@dev.eclipse.org:/cvs
 plugin@org.eclipse.help.webapp=v20091009_35x,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 !**** Welcome
-plugin@org.eclipse.ui.intro=v20090805_35x,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.ui.intro=v20100111_35x,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ui.intro.universal=v20090526,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 !**** Cheat sheets
