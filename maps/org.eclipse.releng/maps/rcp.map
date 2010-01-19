@@ -1,3 +1,3 @@
-feature@org.eclipse.rcp=R35x_v20090819,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/org.eclipse.rcp
+feature@org.eclipse.rcp=R35x_v20100119,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/org.eclipse.rcp
 feature@org.eclipse.rcp.sdk=v20080507,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/org.eclipse.rcp.sdk
 plugin@org.eclipse.rcp=v20090528,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/plugins/org.eclipse.rcp
