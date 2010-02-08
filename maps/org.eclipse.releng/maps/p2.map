@@ -1,5 +1,5 @@
 plugin@org.eclipse.equinox.frameworkadmin=CVS,tag=R34x_v20091124,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.frameworkadmin
-plugin@org.eclipse.equinox.frameworkadmin.equinox=CVS,tag=R34x_v20100126,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.frameworkadmin.equinox
+plugin@org.eclipse.equinox.frameworkadmin.equinox=CVS,tag=R34x_v20100208,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.frameworkadmin.equinox
 plugin@org.eclipse.equinox.p2.artifact.repository=CVS,tag=v20080930,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.artifact.repository
 plugin@org.eclipse.equinox.p2.console=CVS,tag=v20080514-1900,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.console
 plugin@org.eclipse.equinox.p2.core=CVS,tag=v20081112-1019,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.core
