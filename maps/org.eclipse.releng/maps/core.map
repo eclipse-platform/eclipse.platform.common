@@ -78,7 +78,7 @@ plugin@org.eclipse.core.contenttype=R35x_v20090826-0451,:pserver:anonymous@dev.e
 plugin@org.eclipse.core.jobs=v20090429-1800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 !**** Expressions
-plugin@org.eclipse.core.expressions=v20090429-1800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.core.expressions=R35x_v20100209,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.core.expressions.tests=v20090324-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 !**** Resources

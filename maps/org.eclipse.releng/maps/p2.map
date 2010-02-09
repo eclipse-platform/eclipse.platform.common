@@ -32,7 +32,7 @@ plugin@org.eclipse.equinox.p2.ui.admin.rcp=CVS,tag=v20090820,cvsRoot=:pserver:an
 plugin@org.eclipse.equinox.p2.updatechecker=CVS,tag=v20090520-1905,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.updatechecker
 plugin@org.eclipse.equinox.p2.updatesite=CVS,tag=R35x_20100105,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.updatesite
 plugin@org.eclipse.equinox.simpleconfigurator=CVS,tag=R35x_v20090807-1100,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.simpleconfigurator
-plugin@org.eclipse.equinox.simpleconfigurator.manipulator=CVS,tag=v20090520-1905,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.simpleconfigurator.manipulator
+plugin@org.eclipse.equinox.simpleconfigurator.manipulator=CVS,tag=R35x_v20100209,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.simpleconfigurator.manipulator
 plugin@org.eclipse.equinox.p2.tests=CVS,tag=R35x_v20090903,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.tests
 plugin@org.eclipse.equinox.p2.tests.ui=CVS,tag=v20090527-1812,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.tests.ui
 
