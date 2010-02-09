@@ -4,7 +4,7 @@ plugin@org.eclipse.search.tests=v20090513-2000,:pserver:anonymous@dev.eclipse.or
 
 plugin@org.eclipse.ltk.core.refactoring=v20090513-2000,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ltk.core.refactoring.tests=v20090513-2000,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.ltk.ui.refactoring=v20090604,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.ltk.ui.refactoring=r352_v20100209,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ltk.ui.refactoring.tests=v20090513-2000,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 plugin@org.eclipse.jdt=r352_v20100106-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
