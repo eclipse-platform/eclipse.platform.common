@@ -11,7 +11,7 @@ plugin@org.eclipse.core.net=r35x_20090812-1200,:pserver:anonymous@dev.eclipse.or
 plugin@org.eclipse.ui.net=r35x_20090812-1200,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.core.tests.net=I20090126-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.jsch.core=I20090430-0408,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.jsch.ui=r35x_20100210-1113,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.jsch.ui=r35x_20100210-1114,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.jsch.tests=I20080604,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 plugin@org.eclipse.team.examples.filesystem=I20090210-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
