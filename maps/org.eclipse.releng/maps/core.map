@@ -76,7 +76,7 @@ plugin@org.eclipse.core.contenttype=R34x_v20090825-1137,:pserver:anonymous@dev.e
 plugin@org.eclipse.core.jobs=R34x_v20081128,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 !**** Resources
-plugin@org.eclipse.core.resources=R34x_v20091113-0430,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.core.resources=R34x_v20100301-0200,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 fragment@org.eclipse.core.resources.win32=v20080508,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 fragment@org.eclipse.core.resources.win32.x86=v20071204,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 fragment@org.eclipse.core.resources.win32.ia64=v20071204,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
