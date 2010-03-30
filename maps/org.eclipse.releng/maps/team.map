@@ -5,7 +5,7 @@ plugin@org.eclipse.team.cvs.core=r34x_20090115,:pserver:anonymous@dev.eclipse.or
 plugin@org.eclipse.team.cvs.ssh=I20080604,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.team.cvs.ssh2=I20080604,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.team.ui=r34x_20080827,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.team.cvs.ui=r34x_20100210,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.team.cvs.ui=R34x_v20100330-1215,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 plugin@org.eclipse.core.net=I20080604,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ui.net=I20080605,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
