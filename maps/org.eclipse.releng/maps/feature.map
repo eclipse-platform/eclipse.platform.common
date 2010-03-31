@@ -22,7 +22,7 @@ plugin@org.eclipse.sdk.tests=v20060605,:pserver:anonymous@dev.eclipse.org:/cvsro
 feature@org.eclipse.equinox=R342_v20090126,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/org.eclipse.equinox
 feature@org.eclipse.equinox.sdk=v20060324,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/org.eclipse.equinox.sdk
 
-feature@org.eclipse.cvs=R342_v20090122,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.cvs-feature
+feature@org.eclipse.cvs=R34x_v20100331-0855,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.cvs-feature
 feature@org.eclipse.cvs.sdk=v20080507,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/org.eclipse.cvs.sdk
 plugin@org.eclipse.cvs=R342_v20090206,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/plugins/org.eclipse.cvs
 
