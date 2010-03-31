@@ -33,7 +33,7 @@ plugin@org.eclipse.sdk.tests=v20060605,:pserver:anonymous@dev.eclipse.org:/cvsro
 feature@org.eclipse.equinox=v20090407,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/org.eclipse.equinox
 feature@org.eclipse.equinox.sdk=r352_v20100209,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/org.eclipse.equinox.sdk
 
-feature@org.eclipse.cvs=R35x_v20100125,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.cvs-feature
+feature@org.eclipse.cvs=R35x_v20100331-0750,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.cvs-feature
 feature@org.eclipse.cvs.sdk=v20080507,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/org.eclipse.cvs.sdk
 plugin@org.eclipse.cvs=R35x_v20100119,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/plugins/org.eclipse.cvs
 
