@@ -4,7 +4,7 @@ plugin@org.eclipse.equinox.frameworkadmin.test=CVS,tag=v20090520-1905,cvsRoot=:p
 plugin@org.eclipse.equinox.p2.artifact.repository=CVS,tag=R35x_v20090721,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.artifact.repository
 plugin@org.eclipse.equinox.p2.console=CVS,tag=v20090520-1905,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.console
 plugin@org.eclipse.equinox.p2.core=CVS,tag=R35x_v20090819,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.core
-plugin@org.eclipse.equinox.p2.director=CVS,tag=R35x_v20100112,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.director
+plugin@org.eclipse.equinox.p2.director=CVS,tag=R35x_v20100705,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.director
 plugin@org.eclipse.equinox.p2.director.app=CVS,tag=R35x_v20091106,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.director.app
 plugin@org.eclipse.equinox.p2.directorywatcher=CVS,tag=v20090525,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.directorywatcher
 plugin@org.eclipse.equinox.p2.engine=CVS,tag=R35x_v20091117,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.engine
