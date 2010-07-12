@@ -7,7 +7,7 @@ plugin@org.eclipse.ltk.core.refactoring.tests=v20100520-0800,:pserver:anonymous@
 plugin@org.eclipse.ltk.ui.refactoring=v20100526-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ltk.ui.refactoring.tests=v20100520-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
-plugin@org.eclipse.jdt=v20100526-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.jdt=r361_v20100714-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 plugin@org.eclipse.jdt.core.manipulation=v20100520-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
