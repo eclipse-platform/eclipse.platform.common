@@ -3,9 +3,9 @@
 !**** Help
 plugin@org.eclipse.help=v20100524,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.help.appserver=v20100427,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.help.base=r36_r20100727,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.help.base=r36_r20100816,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.help.ui=r36_v20100702,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.help.webapp=r36_20100720,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.help.webapp=r36_r20100816,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 !**** Welcome
 plugin@org.eclipse.ui.intro=v20100427,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
@@ -21,6 +21,6 @@ plugin@org.eclipse.ui.browser=v20100517,:pserver:anonymous@dev.eclipse.org:/cvsr
 plugin@org.eclipse.ui.forms=r36_v20100702,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 !**** Tests
-plugin@org.eclipse.ua.tests=r36_v20100702,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.ua.tests=r36_r20100816,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ua.tests.doc=v20100427,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ui.tests.forms=v20100517,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
