@@ -17,7 +17,7 @@ plugin@org.eclipse.jdt.ui.tests.refactoring=v20100526-0800,:pserver:anonymous@de
 
 plugin@org.eclipse.jdt.junit=v20100526-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.jdt.junit.core=v20100526-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.jdt.junit.runtime=r361_v20100714-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.jdt.junit.runtime=v20100526-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.jdt.junit4.runtime=v20100526-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 plugin@org.junit4=v20100525,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
