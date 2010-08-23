@@ -73,12 +73,12 @@ fragment@org.eclipse.equinox.launcher.gtk.solaris.sparc=R36x_v20100810,:pserver:
 plugin@org.eclipse.equinox.launcher.releng=v20100208,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/framework/releng/org.eclipse.equinox.launcher.releng
 
 !****contributed fragments
-fragment@org.eclipse.equinox.launcher.gtk.linux.s390=v20100507,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/framework/bundles/org.eclipse.equinox.launcher/contributed/org.eclipse.equinox.launcher.gtk.linux.s390
-fragment@org.eclipse.equinox.launcher.gtk.linux.s390x=v20100419,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/framework/bundles/org.eclipse.equinox.launcher/contributed/org.eclipse.equinox.launcher.gtk.linux.s390x
+fragment@org.eclipse.equinox.launcher.gtk.linux.s390=R36x_v20100823,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/framework/bundles/org.eclipse.equinox.launcher/contributed/org.eclipse.equinox.launcher.gtk.linux.s390
+fragment@org.eclipse.equinox.launcher.gtk.linux.s390x=R36x_v20100823,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/framework/bundles/org.eclipse.equinox.launcher/contributed/org.eclipse.equinox.launcher.gtk.linux.s390x
 fragment@org.eclipse.equinox.launcher.gtk.solaris.x86=R36x_v20100810,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/framework/bundles/org.eclipse.equinox.launcher/contributed/org.eclipse.equinox.launcher.gtk.solaris.x86
 fragment@org.eclipse.equinox.launcher.motif.solaris.sparc=R36x_v20100810,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/framework/bundles/org.eclipse.equinox.launcher/fragments/org.eclipse.equinox.launcher.motif.solaris.sparc
 
-feature@org.eclipse.equinox.executable=R36x_v20100810,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/framework/bundles/org.eclipse.equinox.executable
+feature@org.eclipse.equinox.executable=R36x_v20100823,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/framework/bundles/org.eclipse.equinox.executable
 
 !**** Runtime
 plugin@org.eclipse.core.runtime=v20100505,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
