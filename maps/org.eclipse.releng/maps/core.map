@@ -83,7 +83,7 @@ feature@org.eclipse.equinox.executable=R36x_v20100823,:pserver:anonymous@dev.ecl
 !**** Runtime
 plugin@org.eclipse.core.runtime=v20100505,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.core.contenttype=v20100505-1235,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.core.jobs=v20100515,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.core.jobs=R36x_v20100824,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 !**** Expressions
 plugin@org.eclipse.core.expressions=v20100505,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
