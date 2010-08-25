@@ -1,6 +1,6 @@
 !***************  DOC CONTRIBUTION  ******************************************************** 
 
-plugin@org.eclipse.platform.doc.user=r361_v20100702,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.platform.doc.user=r361_v20100825-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.platform.doc.isv=r361_v20100713,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 plugin@org.eclipse.jdt.doc.user=r361_v20100721-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
