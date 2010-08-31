@@ -11,7 +11,7 @@ feature@com.ibm.icu.base=v20090119,:pserver:anonymous@dev.eclipse.org:/cvsroot/e
 feature@org.eclipse.releng.tools=v20100427,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/org.eclipse.releng.tools
 
 plugin@org.eclipse.releng.tools=v20100531,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.releng.tests=r361_v20100823,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.releng.tests=r361_v20100831,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 plugin@org.eclipse.pde.tools.versioning=r20080922,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk.tests-feature/plugins/org.eclipse.pde.tools.versioning
 
