@@ -28,7 +28,7 @@ bundle@org.eclipse.equinox.jsp.jasper.registry=v20080427-0830,:pserver:anonymous
 plugin@org.eclipse.equinox.cm=R34x_v20090107-1200,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/compendium/bundles/org.eclipse.equinox.cm
 
 !**** Prosyst Contributions
-plugin@org.eclipse.equinox.ds=v20080427-0830,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/compendium/bundles/org.eclipse.equinox.ds
+plugin@org.eclipse.equinox.ds=R34x_v20100920,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/compendium/bundles/org.eclipse.equinox.ds
 plugin@org.eclipse.equinox.io=v20080218,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/compendium/bundles/org.eclipse.equinox.io
 plugin@org.eclipse.equinox.ip=v20080218,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/compendium/bundles/org.eclipse.equinox.ip
 plugin@org.eclipse.equinox.util=v20080414,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/compendium/bundles/org.eclipse.equinox.util
