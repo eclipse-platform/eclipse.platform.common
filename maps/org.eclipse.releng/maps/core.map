@@ -74,7 +74,7 @@ feature@org.eclipse.equinox.executable=R35x_v20091211,:pserver:anonymous@dev.ecl
 
 !**** Runtime
 plugin@org.eclipse.core.runtime=v20090525,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.core.contenttype=R35x_v20090826-0451,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.core.contenttype=R35x_v20100928-0452,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.core.jobs=v20090429-1800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 !**** Expressions
@@ -82,17 +82,17 @@ plugin@org.eclipse.core.expressions=R35x_v20100209,:pserver:anonymous@dev.eclips
 plugin@org.eclipse.core.expressions.tests=v20090324-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 !**** Resources
-plugin@org.eclipse.core.resources=R35x_v201000319-0930,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.core.resources=R35x_v20100928-0452,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 fragment@org.eclipse.core.resources.win32=v20080508,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 fragment@org.eclipse.core.resources.win32.x86=v20081020,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 fragment@org.eclipse.core.resources.win32.ia64=v20081020,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 fragment@org.eclipse.core.resources.compatibility=R35x_v20100113-0530,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 !**** File System
-plugin@org.eclipse.core.filesystem=R35x_v201000319-0930,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-fragment@org.eclipse.core.filesystem.win32.x86=R35x_v201000319-0930,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-fragment@org.eclipse.core.filesystem.win32.x86_64=R35x_v201000319-0930,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-fragment@org.eclipse.core.filesystem.win32.ia64=R35x_v201000319-0930,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.core.filesystem=R35x_v20100928-0452,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+fragment@org.eclipse.core.filesystem.win32.x86=R35x_v20100928-0452,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+fragment@org.eclipse.core.filesystem.win32.x86_64=R35x_v20100928-0452,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+fragment@org.eclipse.core.filesystem.win32.ia64=R35x_v20100928-0452,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 fragment@org.eclipse.core.filesystem.linux.x86=R35x_v201000319-0930,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 fragment@org.eclipse.core.filesystem.linux.x86_64=R35x_v201000319-0930,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 fragment@org.eclipse.core.filesystem.linux.ppc=v20080604-1400,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
@@ -112,6 +112,6 @@ feature@org.eclipse.pde.builder=v20040624a,:pserver:anonymous@dev.eclipse.org:/c
 
 !**** Test Suites
 plugin@org.eclipse.core.tests.harness=R35x_v20091203-1235,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.core.tests.resources=R35x_v20091203-1235,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.core.tests.resources=R35x_v20100928-0452,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.core.tests.runtime=R35x_v20090807-1100,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.osgi.tests=R35x_v20100126,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/framework/bundles/org.eclipse.osgi.tests
