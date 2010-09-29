@@ -2,7 +2,7 @@
 feature@org.eclipse.sdk=r362_v20100929,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/org.eclipse.sdk
 plugin@org.eclipse.sdk=r361_v20100714-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
-feature@org.eclipse.jdt=r361_v20100929,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.jdt-feature
+feature@org.eclipse.jdt=r362_v20100929,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.jdt-feature
 
 feature@org.eclipse.pde=r361_v20100727,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.pde-feature
 feature@org.eclipse.pde.api.tools.ee.cdcfoundation10_feature=v20091027-1300,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,pde/apitools/org.eclipse.pde.api.tools.ee.cdcfoundation10-feature
