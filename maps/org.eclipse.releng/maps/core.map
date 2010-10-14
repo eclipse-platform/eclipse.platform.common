@@ -1,7 +1,7 @@
 !***************  CORE CONTRIBUTION  ******************************************************** 
 
 !**** OSGi
-plugin@org.eclipse.osgi=R33x_v20090204,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/framework/bundles/org.eclipse.osgi
+plugin@org.eclipse.osgi=R33x_v20101014,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/framework/bundles/org.eclipse.osgi
 plugin@org.eclipse.osgi.services=v20070605,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.osgi.util=v20070605,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
@@ -9,7 +9,7 @@ plugin@org.eclipse.osgi.util=v20070605,:pserver:anonymous@dev.eclipse.org:/cvsro
 plugin@org.eclipse.equinox.common=v20070426,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.equinox.preferences=R33x_v20080117,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.equinox.registry=R33x_v20070802,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.equinox.supplement=R33x_v20071203,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.osgi/supplement
+plugin@org.eclipse.equinox.supplement=R33x_v20101014,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/framework/bundles/org.eclipse.osgi/supplement
 plugin@org.eclipse.equinox.app=R33x_v20070828,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.equinox.device=v20070226,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.equinox.ds=v20070226,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
