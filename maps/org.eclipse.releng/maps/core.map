@@ -1,7 +1,7 @@
 !***************  CORE CONTRIBUTION  ******************************************************** 
 
 !**** OSGi
-plugin@org.eclipse.osgi=R34x_v20100818,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/framework/bundles/org.eclipse.osgi
+plugin@org.eclipse.osgi=R34x_v20101014,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/framework/bundles/org.eclipse.osgi
 plugin@org.eclipse.osgi.services=v20071203,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/compendium/bundles/org.eclipse.osgi.services
 plugin@org.eclipse.osgi.util=v20080303,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/compendium/bundles/org.eclipse.osgi.util
 
@@ -9,7 +9,7 @@ plugin@org.eclipse.osgi.util=v20080303,:pserver:anonymous@dev.eclipse.org:/cvsro
 plugin@org.eclipse.equinox.common=v20080421-2006,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/components/bundles/org.eclipse.equinox.common
 plugin@org.eclipse.equinox.preferences=R34x_v20100319,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/compendium/bundles/org.eclipse.equinox.preferences
 plugin@org.eclipse.equinox.registry=v20080516-0950,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/components/bundles/org.eclipse.equinox.registry
-plugin@org.eclipse.equinox.supplement=v20080421-2006,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/framework/bundles/org.eclipse.osgi/supplement
+plugin@org.eclipse.equinox.supplement=R34x_v20101014,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/framework/bundles/org.eclipse.osgi/supplement
 plugin@org.eclipse.equinox.app=R34x_v20091203,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/compendium/bundles/org.eclipse.equinox.app
 plugin@org.eclipse.equinox.device=v20080303,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/compendium/bundles/org.eclipse.equinox.device
 plugin@org.eclipse.equinox.event=v20080225,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/compendium/bundles/org.eclipse.equinox.event
