@@ -6,7 +6,7 @@ plugin@org.eclipse.equinox.p2.console=CVS,tag=v20100601,cvsRoot=:pserver:anonymo
 plugin@org.eclipse.equinox.p2.core=CVS,tag=R36x_v20100804,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.core
 plugin@org.eclipse.equinox.p2.director=CVS,tag=R36x_v20100823,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.director
 plugin@org.eclipse.equinox.p2.director.app=CVS,tag=R36x_v20100823,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.director.app
-plugin@org.eclipse.equinox.p2.directorywatcher=CVS,tag=R36x_v20100727,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.directorywatcher
+plugin@org.eclipse.equinox.p2.directorywatcher=CVS,tag=R36x_v20101027,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.directorywatcher
 plugin@org.eclipse.equinox.p2.discovery=CVS,tag=v20100503,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.discovery
 plugin@org.eclipse.equinox.p2.discovery.compatibility=CVS,tag=v20100518,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.discovery.compatibility
 plugin@org.eclipse.equinox.p2.engine=CVS,tag=v20100606,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.engine
@@ -19,7 +19,7 @@ plugin@org.eclipse.equinox.p2.metadata.generator=CVS,tag=v20100503a,cvsRoot=:pse
 plugin@org.eclipse.equinox.p2.metadata.repository=CVS,tag=v20100513,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.metadata.repository
 plugin@org.eclipse.equinox.p2.operations=CVS,tag=v20100510,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.operations
 plugin@org.eclipse.equinox.p2.publisher=CVS,tag=v20100824-2220,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.publisher
-plugin@org.eclipse.equinox.p2.reconciler.dropins=CVS,tag=R36x_v20100929,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.reconciler.dropins
+plugin@org.eclipse.equinox.p2.reconciler.dropins=CVS,tag=R36x_v20101027,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.reconciler.dropins
 plugin@org.eclipse.equinox.p2.repository=CVS,tag=R36x_v20100823,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.repository
 plugin@org.eclipse.equinox.p2.repository.tools=CVS,tag=R36x_v20100823,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.repository.tools
 plugin@org.eclipse.equinox.p2.touchpoint.eclipse=CVS,tag=R36x_v20100823,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.touchpoint.eclipse
