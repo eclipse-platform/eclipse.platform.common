@@ -23,7 +23,7 @@ plugin@org.eclipse.equinox.http.servlet=v20080427-0830,:pserver:anonymous@dev.ec
 plugin@org.eclipse.equinox.http.servletbridge=v20080427-0830,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/server-side/bundles/org.eclipse.equinox.http.servletbridge
 plugin@org.eclipse.equinox.http.registry=v20080427-0830,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/server-side/bundles/org.eclipse.equinox.http.registry
 plugin@org.eclipse.equinox.servletbridge=R34x_v20090114-1346,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/server-side/bundles/org.eclipse.equinox.servletbridge
-bundle@org.eclipse.equinox.jsp.jasper=R34x_v20091126,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/server-side/bundles/org.eclipse.equinox.jsp.jasper
+bundle@org.eclipse.equinox.jsp.jasper=R34x_v20101104,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/server-side/bundles/org.eclipse.equinox.jsp.jasper
 bundle@org.eclipse.equinox.jsp.jasper.registry=v20080427-0830,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/server-side/bundles/org.eclipse.equinox.jsp.jasper.registry
 plugin@org.eclipse.equinox.cm=R34x_v20090107-1200,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/compendium/bundles/org.eclipse.equinox.cm
 
@@ -35,7 +35,7 @@ plugin@org.eclipse.equinox.util=v20080414,:pserver:anonymous@dev.eclipse.org:/cv
 plugin@org.eclipse.equinox.wireadmin=v20080407,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/compendium/bundles/org.eclipse.equinox.wireadmin
 
 !**** Security Contributions
-plugin@org.eclipse.equinox.security=R34x_v20080721,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/security/bundles/org.eclipse.equinox.security
+plugin@org.eclipse.equinox.security=R34x_v20101104,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/security/bundles/org.eclipse.equinox.security
 plugin@org.eclipse.equinox.security.tests=R34x_v20080721,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/security/bundles/org.eclipse.equinox.security.tests
 plugin@org.eclipse.equinox.security.ui=v20080603-1810,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/security/bundles/org.eclipse.equinox.security.ui
 fragment@org.eclipse.equinox.security.win32.x86=v20080529-1600,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/security/bundles/org.eclipse.equinox.security.win32.x86
