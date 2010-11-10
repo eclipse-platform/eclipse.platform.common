@@ -5,7 +5,7 @@ plugin@org.eclipse.jface=M20100415-2030,:pserver:anonymous@dev.eclipse.org:/cvsr
 plugin@org.eclipse.core.databinding=M20080827-0800b,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.core.databinding.beans=M20080827-0800a,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.jface.databinding=M20080827-0800a,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.ui=M20100415-2030,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.ui=M20101110-1100,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ui.ide=M20090916-1400,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ui.ide.application=M20100414-0930,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ui.presentations.r21=I20080512-2000,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
@@ -24,7 +24,7 @@ plugin@org.eclipse.ui.examples.views.properties.tabbed.article=I20060605-1400,:p
 plugin@org.eclipse.ui.examples.fieldassist=I20080320-0800a,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ui.examples.contributions=I20080606-0100,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
-plugin@org.eclipse.ui.navigator=M20090127-1700,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.ui.navigator=M20101110-1100,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ui.navigator.resources=r342_v20090625,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 plugin@org.eclipse.ui.views.properties.tabbed=M20090127-1700,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
