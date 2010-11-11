@@ -31,7 +31,7 @@ feature@org.eclipse.equinox.sdk=r361_v20100903,:pserver:anonymous@dev.eclipse.or
 feature@org.eclipse.cvs=v20100427,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.cvs-feature
 plugin@org.eclipse.cvs=v20100414,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/plugins/org.eclipse.cvs
 
-feature@org.eclipse.help=v20100427,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/org.eclipse.help-feature
+feature@org.eclipse.help=r362_v20101111,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/org.eclipse.help-feature
 
 feature@org.eclipse.equinox.p2.user.ui=r361_v20100903,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/p2/org.eclipse.equinox.p2.releng/buildtime-features/org.eclipse.equinox.p2.user.ui
 
