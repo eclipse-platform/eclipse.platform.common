@@ -37,7 +37,7 @@ feature@org.eclipse.equinox.p2.user.ui=r361_v20100903,:pserver:anonymous@dev.ecl
 
 feature@org.eclipse.equinox.p2.sdk=CVS,tag=R36x_v20101007,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/features/org.eclipse.equinox.p2.sdk
 feature@org.eclipse.equinox.p2.discovery.feature=CVS,tag=v20100510,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/features/org.eclipse.equinox.p2.discovery.feature
-feature@org.eclipse.equinox.core.sdk=CVS,tag=R36x_v20101007,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/framework/features/org.eclipse.equinox.core.sdk
+feature@org.eclipse.equinox.core.sdk=CVS,tag=R36x_v20101118,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/framework/features/org.eclipse.equinox.core.sdk
 feature@org.eclipse.equinox.compendium.sdk=CVS,tag=R36x_v20101014,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/compendium/features/org.eclipse.equinox.compendium.sdk
 
 feature@org.eclipse.equinox.serverside.sdk=CVS,tag=R36x_v20101014,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/server-side/features/org.eclipse.equinox.serverside.sdk
