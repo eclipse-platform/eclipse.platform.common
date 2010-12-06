@@ -11,7 +11,7 @@ plugin@org.eclipse.jdt=r361_v20100714-0800,:pserver:anonymous@dev.eclipse.org:/c
 
 plugin@org.eclipse.jdt.core.manipulation=v20100520-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
-plugin@org.eclipse.jdt.ui=r361_v20100825-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.jdt.ui=r362_v20101206,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.jdt.ui.tests=r361_v20100818-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.jdt.ui.tests.refactoring=v20100526-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
