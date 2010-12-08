@@ -15,7 +15,7 @@ plugin@org.eclipse.equinox.p2.garbagecollector=CVS,tag=v20100503,cvsRoot=:pserve
 plugin@org.eclipse.equinox.p2.installer=CVS,tag=v20100503a,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.installer
 plugin@org.eclipse.equinox.p2.jarprocessor=CVS,tag=v20100503a,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.jarprocessor
 plugin@org.eclipse.equinox.p2.metadata=CVS,tag=R36x_v20101202,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.metadata
-plugin@org.eclipse.equinox.p2.metadata.generator=CVS,tag=v20100503a,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.metadata.generator
+plugin@org.eclipse.equinox.p2.metadata.generator=CVS,tag=R36x_v20101208-1400,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.metadata.generator
 plugin@org.eclipse.equinox.p2.metadata.repository=CVS,tag=v20100513,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.metadata.repository
 plugin@org.eclipse.equinox.p2.operations=CVS,tag=v20100510,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.operations
 plugin@org.eclipse.equinox.p2.publisher=CVS,tag=v20100824-2220,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.publisher
