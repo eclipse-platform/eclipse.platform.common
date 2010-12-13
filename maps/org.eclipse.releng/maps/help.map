@@ -5,7 +5,7 @@ plugin@org.eclipse.help.appserver=v20060602,:pserver:anonymous@dev.eclipse.org:/
 plugin@org.eclipse.help.base=R322_v20061207,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.help.ui=v20060602,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
-plugin@org.eclipse.help.webapp=R322_v20061114,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.help.webapp=R322_v20101213,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.tomcat=v20060601,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.apache.lucene=v20060601,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
