@@ -15,7 +15,7 @@ plugin@org.eclipse.ui.intro.universal=r36_v20100702,:pserver:anonymous@dev.eclip
 plugin@org.eclipse.ui.cheatsheets=v20100427,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 !**** Browser
-plugin@org.eclipse.ui.browser=v20100517,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.ui.browser=r36_20101215,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 !**** Forms
 plugin@org.eclipse.ui.forms=r36_v20100702,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
