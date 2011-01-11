@@ -23,7 +23,7 @@ plugin@org.eclipse.equinox.p2.reconciler.dropins=CVS,tag=R36x_v20101111-1430,cvs
 plugin@org.eclipse.equinox.p2.repository=CVS,tag=R36x_v20110111-1500,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.repository
 plugin@org.eclipse.equinox.p2.repository.tools=CVS,tag=R36x_v20100823,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.repository.tools
 plugin@org.eclipse.equinox.p2.touchpoint.eclipse=CVS,tag=R36x_v20101202,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.touchpoint.eclipse
-plugin@org.eclipse.equinox.p2.touchpoint.natives=CVS,tag=v20100503a,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.touchpoint.natives
+plugin@org.eclipse.equinox.p2.touchpoint.natives=CVS,tag=R36x_v20110111,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.touchpoint.natives
 plugin@org.eclipse.equinox.p2.ui=CVS,tag=v20100518,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.ui
 plugin@org.eclipse.equinox.p2.ui.admin=CVS,tag=v20100503,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.ui.admin
 plugin@org.eclipse.equinox.p2.ui.discovery=CVS,tag=v20100519,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.ui.discovery
