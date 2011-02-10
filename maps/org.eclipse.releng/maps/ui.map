@@ -1,7 +1,7 @@
 !***************  UI CONTRIBUTION  ********************************************************* 
 
 plugin@org.eclipse.core.commands=I20100512-1500,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.jface=M20110203-1100,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.jface=M20110210-1200,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.core.databinding=I20100601-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.core.databinding.observable=I20100601-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.core.databinding.property=I20100601-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
@@ -12,7 +12,7 @@ plugin@org.eclipse.ui.ide=M20101201-0800,:pserver:anonymous@dev.eclipse.org:/cvs
 plugin@org.eclipse.ui.ide.application=M20100707-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ui.presentations.r21=I20100517-1500,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ui.views=M20110202-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.ui.workbench=M20110202-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.ui.workbench=M20110210-1200,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 fragment@org.eclipse.ui.workbench.compatibility=I20100511-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 fragment@org.eclipse.ui.win32=I20100509-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 fragment@org.eclipse.ui.carbon=M20101124-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
