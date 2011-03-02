@@ -7,7 +7,7 @@ plugin@org.eclipse.osgi.util=v20100503,:pserver:anonymous@dev.eclipse.org:/cvsro
 
 !**** Equinox
 plugin@org.eclipse.equinox.common=v20100503,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/components/bundles/org.eclipse.equinox.common
-plugin@org.eclipse.equinox.preferences=v20100503,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/compendium/bundles/org.eclipse.equinox.preferences
+plugin@org.eclipse.equinox.preferences=R36x_v20110302,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/compendium/bundles/org.eclipse.equinox.preferences
 plugin@org.eclipse.equinox.registry=v20100503,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/components/bundles/org.eclipse.equinox.registry
 plugin@org.eclipse.equinox.supplement=R36x_v20101021,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/framework/bundles/org.eclipse.osgi/supplement
 plugin@org.eclipse.equinox.app=R36x_v20100803,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/compendium/bundles/org.eclipse.equinox.app
@@ -91,7 +91,7 @@ plugin@org.eclipse.core.expressions=v20100505,:pserver:anonymous@dev.eclipse.org
 plugin@org.eclipse.core.expressions.tests=v20091203,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 !**** Resources
-plugin@org.eclipse.core.resources=R36x_v20110131-1630,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.core.resources=R36x_v20110302,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 fragment@org.eclipse.core.resources.win32=v20100505-1235,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 fragment@org.eclipse.core.resources.win32.x86=v20100505-1345,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 fragment@org.eclipse.core.resources.win32.ia64=v20081020,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
