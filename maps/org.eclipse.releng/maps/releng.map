@@ -1,17 +1,17 @@
 !****************  RELENG CONTRIBUTION  ******************************************************** 
-feature@master=v20110426,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/master
-feature@master-equinox=v20110503,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/master-equinox
-feature@master-equinox-p2=v20110503,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/master-equinox-p2
-feature@master-equinox-weaving=v20110505,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/master-equinox-weaving
-feature@master-jetty=v20110326,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/master-jetty
-feature@master-ecf=v20110503,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/master-ecf
+feature@master=v20091019,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/master
+feature@master-equinox=v20100118,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/master-equinox
+feature@master-equinox-p2=v20091106,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/master-equinox-p2
+feature@master-equinox-weaving=v20090817,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/master-equinox-weaving
+feature@master-jetty=v20090305,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/master-jetty
+feature@master-ecf=v20090316,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/master-ecf
 
-feature@com.ibm.icu.base=v20110302,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/com.ibm.icu.base
+feature@com.ibm.icu.base=v20090119,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/com.ibm.icu.base
 
-feature@org.eclipse.releng.tools=v20110503,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/org.eclipse.releng.tools
+feature@org.eclipse.releng.tools=v20090520,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/org.eclipse.releng.tools
 
-plugin@org.eclipse.releng.tools=v20110427-1300,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.releng.tests=v20110503,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.releng.tools=v20100304,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.releng.tests=v20100311,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 plugin@org.eclipse.pde.tools.versioning=r20080922,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk.tests-feature/plugins/org.eclipse.pde.tools.versioning
 
