@@ -2,7 +2,7 @@
 plugin@org.eclipse.search=r351_v20090708-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.search.tests=v20090513-2000,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
-plugin@org.eclipse.ltk.core.refactoring=v20090513-2000,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.ltk.core.refactoring=r352_v20110609,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ltk.core.refactoring.tests=v20090513-2000,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ltk.ui.refactoring=r352_v20100209,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ltk.ui.refactoring.tests=v20090513-2000,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
