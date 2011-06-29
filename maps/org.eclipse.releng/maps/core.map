@@ -1,7 +1,7 @@
 !***************  CORE CONTRIBUTION  ******************************************************** 
 
 !**** OSGi
-plugin@org.eclipse.osgi=R36x_v20110505,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/framework/bundles/org.eclipse.osgi
+plugin@org.eclipse.osgi=R36x_v20110629,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/framework/bundles/org.eclipse.osgi
 plugin@org.eclipse.osgi.services=v20100503,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/compendium/bundles/org.eclipse.osgi.services
 plugin@org.eclipse.osgi.util=v20100503,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/compendium/bundles/org.eclipse.osgi.util
 
@@ -123,4 +123,4 @@ feature@org.eclipse.pde.builder=v20040624a,:pserver:anonymous@dev.eclipse.org:/c
 plugin@org.eclipse.core.tests.harness=v20100505-1235,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.core.tests.resources=R36x_v20110328-1004,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.core.tests.runtime=R36x_v20101213,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.osgi.tests=R36x_v20101103,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/framework/bundles/org.eclipse.osgi.tests
+plugin@org.eclipse.osgi.tests=R36x_v20110629,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/framework/bundles/org.eclipse.osgi.tests
