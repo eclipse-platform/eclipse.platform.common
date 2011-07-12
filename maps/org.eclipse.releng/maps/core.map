@@ -1,7 +1,7 @@
 !***************  CORE CONTRIBUTION  ********************************************************* 
 
 !**** OSGi
-plugin@org.eclipse.osgi=R37x_v20110701,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/framework/bundles/org.eclipse.osgi
+plugin@org.eclipse.osgi=GIT,tag=R37x_v20110701,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.framework.git,path=bundles/org.eclipse.osgi
 plugin@org.eclipse.osgi.services=v20110513,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/compendium/bundles/org.eclipse.osgi.services
 plugin@org.eclipse.osgi.util=v20110110,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/compendium/bundles/org.eclipse.osgi.util
 
@@ -9,7 +9,7 @@ plugin@org.eclipse.osgi.util=v20110110,:pserver:anonymous@dev.eclipse.org:/cvsro
 plugin@org.eclipse.equinox.common=v20110523,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/components/bundles/org.eclipse.equinox.common
 plugin@org.eclipse.equinox.preferences=R37x_v20110627,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/compendium/bundles/org.eclipse.equinox.preferences
 plugin@org.eclipse.equinox.registry=R37x_v20110712,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/components/bundles/org.eclipse.equinox.registry
-plugin@org.eclipse.equinox.supplement=R37x_v20110701,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/framework/bundles/org.eclipse.osgi/supplement
+plugin@org.eclipse.equinox.supplement=GIT,tag=R37x_v20110701,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.framework.git,path=bundles/org.eclipse.osgi/supplement
 plugin@org.eclipse.equinox.app=v20110321,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/compendium/bundles/org.eclipse.equinox.app
 plugin@org.eclipse.equinox.device=v20101217,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/compendium/bundles/org.eclipse.equinox.device
 plugin@org.eclipse.equinox.event=v20110502,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/compendium/bundles/org.eclipse.equinox.event
@@ -143,5 +143,5 @@ feature@org.eclipse.equinox.weaving.sdk=CVS,tag=v20110502,cvsRoot=:pserver:anony
 plugin@org.eclipse.core.tests.harness=GIT,tag=v20110505,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.runtime.git,path=tests/org.eclipse.core.tests.harness
 plugin@org.eclipse.core.tests.resources=v20110511-0607,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.core.tests.runtime=GIT,tag=R37x_v20110627,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.runtime.git,path=tests/org.eclipse.core.tests.runtime
-plugin@org.eclipse.osgi.tests=v20110513,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/framework/bundles/org.eclipse.osgi.tests
+plugin@org.eclipse.osgi.tests=GIT,tag=v20110513,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.framework.git,path=bundles/org.eclipse.osgi.tests
 plugin@org.eclipse.equinox.ds.tests=v20110502,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/compendium/bundles/org.eclipse.equinox.ds.tests
