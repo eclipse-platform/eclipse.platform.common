@@ -143,5 +143,5 @@ feature@org.eclipse.equinox.weaving.sdk=GIT,tag=v20110502,repo=git://git.eclipse
 plugin@org.eclipse.core.tests.harness=GIT,tag=v20110505,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.runtime.git,path=tests/org.eclipse.core.tests.harness
 plugin@org.eclipse.core.tests.resources=v20110511-0607,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.core.tests.runtime=GIT,tag=R37x_v20110627,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.runtime.git,path=tests/org.eclipse.core.tests.runtime
-plugin@org.eclipse.osgi.tests=GIT,tag=R37x_v20110726-1333,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.framework.git,path=bundles/org.eclipse.osgi.tests
+plugin@org.eclipse.osgi.tests=GIT,tag=R37x_v20110803-1643,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.framework.git,path=bundles/org.eclipse.osgi.tests
 plugin@org.eclipse.equinox.ds.tests=GIT,tag=v20110502,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.bundles.git,path=bundles/org.eclipse.equinox.ds.tests
