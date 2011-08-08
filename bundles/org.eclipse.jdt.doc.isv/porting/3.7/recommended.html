@@ -17,16 +17,27 @@
 </p>
 
 <ol>
-	<li>None</li>
+	<li><a href="#jls4">AST.JLS4 for Java 7 constructs in 3.7.1</a></li>
 </ol>
 
 <hr>
 
 <!-- ############################################## -->
-<!-- <h2>1. <a name="item1">Item 1</a></h2>
+<h2>1. <a name="#jls4">AST.JLS4 for Java 7 constructs in 3.7.1</a></h2>
 <p>
+A new AST level <code>org.eclipse.jdt.core.dom.AST#JLS4</code> has been added for Java 7 language changes.
+Clients of previous AST levels are recommended to adopt the new AST level and add support for the new constructs
+(<code>UnionType</code>, <code>TryStatement#resources() / #RESOURCES_PROPERTY</code>).
 </p>
--->
+<p>
+<code>org.eclipse.jdt.core.compiler.ReconcileContext#getAST4()</code> should be used were possible.
+</p>
+<p>
+<code>org.eclipse.jdt.ui.SharedASTProvider#getAST(..)</code> now returns a JLS4 AST.
+</p>
+<p>
+Note that these changes only affect Eclipse 3.7.1 and 3.8. They are not present in 3.7.
+</p>
 
 <!-- ############################################## -->
 
