@@ -8,7 +8,7 @@ plugin@org.eclipse.core.databinding.property=GIT,tag=I20110222-0800,repo=git://g
 plugin@org.eclipse.core.databinding.beans=GIT,tag=I20100824-0800,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.ui.git,path=bundles/org.eclipse.core.databinding.beans
 plugin@org.eclipse.jface.databinding=GIT,tag=I20100907-0800,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.ui.git,path=bundles/org.eclipse.jface.databinding
 plugin@org.eclipse.ui=GIT,tag=I20110602-0100,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.ui.git,path=bundles/org.eclipse.ui
-plugin@org.eclipse.ui.ide=GIT,tag=I20110519-0100,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.ui.git,path=bundles/org.eclipse.ui.ide
+plugin@org.eclipse.ui.ide=GIT,tag=v20110809-1737,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.ui.git,path=bundles/org.eclipse.ui.ide
 plugin@org.eclipse.ui.ide.application=GIT,tag=I20110306-2000,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.ui.git,path=bundles/org.eclipse.ui.ide.application
 plugin@org.eclipse.ui.presentations.r21=GIT,tag=I20100517-1500,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.ui.git,path=bundles/org.eclipse.ui.presentations.r21
 plugin@org.eclipse.ui.views=GIT,tag=I20110412-0800,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.ui.git,path=bundles/org.eclipse.ui.views
@@ -28,7 +28,7 @@ plugin@org.eclipse.ui.examples.views.properties.tabbed.article=GIT,tag=I20100517
 plugin@org.eclipse.ui.examples.fieldassist=GIT,tag=I20100601-0800,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.ui.git,path=examples/org.eclipse.ui.examples.fieldassist
 plugin@org.eclipse.ui.examples.contributions=GIT,tag=I20100509-0800,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.ui.git,path=examples/org.eclipse.ui.examples.contributions
 
-plugin@org.eclipse.ui.navigator=GIT,tag=I20110524-0800,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.ui.git,path=bundles/org.eclipse.ui.navigator
+plugin@org.eclipse.ui.navigator=GIT,tag=v20110809-2227,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.ui.git,path=bundles/org.eclipse.ui.navigator
 plugin@org.eclipse.ui.navigator.resources=GIT,tag=I20110421-1800,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.ui.git,path=bundles/org.eclipse.ui.navigator.resources
 
 plugin@org.eclipse.ui.views.properties.tabbed=GIT,tag=I20110201-0800,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.ui.git,path=bundles/org.eclipse.ui.views.properties.tabbed
@@ -45,7 +45,7 @@ plugin@org.eclipse.jface.tests.databinding=GIT,tag=I20110405-0800,repo=git://git
 plugin@org.eclipse.jface.tests.databinding.conformance=GIT,tag=I20100914-0100,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.ui.git,path=tests/org.eclipse.jface.tests.databinding.conformance
 plugin@org.eclipse.ui.tests=GIT,tag=I20110602-0100,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.ui.git,path=tests/org.eclipse.ui.tests
 plugin@org.eclipse.ui.tests.rcp=GIT,tag=I20110425-1800,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.ui.git,path=tests/org.eclipse.ui.tests.rcp
-plugin@org.eclipse.ui.tests.navigator=GIT,tag=I20110425-1800,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.ui.git,path=tests/org.eclipse.ui.tests.navigator
+plugin@org.eclipse.ui.tests.navigator=GIT,tag=v20110809-2227,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.ui.git,path=tests/org.eclipse.ui.tests.navigator
 plugin@org.eclipse.ui.tests.views.properties.tabbed=GIT,tag=I20110405-0800,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.ui.git,path=tests/org.eclipse.ui.tests.views.properties.tabbed
 plugin@org.eclipse.ui.tests.performance=GIT,tag=I20110421-1800,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.ui.git,path=tests/org.eclipse.ui.tests.performance
 plugin@org.eclipse.ui.tests.harness=GIT,tag=I20110425-1800,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.ui.git,path=tests/org.eclipse.ui.tests.harness
