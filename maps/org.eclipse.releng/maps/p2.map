@@ -22,7 +22,7 @@ plugin@org.eclipse.equinox.p2.publisher.eclipse=GIT,tag=v20110511,repo=git://git
 plugin@org.eclipse.equinox.p2.reconciler.dropins=GIT,tag=v20110510,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.p2.git,path=bundles/org.eclipse.equinox.p2.reconciler.dropins
 plugin@org.eclipse.equinox.p2.repository=GIT,tag=v20110601,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.p2.git,path=bundles/org.eclipse.equinox.p2.repository
 plugin@org.eclipse.equinox.p2.repository.tools=GIT,tag=v20110512-1320,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.p2.git,path=bundles/org.eclipse.equinox.p2.repository.tools
-plugin@org.eclipse.equinox.p2.touchpoint.eclipse=GIT,tag=v20110511,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.p2.git,path=bundles/org.eclipse.equinox.p2.touchpoint.eclipse
+plugin@org.eclipse.equinox.p2.touchpoint.eclipse=GIT,tag=R37x_v20110812,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.p2.git,path=bundles/org.eclipse.equinox.p2.touchpoint.eclipse
 plugin@org.eclipse.equinox.p2.transport.ecf=GIT,tag=v20110510,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.p2.git,path=bundles/org.eclipse.equinox.p2.transport.ecf
 plugin@org.eclipse.equinox.p2.touchpoint.natives=GIT,tag=v20110502-1955,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.p2.git,path=bundles/org.eclipse.equinox.p2.touchpoint.natives
 plugin@org.eclipse.equinox.p2.ui=GIT,tag=v20110601,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.p2.git,path=bundles/org.eclipse.equinox.p2.ui
