@@ -4,7 +4,7 @@
 plugin@org.eclipse.help=v20110426,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.help.appserver=v20110425,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.help.base=r37_20110816,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.help.ui=r37_20110816,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.help.ui=r37_20110817,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.help.webapp=v20110518,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 !**** Welcome
