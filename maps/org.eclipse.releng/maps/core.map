@@ -38,7 +38,7 @@ plugin@org.eclipse.equinox.util=GIT,tag=v20110502,repo=git://git.eclipse.org/git
 plugin@org.eclipse.equinox.wireadmin=GIT,tag=v20110601,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.bundles.git,path=bundles/org.eclipse.equinox.wireadmin
 
 !**** Security Contributions
-plugin@org.eclipse.equinox.security=GIT,tag=v20110502,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.bundles.git,path=bundles/org.eclipse.equinox.security
+plugin@org.eclipse.equinox.security=GIT,tag=R37x_v20110822-1018,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.bundles.git,path=bundles/org.eclipse.equinox.security
 plugin@org.eclipse.equinox.security.tests=GIT,tag=v20110502,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.bundles.git,path=bundles/org.eclipse.equinox.security.tests
 plugin@org.eclipse.equinox.security.ui=GIT,tag=v20101004,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.bundles.git,path=bundles/org.eclipse.equinox.security.ui
 fragment@org.eclipse.equinox.security.win32.x86=GIT,tag=v20100503,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.bundles.git,path=bundles/org.eclipse.equinox.security.win32.x86
