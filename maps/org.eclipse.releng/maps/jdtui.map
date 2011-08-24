@@ -2,8 +2,8 @@
 plugin@org.eclipse.search=v20110505-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.search.tests=v20110505-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
-plugin@org.eclipse.ltk.core.refactoring=v20110505-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.ltk.core.refactoring.tests=v20110505-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.ltk.core.refactoring=r371_v20110824-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.ltk.core.refactoring.tests=r371_v20110824-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ltk.ui.refactoring=v20110505-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ltk.ui.refactoring.tests=v20110505-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
@@ -11,9 +11,9 @@ plugin@org.eclipse.jdt=r371_v20110804,:pserver:anonymous@dev.eclipse.org:/cvsroo
 
 plugin@org.eclipse.jdt.core.manipulation=v20110505-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
-plugin@org.eclipse.jdt.ui=r371_v20110817-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.jdt.ui.tests=r371_v20110729-0400,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.jdt.ui.tests.refactoring=r371_v20110729-0400,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.jdt.ui=r371_v20110824-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.jdt.ui.tests=r371_v20110824-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.jdt.ui.tests.refactoring=r371_v20110824-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 plugin@org.eclipse.jdt.junit=v20110505-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.jdt.junit.core=v20110518-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
