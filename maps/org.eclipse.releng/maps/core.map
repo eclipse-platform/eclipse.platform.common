@@ -125,23 +125,23 @@ feature@org.eclipse.pde.build.feature=GIT,tag=v20110123,repo=git://git.eclipse.o
 feature@org.eclipse.pde.build.product.feature=GIT,tag=v20110123,repo=git://git.eclipse.org/gitroot/pde/eclipse.pde.build.git,path=org.eclipse.pde.build.product.feature
 
 !**** Features and Products
-feature@org.eclipse.core.runtime.feature=GIT,tag=v20110124,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.runtime.git,path=features/org.eclipse.core.runtime.feature
+feature@org.eclipse.core.runtime.feature=GIT,tag=R37x_v20110907,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.runtime.git,path=features/org.eclipse.core.runtime.feature
 feature@org.eclipse.equinox.compendium.sdk=GIT,tag=v20110502,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.bundles.git,path=features/org.eclipse.equinox.compendium.sdk
-feature@org.eclipse.equinox.core.feature=GIT,tag=v20110502,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.bundles.git,path=features/org.eclipse.equinox.core.feature
-feature@org.eclipse.equinox.core.sdk=GIT,tag=v20110506-0800,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.framework.git,path=features/org.eclipse.equinox.core.sdk
-feature@org.eclipse.equinox.sdk=GIT,tag=v20110502,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.bundles.git,path=features/org.eclipse.equinox.sdk
-feature@org.eclipse.equinox.starterkit.product.feature=GIT,tag=v20110502,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.bundles.git,path=features/org.eclipse.equinox.starterkit.product.feature
-feature@org.eclipse.equinox.server.core=GIT,tag=v20110502,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.bundles.git,path=features/org.eclipse.equinox.server.core
+feature@org.eclipse.equinox.core.feature=GIT,tag=R37x_v20110907,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.bundles.git,path=features/org.eclipse.equinox.core.feature
+feature@org.eclipse.equinox.core.sdk=GIT,tag=R37x_v20110907,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.framework.git,path=features/org.eclipse.equinox.core.sdk
+feature@org.eclipse.equinox.sdk=GIT,tag=R37x_v20110907,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.bundles.git,path=features/org.eclipse.equinox.sdk
+feature@org.eclipse.equinox.starterkit.product.feature=GIT,tag=R37x_v20110907-1630,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.bundles.git,path=features/org.eclipse.equinox.starterkit.product.feature
+feature@org.eclipse.equinox.server.core=GIT,tag=R37x_v20110907,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.bundles.git,path=features/org.eclipse.equinox.server.core
 feature@org.eclipse.equinox.server.jetty=GIT,tag=v20110502,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.bundles.git,path=features/org.eclipse.equinox.server.jetty
-feature@org.eclipse.equinox.server.p2=GIT,tag=v20110502,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.bundles.git,path=features/org.eclipse.equinox.server.p2
+feature@org.eclipse.equinox.server.p2=GIT,tag=R37x_v20110907,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.bundles.git,path=features/org.eclipse.equinox.server.p2
 feature@org.eclipse.equinox.server.servletbridge=GIT,tag=v20110502,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.bundles.git,path=features/org.eclipse.equinox.server.servletbridge
 feature@org.eclipse.equinox.server.simple=GIT,tag=v20110502,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.bundles.git,path=features/org.eclipse.equinox.server.simple
-feature@org.eclipse.equinox.serverside.sdk=GIT,tag=v20110502,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.bundles.git,path=features/org.eclipse.equinox.serverside.sdk
+feature@org.eclipse.equinox.serverside.sdk=GIT,tag=R37x_v20110907,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.bundles.git,path=features/org.eclipse.equinox.serverside.sdk
 feature@org.eclipse.equinox.weaving.sdk=GIT,tag=v20110502,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.bundles.git,path=features/org.eclipse.equinox.weaving.sdk
 
 !**** Test Suites
 plugin@org.eclipse.core.tests.harness=GIT,tag=v20110505,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.runtime.git,path=tests/org.eclipse.core.tests.harness
 plugin@org.eclipse.core.tests.resources=GIT,tag=v20110511-0607,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.resources.git,path=tests/org.eclipse.core.tests.resources
 plugin@org.eclipse.core.tests.runtime=GIT,tag=R37x_v20110627,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.runtime.git,path=tests/org.eclipse.core.tests.runtime
-plugin@org.eclipse.osgi.tests=GIT,tag=R37x_v20110808-1106,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.framework.git,path=bundles/org.eclipse.osgi.tests
+plugin@org.eclipse.osgi.tests=GIT,tag=R37x_v20110907,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.framework.git,path=bundles/org.eclipse.osgi.tests
 plugin@org.eclipse.equinox.ds.tests=GIT,tag=v20110502,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.bundles.git,path=bundles/org.eclipse.equinox.ds.tests
