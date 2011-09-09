@@ -126,7 +126,7 @@ feature@org.eclipse.pde.build.product.feature=GIT,tag=v20110123,repo=git://git.e
 
 !**** Features and Products
 feature@org.eclipse.core.runtime.feature=GIT,tag=R37x_v20110907,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.runtime.git,path=features/org.eclipse.core.runtime.feature
-feature@org.eclipse.equinox.compendium.sdk=GIT,tag=v20110502,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.bundles.git,path=features/org.eclipse.equinox.compendium.sdk
+feature@org.eclipse.equinox.compendium.sdk=GIT,tag=R37x_v20110909,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.bundles.git,path=features/org.eclipse.equinox.compendium.sdk
 feature@org.eclipse.equinox.core.feature=GIT,tag=R37x_v20110907,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.bundles.git,path=features/org.eclipse.equinox.core.feature
 feature@org.eclipse.equinox.core.sdk=GIT,tag=R37x_v20110907,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.framework.git,path=features/org.eclipse.equinox.core.sdk
 feature@org.eclipse.equinox.sdk=GIT,tag=R37x_v20110907,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.bundles.git,path=features/org.eclipse.equinox.sdk
