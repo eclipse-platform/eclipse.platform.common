@@ -1,23 +1,23 @@
 !***************  JDT UI CONTRIBUTION  ******************************************************** 
-plugin@org.eclipse.search=v20110505-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.search.tests=v20110505-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
-plugin@org.eclipse.ltk.core.refactoring=r371_v20110824-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.ltk.core.refactoring.tests=r371_v20110824-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.ltk.ui.refactoring=v20110505-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.ltk.ui.refactoring.tests=v20110505-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.jdt=GIT,tag=r371_v20110804,repo=git://git.eclipse.org/gitroot/jdt/eclipse.jdt.git,path=org.eclipse.jdt
 
-plugin@org.eclipse.jdt=r371_v20110804,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
-plugin@org.eclipse.jdt.core.manipulation=v20110505-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.jdt.core.manipulation=GIT,tag=v20110505-0800,repo=git://git.eclipse.org/gitroot/jdt/eclipse.jdt.ui.git,path=org.eclipse.jdt.core.manipulation
 
-plugin@org.eclipse.jdt.ui=r371_v20110824-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.jdt.ui.tests=r371_v20110824-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.jdt.ui.tests.refactoring=r371_v20110824-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.jdt.ui=GIT,tag=r371_v20110824-0800,repo=git://git.eclipse.org/gitroot/jdt/eclipse.jdt.ui.git,path=org.eclipse.jdt.ui
+plugin@org.eclipse.jdt.ui.tests=GIT,tag=r371_v20110824-0800,repo=git://git.eclipse.org/gitroot/jdt/eclipse.jdt.ui.git,path=org.eclipse.jdt.ui.tests
+plugin@org.eclipse.jdt.ui.tests.refactoring=GIT,tag=r371_v20110824-0800,repo=git://git.eclipse.org/gitroot/jdt/eclipse.jdt.ui.git,path=org.eclipse.jdt.ui.tests.refactoring
 
-plugin@org.eclipse.jdt.junit=v20110505-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.jdt.junit.core=v20110518-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.jdt.junit.runtime=v20110505-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.jdt.junit4.runtime=v20110505-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.jdt.text.tests=GIT,tag=r371_v20110729-0400,repo=git://git.eclipse.org/gitroot/jdt/eclipse.jdt.ui.git,path=org.eclipse.jdt.text.tests
 
-plugin@org.junit4=v20100525,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.jdt.junit=GIT,tag=v20110505-0800,repo=git://git.eclipse.org/gitroot/jdt/eclipse.jdt.ui.git,path=org.eclipse.jdt.junit
+plugin@org.eclipse.jdt.junit.core=GIT,tag=v20110518-0800,repo=git://git.eclipse.org/gitroot/jdt/eclipse.jdt.ui.git,path=org.eclipse.jdt.junit.core
+plugin@org.eclipse.jdt.junit.runtime=GIT,tag=v20110505-0800,repo=git://git.eclipse.org/gitroot/jdt/eclipse.jdt.ui.git,path=org.eclipse.jdt.junit.runtime
+plugin@org.eclipse.jdt.junit4.runtime=GIT,tag=v20110505-0800,repo=git://git.eclipse.org/gitroot/jdt/eclipse.jdt.ui.git,path=org.eclipse.jdt.junit4.runtime
+plugin@org.junit4=GIT,tag=v20100525,repo=git://git.eclipse.org/gitroot/jdt/eclipse.jdt.ui.git,path=org.junit4
+
+plugin@org.eclipse.ltk.core.refactoring=GIT,tag=r371_v20110824-0800,repo=git://git.eclipse.org/gitroot/jdt/eclipse.jdt.ui.git,path=org.eclipse.ltk.core.refactoring
+plugin@org.eclipse.ltk.core.refactoring.tests=GIT,tag=r371_v20110824-0800,repo=git://git.eclipse.org/gitroot/jdt/eclipse.jdt.ui.git,path=org.eclipse.ltk.core.refactoring.tests
+plugin@org.eclipse.ltk.ui.refactoring=GIT,tag=v20110505-0800,repo=git://git.eclipse.org/gitroot/jdt/eclipse.jdt.ui.git,path=org.eclipse.ltk.ui.refactoring
+plugin@org.eclipse.ltk.ui.refactoring.tests=GIT,tag=v20110505-0800,repo=git://git.eclipse.org/gitroot/jdt/eclipse.jdt.ui.git,path=org.eclipse.ltk.ui.refactoring.tests
