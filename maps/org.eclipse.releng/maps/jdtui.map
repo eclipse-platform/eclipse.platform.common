@@ -12,7 +12,7 @@ plugin@org.eclipse.jdt=GIT,tag=r361_v20100714-0800,repo=git://git.eclipse.org/gi
 
 plugin@org.eclipse.jdt.core.manipulation=v20100520-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
-plugin@org.eclipse.jdt.ui=r362_v20110203,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.jdt.ui=r362_v20111007,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.jdt.ui.tests=r361_v20100818-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.jdt.ui.tests.refactoring=v20100526-0800,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
