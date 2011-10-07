@@ -1,7 +1,7 @@
 !***************  CORE CONTRIBUTION  ********************************************************* 
 
 !**** OSGi
-plugin@org.eclipse.osgi=GIT,tag=R37x_v20110928-1639,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.framework.git,path=bundles/org.eclipse.osgi
+plugin@org.eclipse.osgi=GIT,tag=R37x_v20111007-1209,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.framework.git,path=bundles/org.eclipse.osgi
 plugin@org.eclipse.osgi.services=GIT,tag=v20110513,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.framework.git,path=bundles/org.eclipse.osgi.services
 plugin@org.eclipse.osgi.util=GIT,tag=v20110110,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.framework.git,path=bundles/org.eclipse.osgi.util
 
