@@ -3,7 +3,7 @@
 plugin@org.eclipse.debug.core=GIT,tag=v20100519,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.debug.git,path=org.eclipse.debug.core
 plugin@org.eclipse.debug.ui=GIT,tag=v20110513_r363,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.debug.git,path=org.eclipse.debug.ui
 plugin@org.eclipse.debug.examples.core=GIT,tag=v20100505,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.debug.git,path=org.eclipse.debug.examples.core
-plugin@org.eclipse.debug.examples.ui=GIT,tag=v20111011,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.debug.git,path=org.eclipse.debug.examples.ui
+plugin@org.eclipse.debug.examples.ui=GIT,tag=v20100526,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.debug.git,path=org.eclipse.debug.examples.ui
 plugin@org.eclipse.ui.console=GIT,tag=v20100526,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.debug.git,path=org.eclipse.ui.console
 plugin@org.eclipse.debug.tests=GIT,tag=v20100526,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.debug.git,path=org.eclipse.debug.tests
 
