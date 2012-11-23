@@ -140,10 +140,10 @@
 		
 		<!-- expand _* to actual version -->
 			<!-- prepare ${replaceFile} with all files and folders from workspace -->
-		<fileset dir="${basedir}/.." id="fileSet">
+		<fileset dir="${basedir}/${dependency.dir}" id="fileSet">
 			<include name="*"/>
 		</fileset>
-		<dirset dir="${basedir}/.." id="dirSet">
+		<dirset dir="${basedir}/${dependency.dir}" id="dirSet">
 			<include name="*"/>
 		</dirset>
 		<pathconvert property="fileList" refid="fileSet" dirsep="/" pathsep="&#xA;"/>

@@ -32,6 +32,49 @@
       </activation>
       <build>
         <plugins>
+          <plugin> 
+            <groupId>org.eclipse.tycho</groupId> 
+            <artifactId>target-platform-configuration</artifactId> 
+            <configuration> 
+              <dependency-resolution> 
+                <extraRequirements> 
+                  <requirement> 
+                    <type>eclipse-plugin</type> 
+                    <id>com.ibm.icu</id> 
+                    <versionRange>0.0.0</versionRange> 
+                  </requirement> 
+                  <requirement> 
+                    <type>eclipse-plugin</type> 
+                    <id>org.apache.ant</id> 
+                    <versionRange>0.0.0</versionRange> 
+                  </requirement> 
+                  <requirement> 
+                    <type>eclipse-plugin</type> 
+                    <id>org.junit</id> 
+                    <versionRange>0.0.0</versionRange> 
+                  </requirement>
+                </extraRequirements> 
+              </dependency-resolution> 
+            </configuration> 
+          </plugin> 
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-dependency-plugin</artifactId>
+            <version>2.5.1</version>
+            <executions>
+              <execution>
+                <id>copy</id>
+                <phase>process-resources</phase>
+                <goals>
+                  <goal>copy-dependencies</goal>
+                </goals>
+                <configuration>
+                  <overwriteReleases>true</overwriteReleases>
+                  <overwriteSnapshots>true</overwriteSnapshots>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
           <plugin>
             <groupId>org.eclipse.tycho.extras</groupId>
             <artifactId>tycho-eclipserun-plugin</artifactId>
