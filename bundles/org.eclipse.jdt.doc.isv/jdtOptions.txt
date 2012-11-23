@@ -1,35 +1,35 @@
 -quiet
 -encoding "iso-8859-1"
 -charset "iso-8859-1"
--sourcepath "../org.eclipse.jdt.annotation/src
-;../org.eclipse.ant.launching/src
-;../org.eclipse.ant.ui/Ant Editor
-;../org.eclipse.ant.ui/Ant Tools Support
-;../org.eclipse.jdt.apt.core/src
-;../org.eclipse.jdt.core/antadapter
-;../org.eclipse.jdt.core/batch
-;../org.eclipse.jdt.core/codeassist
-;../org.eclipse.jdt.core/compiler
-;../org.eclipse.jdt.core/dom
-;../org.eclipse.jdt.core/eval
-;../org.eclipse.jdt.core/formatter
-;../org.eclipse.jdt.core/model
-;../org.eclipse.jdt.core/search
-;../org.eclipse.jdt.core.manipulation/common
-;../org.eclipse.jdt.core.manipulation/refactoring
-;../org.eclipse.jdt.debug/eval
-;../org.eclipse.jdt.debug/jdi
-;../org.eclipse.jdt.debug/model
-;../org.eclipse.jdt.debug.ui/ui
-;../org.eclipse.jdt.junit/src
-;../org.eclipse.jdt.junit.core/src
-;../org.eclipse.jdt.junit.runtime/src
-;../org.eclipse.jdt.launching/launching
-;../org.eclipse.jdt.ui/core extension
-;../org.eclipse.jdt.ui/core refactoring
-;../org.eclipse.jdt.ui/internal compatibility
-;../org.eclipse.jdt.ui/ui
-;../org.eclipse.jdt.ui/ui refactoring"
+-sourcepath "@eclipse.jdt.core@/org.eclipse.jdt.annotation/src
+;@eclipse.platform.ant@/org.eclipse.ant.launching/src
+;@eclipse.platform.ant@/org.eclipse.ant.ui/Ant Editor
+;@eclipse.platform.ant@/org.eclipse.ant.ui/Ant Tools Support
+;@eclipse.jdt.core@/org.eclipse.jdt.apt.core/src
+;@eclipse.jdt.core@/org.eclipse.jdt.core/antadapter
+;@eclipse.jdt.core@/org.eclipse.jdt.core/batch
+;@eclipse.jdt.core@/org.eclipse.jdt.core/codeassist
+;@eclipse.jdt.core@/org.eclipse.jdt.core/compiler
+;@eclipse.jdt.core@/org.eclipse.jdt.core/dom
+;@eclipse.jdt.core@/org.eclipse.jdt.core/eval
+;@eclipse.jdt.core@/org.eclipse.jdt.core/formatter
+;@eclipse.jdt.core@/org.eclipse.jdt.core/model
+;@eclipse.jdt.core@/org.eclipse.jdt.core/search
+;@eclipse.jdt.ui@/org.eclipse.jdt.core.manipulation/common
+;@eclipse.jdt.ui@/org.eclipse.jdt.core.manipulation/refactoring
+;@eclipse.jdt.debug@/org.eclipse.jdt.debug/eval
+;@eclipse.jdt.debug@/org.eclipse.jdt.debug/jdi
+;@eclipse.jdt.debug@/org.eclipse.jdt.debug/model
+;@eclipse.jdt.debug@/org.eclipse.jdt.debug.ui/ui
+;@eclipse.jdt.ui@/org.eclipse.jdt.junit/src
+;@eclipse.jdt.ui@/org.eclipse.jdt.junit.core/src
+;@eclipse.jdt.ui@/org.eclipse.jdt.junit.runtime/src
+;@eclipse.jdt.debug@/org.eclipse.jdt.launching/launching
+;@eclipse.jdt.ui@/org.eclipse.jdt.ui/core extension
+;@eclipse.jdt.ui@/org.eclipse.jdt.ui/core refactoring
+;@eclipse.jdt.ui@/org.eclipse.jdt.ui/internal compatibility
+;@eclipse.jdt.ui@/org.eclipse.jdt.ui/ui
+;@eclipse.jdt.ui@/org.eclipse.jdt.ui/ui refactoring"
 -d reference/api
 -classpath @rt@
 ;../com.ibm.icu_*.jar
