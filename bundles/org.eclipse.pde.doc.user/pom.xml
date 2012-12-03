@@ -122,7 +122,7 @@
             <artifactId>tycho-eclipserun-plugin</artifactId>
             <version>${tycho.version}</version>
             <configuration>
-              <argLine>-Dhelp.lucene.tokenizer=standard</argLine>
+              <argLine>-XX:-UseLoopPredicate -Dhelp.lucene.tokenizer=standard</argLine>
               <appArgLine>-application org.eclipse.ant.core.antRunner -buildfile buildDoc.xml -Dbasedir.properties=cbi_basedirs.properties</appArgLine>
               <dependencies>
                 <dependency>

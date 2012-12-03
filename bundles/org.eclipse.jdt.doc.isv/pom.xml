@@ -129,7 +129,7 @@
             <version>${tycho.version}</version>
             <configuration>
               <!-- this is to fix some lucene 3.x compatibility issue -->
-              <argLine>-Dhelp.lucene.tokenizer=standard</argLine>
+              <argLine>-XX:-UseLoopPredicate -Dhelp.lucene.tokenizer=standard</argLine>
               <!-- actuall indexer call -->
               <appArgLine>-application org.eclipse.ant.core.antRunner -buildfile buildDoc.xml -Dbasedir.properties=cbi_basedirs.properties</appArgLine>
               <dependencies>
