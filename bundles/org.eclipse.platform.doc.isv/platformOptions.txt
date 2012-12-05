@@ -44,7 +44,7 @@
 ;@rt.equinox.bundles.bundles@/org.eclipse.equinox.ds/src
 ;@rt.equinox.bundles.bundles@/org.eclipse.equinox.common/src
 ;@rt.equinox.p2.bundles@/org.eclipse.equinox.frameworkadmin/src
-;@rt.equinox.bundles.bundles@/org.eclipse.equinox.http.jetty_*/src
+;@rt.equinox.bundles.bundles@/@eclipse.equinox.http.jetty@/src
 ;@rt.equinox.bundles.bundles@/org.eclipse.equinox.http.registry/src
 ;@rt.equinox.bundles.bundles@/org.eclipse.equinox.http.servlet/src
 ;@rt.equinox.bundles.bundles@/org.eclipse.equinox.jsp.jasper.registry/src
