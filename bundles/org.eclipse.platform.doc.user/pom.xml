@@ -28,7 +28,11 @@
     <profile>
       <id>build-docs</id>
       <activation>
-        <activeByDefault>true</activeByDefault>
+        <property>
+          <!-- workaround. activeByDefault is disabled when another profile is
+            selected. -->
+          <name>!longnotexistingproperty</name>
+        </property>
       </activation>
       <build>
         <plugins>
