@@ -138,7 +138,7 @@
 ;@dependency.dir@/javax.inject_*.jar
 ;@dependency.dir@/javax.servlet_*.jar
 ;@dependency.dir@/javax.servlet.jsp_*.jar
-;@dependency.dir@/org.apache.ant_*/lib/ant.jar
+;@dependency.dir@/@org.apache.ant.jar@
 ;@dependency.dir@/org.apache.batik.css_*.jar
 ;@dependency.dir@/org.apache.jasper.glassfish_*.jar
 ;@dependency.dir@/org.apache.lucene.analysis_*.jar
