@@ -120,7 +120,7 @@
 ;@dependency.dir@/com.ibm.icu_*.jar
 ;@dependency.dir@/com.jcraft.jsch_*.jar
 ;@dependency.dir@/javax.servlet_*.jar
-;@dependency.dir@/org.apache.ant_*/lib/ant.jar
+;@dependency.dir@/@org.apache.ant.jar@
 ;@dependency.dir@/org.apache.lucene.analysis_*.jar
 ;@dependency.dir@/org.apache.lucene_*.jar
 ;@dependency.dir@/org.apache.lucene.core_*.jar

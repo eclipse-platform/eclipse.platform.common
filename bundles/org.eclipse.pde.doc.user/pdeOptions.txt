@@ -25,7 +25,7 @@
 ;@rt.equinox.p2.bundles@/org.eclipse.equinox.p2.publisher.eclipse/@dot.classes@
 ;@rt.equinox.bundles.bundles@/org.eclipse.equinox.preferences/@dot.classes@
 ;@rt.equinox.bundles.bundles@/org.eclipse.equinox.registry/@dot.classes@
-;@eclipse.equinox.supplement@/org.eclipse.equinox.supplement/@dot.classes@
+;@eclipse.equinox.supplement@/@dot.classes@
 ;@eclipse.platform.ua@/org.eclipse.help/@dot.classes@
 ;@eclipse.platform.ua@/org.eclipse.help.ui/@dot.classes@
 ;@eclipse.jdt.core@/org.eclipse.jdt.core/@dot.classes@
