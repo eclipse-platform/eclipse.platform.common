@@ -77,7 +77,6 @@
 		<replace file="${basedir}/${optionsFile}" token="@eclipse.platform.ui.bundles@" value="${eclipse.platform.ui.bundles}" />
 		<replace file="${basedir}/${optionsFile}" token="@rt.equinox.bundles.bundles@" value="${rt.equinox.bundles.bundles}" />
 		<replace file="${basedir}/${optionsFile}" token="@rt.equinox.framework.bundles@" value="${rt.equinox.framework.bundles}" />
-		<replace file="${basedir}/${optionsFile}" token="@rt.equinox.p2.bundles@" value="${rt.equinox.p2.bundles}" />
 		<replace file="${basedir}/${optionsFile}" token="@eclipse.equinox.supplement@" value="${eclipse.equinox.supplement}" />
 		<replace file="${basedir}/${optionsFile}" token="@org.apache.ant.jar@" value="${org.apache.ant.jar}" />
 
