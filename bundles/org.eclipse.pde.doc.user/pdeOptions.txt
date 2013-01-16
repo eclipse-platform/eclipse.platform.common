@@ -31,10 +31,10 @@
 ;@eclipse.jdt.core@/org.eclipse.jdt.core/@dot.classes@
 ;@eclipse.jdt.debug@/org.eclipse.jdt.debug/jdi.jar
 ;@eclipse.jdt.debug@/org.eclipse.jdt.debug.ui/@dot.classes@
+;@eclipse.jdt.debug@/org.eclipse.jdt.launching/@dot.classes@
 ;@eclipse.jdt.ui@/org.eclipse.jdt.junit/@dot.classes@
 ;@eclipse.jdt.ui@/org.eclipse.jdt.junit/junitsupport.jar
 ;@eclipse.jdt.ui@/org.eclipse.jdt.junit.core/@dot.classes@
-;@eclipse.jdt.ui@/org.eclipse.jdt.launching/@dot.classes@
 ;@eclipse.jdt.ui@/org.eclipse.jdt.ui/@dot.classes@
 ;@eclipse.platform.ui.bundles@/org.eclipse.jface/@dot.classes@
 ;@eclipse.platform.text@/org.eclipse.jface.text/@dot.classes@
