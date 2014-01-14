@@ -280,9 +280,9 @@
                   </dependencies>
                   <repositories>
                     <repository>
-                      <id>juno-42</id>
+                      <id>eclipse</id>
                       <layout>p2</layout>
-                      <url>http://download.eclipse.org/eclipse/updates/4.2</url>
+                      <url>${eclipserun-repo}</url>
                     </repository>
                   </repositories>
                 </configuration>
