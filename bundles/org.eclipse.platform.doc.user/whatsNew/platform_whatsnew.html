@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta name="copyright" content="Copyright (c) Eclipse contributors and others 2012, 2013. This page is made available under license. For full details, see the LEGAL section in the documentation that contains this page."/>
+<meta name="copyright" content="Copyright (c) Eclipse contributors and others 2012, 2014. This page is made available under license. For full details, see the LEGAL section in the documentation that contains this page."/>
 <meta http-equiv="Content-Language" content="en-us"/>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 <link rel="STYLESHEET" href="../book.css" charset="ISO-8859-1" type="text/css"/>
@@ -112,8 +112,12 @@ document in the plug-in developer's guide.
     <td class="title">SWT for GTK3</td>
     <td class="content">
       32-bit and 64-bit GTK3 have joined the lineup of supported configurations for which SWT and Eclipse are routinely built. This implementation is currently early access. Everyone is encouraged to download and test these new builds, and to log bugs in <a href="https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Platform">bugzilla</a>.
-      <p>Note to load the SWT GTK3 libraries, you must set an environment variable SWT_GTK3 prior to starting Eclipse. (ex. export SWT_GTK3=1)</p>
-      <p><img src="images/gtk3.png" alt="GTK3 Control Example"/></p>  
+      <p>To load the SWT GTK3 libraries, you must set the environment variable <code>SWT_GTK3</code> to <code>1</code> prior to starting Eclipse. (ex. export <code>SWT_GTK3=1</code>)</p>
+      <p><img src="images/gtk3.png" alt="GTK3 Control Example"/></p>
+      <p><strong>Importamt Note:</strong> The Linux GTK+ 3 port of SWT is broken for GTK+ versions above 3.8.x.
+      This primarily affects users running Fedora 20, Ubuntu 14.04 (Alpha builds), openSUSE 13.1 and any other Linux distributions that bundle GTK+ 3.10.x
+      (see bug <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=421127">421127</a>).</p>
+        
 	</td>
   </tr>
 
