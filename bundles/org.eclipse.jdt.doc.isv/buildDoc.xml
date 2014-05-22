@@ -50,37 +50,24 @@
 
 		<!-- replace "\n;" with platform-dependent list entry delimiter -->
 		<property name="optionsFile" value="jdtOptions.tmp.txt" />
-		<copy file="jdtOptions.txt" tofile="${optionsFile}" overwrite="true" />
-		
+		<copy file="jdtOptions.txt" tofile="${optionsFile}" overwrite="true">
+			<filterchain>
+				<expandproperties/>
+			</filterchain>
+		</copy>
+
 		<condition property="argsListDelimiter" value=":">
 			<os family="unix" />
 		</condition>
 		<condition property="argsListDelimiter" value=";">
 			<os family="windows" />
 		</condition>
-		
+
 		<replaceregexp file="${basedir}/${optionsFile}" flags="g" match="(\r\n?|\n);" replace="${argsListDelimiter}" />
 		<replace file="${basedir}/${optionsFile}" token="@rt@" value="${bootclasspath}" />
-                <replace file="${basedir}/${optionsFile}" token="@dependency.dir@" value="${dependency.dir}" />
-                <replace file="${basedir}/${optionsFile}" token="@dot.classes@" value="${dot.classes}" />
 		<replace file="${basedir}/${optionsFile}" token="@baseLocation@" value="${baseLocation}" />
-		<replace file="${basedir}/${optionsFile}" token="@eclipse.jdt.core@" value="${eclipse.jdt.core}" />
-		<replace file="${basedir}/${optionsFile}" token="@eclipse.jdt.ui@" value="${eclipse.jdt.ui}" />
-		<replace file="${basedir}/${optionsFile}" token="@eclipse.jdt.debug@" value="${eclipse.jdt.debug}" />
-		<replace file="${basedir}/${optionsFile}" token="@eclipse.platform.ant@" value="${eclipse.platform.ant}" />
-		<replace file="${basedir}/${optionsFile}" token="@eclipse.platform.debug@" value="${eclipse.platform.debug}" />
-		<replace file="${basedir}/${optionsFile}" token="@eclipse.platform.resources.bundles@" value="${eclipse.platform.resources.bundles}" />
-		<replace file="${basedir}/${optionsFile}" token="@eclipse.platform.runtime.bundles@" value="${eclipse.platform.runtime.bundles}" />
-		<replace file="${basedir}/${optionsFile}" token="@eclipse.platform.team.bundles@" value="${eclipse.platform.team.bundles}" />
-		<replace file="${basedir}/${optionsFile}" token="@eclipse.platform.text@" value="${eclipse.platform.text}" />
-		<replace file="${basedir}/${optionsFile}" token="@eclipse.platform.ua@" value="${eclipse.platform.ua}" />
-		<replace file="${basedir}/${optionsFile}" token="@eclipse.platform.ui.bundles@" value="${eclipse.platform.ui.bundles}" />
-		<replace file="${basedir}/${optionsFile}" token="@rt.equinox.bundles.bundles@" value="${rt.equinox.bundles.bundles}" />
-		<replace file="${basedir}/${optionsFile}" token="@rt.equinox.framework.bundles@" value="${rt.equinox.framework.bundles}" />
-		<replace file="${basedir}/${optionsFile}" token="@eclipse.equinox.supplement@" value="${eclipse.equinox.supplement}" />
-		<replace file="${basedir}/${optionsFile}" token="@org.apache.ant.jar@" value="${org.apache.ant.jar}" />
 
-		
+
 		<!-- expand _* to actual version -->
 			<!-- prepare ${replaceFile} with all files and folders from workspace -->
 		<fileset dir="${basedir}/${dependency.dir}" id="fileSet">
@@ -92,16 +79,29 @@
 		<pathconvert property="fileList" refid="fileSet" dirsep="/" pathsep="&#xA;"/>
 		<pathconvert property="dirList" refid="dirSet" dirsep="/" pathsep="&#xA;"/>
 		<property name="replaceFile" value="platformOptions.replace.txt" />
-		<echo file="${basedir}/${replaceFile}">${fileList}&#xA;${dirList}</echo>
+		<echo file="${basedir}/${replaceFile}">${fileList}&#xA;&#xA;${dirList}&#xA;&#xA;</echo>
+
+<echo>org.eclipse.jdt.doc.isv/buildDoc.xml - generateJavadoc:
+${basedir}/${replaceFile} before _* expansion:</echo>
+<concat><filelist files="${basedir}/${replaceFile}"></filelist></concat>
 
 			<!-- strip away leading path -->
 		<replaceregexp file="${basedir}/${replaceFile}" flags="g" match="(?m)^.*/([^/]*)$$" replace="\1" />
-			<!-- remove lines without "_" -->
-		<replaceregexp file="${basedir}/${replaceFile}" flags="g" match="(?m)^[^_\r\n]*$$" replace="" />
-			<!-- create "aa_*[.jar]=aa_[version][.jar]" property for lines with a "_" -->
-		<replaceregexp file="${basedir}/${replaceFile}" flags="g" match="(?m)^([^_]*)_.*?(.jar)?$$" replace="\1_*\2=\0" />
-		
+			<!-- remove lines without version pattern "[_-]\d+\.\d+\.\d+"; version pattern is a workaround for bug 402392 -->
+		<replaceregexp file="${basedir}/${replaceFile}" flags="g" match="(?m)^(.*[-_]\d+\.\d+\.\d+.*)|(.*)$$" replace="\1" />
+			<!-- create "<aa>_*[.jar]=<aa><version>[.jar]" property for lines with a version -->
+		<replaceregexp file="${basedir}/${replaceFile}" flags="g" match="(?m)^(.*)[-_]\d+\.\d+\.\d+.*?(.jar)?$$" replace="\1_*\2=\0" />
+
+<echo>${basedir}/${replaceFile} after _* expansion:</echo>
+<concat><filelist files="${basedir}/${replaceFile}"></filelist></concat>
+
+		<!-- workaround for bug 402392, which can make the ${replaceFile} end up empty: -->
+		<echo file="${basedir}/${replaceFile}" append="true">dummyForBug402392=dummyForBug402392&#xA;</echo>
+
 		<replace file="${basedir}/${optionsFile}" replacefilterfile="${basedir}/${replaceFile}"/>
+
+<echo>${basedir}/${optionsFile} after _* expansion:</echo>
+<concat><filelist files="${basedir}/${optionsFile}"></filelist></concat>
 
 		<!--scrub isv plugin directories of any preexisting api doc content-->
 		<delete dir="reference/api"/>
@@ -110,14 +110,14 @@
 		<exec dir="." executable="${javadoc}" output="doc.bin.log">
 			<arg line="@${basedir}/${optionsFile} -J-Xmx500M" />
 		</exec>
-		
-		<!--workaround for bug 101048-->
-		<replace dir="reference/api" token="=&quot;/../misc/api-usage-rules.html" value="=&quot;./../misc/api-usage-rules.html">
-			<include name="*htm*" />
+
+		<!--workaround for bug 409511, bug 101048-->
+		<replace dir="reference/api" token="='/../misc/api-usage-rules.html" value="='./../misc/api-usage-rules.html">
+			<include name="*.htm*" />
 		</replace>
-		
+
 	</target>
-	
+
 	<target name="buildPlatformDoc" unless="platform.index.present">
 		<ant antfile="buildDoc.xml" dir="../org.eclipse.platform.doc.isv" />
 	</target>
