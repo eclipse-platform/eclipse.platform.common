@@ -12,3 +12,4 @@ Force Javadoc re-generation for Neon RC2
 Force Javadoc re-generation for Neon RC3
 Force Javadoc re-generation for Neon RC4
 Force Javadoc re-generation for Neon.1 RC3
+Force Javadoc re-generation for Neon.2 RC3
