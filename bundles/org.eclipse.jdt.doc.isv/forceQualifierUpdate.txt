@@ -16,3 +16,4 @@ Force Javadoc re-generation for Oxygen M5
 Force Javadoc re-generation for Oxygen M6 (API freeze)
 Force Javadoc re-generation for Oxygen RC3
 Force Javadoc re-generation for Oxygen RC4
+Force Javadoc re-generation for Oxygen RC4
