@@ -24,3 +24,4 @@ Force Javadoc re-generation for Oxygen Update 1 RC1
 Force Javadoc re-generation for Oxygen Update 1 RC2
 Force Javadoc re-generation for Oxygen Update 1 RC3
 Force Javadoc re-generation for Oxygen Update 1a RC1
+Force Javadoc re-generation for Oxygen Update 1a +
