@@ -26,6 +26,7 @@ ul {padding-left: 13px;}
 for the Oxygen (4.7) release of Eclipse.
 They are grouped into:</p>
 <ul> <!-- NOTE: Sync ../topics_WhatsNew.xml with this! -->
+	<li><a href="#Java10">Java&trade; 10 Support</a> - added in Oxygen 3a (4.7.3a)<img src="images/new.png" alt=""/></li>
 	<li><a href="#JUnit5">JUnit 5 Support</a> - added in Oxygen 1a (4.7.1a)<img src="images/new.png" alt=""/></li>
 	<li><a href="#Java9">Java&trade; 9 Support</a> - added in Oxygen 1a (4.7.1a)<img src="images/new.png" alt=""/></li>
 	<li><a href="#JavaEditor">Java Editor</a></li>
@@ -47,6 +48,78 @@ document for changes in the Platform.</p>
   <col />
 </colgroup>
 <tbody>
+
+  <!-- ******************* Java 10 support ************************************* -->
+  <tr>
+    <td id="Java10" class="section" colspan="2">
+    <h2>Java&trade; 10 Support</h2>
+    </td>
+  </tr>
+  
+  <tr id="java-10">
+    <td class="title">Eclipse support for Java&trade; 10 </td>
+    <td class="content">
+    
+	<ul>
+		<li>
+		<p>The biggest part is the support for (<a href="http://openjdk.java.net/jeps/286" target="_top">local variable type inference</a>).</p>
+		</li>
+	</ul>
+	
+	<ul>
+		<li>
+		<p><b>Add Java 10 JRE</b></p>
+			<ul>
+				<li>Basic necessity of recognizing a Java 10 for launching</li>
+				<p><img src="images/j10.png" alt=""/></p>
+				
+				<li>And the compiler compliance option of 10, of course!</li>
+				<p><img src="images/j10.compliance.png" alt=""/></p>
+			</ul>
+		</li>
+
+		<li>
+		<p><b>JEP 286 var - compilation</b></p>
+			<ul>
+				<li>Support for compilation of var as shown below</li>
+				<p><img src="images/var.compile.png" alt=""/></p>
+			
+				<li> var - compilation - eg of negative case </li>
+				<p>Flagging of the compiler errors as expected, shown below </p>
+				<p><img src="images/var.nocompile.png" alt=""/></p>
+			</ul>
+		</li>
+		
+		<li>
+		<p><b>var - completion</b></p>
+			<ul>
+				<li> Completion at places var allowed </li>
+				<p><img src="images/var.complete.png" alt=""/></p>
+	
+				<li>var - no completion - negative case </li>
+				<p>Completion not offered at places var is not allowed </p>
+				<p><img src="images/var.nocomplete.png" alt=""/></p>
+			</ul>
+		</li>
+		
+		<li>
+		<p>var - Hover to reveal the javadoc</p>
+		<p><img src="images/var.hover.png" alt=""/></p>
+		</li>
+		
+		<li>
+		<b>var - Quick Assist for converting from var to type</b>
+			<p>Convert from var to the appropriate type using quick assist</p>
+			<p><img src="images/var.vartotype.png" alt=""/></p>
+		</li>
+		
+		<li>
+		<b>var - Quick Assist for converting from type to var</b>
+			<p> Convert from type to var using quick assist</p>
+			<p><img src="images/var.typetovar.png" alt=""/></p>
+		</li>
+	</ul>
+</tr>
 
   <!-- ******************* JUnit 5 Support ************************************* -->
   <tr>
