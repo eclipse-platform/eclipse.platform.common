@@ -6,3 +6,4 @@ Force Javadoc re-generation for Photon RC1
 Force Javadoc re-generation for Photon RC2
 Force Javadoc re-generation for Photon RC3
 Force Javadoc re-generation for Photon RC4
+Force Javadoc re-generation for Photon RC4a
