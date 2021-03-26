@@ -29,4 +29,4 @@ Force Javadoc re-generation for Oxygen Update 2 RC4
 Force Javadoc re-generation for Oxygen Update 3 RC1
 Force Javadoc re-generation for Oxygen Update 3 RC3
 Force Javadoc re-generation for Oxygen Update 3 RC4
-Force Javadoc re-generation for Oxygen Update 3a RC2
+Force Javadoc re-generation for Oxygen Update 3a RC2Jetty upgrade
