@@ -8,29 +8,29 @@
     <meta http-equiv="Content-Style-Type" content="text/css" />
     <link rel="stylesheet" href="../../../book.css" charset="ISO-8859-1" type="text/css" />
     <title>
-      Ansi Support Preferences
+      ANSI Support Preferences
     </title>
     <script language="JavaScript" src=
       "PLUGINS_ROOT/org.eclipse.help/livehelp.js" type="text/javascript">
     </script>
   </head>
   <body>
-    <h1>Ansi Support Preferences</h1>
+    <h1>ANSI Support Preferences</h1>
 
     <p>The following preferences can be set using the <a class="command-link" href=
         'javascript:executeCommand("org.eclipse.ui.window.preferences(preferencePageId=org.eclipse.ui.internal.console.ansi.preferences.AnsiConsolePreferencePage)")'>
       <img src="PLUGINS_ROOT/org.eclipse.help/command_link.svg" alt=
-        "Opens the Ansi Support preference page" /><b>Run/Debug &gt; Console &gt; Ansi Support</b></a> preference page.</p>
-    <p>Many console applications can interpret ANSI sequences to produce styled output.<br>
+        "Opens the ANSI Support Preferences page" /><b>Run/Debug &gt; Console &gt; ANSI Support</b></a> preference page.</p>
+    <p>Many console applications can interpret ANSI sequences to produce styled output.<br />
       The codes supported by these applications is not consistent, but the most common attributes
       supported include foreground and background colors, bold, italic, underline, invert.</p>
     <p>See <a href="https://en.wikipedia.org/wiki/ANSI_escape_code">Wikipedia: ANSI escape code</a> for details.</p>
     <p>The Eclipse Console supports 16 colors / 256 colors / true-colors for foreground and background, color palettes,
       and attributes like bold, italic, underline, invert, conceal, strike, crossed-out, framed.</p>
     <p>Only “CSI n m” (<a href="https://en.wikipedia.org/wiki/ANSI_escape_code#SGR_(Select_Graphic_Rendition)_parameters">SGR,
-      Select Graphic Rendition</a>) control sequences are supported.<br>
+      Select Graphic Rendition</a>) control sequences are supported.<br />
       They set display attributes, but cannot be used to change the content of the output
-      (erase actions, cursor positioning, scrolling).<br>
+      (erase actions, cursor positioning, scrolling).<br />
       Non-SGR sequences are not interpreted, but are recognized and hidden, so you will not see them.</p>
     <p>This functionality is available for all the text output to the standard output or standard error.
       It works for Java, C/C++, Perl, Python, shell, Groovy, Maven, any Eclipse supported language.</p>
@@ -52,7 +52,7 @@
       <tbody>
         <tr>
           <td rowspan="1" colspan="1" valign="top" align="left">
-            <p>Plugin enabled</p>
+            <p>Enable ANSI support</p>
           </td>
           <td rowspan="1" colspan="1" valign="top" align="left">
             <p>This preference controls whether the console interprets ANSI escape sequences to
@@ -67,11 +67,11 @@
         </tr>
         <tr>
           <td colspan="1" valign="top" align="left">
-            Use Windows color mapping (bold => intense, italic => reverse)
+            Use Windows color mapping (bold =&gt; intense, italic =&gt; reverse)
           </td>
           <td colspan="1" valign="top" align="left">
             <p>This preference controls whether the console interprets the bold (1) ANSI code as
-              increased intensity and the italic (3) ANSI code as inverse.<br>
+              increased intensity and the italic (3) ANSI code as inverse.<br />
               This is something that the “traditional” Windows command prompt (<code>cmd.exe</code>) does.</p>
           </td>
           <td colspan="1" valign="top" align="left">
@@ -83,7 +83,7 @@
             Show the escape sequences
           </td>
           <td colspan="1" valign="top" align="left">
-            <p>This preference controls whether the console shows the ANSI code or not.<br>
+            <p>This preference controls whether the console shows the ANSI code or not.<br />
                The codes still generate styles, but they are also rendered, in a smaller font.</p>
             <p>This is useful for debugging problems with the codes.</p>
             <p>For example <code>&quot;Hello &#x241b;[31mGREEN&#x241b;[m world!&quot;</code> will be rendered as
@@ -97,12 +97,12 @@
         </tr>
         <tr>
           <td colspan="1" valign="top" align="left">
-            <p>Try using the standard error color setting for stderr output</p>
+            Try using the standard error color setting for stderr output
           </td>
           <td colspan="1" valign="top" align="left">
             <p>This preference controls whether the console tries to preserve the default color associated with standard error stream.</p>
             <p>Normally the Eclipse Console uses a different color for the standard output and the error output streams
-              (<code>stdout</code> and <code>stderr</code>).<br>
+              (<code>stdout</code> and <code>stderr</code>).<br />
               This can interfere with the colors generated by ANSI codes. When this is on the console will try its best to
               preserve the <code>stderr</code> color when not explicitly overridden by an ANSI sequence.</p>
             <p>When this is off the <code>stderr</code> color is completely ignored.</p>
@@ -118,7 +118,7 @@
           <td colspan="1" valign="top" align="left">
             <p>This preference controls whether the Copy command uses plain text or rich text (RTF) in the clipboard.</p>
             <p>When this is on the RTF format is used, and pasting the content (in some applications) will preserve
-              the styles created by ANSI codes (colors, and attributes).<br>
+              the styles created by ANSI codes (colors, and attributes).<br />
               If this is off then the Copy command will store only plain text in the clipboard.</p>
           </td>
           <td colspan="1" valign="top" align="left">
@@ -131,9 +131,9 @@
           </td>
           <td colspan="1" valign="top" align="left">
             <p>This preference controls what real colors correspond to various ANSI codes.</p>
-            <p>For example the “31” code means “red”.<br>
+            <p>For example the “31” code means “red”.<br />
                However, the exact shade of red depends on the terminal application.
-               Some terminal applications even have a configurable palette.<br>
+               Some terminal applications even have a configurable palette.<br />
                This option allows you to select one of the commonly used color palettes.</p>
           </td>
           <td colspan="1" valign="top" align="left">

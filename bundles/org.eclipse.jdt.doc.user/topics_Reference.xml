@@ -114,7 +114,7 @@
 		</topic>
 		<topic label="Run/Debug" href="reference/preferences/run-debug/ref-run_debug.htm">
 			<topic label="Console" href="reference/preferences/run-debug/ref-console.htm">
-			    <topic label="ANSI Support" href="reference/preferences/run-debug/ref-console_ansi.htm"/>
+				<topic label="ANSI Support" href="reference/preferences/run-debug/ref-console_ansi.htm"/>
 			</topic>
 			<topic label="Launching" href="reference/preferences/run-debug/ref-launching.htm">
 				<topic label="Default Launchers" href="reference/preferences/run-debug/ref-default_launchers.htm"/>

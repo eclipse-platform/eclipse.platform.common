@@ -1126,7 +1126,8 @@ For all of these entries, you can input them as HEX by selecting the <b>Input as
 		<topic label="Debugger Concepts" href="concepts/cdebugger.htm"/>
 	</context>
 	<context id="console_ansi_preference_page_context" >
-		<description>On this page, you can set the ANSI codes preferences in console.</description>
+		<description>On this page, you can set the ANSI support preferences for the console.</description>
+		<topic label="ANSI Support Preferences" href="reference/preferences/run-debug/ref-console_ansi.htm"/>
 		<topic label="Console Preferences" href="reference/preferences/run-debug/ref-console.htm"/>
 		<topic label="Debug Preferences" href="reference/preferences/run-debug/ref-run_debug.htm"/>
 		<topic label="Launching Preferences" href="reference/preferences/run-debug/ref-launching.htm"/>
