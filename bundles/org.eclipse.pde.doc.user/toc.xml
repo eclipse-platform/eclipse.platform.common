@@ -46,10 +46,6 @@
 	<!-- Tips and Tricks -->
 	<topic label="Tips and Tricks" href="tips/pde_tips.htm"/>
 
-	<!-- What's New -->	<topic label="What's new" href="whatsNew/pde_whatsnew.html">
-		<link toc="topics_WhatsNew.xml"/>
-	</topic>
-
 	<!-- Legal Notices -->
 	<topic label="Legal" href="notices.html"/>
 
