@@ -17,13 +17,13 @@ table.news tr td.title {vertical-align: top; font-weight: bold;}
 table.news tr td.content {vertical-align: top;}
 ul {padding-left: 13px;}
 </style>
-<title>Eclipse Platform What's New in 4.27</title>
+<title>Eclipse Platform What's New in 4.28</title>
 </head>
 
 <body>
-<h2>What's New in Eclipse 4.27</h2>
+<h2>What's New in Eclipse 4.28</h2>
 <p>Here are descriptions of some of the changes of interest to plug-in developers
-made to the Eclipse Platform and SWT for the 4.27 release of Eclipse.
+made to the Eclipse Platform and SWT for the 4.28 release of Eclipse.
 </p>
 <ul><!-- NOTE: Sync ../topics_WhatsNew.xml with this! -->
   <li><a href="#Platform">Platform Changes</a></li>
@@ -48,45 +48,13 @@ section of the Eclipse Platform User Guide.
   <tr>
     <td id="Platform" class="section" colspan="2"><h2>Platform Changes</h2></td>
   </tr>
-      <tr id="Migrate_Perspectives">
-        <!-- https://bugs.eclipse.org/bugs/show_bug.cgi?id=570471 -->
-        <!-- https://github.com/eclipse-platform/eclipse.platform.ui.tools/commit/fb53ad7d761f82c0488624792f98a61d1a26a60a -->
-        <td class="title">Persistence and migration of perspectives</td>
+      <tr id="e4CommandIcons">
+        <!-- https://github.com/eclipse-platform/eclipse.platform.ui/issues/614 -->
+        <!-- https://github.com/eclipse-platform/eclipse.platform.ui/commit/cdb6e2875d7abaa9213c60d22e5ab0a72a8c53f2 -->
+        <td class="title">Command Icons in e4</td>
         <td class="content">
-          <h2 id="migration">Migrate and apply existing 3.x perspectives on e4 applications</h2>
-          <p>To support migrating existing user-specific perspectives from the 3.x applications a 
-            new API was added to the platform.ui.tools:
-            <code>org.eclipse.e4.tools.compatibiliy.migration.PerspectiveMigrator</code>.
-          </p>
-          <p>To directly apply an existing perspective to the running e4 application:</p>
-          <pre><code> /* loadMemento is something that you have to implement yourself.
- You can find examples on how to do so online or 
- in the org.eclipse.e4.tools.compatibility.migration.tests.E4MigrationToolTest . */
- IMemento storedPerspective = loadMemento();
- PerspectiveMigration.apply3xWorkbenchState(storedPerspective);
-          </code></pre>
-          <p>Alternatively you can convert the stored perspective to an <code>MApplication</code>:</p>
-          <pre><code> /* loadMemento is something that you have to implement yourself.
- You can find examples on how to do so online or 
- in the org.eclipse.e4.tools.compatibility.migration.tests.E4MigrationToolTest . */
- IMemento storedPerspective = loadMemento();
- MApplication mApplication = PerspectiveMigration.convertToMApplication(storedPerspective);
-          </code></pre>
-          <h2 id="persistence">Store and load perspectives of e4 applications</h2>
-          <p>e4 does not allow to load and store perspectives in the same way it was possible in 3.x .
-            In order to do so a new API was added to the platform.ui.tools:
-            <code>org.eclipse.e4.tools.persistence.PerspectivePersister</code>.
-          </p>
-          <p>To store a perspective of the running e4 application using its id:</p>
-          <pre><code> String serializedPerspective = PerspectivePersister.serializePerspectiveAndPartStates("myPerspectiveId"); 
- // store the way you like
- storePerspective(serializedPerspective);
-          </code></pre>
-          <p>To load a stored perspective:</p>
-          <pre><code> // load corresponding to the way you store
- String serializedPerspective = loadStoredPerspective();
- PerspectivePersister.restoreWorkbenchState(serializedPerspective);
-          </code></pre>
+          It is now possible to set command icons in the e4 model using the Eclipse 4 Model Editor.
+          Previously this was only possible for e3 commands using the <code>org.eclipse.ui.commandImages</code> extension point.
         </td>
       </tr>
   <!-- ******************** End of Platform ********************** -->
