@@ -19,7 +19,7 @@
   </parent>
   <groupId>org.eclipse.platform</groupId>
   <artifactId>org.eclipse.platform.doc.isv</artifactId>
-  <version>4.27.1.qualifier</version>
+  <version>4.27.1-SNAPSHOT</version>
   <packaging>eclipse-plugin</packaging>
   <build>
   	<plugins>
