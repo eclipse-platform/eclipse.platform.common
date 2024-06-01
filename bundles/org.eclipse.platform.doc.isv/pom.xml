@@ -303,14 +303,6 @@
                       <artifactId>org.eclipse.update.configurator</artifactId>
                       <type>eclipse-plugin</type>
                     </dependency>
-                    <dependency>
-                      <type>eclipse-plugin</type>
-                      <artifactId>bcpg</artifactId>
-                    </dependency>
-                    <dependency>
-                      <type>eclipse-plugin</type>
-                      <artifactId>bcprov</artifactId>
-                    </dependency>
                   </dependencies>
                 </configuration>
                 <goals>
